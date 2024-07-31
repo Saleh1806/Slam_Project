@@ -1,0 +1,37 @@
+[1.099s] Invoking command in '/home/hp/ROS2_WS/src/build/slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hp/ROS2_WS/src/install/rosidl_pycommon:/home/hp/ROS2_WS/src/install/rosidl_cli:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/dynamic_tf:/home/hp/ROS2_WS/install/Dynamic_tf:/home/hp/ROS2_WS/install/DYNAMIC_TF:/home/hp/ROS2_WS/src/install/my_robot_controller:/home/hp/ROS2_WS/src/install/my_exo:/home/hp/ROS2_WS/src/install/dynamic_tf:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/hp/ROS2_WS/src/build/slam_toolbox -- -j8 -l8
+[4.383s] [  0%] Built target ament_cmake_python_symlink_slam_toolbox
+[4.455s] [35m[1mConsolidate compiler generated dependencies of target kartoSlamToolbox[0m
+[4.659s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.661s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.103s] [  1%] [32m[1mLinking CXX shared library libkartoSlamToolbox.so[0m
+[6.197s] /usr/bin/ld: CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o: in function `karto::operator<<(std::ostream&, karto::LocalizedRangeScan const&)':
+[6.199s] Mapper.cpp:(.text+0x1b80): multiple definition of `karto::operator<<(std::ostream&, karto::LocalizedRangeScan const&)'; CMakeFiles/kartoSlamToolbox.dir/src/Karto.cpp.o:Karto.cpp:(.text+0x520): first defined here
+[6.201s] /usr/bin/ld: CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o: in function `karto::operator>>(std::istream&, karto::LocalizedRangeScan&)':
+[6.202s] Mapper.cpp:(.text+0x6ee0): multiple definition of `karto::operator>>(std::istream&, karto::LocalizedRangeScan&)'; CMakeFiles/kartoSlamToolbox.dir/src/Karto.cpp.o:Karto.cpp:(.text+0x16c0): first defined here
+[6.654s] running egg_info
+[6.682s] writing slam_toolbox.egg-info/PKG-INFO
+[6.683s] writing dependency_links to slam_toolbox.egg-info/dependency_links.txt
+[6.683s] writing top-level names to slam_toolbox.egg-info/top_level.txt
+[6.775s] reading manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+[6.791s] writing manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+[6.823s] collect2: error: ld returned 1 exit status
+[6.826s] gmake[2]: *** [lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/build.make:183: lib/karto_sdk/libkartoSlamToolbox.so] Error 1
+[6.826s] gmake[1]: *** [CMakeFiles/Makefile2:1045: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/all] Error 2
+[6.826s] gmake[1]: *** Waiting for unfinished jobs....
+[6.842s] [  1%] Built target ament_cmake_python_build_slam_toolbox_egg
+[7.219s] [  1%] Built target slam_toolbox__cpp
+[7.377s] [  1%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/pause__functions.c.o[0m
+[7.378s] [  3%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/save_map__functions.c.o[0m
+[7.379s] [  3%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/clear__functions.c.o[0m
+[7.380s] [  3%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/merge_maps__functions.c.o[0m
+[7.381s] [  3%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/toggle_interactive__functions.c.o[0m
+[7.382s] [  4%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/reset__functions.c.o[0m
+[7.383s] [  5%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/clear_queue__functions.c.o[0m
+[7.384s] [  6%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/loop_closure__functions.c.o[0m
+[9.390s] [  7%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/add_submap__functions.c.o[0m
+[9.390s] [  8%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/deserialize_pose_graph__functions.c.o[0m
+[9.392s] [  8%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/serialize_pose_graph__functions.c.o[0m
+[9.637s] [  9%] [32m[1mLinking C shared library libslam_toolbox__rosidl_generator_c.so[0m
+[9.765s] [  9%] Built target slam_toolbox__rosidl_generator_c
+[9.766s] gmake: *** [Makefile:146: all] Error 2
+[9.768s] Invoked command in '/home/hp/ROS2_WS/src/build/slam_toolbox' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hp/ROS2_WS/src/install/rosidl_pycommon:/home/hp/ROS2_WS/src/install/rosidl_cli:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/dynamic_tf:/home/hp/ROS2_WS/install/Dynamic_tf:/home/hp/ROS2_WS/install/DYNAMIC_TF:/home/hp/ROS2_WS/src/install/my_robot_controller:/home/hp/ROS2_WS/src/install/my_exo:/home/hp/ROS2_WS/src/install/dynamic_tf:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/hp/ROS2_WS/src/build/slam_toolbox -- -j8 -l8

@@ -1,0 +1,598 @@
+[0.000000] (-) TimerEvent: {}
+[0.001178] (articubot_one) JobQueued: {'identifier': 'articubot_one', 'dependencies': OrderedDict()}
+[0.001210] (my_exo) JobQueued: {'identifier': 'my_exo', 'dependencies': OrderedDict()}
+[0.001228] (my_robot_controller) JobQueued: {'identifier': 'my_robot_controller', 'dependencies': OrderedDict()}
+[0.001243] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.001255] (slam_toolbox) JobQueued: {'identifier': 'slam_toolbox', 'dependencies': OrderedDict()}
+[0.001269] (articubot_one) JobStarted: {'identifier': 'articubot_one'}
+[0.093431] (my_exo) JobStarted: {'identifier': 'my_exo'}
+[0.100238] (-) TimerEvent: {}
+[0.200653] (-) TimerEvent: {}
+[0.218396] (my_robot_controller) JobStarted: {'identifier': 'my_robot_controller'}
+[0.301326] (-) TimerEvent: {}
+[0.332165] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[0.401824] (-) TimerEvent: {}
+[0.407529] (slam_toolbox) JobStarted: {'identifier': 'slam_toolbox'}
+[0.483580] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'cmake'}
+[0.484026] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '/home/hp/ROS2_WS/src/articubot_one', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/hp/ROS2_WS/src/install/articubot_one'], 'cwd': '/home/hp/ROS2_WS/src/build/articubot_one', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'hp'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hp'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/hp'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1951'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hp/ROS2_WS/install:/home/hp/ROS2_WS/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hp'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hp'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/hp/anaconda3/bin:/home/hp/anaconda3/condabin:/opt/ros/humble/bin:/home/hp/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hp-HP-Laptop-15-dw2xxx:@/tmp/.ICE-unix/1922,unix/hp-HP-Laptop-15-dw2xxx:/tmp/.ICE-unix/1922'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fe15e7cb_b6ef_41ec_a1de_56934dafe78b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.56BBM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hp/ROS2_WS/install/rplidar_ros:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/articubot_one:/home/hp/ROS2_WS/src/install/rplidar_ros:/home/hp/ROS2_WS/src/install/my_robot_controller:/home/hp/ROS2_WS/src/install/my_exo:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/hp/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hp/ROS2_WS/src/build/articubot_one'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/hp/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hp/ROS2_WS/build/my_robot_controller:/home/hp/ROS2_WS/install/my_robot_controller/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/my_exo:/home/hp/ROS2_WS/install/my_exo/lib/python3.10/site-packages:/home/hp/ROS2_WS/src/install/my_robot_controller/lib/python3.10/site-packages:/home/hp/ROS2_WS/src/install/my_exo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/hp/anaconda3'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hp/ROS2_WS/install/rplidar_ros:/home/hp/ROS2_WS/install/articubot_one:/home/hp/ROS2_WS/src/install/rplidar_ros:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/src/install/my_robot_controller:/home/hp/ROS2_WS/src/install/my_exo:/opt/ros/humble')]), 'shell': False}
+[0.501939] (-) TimerEvent: {}
+[0.602376] (-) TimerEvent: {}
+[0.702964] (-) TimerEvent: {}
+[0.803339] (-) TimerEvent: {}
+[0.903893] (-) TimerEvent: {}
+[1.004408] (-) TimerEvent: {}
+[1.104909] (-) TimerEvent: {}
+[1.205959] (-) TimerEvent: {}
+[1.306472] (-) TimerEvent: {}
+[1.406897] (-) TimerEvent: {}
+[1.507247] (-) TimerEvent: {}
+[1.607849] (-) TimerEvent: {}
+[1.642471] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'cmake'}
+[1.708053] (-) TimerEvent: {}
+[1.754206] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/hp/ROS2_WS/src/rplidar_ros', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/hp/ROS2_WS/src/install/rplidar_ros'], 'cwd': '/home/hp/ROS2_WS/src/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'hp'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hp'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/hp'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1951'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hp/ROS2_WS/install:/home/hp/ROS2_WS/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hp'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hp'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/hp/anaconda3/bin:/home/hp/anaconda3/condabin:/opt/ros/humble/bin:/home/hp/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hp-HP-Laptop-15-dw2xxx:@/tmp/.ICE-unix/1922,unix/hp-HP-Laptop-15-dw2xxx:/tmp/.ICE-unix/1922'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fe15e7cb_b6ef_41ec_a1de_56934dafe78b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.56BBM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hp/ROS2_WS/install/rplidar_ros:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/articubot_one:/home/hp/ROS2_WS/src/install/rplidar_ros:/home/hp/ROS2_WS/src/install/my_robot_controller:/home/hp/ROS2_WS/src/install/my_exo:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/hp/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hp/ROS2_WS/src/build/rplidar_ros'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/hp/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hp/ROS2_WS/build/my_robot_controller:/home/hp/ROS2_WS/install/my_robot_controller/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/my_exo:/home/hp/ROS2_WS/install/my_exo/lib/python3.10/site-packages:/home/hp/ROS2_WS/src/install/my_robot_controller/lib/python3.10/site-packages:/home/hp/ROS2_WS/src/install/my_exo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/hp/anaconda3'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hp/ROS2_WS/install/rplidar_ros:/home/hp/ROS2_WS/install/articubot_one:/home/hp/ROS2_WS/src/install/rplidar_ros:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/src/install/my_robot_controller:/home/hp/ROS2_WS/src/install/my_exo:/opt/ros/humble')]), 'shell': False}
+[1.761122] (slam_toolbox) JobProgress: {'identifier': 'slam_toolbox', 'progress': 'cmake'}
+[1.761480] (slam_toolbox) Command: {'cmd': ['/usr/bin/cmake', '/home/hp/ROS2_WS/src/slam_toolbox', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/hp/ROS2_WS/src/install/slam_toolbox'], 'cwd': '/home/hp/ROS2_WS/src/build/slam_toolbox', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'hp'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hp'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/hp'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1951'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hp/ROS2_WS/install:/home/hp/ROS2_WS/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hp'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hp'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/hp/anaconda3/bin:/home/hp/anaconda3/condabin:/opt/ros/humble/bin:/home/hp/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hp-HP-Laptop-15-dw2xxx:@/tmp/.ICE-unix/1922,unix/hp-HP-Laptop-15-dw2xxx:/tmp/.ICE-unix/1922'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fe15e7cb_b6ef_41ec_a1de_56934dafe78b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.56BBM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hp/ROS2_WS/install/rplidar_ros:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/articubot_one:/home/hp/ROS2_WS/src/install/rplidar_ros:/home/hp/ROS2_WS/src/install/my_robot_controller:/home/hp/ROS2_WS/src/install/my_exo:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/hp/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hp/ROS2_WS/src/build/slam_toolbox'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/hp/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hp/ROS2_WS/build/my_robot_controller:/home/hp/ROS2_WS/install/my_robot_controller/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/my_exo:/home/hp/ROS2_WS/install/my_exo/lib/python3.10/site-packages:/home/hp/ROS2_WS/src/install/my_robot_controller/lib/python3.10/site-packages:/home/hp/ROS2_WS/src/install/my_exo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/hp/anaconda3'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hp/ROS2_WS/install/rplidar_ros:/home/hp/ROS2_WS/install/articubot_one:/home/hp/ROS2_WS/src/install/rplidar_ros:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/src/install/my_robot_controller:/home/hp/ROS2_WS/src/install/my_exo:/opt/ros/humble')]), 'shell': False}
+[1.808180] (-) TimerEvent: {}
+[1.908724] (-) TimerEvent: {}
+[2.009307] (-) TimerEvent: {}
+[2.109754] (-) TimerEvent: {}
+[2.210112] (-) TimerEvent: {}
+[2.249662] (rplidar_ros) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.310439] (-) TimerEvent: {}
+[2.411085] (-) TimerEvent: {}
+[2.511366] (-) TimerEvent: {}
+[2.611834] (-) TimerEvent: {}
+[2.712288] (-) TimerEvent: {}
+[2.812739] (-) TimerEvent: {}
+[2.913052] (-) TimerEvent: {}
+[3.013448] (-) TimerEvent: {}
+[3.113890] (-) TimerEvent: {}
+[3.214370] (-) TimerEvent: {}
+[3.291990] (rplidar_ros) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.314549] (-) TimerEvent: {}
+[3.415030] (-) TimerEvent: {}
+[3.515512] (-) TimerEvent: {}
+[3.616010] (-) TimerEvent: {}
+[3.716494] (-) TimerEvent: {}
+[3.817003] (-) TimerEvent: {}
+[3.917501] (-) TimerEvent: {}
+[4.018027] (-) TimerEvent: {}
+[4.118615] (-) TimerEvent: {}
+[4.164729] (slam_toolbox) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[4.165063] (articubot_one) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[4.218754] (-) TimerEvent: {}
+[4.309266] (rplidar_ros) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.318878] (-) TimerEvent: {}
+[4.419279] (-) TimerEvent: {}
+[4.519819] (-) TimerEvent: {}
+[4.620349] (-) TimerEvent: {}
+[4.720807] (-) TimerEvent: {}
+[4.821315] (-) TimerEvent: {}
+[4.921792] (-) TimerEvent: {}
+[5.022162] (-) TimerEvent: {}
+[5.106307] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[5.122325] (-) TimerEvent: {}
+[5.222824] (-) TimerEvent: {}
+[5.288221] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.322973] (-) TimerEvent: {}
+[5.423454] (-) TimerEvent: {}
+[5.479869] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[5.523600] (-) TimerEvent: {}
+[5.624022] (-) TimerEvent: {}
+[5.724518] (-) TimerEvent: {}
+[5.825006] (-) TimerEvent: {}
+[5.925525] (-) TimerEvent: {}
+[6.026026] (-) TimerEvent: {}
+[6.041710] (rplidar_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.126188] (-) TimerEvent: {}
+[6.226702] (-) TimerEvent: {}
+[6.327192] (-) TimerEvent: {}
+[6.427651] (-) TimerEvent: {}
+[6.476078] (rplidar_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.527822] (-) TimerEvent: {}
+[6.628287] (-) TimerEvent: {}
+[6.689148] (my_robot_controller) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/hp/ROS2_WS/src/build/my_robot_controller/build', '--no-deps', 'install_data'], 'cwd': '/home/hp/ROS2_WS/src/build/my_robot_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(base)', 'USER': 'hp', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/hp', 'CONDA_SHLVL': '1', 'OLDPWD': '/home/hp', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1951', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/hp/ROS2_WS/install:/home/hp/ROS2_WS/src/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'hp', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hp', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/hp/anaconda3/bin:/home/hp/anaconda3/condabin:/opt/ros/humble/bin:/home/hp/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/hp-HP-Laptop-15-dw2xxx:@/tmp/.ICE-unix/1922,unix/hp-HP-Laptop-15-dw2xxx:/tmp/.ICE-unix/1922', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/fe15e7cb_b6ef_41ec_a1de_56934dafe78b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.56BBM2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.116', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/hp/ROS2_WS/install/rplidar_ros:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/articubot_one:/home/hp/ROS2_WS/src/install/rplidar_ros:/home/hp/ROS2_WS/src/install/my_robot_controller:/home/hp/ROS2_WS/src/install/my_exo:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/hp/anaconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'base', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hp/ROS2_WS/src/build/my_robot_controller', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/hp/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/hp/ROS2_WS/src/build/my_robot_controller/prefix_override:/home/hp/ROS2_WS/src/install/my_robot_controller/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/my_robot_controller:/home/hp/ROS2_WS/install/my_robot_controller/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/my_exo:/home/hp/ROS2_WS/install/my_exo/lib/python3.10/site-packages:/home/hp/ROS2_WS/src/install/my_robot_controller/lib/python3.10/site-packages:/home/hp/ROS2_WS/src/install/my_exo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'CONDA_PREFIX': '/home/hp/anaconda3', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/hp/ROS2_WS/install/rplidar_ros:/home/hp/ROS2_WS/install/articubot_one:/home/hp/ROS2_WS/src/install/rplidar_ros'}, 'shell': False}
+[6.716029] (my_exo) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/hp/ROS2_WS/src/build/my_exo/build', '--no-deps', 'install_data'], 'cwd': '/home/hp/ROS2_WS/src/build/my_exo', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(base)', 'USER': 'hp', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/hp', 'CONDA_SHLVL': '1', 'OLDPWD': '/home/hp', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1951', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/hp/ROS2_WS/install:/home/hp/ROS2_WS/src/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'hp', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hp', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/hp/anaconda3/bin:/home/hp/anaconda3/condabin:/opt/ros/humble/bin:/home/hp/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/hp-HP-Laptop-15-dw2xxx:@/tmp/.ICE-unix/1922,unix/hp-HP-Laptop-15-dw2xxx:/tmp/.ICE-unix/1922', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/fe15e7cb_b6ef_41ec_a1de_56934dafe78b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.56BBM2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.116', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/hp/ROS2_WS/install/rplidar_ros:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/articubot_one:/home/hp/ROS2_WS/src/install/rplidar_ros:/home/hp/ROS2_WS/src/install/my_robot_controller:/home/hp/ROS2_WS/src/install/my_exo:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/hp/anaconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'base', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hp/ROS2_WS/src/build/my_exo', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/hp/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/hp/ROS2_WS/src/build/my_exo/prefix_override:/home/hp/ROS2_WS/src/install/my_exo/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/my_robot_controller:/home/hp/ROS2_WS/install/my_robot_controller/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/my_exo:/home/hp/ROS2_WS/install/my_exo/lib/python3.10/site-packages:/home/hp/ROS2_WS/src/install/my_robot_controller/lib/python3.10/site-packages:/home/hp/ROS2_WS/src/install/my_exo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'CONDA_PREFIX': '/home/hp/anaconda3', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/hp/ROS2_WS/install/rplidar_ros:/home/hp/ROS2_WS/install/articubot_one:/home/hp/ROS2_WS/src/install/rplidar_ros'}, 'shell': False}
+[6.728406] (-) TimerEvent: {}
+[6.792576] (slam_toolbox) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[6.797450] (articubot_one) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[6.828510] (-) TimerEvent: {}
+[6.831749] (slam_toolbox) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.832035] (articubot_one) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.928612] (-) TimerEvent: {}
+[7.026108] (my_robot_controller) StdoutLine: {'line': b'running develop\n'}
+[7.028708] (-) TimerEvent: {}
+[7.044247] (my_exo) StdoutLine: {'line': b'running develop\n'}
+[7.128842] (-) TimerEvent: {}
+[7.177841] (slam_toolbox) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[7.178086] (articubot_one) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[7.186527] (articubot_one) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[7.193483] (slam_toolbox) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[7.193806] (articubot_one) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[7.193954] (slam_toolbox) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[7.194549] (rplidar_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[7.202757] (articubot_one) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[7.202996] (slam_toolbox) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[7.207928] (articubot_one) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[7.208195] (slam_toolbox) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[7.228949] (-) TimerEvent: {}
+[7.229615] (rplidar_ros) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[7.289233] (my_robot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[7.289451] (my_robot_controller) StdoutLine: {'line': b'writing my_robot_controller.egg-info/PKG-INFO\n'}
+[7.296070] (my_exo) StdoutLine: {'line': b'running egg_info\n'}
+[7.296264] (my_exo) StdoutLine: {'line': b'writing my_exo.egg-info/PKG-INFO\n'}
+[7.312894] (my_exo) StdoutLine: {'line': b'writing dependency_links to my_exo.egg-info/dependency_links.txt\n'}
+[7.313165] (my_exo) StdoutLine: {'line': b'writing entry points to my_exo.egg-info/entry_points.txt\n'}
+[7.313297] (my_robot_controller) StdoutLine: {'line': b'writing dependency_links to my_robot_controller.egg-info/dependency_links.txt\n'}
+[7.313505] (my_exo) StdoutLine: {'line': b'writing requirements to my_exo.egg-info/requires.txt\n'}
+[7.313628] (my_exo) StdoutLine: {'line': b'writing top-level names to my_exo.egg-info/top_level.txt\n'}
+[7.313735] (my_robot_controller) StdoutLine: {'line': b'writing entry points to my_robot_controller.egg-info/entry_points.txt\n'}
+[7.326980] (my_robot_controller) StdoutLine: {'line': b'writing requirements to my_robot_controller.egg-info/requires.txt\n'}
+[7.327352] (my_robot_controller) StdoutLine: {'line': b'writing top-level names to my_robot_controller.egg-info/top_level.txt\n'}
+[7.329051] (-) TimerEvent: {}
+[7.330355] (my_exo) StdoutLine: {'line': b"reading manifest file 'my_exo.egg-info/SOURCES.txt'\n"}
+[7.330674] (my_robot_controller) StdoutLine: {'line': b"reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'\n"}
+[7.372179] (my_robot_controller) StdoutLine: {'line': b"writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'\n"}
+[7.375168] (my_robot_controller) StdoutLine: {'line': b'running build_ext\n'}
+[7.375614] (my_robot_controller) StdoutLine: {'line': b'Creating /home/hp/ROS2_WS/src/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)\n'}
+[7.377183] (my_robot_controller) StdoutLine: {'line': b'Installing draw_circle script to /home/hp/ROS2_WS/src/install/my_robot_controller/lib/my_robot_controller\n'}
+[7.377599] (my_robot_controller) StdoutLine: {'line': b'Installing pose_suscriber script to /home/hp/ROS2_WS/src/install/my_robot_controller/lib/my_robot_controller\n'}
+[7.377960] (my_robot_controller) StdoutLine: {'line': b'Installing test_node script to /home/hp/ROS2_WS/src/install/my_robot_controller/lib/my_robot_controller\n'}
+[7.378290] (my_robot_controller) StdoutLine: {'line': b'\n'}
+[7.378516] (my_robot_controller) StdoutLine: {'line': b'Installed /home/hp/ROS2_WS/src/build/my_robot_controller\n'}
+[7.378654] (my_robot_controller) StdoutLine: {'line': b'running install_data\n'}
+[7.399142] (my_exo) StdoutLine: {'line': b"writing manifest file 'my_exo.egg-info/SOURCES.txt'\n"}
+[7.400932] (my_exo) StdoutLine: {'line': b'running build_ext\n'}
+[7.401177] (my_exo) StdoutLine: {'line': b'Creating /home/hp/ROS2_WS/src/install/my_exo/lib/python3.10/site-packages/my-exo.egg-link (link to .)\n'}
+[7.401915] (my_exo) StdoutLine: {'line': b'Installing first_node script to /home/hp/ROS2_WS/src/install/my_exo/lib/my_exo\n'}
+[7.402088] (my_exo) StdoutLine: {'line': b'Installing fourth_node script to /home/hp/ROS2_WS/src/install/my_exo/lib/my_exo\n'}
+[7.402242] (my_exo) StdoutLine: {'line': b'Installing input_node script to /home/hp/ROS2_WS/src/install/my_exo/lib/my_exo\n'}
+[7.402344] (my_exo) StdoutLine: {'line': b'Installing second_node script to /home/hp/ROS2_WS/src/install/my_exo/lib/my_exo\n'}
+[7.402443] (my_exo) StdoutLine: {'line': b'Installing selector_node script to /home/hp/ROS2_WS/src/install/my_exo/lib/my_exo\n'}
+[7.402536] (my_exo) StdoutLine: {'line': b'Installing third_node script to /home/hp/ROS2_WS/src/install/my_exo/lib/my_exo\n'}
+[7.402652] (my_exo) StdoutLine: {'line': b'\n'}
+[7.402734] (my_exo) StdoutLine: {'line': b'Installed /home/hp/ROS2_WS/src/build/my_exo\n'}
+[7.402833] (my_exo) StdoutLine: {'line': b'running install_data\n'}
+[7.422710] (my_robot_controller) CommandEnded: {'returncode': 0}
+[7.429321] (-) TimerEvent: {}
+[7.480896] (articubot_one) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[7.490542] (slam_toolbox) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[7.493912] (articubot_one) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[7.494129] (articubot_one) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[7.494571] (articubot_one) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[7.498474] (slam_toolbox) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[7.498856] (slam_toolbox) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[7.499241] (slam_toolbox) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[7.509567] (articubot_one) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[7.529435] (-) TimerEvent: {}
+[7.538592] (slam_toolbox) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[7.629602] (-) TimerEvent: {}
+[7.675408] (rplidar_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[7.729729] (-) TimerEvent: {}
+[7.817970] (slam_toolbox) StdoutLine: {'line': b'-- Found Python3: /home/hp/anaconda3/bin/python3 (found version "3.11.4") found components: Interpreter \n'}
+[7.818205] (articubot_one) StdoutLine: {'line': b'-- Found Python3: /home/hp/anaconda3/bin/python3 (found version "3.11.4") found components: Interpreter \n'}
+[7.829896] (-) TimerEvent: {}
+[7.930276] (-) TimerEvent: {}
+[7.992495] (my_robot_controller) JobEnded: {'identifier': 'my_robot_controller', 'rc': 0}
+[7.994314] (my_exo) CommandEnded: {'returncode': 0}
+[8.030394] (-) TimerEvent: {}
+[8.072443] (my_exo) JobEnded: {'identifier': 'my_exo', 'rc': 0}
+[8.130660] (-) TimerEvent: {}
+[8.231275] (-) TimerEvent: {}
+[8.331806] (-) TimerEvent: {}
+[8.432301] (-) TimerEvent: {}
+[8.532782] (-) TimerEvent: {}
+[8.602752] (slam_toolbox) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[8.607072] (articubot_one) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[8.632961] (-) TimerEvent: {}
+[8.636681] (rplidar_ros) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[8.697710] (articubot_one) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[8.725972] (slam_toolbox) StdoutLine: {'line': b'-- Found message_filters: 4.3.3 (/opt/ros/humble/share/message_filters/cmake)\n'}
+[8.733103] (-) TimerEvent: {}
+[8.833520] (-) TimerEvent: {}
+[8.899367] (slam_toolbox) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[8.918810] (slam_toolbox) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[8.932422] (slam_toolbox) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[8.933620] (-) TimerEvent: {}
+[8.946531] (slam_toolbox) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.984518] (slam_toolbox) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.985427] (rplidar_ros) StdoutLine: {'line': b'-- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[9.033785] (-) TimerEvent: {}
+[9.064191] (slam_toolbox) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[9.067485] (slam_toolbox) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[9.109429] (slam_toolbox) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[9.133901] (-) TimerEvent: {}
+[9.234260] (-) TimerEvent: {}
+[9.244703] (slam_toolbox) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[9.334445] (-) TimerEvent: {}
+[9.355009] (rplidar_ros) StdoutLine: {'line': b'-- Found tf2: 0.25.6 (/opt/ros/humble/share/tf2/cmake)\n'}
+[9.434611] (-) TimerEvent: {}
+[9.535058] (-) TimerEvent: {}
+[9.635677] (-) TimerEvent: {}
+[9.736220] (-) TimerEvent: {}
+[9.816073] (rplidar_ros) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[9.836361] (-) TimerEvent: {}
+[9.936826] (-) TimerEvent: {}
+[10.037321] (-) TimerEvent: {}
+[10.042240] (articubot_one) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[10.045370] (slam_toolbox) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[10.045637] (slam_toolbox) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[10.104198] (articubot_one) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[10.107165] (articubot_one) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[10.109349] (articubot_one) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[10.116248] (articubot_one) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[10.137551] (-) TimerEvent: {}
+[10.145454] (articubot_one) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.148287] (articubot_one) StdoutLine: {'line': b'-- Generating done\n'}
+[10.149262] (articubot_one) StdoutLine: {'line': b'-- Build files have been written to: /home/hp/ROS2_WS/src/build/articubot_one\n'}
+[10.153732] (articubot_one) CommandEnded: {'returncode': 0}
+[10.154573] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'build'}
+[10.156154] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hp/ROS2_WS/src/build/articubot_one', '--', '-j8', '-l8'], 'cwd': '/home/hp/ROS2_WS/src/build/articubot_one', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'hp'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hp'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/hp'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1951'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hp/ROS2_WS/install:/home/hp/ROS2_WS/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hp'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hp'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/hp/anaconda3/bin:/home/hp/anaconda3/condabin:/opt/ros/humble/bin:/home/hp/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hp-HP-Laptop-15-dw2xxx:@/tmp/.ICE-unix/1922,unix/hp-HP-Laptop-15-dw2xxx:/tmp/.ICE-unix/1922'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fe15e7cb_b6ef_41ec_a1de_56934dafe78b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.56BBM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hp/ROS2_WS/install/rplidar_ros:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/articubot_one:/home/hp/ROS2_WS/src/install/rplidar_ros:/home/hp/ROS2_WS/src/install/my_robot_controller:/home/hp/ROS2_WS/src/install/my_exo:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/hp/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hp/ROS2_WS/src/build/articubot_one'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/hp/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hp/ROS2_WS/build/my_robot_controller:/home/hp/ROS2_WS/install/my_robot_controller/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/my_exo:/home/hp/ROS2_WS/install/my_exo/lib/python3.10/site-packages:/home/hp/ROS2_WS/src/install/my_robot_controller/lib/python3.10/site-packages:/home/hp/ROS2_WS/src/install/my_exo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/hp/anaconda3'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hp/ROS2_WS/install/rplidar_ros:/home/hp/ROS2_WS/install/articubot_one:/home/hp/ROS2_WS/src/install/rplidar_ros:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/src/install/my_robot_controller:/home/hp/ROS2_WS/src/install/my_exo:/opt/ros/humble')]), 'shell': False}
+[10.177932] (slam_toolbox) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[10.179084] (slam_toolbox) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[10.195913] (articubot_one) CommandEnded: {'returncode': 0}
+[10.219528] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'install'}
+[10.230816] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hp/ROS2_WS/src/build/articubot_one'], 'cwd': '/home/hp/ROS2_WS/src/build/articubot_one', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'hp'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hp'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/hp'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1951'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hp/ROS2_WS/install:/home/hp/ROS2_WS/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hp'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hp'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/hp/anaconda3/bin:/home/hp/anaconda3/condabin:/opt/ros/humble/bin:/home/hp/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hp-HP-Laptop-15-dw2xxx:@/tmp/.ICE-unix/1922,unix/hp-HP-Laptop-15-dw2xxx:/tmp/.ICE-unix/1922'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fe15e7cb_b6ef_41ec_a1de_56934dafe78b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.56BBM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hp/ROS2_WS/install/rplidar_ros:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/articubot_one:/home/hp/ROS2_WS/src/install/rplidar_ros:/home/hp/ROS2_WS/src/install/my_robot_controller:/home/hp/ROS2_WS/src/install/my_exo:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/hp/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hp/ROS2_WS/src/build/articubot_one'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/hp/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hp/ROS2_WS/build/my_robot_controller:/home/hp/ROS2_WS/install/my_robot_controller/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/my_exo:/home/hp/ROS2_WS/install/my_exo/lib/python3.10/site-packages:/home/hp/ROS2_WS/src/install/my_robot_controller/lib/python3.10/site-packages:/home/hp/ROS2_WS/src/install/my_exo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/hp/anaconda3'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hp/ROS2_WS/install/rplidar_ros:/home/hp/ROS2_WS/install/articubot_one:/home/hp/ROS2_WS/src/install/rplidar_ros:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/src/install/my_robot_controller:/home/hp/ROS2_WS/src/install/my_exo:/opt/ros/humble')]), 'shell': False}
+[10.237679] (-) TimerEvent: {}
+[10.239318] (articubot_one) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.239904] (articubot_one) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[10.240481] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/hp/ROS2_WS/src/install/articubot_one/share/articubot_one/config/ball_tracker_params_robot.yaml\n'}
+[10.250016] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/hp/ROS2_WS/src/install/articubot_one/share/articubot_one/config/ball_tracker_params_sim.yaml\n'}
+[10.261225] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/hp/ROS2_WS/src/install/articubot_one/share/articubot_one/config/drive_bot.rviz\n'}
+[10.270463] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/hp/ROS2_WS/src/install/articubot_one/share/articubot_one/config/empty.yaml\n'}
+[10.279760] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/hp/ROS2_WS/src/install/articubot_one/share/articubot_one/config/gaz_ros2_ctl_use_sim.yaml\n'}
+[10.288871] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/hp/ROS2_WS/src/install/articubot_one/share/articubot_one/config/gazebo_params.yaml\n'}
+[10.297948] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/hp/ROS2_WS/src/install/articubot_one/share/articubot_one/config/joystick.yaml\n'}
+[10.306736] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/hp/ROS2_WS/src/install/articubot_one/share/articubot_one/config/main.rviz\n'}
+[10.315903] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/hp/ROS2_WS/src/install/articubot_one/share/articubot_one/config/map.rviz\n'}
+[10.324677] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/hp/ROS2_WS/src/install/articubot_one/share/articubot_one/config/mapper_params_online_async.yaml\n'}
+[10.333713] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/hp/ROS2_WS/src/install/articubot_one/share/articubot_one/config/my_controllers.yaml\n'}
+[10.337946] (-) TimerEvent: {}
+[10.343390] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/hp/ROS2_WS/src/install/articubot_one/share/articubot_one/config/nav2_params.yaml\n'}
+[10.352259] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/hp/ROS2_WS/src/install/articubot_one/share/articubot_one/config/twist_mux.yaml\n'}
+[10.361409] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/hp/ROS2_WS/src/install/articubot_one/share/articubot_one/config/view_bot.rviz\n'}
+[10.372066] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/hp/ROS2_WS/src/install/articubot_one/share/articubot_one/description/camera.xacro\n'}
+[10.381180] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/hp/ROS2_WS/src/install/articubot_one/share/articubot_one/description/depth_camera.xacro\n'}
+[10.390718] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/hp/ROS2_WS/src/install/articubot_one/share/articubot_one/description/face.xacro\n'}
+[10.399380] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/hp/ROS2_WS/src/install/articubot_one/share/articubot_one/description/gazebo_control.xacro\n'}
+[10.408312] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/hp/ROS2_WS/src/install/articubot_one/share/articubot_one/description/inertial_macros.xacro\n'}
+[10.416996] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/hp/ROS2_WS/src/install/articubot_one/share/articubot_one/description/lidar.xacro\n'}
+[10.425295] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/hp/ROS2_WS/src/install/articubot_one/share/articubot_one/description/robot.urdf.xacro\n'}
+[10.433898] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/hp/ROS2_WS/src/install/articubot_one/share/articubot_one/description/robot_core.xacro\n'}
+[10.438204] (-) TimerEvent: {}
+[10.443165] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/hp/ROS2_WS/src/install/articubot_one/share/articubot_one/description/ros2_control.xacro\n'}
+[10.452562] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/hp/ROS2_WS/src/install/articubot_one/share/articubot_one/launch/ball_tracker.launch.py\n'}
+[10.461492] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/hp/ROS2_WS/src/install/articubot_one/share/articubot_one/launch/camera.launch.py\n'}
+[10.472043] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/hp/ROS2_WS/src/install/articubot_one/share/articubot_one/launch/joystick.launch.py\n'}
+[10.480919] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/hp/ROS2_WS/src/install/articubot_one/share/articubot_one/launch/launch_robot.launch.py\n'}
+[10.489630] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/hp/ROS2_WS/src/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py\n'}
+[10.490806] (slam_toolbox) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[10.498695] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/hp/ROS2_WS/src/install/articubot_one/share/articubot_one/launch/localization_launch.py\n'}
+[10.507996] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/hp/ROS2_WS/src/install/articubot_one/share/articubot_one/launch/navigation_launch.py\n'}
+[10.516743] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/hp/ROS2_WS/src/install/articubot_one/share/articubot_one/launch/online_async_launch.py\n'}
+[10.526699] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/hp/ROS2_WS/src/install/articubot_one/share/articubot_one/launch/rplidar.launch.py\n'}
+[10.536097] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/hp/ROS2_WS/src/install/articubot_one/share/articubot_one/launch/rsp.launch.py\n'}
+[10.538327] (-) TimerEvent: {}
+[10.545306] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/hp/ROS2_WS/src/install/articubot_one/share/articubot_one/worlds/empty.world\n'}
+[10.554766] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/hp/ROS2_WS/src/install/articubot_one/share/articubot_one/worlds/obstacles.world\n'}
+[10.563856] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/hp/ROS2_WS/src/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one\n'}
+[10.574942] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/hp/ROS2_WS/src/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one\n'}
+[10.585083] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/hp/ROS2_WS/src/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh\n'}
+[10.593915] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/hp/ROS2_WS/src/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv\n'}
+[10.602206] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/hp/ROS2_WS/src/install/articubot_one/share/articubot_one/environment/path.sh\n'}
+[10.611052] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/hp/ROS2_WS/src/install/articubot_one/share/articubot_one/environment/path.dsv\n'}
+[10.619292] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/hp/ROS2_WS/src/install/articubot_one/share/articubot_one/local_setup.bash\n'}
+[10.627918] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/hp/ROS2_WS/src/install/articubot_one/share/articubot_one/local_setup.sh\n'}
+[10.636491] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/hp/ROS2_WS/src/install/articubot_one/share/articubot_one/local_setup.zsh\n'}
+[10.638600] (-) TimerEvent: {}
+[10.644930] (slam_toolbox) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[10.645471] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/hp/ROS2_WS/src/install/articubot_one/share/articubot_one/local_setup.dsv\n'}
+[10.655139] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/hp/ROS2_WS/src/install/articubot_one/share/articubot_one/package.dsv\n'}
+[10.664318] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/hp/ROS2_WS/src/install/articubot_one/share/ament_index/resource_index/packages/articubot_one\n'}
+[10.675426] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/hp/ROS2_WS/src/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake\n'}
+[10.685054] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/hp/ROS2_WS/src/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake\n'}
+[10.694400] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/hp/ROS2_WS/src/install/articubot_one/share/articubot_one/package.xml\n'}
+[10.706290] (articubot_one) CommandEnded: {'returncode': 0}
+[10.738740] (-) TimerEvent: {}
+[10.748518] (slam_toolbox) StdoutLine: {'line': b'-- Found tf2: 0.25.6 (/opt/ros/humble/share/tf2/cmake)\n'}
+[10.757616] (slam_toolbox) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[10.838894] (-) TimerEvent: {}
+[10.867343] (articubot_one) JobEnded: {'identifier': 'articubot_one', 'rc': 0}
+[10.934046] (rplidar_ros) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.939150] (-) TimerEvent: {}
+[10.992562] (rplidar_ros) StdoutLine: {'line': b'-- Generating done\n'}
+[10.995436] (rplidar_ros) StdoutLine: {'line': b'-- Build files have been written to: /home/hp/ROS2_WS/src/build/rplidar_ros\n'}
+[11.005868] (rplidar_ros) CommandEnded: {'returncode': 0}
+[11.006658] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'build'}
+[11.006693] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hp/ROS2_WS/src/build/rplidar_ros', '--', '-j8', '-l8'], 'cwd': '/home/hp/ROS2_WS/src/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'hp'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hp'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/hp'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1951'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hp/ROS2_WS/install:/home/hp/ROS2_WS/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hp'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hp'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/hp/anaconda3/bin:/home/hp/anaconda3/condabin:/opt/ros/humble/bin:/home/hp/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hp-HP-Laptop-15-dw2xxx:@/tmp/.ICE-unix/1922,unix/hp-HP-Laptop-15-dw2xxx:/tmp/.ICE-unix/1922'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fe15e7cb_b6ef_41ec_a1de_56934dafe78b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.56BBM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hp/ROS2_WS/install/rplidar_ros:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/articubot_one:/home/hp/ROS2_WS/src/install/rplidar_ros:/home/hp/ROS2_WS/src/install/my_robot_controller:/home/hp/ROS2_WS/src/install/my_exo:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/hp/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hp/ROS2_WS/src/build/rplidar_ros'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/hp/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hp/ROS2_WS/build/my_robot_controller:/home/hp/ROS2_WS/install/my_robot_controller/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/my_exo:/home/hp/ROS2_WS/install/my_exo/lib/python3.10/site-packages:/home/hp/ROS2_WS/src/install/my_robot_controller/lib/python3.10/site-packages:/home/hp/ROS2_WS/src/install/my_exo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/hp/anaconda3'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hp/ROS2_WS/install/rplidar_ros:/home/hp/ROS2_WS/install/articubot_one:/home/hp/ROS2_WS/src/install/rplidar_ros:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/src/install/my_robot_controller:/home/hp/ROS2_WS/src/install/my_exo:/opt/ros/humble')]), 'shell': False}
+[11.039255] (-) TimerEvent: {}
+[11.057380] (rplidar_ros) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object CMakeFiles/tf_listener.dir/src/tf_listener.cpp.o\x1b[0m\n'}
+[11.059938] (rplidar_ros) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/tf_broadcaster.dir/src/tf_broadcaster.cpp.o\x1b[0m\n'}
+[11.071427] (rplidar_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rplidar_client\x1b[0m\n'}
+[11.139529] (-) TimerEvent: {}
+[11.233139] (rplidar_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rplidar_node\x1b[0m\n'}
+[11.233593] (rplidar_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rplidar_composition\x1b[0m\n'}
+[11.239685] (-) TimerEvent: {}
+[11.246814] (slam_toolbox) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[11.339833] (-) TimerEvent: {}
+[11.440189] (-) TimerEvent: {}
+[11.522194] (slam_toolbox) StdoutLine: {'line': b'-- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)\n'}
+[11.540334] (-) TimerEvent: {}
+[11.640803] (-) TimerEvent: {}
+[11.726612] (slam_toolbox) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.6 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[11.740931] (-) TimerEvent: {}
+[11.753739] (rplidar_ros) StdoutLine: {'line': b'[  7%] \x1b[32m\x1b[1mLinking CXX executable rplidar_client\x1b[0m\n'}
+[11.754065] (rplidar_ros) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_composition.dir/src/rplidar_node.cpp.o\x1b[0m\n'}
+[11.756915] (rplidar_ros) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_node.dir/src/rplidar_node.cpp.o\x1b[0m\n'}
+[11.841124] (-) TimerEvent: {}
+[11.941566] (-) TimerEvent: {}
+[12.042015] (-) TimerEvent: {}
+[12.108043] (slam_toolbox) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[12.111355] (slam_toolbox) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[12.111699] (slam_toolbox) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[12.135015] (slam_toolbox) StdoutLine: {'line': b'-- Found tf2_sensor_msgs: 0.25.6 (/opt/ros/humble/share/tf2_sensor_msgs/cmake)\n'}
+[12.142189] (-) TimerEvent: {}
+[12.169945] (slam_toolbox) StdoutLine: {'line': b'-- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[12.242475] (-) TimerEvent: {}
+[12.274389] (slam_toolbox) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[12.342642] (-) TimerEvent: {}
+[12.443124] (-) TimerEvent: {}
+[12.543779] (-) TimerEvent: {}
+[12.594818] (slam_toolbox) StdoutLine: {'line': b'-- Found lifecycle_msgs: 1.2.1 (/opt/ros/humble/share/lifecycle_msgs/cmake)\n'}
+[12.643917] (-) TimerEvent: {}
+[12.744378] (-) TimerEvent: {}
+[12.844821] (-) TimerEvent: {}
+[12.900851] (slam_toolbox) StdoutLine: {'line': b'-- Found bondcpp: 3.0.2 (/opt/ros/humble/share/bondcpp/cmake)\n'}
+[12.944995] (-) TimerEvent: {}
+[13.045472] (-) TimerEvent: {}
+[13.145926] (-) TimerEvent: {}
+[13.246295] (-) TimerEvent: {}
+[13.346763] (-) TimerEvent: {}
+[13.447224] (-) TimerEvent: {}
+[13.505238] (slam_toolbox) StdoutLine: {'line': b'-- Found rviz_common: 11.2.11 (/opt/ros/humble/share/rviz_common/cmake)\n'}
+[13.547417] (-) TimerEvent: {}
+[13.647925] (-) TimerEvent: {}
+[13.748595] (-) TimerEvent: {}
+[13.849038] (-) TimerEvent: {}
+[13.949417] (-) TimerEvent: {}
+[14.050065] (-) TimerEvent: {}
+[14.150632] (-) TimerEvent: {}
+[14.251015] (-) TimerEvent: {}
+[14.351516] (-) TimerEvent: {}
+[14.440484] (rplidar_ros) StdoutLine: {'line': b'[ 14%] Built target rplidar_client\n'}
+[14.451653] (-) TimerEvent: {}
+[14.551974] (-) TimerEvent: {}
+[14.652464] (-) TimerEvent: {}
+[14.753005] (-) TimerEvent: {}
+[14.853590] (-) TimerEvent: {}
+[14.954218] (-) TimerEvent: {}
+[15.054734] (-) TimerEvent: {}
+[15.155191] (-) TimerEvent: {}
+[15.255714] (-) TimerEvent: {}
+[15.356245] (-) TimerEvent: {}
+[15.456719] (-) TimerEvent: {}
+[15.557290] (-) TimerEvent: {}
+[15.657779] (-) TimerEvent: {}
+[15.701771] (slam_toolbox) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[15.734874] (slam_toolbox) StdoutLine: {'line': b'-- Found OGRE\n'}
+[15.735160] (slam_toolbox) StdoutLine: {'line': b'--   static     : OFF\n'}
+[15.735312] (slam_toolbox) StdoutLine: {'line': b'--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[15.735450] (slam_toolbox) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[15.735739] (slam_toolbox) StdoutLine: {'line': b'--   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[15.749076] (slam_toolbox) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[15.749224] (slam_toolbox) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib\n'}
+[15.749414] (slam_toolbox) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[15.749551] (slam_toolbox) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[15.749671] (slam_toolbox) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[15.749789] (slam_toolbox) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[15.749903] (slam_toolbox) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[15.750049] (slam_toolbox) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[15.757890] (-) TimerEvent: {}
+[15.858264] (-) TimerEvent: {}
+[15.958716] (-) TimerEvent: {}
+[16.059148] (-) TimerEvent: {}
+[16.159545] (-) TimerEvent: {}
+[16.162641] (slam_toolbox) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[16.259791] (-) TimerEvent: {}
+[16.296554] (slam_toolbox) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[16.359918] (-) TimerEvent: {}
+[16.460371] (-) TimerEvent: {}
+[16.560820] (-) TimerEvent: {}
+[16.661231] (-) TimerEvent: {}
+[16.761689] (-) TimerEvent: {}
+[16.862134] (-) TimerEvent: {}
+[16.962545] (-) TimerEvent: {}
+[17.062983] (-) TimerEvent: {}
+[17.094707] (slam_toolbox) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[17.118481] (slam_toolbox) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[17.163104] (-) TimerEvent: {}
+[17.263470] (-) TimerEvent: {}
+[17.275966] (slam_toolbox) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[17.276225] (slam_toolbox) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[17.361412] (slam_toolbox) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[17.361605] (slam_toolbox) StdoutLine: {'line': b'-- Looking for connect\n'}
+[17.363569] (-) TimerEvent: {}
+[17.437919] (slam_toolbox) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[17.438335] (slam_toolbox) StdoutLine: {'line': b'-- Looking for remove\n'}
+[17.463933] (-) TimerEvent: {}
+[17.535472] (slam_toolbox) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[17.535694] (slam_toolbox) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[17.564097] (-) TimerEvent: {}
+[17.624493] (slam_toolbox) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[17.624860] (slam_toolbox) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[17.664212] (-) TimerEvent: {}
+[17.708508] (slam_toolbox) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[17.711259] (slam_toolbox) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[17.711454] (slam_toolbox) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[17.764347] (-) TimerEvent: {}
+[17.864715] (-) TimerEvent: {}
+[17.922718] (slam_toolbox) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[17.964866] (-) TimerEvent: {}
+[18.065303] (-) TimerEvent: {}
+[18.165735] (-) TimerEvent: {}
+[18.266390] (-) TimerEvent: {}
+[18.340423] (slam_toolbox) StdoutLine: {'line': b'-- Found rviz_default_plugins: 11.2.11 (/opt/ros/humble/share/rviz_default_plugins/cmake)\n'}
+[18.366523] (-) TimerEvent: {}
+[18.466958] (-) TimerEvent: {}
+[18.567461] (-) TimerEvent: {}
+[18.668041] (-) TimerEvent: {}
+[18.768454] (-) TimerEvent: {}
+[18.868874] (-) TimerEvent: {}
+[18.969292] (-) TimerEvent: {}
+[19.069767] (-) TimerEvent: {}
+[19.170399] (-) TimerEvent: {}
+[19.270867] (-) TimerEvent: {}
+[19.371359] (-) TimerEvent: {}
+[19.471937] (-) TimerEvent: {}
+[19.572347] (-) TimerEvent: {}
+[19.654821] (slam_toolbox) StdoutLine: {'line': b'-- Found Boost: /home/hp/anaconda3/lib/cmake/Boost-1.73.0/BoostConfig.cmake (found version "1.73.0") found components: system serialization filesystem thread \n'}
+[19.672479] (-) TimerEvent: {}
+[19.773050] (-) TimerEvent: {}
+[19.824417] (slam_toolbox) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[19.873178] (-) TimerEvent: {}
+[19.973624] (-) TimerEvent: {}
+[20.055030] (slam_toolbox) StdoutLine: {'line': b'-- Found CHOLMOD: /usr/include/suitesparse  \n'}
+[20.065203] (slam_toolbox) StdoutLine: {'line': b'-- Found CSparse: /usr/include/suitesparse  \n'}
+[20.073746] (-) TimerEvent: {}
+[20.174174] (-) TimerEvent: {}
+[20.182270] (slam_toolbox) StdoutLine: {'line': b'-- Looking for sgemm_\n'}
+[20.274347] (-) TimerEvent: {}
+[20.374849] (-) TimerEvent: {}
+[20.382276] (slam_toolbox) StdoutLine: {'line': b'-- Looking for sgemm_ - not found\n'}
+[20.474999] (-) TimerEvent: {}
+[20.575431] (-) TimerEvent: {}
+[20.619705] (slam_toolbox) StdoutLine: {'line': b'-- Looking for sgemm_\n'}
+[20.675622] (-) TimerEvent: {}
+[20.706551] (slam_toolbox) StdoutLine: {'line': b'-- Looking for sgemm_ - found\n'}
+[20.706825] (slam_toolbox) StdoutLine: {'line': b'-- Found BLAS: /usr/lib/x86_64-linux-gnu/libblas.so  \n'}
+[20.710122] (slam_toolbox) StdoutLine: {'line': b'-- Looking for cheev_\n'}
+[20.724699] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:41\x1b[m\x1b[K,\n'}
+[20.761073] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[20.761365] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/rplidar_ros/./sdk/include/sl_lidar.h:36\x1b[m\x1b[K,\n'}
+[20.761500] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/rplidar_ros/src/rplidar_node.cpp:38\x1b[m\x1b[K:\n'}
+[20.761614] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:66:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[20.761795] (rplidar_ros) StderrLine: {'line': b'   66 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[20.761918] (rplidar_ros) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[20.762035] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[20.762143] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/rplidar_ros/./sdk/include/sl_lidar.h:36\x1b[m\x1b[K,\n'}
+[20.762241] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/rplidar_ros/src/rplidar_node.cpp:38\x1b[m\x1b[K:\n'}
+[20.762344] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:324:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[20.762453] (rplidar_ros) StderrLine: {'line': b'  324 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[20.762557] (rplidar_ros) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[20.762661] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:41\x1b[m\x1b[K,\n'}
+[20.762767] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[20.762881] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/rplidar_ros/./sdk/include/sl_lidar.h:36\x1b[m\x1b[K,\n'}
+[20.763007] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/rplidar_ros/src/rplidar_node.cpp:38\x1b[m\x1b[K:\n'}
+[20.763146] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:66:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[20.763349] (rplidar_ros) StderrLine: {'line': b'   66 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[20.763472] (rplidar_ros) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[20.763569] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[20.763669] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/rplidar_ros/./sdk/include/sl_lidar.h:36\x1b[m\x1b[K,\n'}
+[20.763742] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/rplidar_ros/src/rplidar_node.cpp:38\x1b[m\x1b[K:\n'}
+[20.763812] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:324:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[20.763892] (rplidar_ros) StderrLine: {'line': b'  324 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[20.763961] (rplidar_ros) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[20.775770] (-) TimerEvent: {}
+[20.876116] (-) TimerEvent: {}
+[20.933164] (slam_toolbox) StdoutLine: {'line': b'-- Looking for cheev_ - not found\n'}
+[20.954825] (slam_toolbox) StdoutLine: {'line': b'-- Looking for cheev_\n'}
+[20.976242] (-) TimerEvent: {}
+[21.043605] (slam_toolbox) StdoutLine: {'line': b'-- Looking for cheev_ - not found\n'}
+[21.044738] (slam_toolbox) StdoutLine: {'line': b'-- Looking for cheev_\n'}
+[21.076390] (-) TimerEvent: {}
+[21.176961] (-) TimerEvent: {}
+[21.214346] (slam_toolbox) StdoutLine: {'line': b'-- Looking for cheev_ - found\n'}
+[21.214996] (slam_toolbox) StdoutLine: {'line': b'-- Found LAPACK: /usr/lib/x86_64-linux-gnu/liblapack.so;/usr/lib/x86_64-linux-gnu/libblas.so  \n'}
+[21.277145] (-) TimerEvent: {}
+[21.293223] (slam_toolbox) StdoutLine: {'line': b'-- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3\n'}
+[21.377288] (-) TimerEvent: {}
+[21.407299] (slam_toolbox) StdoutLine: {'line': b'-- Found required Ceres dependency: glog\n'}
+[21.409067] (slam_toolbox) StdoutLine: {'line': b'-- Found required Ceres dependency: gflags\n'}
+[21.410762] (slam_toolbox) StdoutLine: {'line': b'-- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]\n'}
+[21.477422] (-) TimerEvent: {}
+[21.577988] (-) TimerEvent: {}
+[21.678431] (-) TimerEvent: {}
+[21.778867] (-) TimerEvent: {}
+[21.879258] (-) TimerEvent: {}
+[21.979722] (-) TimerEvent: {}
+[22.080149] (-) TimerEvent: {}
+[22.174155] (slam_toolbox) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):\n'}
+[22.174472] (slam_toolbox) StderrLine: {'line': b'  execute_process(/home/hp/anaconda3/bin/python3 -m rosidl_adapter\n'}
+[22.174636] (slam_toolbox) StderrLine: {'line': b'  --package-name slam_toolbox --arguments-file\n'}
+[22.174772] (slam_toolbox) StderrLine: {'line': b'  /home/hp/ROS2_WS/src/build/slam_toolbox/rosidl_adapter__arguments__slam_toolbox.json\n'}
+[22.174918] (slam_toolbox) StderrLine: {'line': b'  --output-dir\n'}
+[22.175056] (slam_toolbox) StderrLine: {'line': b'  /home/hp/ROS2_WS/src/build/slam_toolbox/rosidl_adapter/slam_toolbox\n'}
+[22.175284] (slam_toolbox) StderrLine: {'line': b'  --output-file\n'}
+[22.175419] (slam_toolbox) StderrLine: {'line': b'  /home/hp/ROS2_WS/src/build/slam_toolbox/rosidl_adapter/slam_toolbox.idls)\n'}
+[22.175533] (slam_toolbox) StderrLine: {'line': b'  returned error code 1:\n'}
+[22.175723] (slam_toolbox) StderrLine: {'line': b'\n'}
+[22.175851] (slam_toolbox) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[22.175978] (slam_toolbox) StderrLine: {'line': b'\n'}
+[22.176104] (slam_toolbox) StderrLine: {'line': b'    File "<frozen runpy>", line 198, in _run_module_as_main\n'}
+[22.176227] (slam_toolbox) StderrLine: {'line': b'    File "<frozen runpy>", line 88, in _run_code\n'}
+[22.176352] (slam_toolbox) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[22.176480] (slam_toolbox) StderrLine: {'line': b'      sys.exit(main())\n'}
+[22.176605] (slam_toolbox) StderrLine: {'line': b'               ^^^^^^\n'}
+[22.176728] (slam_toolbox) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[22.176850] (slam_toolbox) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[22.176975] (slam_toolbox) StderrLine: {'line': b'                     ^^^^^^^^^^^^^^^\n'}
+[22.177099] (slam_toolbox) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 23, in convert_to_idl\n'}
+[22.177224] (slam_toolbox) StderrLine: {'line': b'      from rosidl_adapter.srv import convert_srv_to_idl\n'}
+[22.177344] (slam_toolbox) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/srv/__init__.py", line 16, in <module>\n'}
+[22.177464] (slam_toolbox) StderrLine: {'line': b'      from rosidl_adapter.resource import expand_template\n'}
+[22.177590] (slam_toolbox) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/resource/__init__.py", line 19, in <module>\n'}
+[22.177732] (slam_toolbox) StderrLine: {'line': b'      import em\n'}
+[22.177857] (slam_toolbox) StderrLine: {'line': b'\n'}
+[22.177977] (slam_toolbox) StderrLine: {'line': b"  ModuleNotFoundError: No module named 'em'\n"}
+[22.178101] (slam_toolbox) StderrLine: {'line': b'\n'}
+[22.178228] (slam_toolbox) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[22.178351] (slam_toolbox) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[22.178471] (slam_toolbox) StderrLine: {'line': b'  CMakeLists.txt:105 (rosidl_generate_interfaces)\n'}
+[22.178605] (slam_toolbox) StderrLine: {'line': b'\n'}
+[22.178728] (slam_toolbox) StderrLine: {'line': b'\x1b[0m\n'}
+[22.178851] (slam_toolbox) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[22.178987] (slam_toolbox) StdoutLine: {'line': b'See also "/home/hp/ROS2_WS/src/build/slam_toolbox/CMakeFiles/CMakeOutput.log".\n'}
+[22.179144] (slam_toolbox) StdoutLine: {'line': b'See also "/home/hp/ROS2_WS/src/build/slam_toolbox/CMakeFiles/CMakeError.log".\n'}
+[22.180289] (-) TimerEvent: {}
+[22.212412] (slam_toolbox) CommandEnded: {'returncode': 1}
+[22.280466] (-) TimerEvent: {}
+[22.343821] (rplidar_ros) StdoutLine: {'line': b'[ 16%] \x1b[32m\x1b[1mLinking CXX executable tf_listener\x1b[0m\n'}
+[22.363898] (slam_toolbox) JobEnded: {'identifier': 'slam_toolbox', 'rc': 1}
+[22.380580] (-) TimerEvent: {}
+[22.480945] (-) TimerEvent: {}
+[22.581337] (-) TimerEvent: {}
+[22.681723] (-) TimerEvent: {}
+[22.782110] (-) TimerEvent: {}
+[22.882639] (-) TimerEvent: {}
+[22.917169] (rplidar_ros) StdoutLine: {'line': b'[ 16%] Built target tf_listener\n'}
+[22.982773] (-) TimerEvent: {}
+[23.083179] (-) TimerEvent: {}
+[23.183765] (-) TimerEvent: {}
+[23.184183] (rplidar_ros) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking CXX executable tf_broadcaster\x1b[0m\n'}
+[23.283909] (-) TimerEvent: {}
+[23.384334] (-) TimerEvent: {}
+[23.451101] (rplidar_ros) StdoutLine: {'line': b'[ 19%] Built target tf_broadcaster\n'}
+[23.484480] (-) TimerEvent: {}
+[23.584950] (-) TimerEvent: {}
+[23.685465] (-) TimerEvent: {}
+[23.786096] (-) TimerEvent: {}
+[23.886482] (-) TimerEvent: {}
+[23.987114] (-) TimerEvent: {}
+[24.087792] (-) TimerEvent: {}
+[24.188333] (-) TimerEvent: {}
+[24.288830] (-) TimerEvent: {}
+[24.328903] (rplidar_ros) StdoutLine: {'line': b'[ 23%] \x1b[32m\x1b[1mLinking CXX executable rplidar_node\x1b[0m\n'}
+[24.329164] (rplidar_ros) StdoutLine: {'line': b'[ 23%] \x1b[32m\x1b[1mLinking CXX executable rplidar_composition\x1b[0m\n'}
+[24.388950] (-) TimerEvent: {}
+[24.489365] (-) TimerEvent: {}
+[24.589931] (-) TimerEvent: {}
+[24.690395] (-) TimerEvent: {}
+[24.790975] (-) TimerEvent: {}
+[24.891654] (-) TimerEvent: {}
+[24.992309] (-) TimerEvent: {}
+[25.093421] (-) TimerEvent: {}
+[25.193888] (-) TimerEvent: {}
+[25.196597] (rplidar_ros) StdoutLine: {'line': b'[ 61%] Built target rplidar_composition\n'}
+[25.198730] (rplidar_ros) StdoutLine: {'line': b'[100%] Built target rplidar_node\n'}
+[25.209197] (rplidar_ros) JobEnded: {'identifier': 'rplidar_ros', 'rc': 'SIGINT'}
+[25.245016] (-) EventReactorShutdown: {}

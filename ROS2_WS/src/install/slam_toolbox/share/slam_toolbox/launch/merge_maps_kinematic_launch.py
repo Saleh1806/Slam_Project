@@ -1,0 +1,1 @@
+/home/hp/ROS2_WS/src/slam_toolbox/launch/merge_maps_kinematic_launch.py

@@ -1,0 +1,790 @@
+[0.873s] Invoking command in '/home/hp/ROS2_WS/build/slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/dynamic_tf:/opt/ros/humble /usr/bin/cmake --build /home/hp/ROS2_WS/build/slam_toolbox -- -j8 -l8
+[0.994s] [35m[1mConsolidate compiler generated dependencies of target kartoSlamToolbox[0m
+[1.017s] [  9%] Built target slam_toolbox__rosidl_generator_c
+[1.021s] [  9%] Built target slam_toolbox__cpp
+[1.074s] [  9%] Built target ament_cmake_python_symlink_slam_toolbox
+[1.090s] [ 10%] [32mBuilding CXX object lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o[0m
+[1.098s] [ 19%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c
+[1.098s] [ 28%] Built target slam_toolbox__rosidl_typesupport_introspection_c
+[1.118s] [ 37%] Built target slam_toolbox__rosidl_typesupport_introspection_cpp
+[1.120s] [ 46%] Built target slam_toolbox__rosidl_typesupport_c
+[1.154s] [ 55%] Built target slam_toolbox__rosidl_typesupport_cpp
+[1.170s] [ 64%] Built target slam_toolbox__rosidl_typesupport_fastrtps_cpp
+[1.219s] [ 64%] Built target slam_toolbox
+[1.221s] [ 66%] Built target SlamToolboxPlugin
+[1.273s] [ 67%] Built target slam_toolbox__py
+[1.337s] [ 75%] Built target slam_toolbox__rosidl_generator_py
+[1.395s] [ 76%] Built target slam_toolbox__rosidl_typesupport_introspection_c__pyext
+[1.401s] [ 77%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c__pyext
+[1.415s] [ 78%] Built target slam_toolbox__rosidl_typesupport_c__pyext
+[1.674s] running egg_info
+[1.675s] writing slam_toolbox.egg-info/PKG-INFO
+[1.676s] writing dependency_links to slam_toolbox.egg-info/dependency_links.txt
+[1.676s] writing top-level names to slam_toolbox.egg-info/top_level.txt
+[1.680s] reading manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+[1.681s] writing manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+[1.735s] [ 78%] Built target ament_cmake_python_build_slam_toolbox_egg
+[4.861s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:[m[K In member function ‘[01m[Kvirtual kt_bool karto::Mapper::Process(karto::LocalizedRangeScan*, karto::Matrix3*)[m[K’:
+[4.861s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2849:43:[m[K [01;31m[Kerror: [m[K‘[01m[KBOOST_SERIALIZATION_VERSION[m[K’ was not declared in this scope; did you mean ‘[01m[KBOOST_SERIALIZATION_VERSION_HPP[m[K’?
+[4.861s]  2849 |                 pScan->serialize(scan_oa, [01;31m[KBOOST_SERIALIZATION_VERSION[m[K(pScan));
+[4.861s]       |                                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.861s]       |                                           [32m[KBOOST_SERIALIZATION_VERSION_HPP[m[K
+[4.893s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2872:113:[m[K [01;31m[Kerror: [m[K‘[01m[KstartScanMatchingTime[m[K’ was not declared in this scope; did you mean ‘[01m[KendScanMatchingTime[m[K’?
+[4.893s]  2872 |         auto scanMatchingDuration = std::chrono::duration_cast<std::chrono::microseconds>(endScanMatchingTime - [01;31m[KstartScanMatchingTime[m[K).count();
+[4.893s]       |                                                                                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[4.893s]       |                                                                                                                 [32m[KendScanMatchingTime[m[K
+[4.905s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2887:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kcov[m[K’ was not declared in this scope; did you mean ‘[01m[Kcos[m[K’?
+[4.906s]  2887 |             m_pGraph->AddEdges(pScan, [01;31m[Kcov[m[K);
+[4.906s]       |                                       [01;31m[K^~~[m[K
+[4.906s]       |                                       [32m[Kcos[m[K
+[4.922s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2921:94:[m[K [01;31m[Kerror: [m[K‘[01m[KstartTime[m[K’ was not declared in this scope; did you mean ‘[01m[Kstrptime[m[K’?
+[4.922s]  2921 |         auto totalDuration = std::chrono::duration_cast<std::chrono::microseconds>(endTime - [01;31m[KstartTime[m[K).count();
+[4.922s]       |                                                                                              [01;31m[K^~~~~~~~~[m[K
+[4.923s]       |                                                                                              [32m[Kstrptime[m[K
+[4.958s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2927:54:[m[K [01;31m[Kerror: [m[K‘[01m[KscanCheckDuration[m[K’ was not declared in this scope
+[4.958s]  2927 |             logFile << "  pScan Validation took " << [01;31m[KscanCheckDuration[m[K << " microseconds.\n";
+[4.958s]       |                                                      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[4.979s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2928:52:[m[K [01;31m[Kerror: [m[K‘[01m[KinitDuration[m[K’ was not declared in this scope
+[4.979s]  2928 |             logFile << "  Initialization took " << [01;31m[KinitDuration[m[K << " microseconds.\n";
+[4.979s]       |                                                    [01;31m[K^~~~~~~~~~~~[m[K
+[5.009s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2929:57:[m[K [01;31m[Kerror: [m[K‘[01m[KlastScanDuration[m[K’ was not declared in this scope
+[5.009s]  2929 |             logFile << "  Last Scan Retrieval took " << [01;31m[KlastScanDuration[m[K << " microseconds.\n";
+[5.009s]       |                                                         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[5.043s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2930:54:[m[K [01;31m[Kerror: [m[K‘[01m[KupdatePoseDuration[m[K’ was not declared in this scope
+[5.043s]  2930 |             logFile << "  Update Scan Pose took " << [01;31m[KupdatePoseDuration[m[K << " microseconds.\n";
+[5.043s]       |                                                      [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.072s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2931:47:[m[K [01;31m[Kerror: [m[K‘[01m[KmoveTestDuration[m[K’ was not declared in this scope
+[5.072s]  2931 |             logFile << "  Move Test took " << [01;31m[KmoveTestDuration[m[K << " microseconds.\n";
+[5.072s]       |                                               [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[5.073s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:[m[K At global scope:
+[5.073s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2946:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kreturn[m[K’
+[5.074s]  2946 |     [01;31m[Kreturn[m[K false;
+[5.074s]       |     [01;31m[K^~~~~~[m[K
+[5.074s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2949:9:[m[K [01;31m[Kerror: [m[K‘[01m[KMapper[m[K’ has not been declared
+[5.074s]  2949 | kt_bool [01;31m[KMapper[m[K::ProcessAgainstNodesNearBy(LocalizedRangeScan * pScan, kt_bool addScanToLocalizationBuffer, Matrix3 * covariance)
+[5.074s]       |         [01;31m[K^~~~~~[m[K
+[5.075s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2949:43:[m[K [01;31m[Kerror: [m[K‘[01m[KLocalizedRangeScan[m[K’ was not declared in this scope; did you mean ‘[01m[Kkarto::LocalizedRangeScan[m[K’?
+[5.075s]  2949 | kt_bool Mapper::ProcessAgainstNodesNearBy([01;31m[KLocalizedRangeScan[m[K * pScan, kt_bool addScanToLocalizationBuffer, Matrix3 * covariance)
+[5.075s]       |                                           [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.075s]       |                                           [32m[Kkarto::LocalizedRangeScan[m[K
+[5.075s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+[5.076s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:39[m[K:
+[5.076s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5451:7:[m[K [01;36m[Knote: [m[K‘[01m[Kkarto::LocalizedRangeScan[m[K’ declared here
+[5.076s]  5451 | class [01;36m[KLocalizedRangeScan[m[K : public LaserRangeScan
+[5.076s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.083s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2949:64:[m[K [01;31m[Kerror: [m[K‘[01m[KpScan[m[K’ was not declared in this scope
+[5.083s]  2949 | kt_bool Mapper::ProcessAgainstNodesNearBy(LocalizedRangeScan * [01;31m[KpScan[m[K, kt_bool addScanToLocalizationBuffer, Matrix3 * covariance)
+[5.083s]       |                                                                [01;31m[K^~~~~[m[K
+[5.084s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2949:79:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[KaddScanToLocalizationBuffer[m[K’
+[5.084s]  2949 | kt_bool Mapper::ProcessAgainstNodesNearBy(LocalizedRangeScan * pScan, kt_bool [01;31m[KaddScanToLocalizationBuffer[m[K, Matrix3 * covariance)
+[5.084s]       |                                                                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.085s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2949:108:[m[K [01;31m[Kerror: [m[K‘[01m[KMatrix3[m[K’ was not declared in this scope
+[5.085s]  2949 | kt_bool Mapper::ProcessAgainstNodesNearBy(LocalizedRangeScan * pScan, kt_bool addScanToLocalizationBuffer, [01;31m[KMatrix3[m[K * covariance)
+[5.085s]       |                                                                                                            [01;31m[K^~~~~~~[m[K
+[5.085s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2949:108:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[5.085s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:295[m[K,
+[5.086s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:34[m[K,
+[5.086s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:39[m[K:
+[5.086s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:520:7:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::Matrix3[m[K’
+[5.086s]   520 | using [01;36m[KMatrix[m[K##SizeSuffix = Matrix<Type, Size, Size>;              \
+[5.086s]       |       [01;36m[K^~~~~~[m[K
+[5.086s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:520:7:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KEIGEN_MAKE_TYPEDEFS[m[K’
+[5.086s]   520 | using [01;36m[KMatrix[m[K##SizeSuffix = Matrix<Type, Size, Size>;              \
+[5.086s]       |       [01;36m[K^~~~~~[m[K
+[5.086s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+[5.086s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:39[m[K:
+[5.086s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2437:7:[m[K [01;36m[Knote: [m[K  ‘[01m[Kkarto::Matrix3[m[K’
+[5.086s]  2437 | class [01;36m[KMatrix3[m[K
+[5.086s]       |       [01;36m[K^~~~~~~[m[K
+[5.098s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2949:118:[m[K [01;31m[Kerror: [m[K‘[01m[Kcovariance[m[K’ was not declared in this scope
+[5.098s]  2949 | kt_bool Mapper::ProcessAgainstNodesNearBy(LocalizedRangeScan * pScan, kt_bool addScanToLocalizationBuffer, Matrix3 * [01;31m[Kcovariance[m[K)
+[5.098s]       |                                                                                                                      [01;31m[K^~~~~~~~~~[m[K
+[5.098s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2949:128:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[5.098s]  2949 | kt_bool Mapper::ProcessAgainstNodesNearBy(LocalizedRangeScan * pScan, kt_bool addScanToLocalizationBuffer, Matrix3 * covariance[01;31m[K)[m[K
+[5.099s]       |                                                                                                                                [01;31m[K^[m[K
+[5.099s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3029:9:[m[K [01;31m[Kerror: [m[K‘[01m[KMapper[m[K’ has not been declared
+[5.099s]  3029 | kt_bool [01;31m[KMapper[m[K::ProcessLocalization(LocalizedRangeScan * pScan, Matrix3 * covariance)
+[5.099s]       |         [01;31m[K^~~~~~[m[K
+[5.100s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3029:37:[m[K [01;31m[Kerror: [m[K‘[01m[KLocalizedRangeScan[m[K’ was not declared in this scope; did you mean ‘[01m[Kkarto::LocalizedRangeScan[m[K’?
+[5.100s]  3029 | kt_bool Mapper::ProcessLocalization([01;31m[KLocalizedRangeScan[m[K * pScan, Matrix3 * covariance)
+[5.100s]       |                                     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.100s]       |                                     [32m[Kkarto::LocalizedRangeScan[m[K
+[5.100s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+[5.100s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:39[m[K:
+[5.100s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5451:7:[m[K [01;36m[Knote: [m[K‘[01m[Kkarto::LocalizedRangeScan[m[K’ declared here
+[5.100s]  5451 | class [01;36m[KLocalizedRangeScan[m[K : public LaserRangeScan
+[5.101s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.108s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3029:58:[m[K [01;31m[Kerror: [m[K‘[01m[KpScan[m[K’ was not declared in this scope
+[5.108s]  3029 | kt_bool Mapper::ProcessLocalization(LocalizedRangeScan * [01;31m[KpScan[m[K, Matrix3 * covariance)
+[5.108s]       |                                                          [01;31m[K^~~~~[m[K
+[5.109s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3029:65:[m[K [01;31m[Kerror: [m[K‘[01m[KMatrix3[m[K’ was not declared in this scope
+[5.110s]  3029 | kt_bool Mapper::ProcessLocalization(LocalizedRangeScan * pScan, [01;31m[KMatrix3[m[K * covariance)
+[5.110s]       |                                                                 [01;31m[K^~~~~~~[m[K
+[5.110s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3029:65:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[5.110s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:295[m[K,
+[5.110s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:34[m[K,
+[5.110s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:39[m[K:
+[5.110s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:520:7:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::Matrix3[m[K’
+[5.110s]   520 | using [01;36m[KMatrix[m[K##SizeSuffix = Matrix<Type, Size, Size>;              \
+[5.110s]       |       [01;36m[K^~~~~~[m[K
+[5.110s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:520:7:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KEIGEN_MAKE_TYPEDEFS[m[K’
+[5.110s]   520 | using [01;36m[KMatrix[m[K##SizeSuffix = Matrix<Type, Size, Size>;              \
+[5.111s]       |       [01;36m[K^~~~~~[m[K
+[5.111s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+[5.111s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:39[m[K:
+[5.111s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2437:7:[m[K [01;36m[Knote: [m[K  ‘[01m[Kkarto::Matrix3[m[K’
+[5.111s]  2437 | class [01;36m[KMatrix3[m[K
+[5.111s]       |       [01;36m[K^~~~~~~[m[K
+[5.122s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3029:75:[m[K [01;31m[Kerror: [m[K‘[01m[Kcovariance[m[K’ was not declared in this scope
+[5.123s]  3029 | kt_bool Mapper::ProcessLocalization(LocalizedRangeScan * pScan, Matrix3 * [01;31m[Kcovariance[m[K)
+[5.123s]       |                                                                           [01;31m[K^~~~~~~~~~[m[K
+[5.123s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3029:85:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[5.123s]  3029 | kt_bool Mapper::ProcessLocalization(LocalizedRangeScan * pScan, Matrix3 * covariance[01;31m[K)[m[K
+[5.123s]       |                                                                                     [01;31m[K^[m[K
+[5.123s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3109:6:[m[K [01;31m[Kerror: [m[K‘[01m[KMapper[m[K’ has not been declared
+[5.123s]  3109 | void [01;31m[KMapper[m[K::AddScanToLocalizationBuffer(LocalizedRangeScan * pScan, Vertex <LocalizedRangeScan> * scan_vertex)
+[5.123s]       |      [01;31m[K^~~~~~[m[K
+[5.124s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3109:6:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[KAddScanToLocalizationBuffer[m[K’ declared void
+[5.125s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3109:42:[m[K [01;31m[Kerror: [m[K‘[01m[KLocalizedRangeScan[m[K’ was not declared in this scope; did you mean ‘[01m[Kkarto::LocalizedRangeScan[m[K’?
+[5.125s]  3109 | void Mapper::AddScanToLocalizationBuffer([01;31m[KLocalizedRangeScan[m[K * pScan, Vertex <LocalizedRangeScan> * scan_vertex)
+[5.125s]       |                                          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.125s]       |                                          [32m[Kkarto::LocalizedRangeScan[m[K
+[5.125s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+[5.126s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:39[m[K:
+[5.126s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5451:7:[m[K [01;36m[Knote: [m[K‘[01m[Kkarto::LocalizedRangeScan[m[K’ declared here
+[5.126s]  5451 | class [01;36m[KLocalizedRangeScan[m[K : public LaserRangeScan
+[5.126s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.134s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3109:63:[m[K [01;31m[Kerror: [m[K‘[01m[KpScan[m[K’ was not declared in this scope
+[5.134s]  3109 | void Mapper::AddScanToLocalizationBuffer(LocalizedRangeScan * [01;31m[KpScan[m[K, Vertex <LocalizedRangeScan> * scan_vertex)
+[5.135s]       |                                                               [01;31m[K^~~~~[m[K
+[5.136s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3109:70:[m[K [01;31m[Kerror: [m[K‘[01m[KVertex[m[K’ was not declared in this scope; did you mean ‘[01m[Kkarto::Vertex[m[K’?
+[5.136s]  3109 | void Mapper::AddScanToLocalizationBuffer(LocalizedRangeScan * pScan, [01;31m[KVertex[m[K <LocalizedRangeScan> * scan_vertex)
+[5.137s]       |                                                                      [01;31m[K^~~~~~[m[K
+[5.137s]       |                                                                      [32m[Kkarto::Vertex[m[K
+[5.137s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:39[m[K:
+[5.137s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:255:7:[m[K [01;36m[Knote: [m[K‘[01m[Kkarto::Vertex[m[K’ declared here
+[5.137s]   255 | class [01;36m[KVertex[m[K
+[5.137s]       |       [01;36m[K^~~~~~[m[K
+[5.138s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3109:78:[m[K [01;31m[Kerror: [m[K‘[01m[KLocalizedRangeScan[m[K’ was not declared in this scope; did you mean ‘[01m[Kkarto::LocalizedRangeScan[m[K’?
+[5.138s]  3109 | void Mapper::AddScanToLocalizationBuffer(LocalizedRangeScan * pScan, Vertex <[01;31m[KLocalizedRangeScan[m[K> * scan_vertex)
+[5.138s]       |                                                                              [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.138s]       |                                                                              [32m[Kkarto::LocalizedRangeScan[m[K
+[5.138s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+[5.139s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:39[m[K:
+[5.139s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5451:7:[m[K [01;36m[Knote: [m[K‘[01m[Kkarto::LocalizedRangeScan[m[K’ declared here
+[5.139s]  5451 | class [01;36m[KLocalizedRangeScan[m[K : public LaserRangeScan
+[5.139s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.151s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3109:100:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_vertex[m[K’ was not declared in this scope
+[5.151s]  3109 | void Mapper::AddScanToLocalizationBuffer(LocalizedRangeScan * pScan, Vertex <LocalizedRangeScan> * [01;31m[Kscan_vertex[m[K)
+[5.152s]       |                                                                                                    [01;31m[K^~~~~~~~~~~[m[K
+[5.152s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3135:6:[m[K [01;31m[Kerror: [m[K‘[01m[KMapper[m[K’ has not been declared
+[5.152s]  3135 | void [01;31m[KMapper[m[K::ClearLocalizationBuffer()
+[5.152s]       |      [01;31m[K^~~~~~[m[K
+[5.180s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:[m[K In function ‘[01m[Kvoid ClearLocalizationBuffer()[m[K’:
+[5.180s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3137:11:[m[K [01;31m[Kerror: [m[K‘[01m[Km_LocalizationScanVertices[m[K’ was not declared in this scope
+[5.180s]  3137 |   while (![01;31m[Km_LocalizationScanVertices[m[K.empty())
+[5.180s]       |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.181s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3139:5:[m[K [01;31m[Kerror: [m[K‘[01m[KLocalizationScanVertex[m[K’ was not declared in this scope; did you mean ‘[01m[Kkarto::LocalizationScanVertex[m[K’?
+[5.181s]  3139 |     [01;31m[KLocalizationScanVertex[m[K& oldLSV = m_LocalizationScanVertices.front();
+[5.182s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.182s]       |     [32m[Kkarto::LocalizationScanVertex[m[K
+[5.182s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:39[m[K:
+[5.182s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:1931:8:[m[K [01;36m[Knote: [m[K‘[01m[Kkarto::LocalizationScanVertex[m[K’ declared here
+[5.182s]  1931 | struct [01;36m[KLocalizationScanVertex[m[K
+[5.182s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.190s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3139:29:[m[K [01;31m[Kerror: [m[K‘[01m[KoldLSV[m[K’ was not declared in this scope
+[5.190s]  3139 |     LocalizationScanVertex& [01;31m[KoldLSV[m[K = m_LocalizationScanVertices.front();
+[5.190s]       |                             [01;31m[K^~~~~~[m[K
+[5.213s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3140:5:[m[K [01;31m[Kerror: [m[K‘[01m[KRemoveNodeFromGraph[m[K’ was not declared in this scope
+[5.213s]  3140 |     [01;31m[KRemoveNodeFromGraph[m[K(oldLSV.vertex);
+[5.214s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[5.242s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3142:5:[m[K [01;31m[Kerror: [m[K‘[01m[Km_pMapperSensorManager[m[K’ was not declared in this scope
+[5.242s]  3142 |     [01;31m[Km_pMapperSensorManager[m[K->RemoveScan(oldLSV.scan);
+[5.242s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.244s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3152:15:[m[K [01;31m[Kerror: [m[K‘[01m[KName[m[K’ was not declared in this scope; did you mean ‘[01m[Kkarto::Name[m[K’?
+[5.244s]  3152 |   std::vector<[01;31m[KName[m[K> names = m_pMapperSensorManager->GetSensorNames();
+[5.244s]       |               [01;31m[K^~~~[m[K
+[5.244s]       |               [32m[Kkarto::Name[m[K
+[5.244s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+[5.244s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:39[m[K:
+[5.244s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:387:7:[m[K [01;36m[Knote: [m[K‘[01m[Kkarto::Name[m[K’ declared here
+[5.245s]   387 | class [01;36m[KName[m[K
+[5.245s]       |       [01;36m[K^~~~[m[K
+[5.245s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3152:19:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.245s]  3152 |   std::vector<Name[01;31m[K>[m[K names = m_pMapperSensorManager->GetSensorNames();
+[5.245s]       |                   [01;31m[K^[m[K
+[5.245s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3152:19:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[5.270s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3152:29:[m[K [01;31m[Kerror: [m[K‘[01m[Km_pMapperSensorManager[m[K’ was not declared in this scope
+[5.270s]  3152 |   std::vector<Name> names = [01;31m[Km_pMapperSensorManager[m[K->GetSensorNames();
+[5.270s]       |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.270s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3153:31:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksize[m[K’ in ‘[01m[Knames[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[5.270s]  3153 |   for (uint i = 0; i != names.[01;31m[Ksize[m[K(); i++)
+[5.270s]       |                               [01;31m[K^~~~[m[K
+[5.270s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3155:52:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[uint {aka unsigned int}][m[K’ for array subscript
+[5.270s]  3155 |     m_pMapperSensorManager->ClearRunningScans(names[01;31m[K[[m[Ki]);
+[5.270s]       |                                                    [01;31m[K^[m[K
+[5.271s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3156:48:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[uint {aka unsigned int}][m[K’ for array subscript
+[5.271s]  3156 |     m_pMapperSensorManager->ClearLastScan(names[01;31m[K[[m[Ki]);
+[5.271s]       |                                                [01;31m[K^[m[K
+[5.271s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:[m[K At global scope:
+[5.271s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3162:9:[m[K [01;31m[Kerror: [m[K‘[01m[KMapper[m[K’ has not been declared
+[5.271s]  3162 | kt_bool [01;31m[KMapper[m[K::RemoveNodeFromGraph(Vertex<LocalizedRangeScan> * vertex_to_remove)
+[5.271s]       |         [01;31m[K^~~~~~[m[K
+[5.271s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3162:37:[m[K [01;31m[Kerror: [m[K‘[01m[KVertex[m[K’ was not declared in this scope; did you mean ‘[01m[Kkarto::Vertex[m[K’?
+[5.271s]  3162 | kt_bool Mapper::RemoveNodeFromGraph([01;31m[KVertex[m[K<LocalizedRangeScan> * vertex_to_remove)
+[5.272s]       |                                     [01;31m[K^~~~~~[m[K
+[5.272s]       |                                     [32m[Kkarto::Vertex[m[K
+[5.272s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:39[m[K:
+[5.272s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:255:7:[m[K [01;36m[Knote: [m[K‘[01m[Kkarto::Vertex[m[K’ declared here
+[5.272s]   255 | class [01;36m[KVertex[m[K
+[5.272s]       |       [01;36m[K^~~~~~[m[K
+[5.273s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3162:44:[m[K [01;31m[Kerror: [m[K‘[01m[KLocalizedRangeScan[m[K’ was not declared in this scope; did you mean ‘[01m[Kkarto::LocalizedRangeScan[m[K’?
+[5.273s]  3162 | kt_bool Mapper::RemoveNodeFromGraph(Vertex<[01;31m[KLocalizedRangeScan[m[K> * vertex_to_remove)
+[5.273s]       |                                            [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.273s]       |                                            [32m[Kkarto::LocalizedRangeScan[m[K
+[5.273s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+[5.274s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:39[m[K:
+[5.274s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5451:7:[m[K [01;36m[Knote: [m[K‘[01m[Kkarto::LocalizedRangeScan[m[K’ declared here
+[5.274s]  5451 | class [01;36m[KLocalizedRangeScan[m[K : public LaserRangeScan
+[5.274s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.292s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3162:66:[m[K [01;31m[Kerror: [m[K‘[01m[Kvertex_to_remove[m[K’ was not declared in this scope
+[5.292s]  3162 | kt_bool Mapper::RemoveNodeFromGraph(Vertex<LocalizedRangeScan> * [01;31m[Kvertex_to_remove[m[K)
+[5.292s]       |                                                                  [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[5.292s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3221:9:[m[K [01;31m[Kerror: [m[K‘[01m[KMapper[m[K’ has not been declared
+[5.292s]  3221 | kt_bool [01;31m[KMapper[m[K::ProcessAgainstNode(
+[5.292s]       |         [01;31m[K^~~~~~[m[K
+[5.294s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3222:3:[m[K [01;31m[Kerror: [m[K‘[01m[KLocalizedRangeScan[m[K’ was not declared in this scope; did you mean ‘[01m[Kkarto::LocalizedRangeScan[m[K’?
+[5.294s]  3222 |   [01;31m[KLocalizedRangeScan[m[K * pScan,
+[5.294s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.294s]       |   [32m[Kkarto::LocalizedRangeScan[m[K
+[5.294s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+[5.294s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:39[m[K:
+[5.294s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5451:7:[m[K [01;36m[Knote: [m[K‘[01m[Kkarto::LocalizedRangeScan[m[K’ declared here
+[5.294s]  5451 | class [01;36m[KLocalizedRangeScan[m[K : public LaserRangeScan
+[5.294s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.302s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3222:24:[m[K [01;31m[Kerror: [m[K‘[01m[KpScan[m[K’ was not declared in this scope
+[5.302s]  3222 |   LocalizedRangeScan * [01;31m[KpScan[m[K,
+[5.302s]       |                        [01;31m[K^~~~~[m[K
+[5.302s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3223:3:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+[5.302s]  3223 |   [01;31m[Kconst[m[K int & nodeId,
+[5.302s]       |   [01;31m[K^~~~~[m[K
+[5.303s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3224:3:[m[K [01;31m[Kerror: [m[K‘[01m[KMatrix3[m[K’ was not declared in this scope
+[5.303s]  3224 |   [01;31m[KMatrix3[m[K * covariance)
+[5.303s]       |   [01;31m[K^~~~~~~[m[K
+[5.304s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3224:3:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[5.304s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:295[m[K,
+[5.304s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:34[m[K,
+[5.304s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:39[m[K:
+[5.304s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:520:7:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::Matrix3[m[K’
+[5.304s]   520 | using [01;36m[KMatrix[m[K##SizeSuffix = Matrix<Type, Size, Size>;              \
+[5.304s]       |       [01;36m[K^~~~~~[m[K
+[5.304s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:520:7:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KEIGEN_MAKE_TYPEDEFS[m[K’
+[5.304s]   520 | using [01;36m[KMatrix[m[K##SizeSuffix = Matrix<Type, Size, Size>;              \
+[5.304s]       |       [01;36m[K^~~~~~[m[K
+[5.304s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+[5.305s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:39[m[K:
+[5.305s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2437:7:[m[K [01;36m[Knote: [m[K  ‘[01m[Kkarto::Matrix3[m[K’
+[5.305s]  2437 | class [01;36m[KMatrix3[m[K
+[5.305s]       |       [01;36m[K^~~~~~~[m[K
+[5.316s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3224:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcovariance[m[K’ was not declared in this scope
+[5.316s]  3224 |   Matrix3 * [01;31m[Kcovariance[m[K)
+[5.316s]       |             [01;31m[K^~~~~~~~~~[m[K
+[5.316s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3224:23:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[5.317s]  3224 |   Matrix3 * covariance[01;31m[K)[m[K
+[5.317s]       |                       [01;31m[K^[m[K
+[5.317s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3296:9:[m[K [01;31m[Kerror: [m[K‘[01m[KMapper[m[K’ has not been declared
+[5.317s]  3296 | kt_bool [01;31m[KMapper[m[K::ProcessAtDock(LocalizedRangeScan * pScan, Matrix3 * covariance)
+[5.317s]       |         [01;31m[K^~~~~~[m[K
+[5.318s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3296:31:[m[K [01;31m[Kerror: [m[K‘[01m[KLocalizedRangeScan[m[K’ was not declared in this scope; did you mean ‘[01m[Kkarto::LocalizedRangeScan[m[K’?
+[5.318s]  3296 | kt_bool Mapper::ProcessAtDock([01;31m[KLocalizedRangeScan[m[K * pScan, Matrix3 * covariance)
+[5.318s]       |                               [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.318s]       |                               [32m[Kkarto::LocalizedRangeScan[m[K
+[5.318s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+[5.318s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:39[m[K:
+[5.318s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5451:7:[m[K [01;36m[Knote: [m[K‘[01m[Kkarto::LocalizedRangeScan[m[K’ declared here
+[5.319s]  5451 | class [01;36m[KLocalizedRangeScan[m[K : public LaserRangeScan
+[5.319s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.328s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3296:52:[m[K [01;31m[Kerror: [m[K‘[01m[KpScan[m[K’ was not declared in this scope
+[5.328s]  3296 | kt_bool Mapper::ProcessAtDock(LocalizedRangeScan * [01;31m[KpScan[m[K, Matrix3 * covariance)
+[5.328s]       |                                                    [01;31m[K^~~~~[m[K
+[5.329s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3296:59:[m[K [01;31m[Kerror: [m[K‘[01m[KMatrix3[m[K’ was not declared in this scope
+[5.329s]  3296 | kt_bool Mapper::ProcessAtDock(LocalizedRangeScan * pScan, [01;31m[KMatrix3[m[K * covariance)
+[5.330s]       |                                                           [01;31m[K^~~~~~~[m[K
+[5.330s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3296:59:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[5.330s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:295[m[K,
+[5.330s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:34[m[K,
+[5.330s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:39[m[K:
+[5.330s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:520:7:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::Matrix3[m[K’
+[5.330s]   520 | using [01;36m[KMatrix[m[K##SizeSuffix = Matrix<Type, Size, Size>;              \
+[5.330s]       |       [01;36m[K^~~~~~[m[K
+[5.330s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:520:7:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KEIGEN_MAKE_TYPEDEFS[m[K’
+[5.331s]   520 | using [01;36m[KMatrix[m[K##SizeSuffix = Matrix<Type, Size, Size>;              \
+[5.331s]       |       [01;36m[K^~~~~~[m[K
+[5.331s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+[5.331s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:39[m[K:
+[5.331s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2437:7:[m[K [01;36m[Knote: [m[K  ‘[01m[Kkarto::Matrix3[m[K’
+[5.331s]  2437 | class [01;36m[KMatrix3[m[K
+[5.331s]       |       [01;36m[K^~~~~~~[m[K
+[5.343s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3296:69:[m[K [01;31m[Kerror: [m[K‘[01m[Kcovariance[m[K’ was not declared in this scope
+[5.343s]  3296 | kt_bool Mapper::ProcessAtDock(LocalizedRangeScan * pScan, Matrix3 * [01;31m[Kcovariance[m[K)
+[5.343s]       |                                                                     [01;31m[K^~~~~~~~~~[m[K
+[5.343s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3296:79:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[5.343s]  3296 | kt_bool Mapper::ProcessAtDock(LocalizedRangeScan * pScan, Matrix3 * covariance[01;31m[K)[m[K
+[5.343s]       |                                                                               [01;31m[K^[m[K
+[5.343s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3308:9:[m[K [01;31m[Kerror: [m[K‘[01m[KMapper[m[K’ has not been declared
+[5.343s]  3308 | kt_bool [01;31m[KMapper[m[K::HasMovedEnough(LocalizedRangeScan * pScan, LocalizedRangeScan * pLastScan) const
+[5.344s]       |         [01;31m[K^~~~~~[m[K
+[5.344s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3308:32:[m[K [01;31m[Kerror: [m[K‘[01m[KLocalizedRangeScan[m[K’ was not declared in this scope; did you mean ‘[01m[Kkarto::LocalizedRangeScan[m[K’?
+[5.344s]  3308 | kt_bool Mapper::HasMovedEnough([01;31m[KLocalizedRangeScan[m[K * pScan, LocalizedRangeScan * pLastScan) const
+[5.345s]       |                                [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.345s]       |                                [32m[Kkarto::LocalizedRangeScan[m[K
+[5.345s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+[5.345s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:39[m[K:
+[5.345s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5451:7:[m[K [01;36m[Knote: [m[K‘[01m[Kkarto::LocalizedRangeScan[m[K’ declared here
+[5.345s]  5451 | class [01;36m[KLocalizedRangeScan[m[K : public LaserRangeScan
+[5.345s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.353s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3308:53:[m[K [01;31m[Kerror: [m[K‘[01m[KpScan[m[K’ was not declared in this scope
+[5.353s]  3308 | kt_bool Mapper::HasMovedEnough(LocalizedRangeScan * [01;31m[KpScan[m[K, LocalizedRangeScan * pLastScan) const
+[5.353s]       |                                                     [01;31m[K^~~~~[m[K
+[5.354s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3308:60:[m[K [01;31m[Kerror: [m[K‘[01m[KLocalizedRangeScan[m[K’ was not declared in this scope; did you mean ‘[01m[Kkarto::LocalizedRangeScan[m[K’?
+[5.354s]  3308 | kt_bool Mapper::HasMovedEnough(LocalizedRangeScan * pScan, [01;31m[KLocalizedRangeScan[m[K * pLastScan) const
+[5.354s]       |                                                            [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.354s]       |                                                            [32m[Kkarto::LocalizedRangeScan[m[K
+[5.355s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+[5.355s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:39[m[K:
+[5.355s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5451:7:[m[K [01;36m[Knote: [m[K‘[01m[Kkarto::LocalizedRangeScan[m[K’ declared here
+[5.355s]  5451 | class [01;36m[KLocalizedRangeScan[m[K : public LaserRangeScan
+[5.355s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.364s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3308:81:[m[K [01;31m[Kerror: [m[K‘[01m[KpLastScan[m[K’ was not declared in this scope
+[5.365s]  3308 | kt_bool Mapper::HasMovedEnough(LocalizedRangeScan * pScan, LocalizedRangeScan * [01;31m[KpLastScan[m[K) const
+[5.365s]       |                                                                                 [01;31m[K^~~~~~~~~[m[K
+[5.365s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3308:90:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[5.365s]  3308 | kt_bool Mapper::HasMovedEnough(LocalizedRangeScan * pScan, LocalizedRangeScan * pLastScan[01;31m[K)[m[K const
+[5.365s]       |                                                                                          [01;31m[K^[m[K
+[5.379s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3345:7:[m[K [01;31m[Kerror: [m[K‘[01m[KLocalizedRangeScanVector[m[K’ does not name a type
+[5.379s]  3345 | const [01;31m[KLocalizedRangeScanVector[m[K Mapper::GetAllProcessedScans() const
+[5.380s]       |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.380s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3360:6:[m[K [01;31m[Kerror: [m[K‘[01m[KMapper[m[K’ has not been declared
+[5.380s]  3360 | void [01;31m[KMapper[m[K::AddListener(MapperListener * pListener)
+[5.380s]       |      [01;31m[K^~~~~~[m[K
+[5.380s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3360:6:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[KAddListener[m[K’ declared void
+[5.381s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3360:26:[m[K [01;31m[Kerror: [m[K‘[01m[KMapperListener[m[K’ was not declared in this scope; did you mean ‘[01m[Kkarto::MapperListener[m[K’?
+[5.381s]  3360 | void Mapper::AddListener([01;31m[KMapperListener[m[K * pListener)
+[5.381s]       |                          [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.381s]       |                          [32m[Kkarto::MapperListener[m[K
+[5.381s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:39[m[K:
+[5.381s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:48:7:[m[K [01;36m[Knote: [m[K‘[01m[Kkarto::MapperListener[m[K’ declared here
+[5.381s]    48 | class [01;36m[KMapperListener[m[K
+[5.381s]       |       [01;36m[K^~~~~~~~~~~~~~[m[K
+[5.391s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3360:43:[m[K [01;31m[Kerror: [m[K‘[01m[KpListener[m[K’ was not declared in this scope
+[5.391s]  3360 | void Mapper::AddListener(MapperListener * [01;31m[KpListener[m[K)
+[5.392s]       |                                           [01;31m[K^~~~~~~~~[m[K
+[5.392s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3369:6:[m[K [01;31m[Kerror: [m[K‘[01m[KMapper[m[K’ has not been declared
+[5.392s]  3369 | void [01;31m[KMapper[m[K::RemoveListener(MapperListener * pListener)
+[5.392s]       |      [01;31m[K^~~~~~[m[K
+[5.392s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3369:6:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[KRemoveListener[m[K’ declared void
+[5.393s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3369:29:[m[K [01;31m[Kerror: [m[K‘[01m[KMapperListener[m[K’ was not declared in this scope; did you mean ‘[01m[Kkarto::MapperListener[m[K’?
+[5.393s]  3369 | void Mapper::RemoveListener([01;31m[KMapperListener[m[K * pListener)
+[5.393s]       |                             [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.393s]       |                             [32m[Kkarto::MapperListener[m[K
+[5.393s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:39[m[K:
+[5.393s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:48:7:[m[K [01;36m[Knote: [m[K‘[01m[Kkarto::MapperListener[m[K’ declared here
+[5.393s]    48 | class [01;36m[KMapperListener[m[K
+[5.394s]       |       [01;36m[K^~~~~~~~~~~~~~[m[K
+[5.403s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3369:46:[m[K [01;31m[Kerror: [m[K‘[01m[KpListener[m[K’ was not declared in this scope
+[5.403s]  3369 | void Mapper::RemoveListener(MapperListener * [01;31m[KpListener[m[K)
+[5.403s]       |                                              [01;31m[K^~~~~~~~~[m[K
+[5.404s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3378:6:[m[K [01;31m[Kerror: [m[K‘[01m[KMapper[m[K’ has not been declared
+[5.404s]  3378 | void [01;31m[KMapper[m[K::FireInfo(const std::string & rInfo) const
+[5.404s]       |      [01;31m[K^~~~~~[m[K
+[5.404s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3378:50:[m[K [01;31m[Kerror: [m[Knon-member function ‘[01m[Kvoid FireInfo(const string&)[m[K’ cannot have cv-qualifier
+[5.404s]  3378 | void Mapper::FireInfo(const std::string & rInfo) [01;31m[Kconst[m[K
+[5.404s]       |                                                  [01;31m[K^~~~~[m[K
+[5.419s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:60[m[K,
+[5.419s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+[5.419s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:39[m[K:
+[5.419s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:[m[K In function ‘[01m[Kvoid FireInfo(const string&)[m[K’:
+[5.419s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3380:29:[m[K [01;31m[Kerror: [m[K‘[01m[KMapperListener[m[K’ was not declared in this scope; did you mean ‘[01m[Kkarto::MapperListener[m[K’?
+[5.420s]  3380 |   const_forEach(std::vector<[01;31m[KMapperListener[m[K *>, &m_Listeners)
+[5.420s]       |                             [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.420s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:8:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Kconst_forEach[m[K’
+[5.420s]    75 |   for ([01;36m[Klisttype[m[K::const_iterator iter = (list)->begin(); iter != (list)->end(); ++iter)
+[5.420s]       |        [01;36m[K^~~~~~~~[m[K
+[5.420s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:39[m[K:
+[5.420s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:48:7:[m[K [01;36m[Knote: [m[K‘[01m[Kkarto::MapperListener[m[K’ declared here
+[5.420s]    48 | class [01;36m[KMapperListener[m[K
+[5.420s]       |       [01;36m[K^~~~~~~~~~~~~~[m[K
+[5.420s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:60[m[K,
+[5.420s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+[5.420s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:39[m[K:
+[5.421s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3380:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.421s]  3380 |   const_forEach(std::vector<MapperListener *[01;31m[K>[m[K, &m_Listeners)
+[5.421s]       |                                             [01;31m[K^[m[K
+[5.421s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:8:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Kconst_forEach[m[K’
+[5.421s]    75 |   for ([01;36m[Klisttype[m[K::const_iterator iter = (list)->begin(); iter != (list)->end(); ++iter)
+[5.421s]       |        [01;36m[K^~~~~~~~[m[K
+[5.421s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3380:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[5.421s]  3380 |   const_forEach(std::vector<MapperListener *[01;31m[K>[m[K, &m_Listeners)
+[5.421s]       |                                             [01;31m[K^[m[K
+[5.421s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:8:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Kconst_forEach[m[K’
+[5.421s]    75 |   for ([01;36m[Klisttype[m[K::const_iterator iter = (list)->begin(); iter != (list)->end(); ++iter)
+[5.421s]       |        [01;36m[K^~~~~~~~[m[K
+[5.421s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:33:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[Kiter[m[K’
+[5.421s]    75 |   for (listtype::const_iterator [01;31m[Kiter[m[K = (list)->begin(); iter != (list)->end(); ++iter)
+[5.421s]       |                                 [01;31m[K^~~~[m[K
+[5.421s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:33:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Kconst_forEach[m[K’
+[5.421s]    75 |   for (listtype::const_iterator [01;36m[Kiter[m[K = (list)->begin(); iter != (list)->end(); ++iter)
+[5.422s]       |                                 [01;36m[K^~~~[m[K
+[5.422s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:33:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kiter[m[K’
+[5.422s]    75 |   for (listtype::const_iterator [01;31m[Kiter[m[K = (list)->begin(); iter != (list)->end(); ++iter)
+[5.422s]       |                                 [01;31m[K^~~~[m[K
+[5.422s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:33:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Kconst_forEach[m[K’
+[5.422s]    75 |   for (listtype::const_iterator [01;36m[Kiter[m[K = (list)->begin(); iter != (list)->end(); ++iter)
+[5.422s]       |                                 [01;36m[K^~~~[m[K
+[5.430s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kiter[m[K’ was not declared in this scope
+[5.430s]    75 |   for (listtype::const_iterator [01;31m[Kiter[m[K = (list)->begin(); iter != (list)->end(); ++iter)
+[5.430s]       |                                 [01;31m[K^~~~[m[K
+[5.430s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:33:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Kconst_forEach[m[K’
+[5.430s]    75 |   for (listtype::const_iterator [01;36m[Kiter[m[K = (list)->begin(); iter != (list)->end(); ++iter)
+[5.430s]       |                                 [01;36m[K^~~~[m[K
+[5.443s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3380:49:[m[K [01;31m[Kerror: [m[K‘[01m[Km_Listeners[m[K’ was not declared in this scope
+[5.443s]  3380 |   const_forEach(std::vector<MapperListener *>, &[01;31m[Km_Listeners[m[K)
+[5.444s]       |                                                 [01;31m[K^~~~~~~~~~~[m[K
+[5.444s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:41:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Kconst_forEach[m[K’
+[5.444s]    75 |   for (listtype::const_iterator iter = ([01;36m[Klist[m[K)->begin(); iter != (list)->end(); ++iter)
+[5.444s]       |                                         [01;36m[K^~~~[m[K
+[5.444s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:78:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[5.444s]    75 |   for [32m[K([m[Klisttype::const_iterator iter = (list)->begin(); iter != (list)->end()[01;31m[K;[m[K ++iter)
+[5.444s]       |       [32m[K~[m[K                                                                      [01;31m[K^[m[K
+[5.444s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3380:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[Kconst_forEach[m[K’
+[5.444s]  3380 |   [01;36m[Kconst_forEach[m[K(std::vector<MapperListener *>, &m_Listeners)
+[5.444s]       |   [01;36m[K^~~~~~~~~~~~~[m[K
+[5.451s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:82:[m[K [01;31m[Kerror: [m[K‘[01m[Kiter[m[K’ was not declared in this scope
+[5.451s]    75 |   for (listtype::const_iterator iter = (list)->begin(); iter != (list)->end(); ++[01;31m[Kiter[m[K)
+[5.452s]       |                                                                                  [01;31m[K^~~~[m[K
+[5.452s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:82:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Kconst_forEach[m[K’
+[5.452s]    75 |   for (listtype::const_iterator iter = (list)->begin(); iter != (list)->end(); ++[01;36m[Kiter[m[K)
+[5.452s]       |                                                                                  [01;36m[K^~~~[m[K
+[5.452s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:[m[K At global scope:
+[5.452s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3386:6:[m[K [01;31m[Kerror: [m[K‘[01m[KMapper[m[K’ has not been declared
+[5.452s]  3386 | void [01;31m[KMapper[m[K::FireDebug(const std::string & rInfo) const
+[5.452s]       |      [01;31m[K^~~~~~[m[K
+[5.452s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3386:51:[m[K [01;31m[Kerror: [m[Knon-member function ‘[01m[Kvoid FireDebug(const string&)[m[K’ cannot have cv-qualifier
+[5.452s]  3386 | void Mapper::FireDebug(const std::string & rInfo) [01;31m[Kconst[m[K
+[5.453s]       |                                                   [01;31m[K^~~~~[m[K
+[5.453s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:60[m[K,
+[5.453s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+[5.453s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:39[m[K:
+[5.453s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:[m[K In function ‘[01m[Kvoid FireDebug(const string&)[m[K’:
+[5.453s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3388:29:[m[K [01;31m[Kerror: [m[K‘[01m[KMapperListener[m[K’ was not declared in this scope; did you mean ‘[01m[Kkarto::MapperListener[m[K’?
+[5.454s]  3388 |   const_forEach(std::vector<[01;31m[KMapperListener[m[K *>, &m_Listeners)
+[5.454s]       |                             [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.454s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:8:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Kconst_forEach[m[K’
+[5.454s]    75 |   for ([01;36m[Klisttype[m[K::const_iterator iter = (list)->begin(); iter != (list)->end(); ++iter)
+[5.454s]       |        [01;36m[K^~~~~~~~[m[K
+[5.454s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:39[m[K:
+[5.454s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:48:7:[m[K [01;36m[Knote: [m[K‘[01m[Kkarto::MapperListener[m[K’ declared here
+[5.454s]    48 | class [01;36m[KMapperListener[m[K
+[5.454s]       |       [01;36m[K^~~~~~~~~~~~~~[m[K
+[5.454s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:60[m[K,
+[5.454s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+[5.454s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:39[m[K:
+[5.454s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3388:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.455s]  3388 |   const_forEach(std::vector<MapperListener *[01;31m[K>[m[K, &m_Listeners)
+[5.455s]       |                                             [01;31m[K^[m[K
+[5.455s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:8:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Kconst_forEach[m[K’
+[5.455s]    75 |   for ([01;36m[Klisttype[m[K::const_iterator iter = (list)->begin(); iter != (list)->end(); ++iter)
+[5.455s]       |        [01;36m[K^~~~~~~~[m[K
+[5.455s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3388:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[5.455s]  3388 |   const_forEach(std::vector<MapperListener *[01;31m[K>[m[K, &m_Listeners)
+[5.455s]       |                                             [01;31m[K^[m[K
+[5.455s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:8:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Kconst_forEach[m[K’
+[5.455s]    75 |   for ([01;36m[Klisttype[m[K::const_iterator iter = (list)->begin(); iter != (list)->end(); ++iter)
+[5.455s]       |        [01;36m[K^~~~~~~~[m[K
+[5.455s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:33:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[Kiter[m[K’
+[5.455s]    75 |   for (listtype::const_iterator [01;31m[Kiter[m[K = (list)->begin(); iter != (list)->end(); ++iter)
+[5.455s]       |                                 [01;31m[K^~~~[m[K
+[5.455s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:33:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Kconst_forEach[m[K’
+[5.455s]    75 |   for (listtype::const_iterator [01;36m[Kiter[m[K = (list)->begin(); iter != (list)->end(); ++iter)
+[5.455s]       |                                 [01;36m[K^~~~[m[K
+[5.456s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:33:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kiter[m[K’
+[5.456s]    75 |   for (listtype::const_iterator [01;31m[Kiter[m[K = (list)->begin(); iter != (list)->end(); ++iter)
+[5.456s]       |                                 [01;31m[K^~~~[m[K
+[5.456s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:33:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Kconst_forEach[m[K’
+[5.456s]    75 |   for (listtype::const_iterator [01;36m[Kiter[m[K = (list)->begin(); iter != (list)->end(); ++iter)
+[5.456s]       |                                 [01;36m[K^~~~[m[K
+[5.462s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kiter[m[K’ was not declared in this scope
+[5.462s]    75 |   for (listtype::const_iterator [01;31m[Kiter[m[K = (list)->begin(); iter != (list)->end(); ++iter)
+[5.462s]       |                                 [01;31m[K^~~~[m[K
+[5.462s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:33:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Kconst_forEach[m[K’
+[5.462s]    75 |   for (listtype::const_iterator [01;36m[Kiter[m[K = (list)->begin(); iter != (list)->end(); ++iter)
+[5.462s]       |                                 [01;36m[K^~~~[m[K
+[5.474s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3388:49:[m[K [01;31m[Kerror: [m[K‘[01m[Km_Listeners[m[K’ was not declared in this scope
+[5.474s]  3388 |   const_forEach(std::vector<MapperListener *>, &[01;31m[Km_Listeners[m[K)
+[5.475s]       |                                                 [01;31m[K^~~~~~~~~~~[m[K
+[5.475s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:41:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Kconst_forEach[m[K’
+[5.475s]    75 |   for (listtype::const_iterator iter = ([01;36m[Klist[m[K)->begin(); iter != (list)->end(); ++iter)
+[5.475s]       |                                         [01;36m[K^~~~[m[K
+[5.475s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:78:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[5.475s]    75 |   for [32m[K([m[Klisttype::const_iterator iter = (list)->begin(); iter != (list)->end()[01;31m[K;[m[K ++iter)
+[5.475s]       |       [32m[K~[m[K                                                                      [01;31m[K^[m[K
+[5.475s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3388:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[Kconst_forEach[m[K’
+[5.475s]  3388 |   [01;36m[Kconst_forEach[m[K(std::vector<MapperListener *>, &m_Listeners)
+[5.475s]       |   [01;36m[K^~~~~~~~~~~~~[m[K
+[5.482s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:82:[m[K [01;31m[Kerror: [m[K‘[01m[Kiter[m[K’ was not declared in this scope
+[5.482s]    75 |   for (listtype::const_iterator iter = (list)->begin(); iter != (list)->end(); ++[01;31m[Kiter[m[K)
+[5.482s]       |                                                                                  [01;31m[K^~~~[m[K
+[5.483s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:82:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Kconst_forEach[m[K’
+[5.483s]    75 |   for (listtype::const_iterator iter = (list)->begin(); iter != (list)->end(); ++[01;36m[Kiter[m[K)
+[5.483s]       |                                                                                  [01;36m[K^~~~[m[K
+[5.483s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:[m[K At global scope:
+[5.483s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3398:6:[m[K [01;31m[Kerror: [m[K‘[01m[KMapper[m[K’ has not been declared
+[5.483s]  3398 | void [01;31m[KMapper[m[K::FireLoopClosureCheck(const std::string & rInfo) const
+[5.483s]       |      [01;31m[K^~~~~~[m[K
+[5.483s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3398:62:[m[K [01;31m[Kerror: [m[Knon-member function ‘[01m[Kvoid FireLoopClosureCheck(const string&)[m[K’ cannot have cv-qualifier
+[5.483s]  3398 | void Mapper::FireLoopClosureCheck(const std::string & rInfo) [01;31m[Kconst[m[K
+[5.483s]       |                                                              [01;31m[K^~~~~[m[K
+[5.484s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:60[m[K,
+[5.484s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+[5.484s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:39[m[K:
+[5.484s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:[m[K In function ‘[01m[Kvoid FireLoopClosureCheck(const string&)[m[K’:
+[5.484s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3400:29:[m[K [01;31m[Kerror: [m[K‘[01m[KMapperListener[m[K’ was not declared in this scope; did you mean ‘[01m[Kkarto::MapperListener[m[K’?
+[5.484s]  3400 |   const_forEach(std::vector<[01;31m[KMapperListener[m[K *>, &m_Listeners)
+[5.485s]       |                             [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.485s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:8:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Kconst_forEach[m[K’
+[5.485s]    75 |   for ([01;36m[Klisttype[m[K::const_iterator iter = (list)->begin(); iter != (list)->end(); ++iter)
+[5.485s]       |        [01;36m[K^~~~~~~~[m[K
+[5.485s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:39[m[K:
+[5.485s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:48:7:[m[K [01;36m[Knote: [m[K‘[01m[Kkarto::MapperListener[m[K’ declared here
+[5.485s]    48 | class [01;36m[KMapperListener[m[K
+[5.485s]       |       [01;36m[K^~~~~~~~~~~~~~[m[K
+[5.485s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:60[m[K,
+[5.485s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+[5.485s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:39[m[K:
+[5.485s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3400:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.485s]  3400 |   const_forEach(std::vector<MapperListener *[01;31m[K>[m[K, &m_Listeners)
+[5.485s]       |                                             [01;31m[K^[m[K
+[5.486s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:8:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Kconst_forEach[m[K’
+[5.486s]    75 |   for ([01;36m[Klisttype[m[K::const_iterator iter = (list)->begin(); iter != (list)->end(); ++iter)
+[5.486s]       |        [01;36m[K^~~~~~~~[m[K
+[5.486s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3400:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[5.486s]  3400 |   const_forEach(std::vector<MapperListener *[01;31m[K>[m[K, &m_Listeners)
+[5.486s]       |                                             [01;31m[K^[m[K
+[5.486s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:8:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Kconst_forEach[m[K’
+[5.486s]    75 |   for ([01;36m[Klisttype[m[K::const_iterator iter = (list)->begin(); iter != (list)->end(); ++iter)
+[5.486s]       |        [01;36m[K^~~~~~~~[m[K
+[5.486s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:33:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[Kiter[m[K’
+[5.486s]    75 |   for (listtype::const_iterator [01;31m[Kiter[m[K = (list)->begin(); iter != (list)->end(); ++iter)
+[5.486s]       |                                 [01;31m[K^~~~[m[K
+[5.486s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:33:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Kconst_forEach[m[K’
+[5.486s]    75 |   for (listtype::const_iterator [01;36m[Kiter[m[K = (list)->begin(); iter != (list)->end(); ++iter)
+[5.486s]       |                                 [01;36m[K^~~~[m[K
+[5.486s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:33:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kiter[m[K’
+[5.486s]    75 |   for (listtype::const_iterator [01;31m[Kiter[m[K = (list)->begin(); iter != (list)->end(); ++iter)
+[5.487s]       |                                 [01;31m[K^~~~[m[K
+[5.487s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:33:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Kconst_forEach[m[K’
+[5.487s]    75 |   for (listtype::const_iterator [01;36m[Kiter[m[K = (list)->begin(); iter != (list)->end(); ++iter)
+[5.487s]       |                                 [01;36m[K^~~~[m[K
+[5.492s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kiter[m[K’ was not declared in this scope
+[5.493s]    75 |   for (listtype::const_iterator [01;31m[Kiter[m[K = (list)->begin(); iter != (list)->end(); ++iter)
+[5.493s]       |                                 [01;31m[K^~~~[m[K
+[5.493s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:33:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Kconst_forEach[m[K’
+[5.493s]    75 |   for (listtype::const_iterator [01;36m[Kiter[m[K = (list)->begin(); iter != (list)->end(); ++iter)
+[5.493s]       |                                 [01;36m[K^~~~[m[K
+[5.506s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3400:49:[m[K [01;31m[Kerror: [m[K‘[01m[Km_Listeners[m[K’ was not declared in this scope
+[5.506s]  3400 |   const_forEach(std::vector<MapperListener *>, &[01;31m[Km_Listeners[m[K)
+[5.506s]       |                                                 [01;31m[K^~~~~~~~~~~[m[K
+[5.506s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:41:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Kconst_forEach[m[K’
+[5.506s]    75 |   for (listtype::const_iterator iter = ([01;36m[Klist[m[K)->begin(); iter != (list)->end(); ++iter)
+[5.506s]       |                                         [01;36m[K^~~~[m[K
+[5.506s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:78:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[5.506s]    75 |   for [32m[K([m[Klisttype::const_iterator iter = (list)->begin(); iter != (list)->end()[01;31m[K;[m[K ++iter)
+[5.506s]       |       [32m[K~[m[K                                                                      [01;31m[K^[m[K
+[5.506s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3400:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[Kconst_forEach[m[K’
+[5.506s]  3400 |   [01;36m[Kconst_forEach[m[K(std::vector<MapperListener *>, &m_Listeners)
+[5.507s]       |   [01;36m[K^~~~~~~~~~~~~[m[K
+[5.514s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:82:[m[K [01;31m[Kerror: [m[K‘[01m[Kiter[m[K’ was not declared in this scope
+[5.514s]    75 |   for (listtype::const_iterator iter = (list)->begin(); iter != (list)->end(); ++[01;31m[Kiter[m[K)
+[5.514s]       |                                                                                  [01;31m[K^~~~[m[K
+[5.514s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:82:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Kconst_forEach[m[K’
+[5.514s]    75 |   for (listtype::const_iterator iter = (list)->begin(); iter != (list)->end(); ++[01;36m[Kiter[m[K)
+[5.514s]       |                                                                                  [01;36m[K^~~~[m[K
+[5.514s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:[m[K At global scope:
+[5.515s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3410:6:[m[K [01;31m[Kerror: [m[K‘[01m[KMapper[m[K’ has not been declared
+[5.515s]  3410 | void [01;31m[KMapper[m[K::FireBeginLoopClosure(const std::string & rInfo) const
+[5.515s]       |      [01;31m[K^~~~~~[m[K
+[5.515s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3410:62:[m[K [01;31m[Kerror: [m[Knon-member function ‘[01m[Kvoid FireBeginLoopClosure(const string&)[m[K’ cannot have cv-qualifier
+[5.515s]  3410 | void Mapper::FireBeginLoopClosure(const std::string & rInfo) [01;31m[Kconst[m[K
+[5.515s]       |                                                              [01;31m[K^~~~~[m[K
+[5.516s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:60[m[K,
+[5.516s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+[5.516s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:39[m[K:
+[5.516s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:[m[K In function ‘[01m[Kvoid FireBeginLoopClosure(const string&)[m[K’:
+[5.516s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3412:29:[m[K [01;31m[Kerror: [m[K‘[01m[KMapperListener[m[K’ was not declared in this scope; did you mean ‘[01m[Kkarto::MapperListener[m[K’?
+[5.516s]  3412 |   const_forEach(std::vector<[01;31m[KMapperListener[m[K *>, &m_Listeners)
+[5.516s]       |                             [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.517s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:8:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Kconst_forEach[m[K’
+[5.517s]    75 |   for ([01;36m[Klisttype[m[K::const_iterator iter = (list)->begin(); iter != (list)->end(); ++iter)
+[5.517s]       |        [01;36m[K^~~~~~~~[m[K
+[5.517s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:39[m[K:
+[5.517s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:48:7:[m[K [01;36m[Knote: [m[K‘[01m[Kkarto::MapperListener[m[K’ declared here
+[5.517s]    48 | class [01;36m[KMapperListener[m[K
+[5.517s]       |       [01;36m[K^~~~~~~~~~~~~~[m[K
+[5.517s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:60[m[K,
+[5.517s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+[5.517s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:39[m[K:
+[5.517s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3412:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.517s]  3412 |   const_forEach(std::vector<MapperListener *[01;31m[K>[m[K, &m_Listeners)
+[5.517s]       |                                             [01;31m[K^[m[K
+[5.518s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:8:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Kconst_forEach[m[K’
+[5.518s]    75 |   for ([01;36m[Klisttype[m[K::const_iterator iter = (list)->begin(); iter != (list)->end(); ++iter)
+[5.518s]       |        [01;36m[K^~~~~~~~[m[K
+[5.518s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3412:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[5.518s]  3412 |   const_forEach(std::vector<MapperListener *[01;31m[K>[m[K, &m_Listeners)
+[5.518s]       |                                             [01;31m[K^[m[K
+[5.518s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:8:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Kconst_forEach[m[K’
+[5.518s]    75 |   for ([01;36m[Klisttype[m[K::const_iterator iter = (list)->begin(); iter != (list)->end(); ++iter)
+[5.518s]       |        [01;36m[K^~~~~~~~[m[K
+[5.518s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:33:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[Kiter[m[K’
+[5.518s]    75 |   for (listtype::const_iterator [01;31m[Kiter[m[K = (list)->begin(); iter != (list)->end(); ++iter)
+[5.518s]       |                                 [01;31m[K^~~~[m[K
+[5.518s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:33:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Kconst_forEach[m[K’
+[5.518s]    75 |   for (listtype::const_iterator [01;36m[Kiter[m[K = (list)->begin(); iter != (list)->end(); ++iter)
+[5.518s]       |                                 [01;36m[K^~~~[m[K
+[5.519s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:33:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kiter[m[K’
+[5.519s]    75 |   for (listtype::const_iterator [01;31m[Kiter[m[K = (list)->begin(); iter != (list)->end(); ++iter)
+[5.519s]       |                                 [01;31m[K^~~~[m[K
+[5.519s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:33:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Kconst_forEach[m[K’
+[5.519s]    75 |   for (listtype::const_iterator [01;36m[Kiter[m[K = (list)->begin(); iter != (list)->end(); ++iter)
+[5.519s]       |                                 [01;36m[K^~~~[m[K
+[5.526s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kiter[m[K’ was not declared in this scope
+[5.526s]    75 |   for (listtype::const_iterator [01;31m[Kiter[m[K = (list)->begin(); iter != (list)->end(); ++iter)
+[5.526s]       |                                 [01;31m[K^~~~[m[K
+[5.526s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:33:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Kconst_forEach[m[K’
+[5.527s]    75 |   for (listtype::const_iterator [01;36m[Kiter[m[K = (list)->begin(); iter != (list)->end(); ++iter)
+[5.527s]       |                                 [01;36m[K^~~~[m[K
+[5.540s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3412:49:[m[K [01;31m[Kerror: [m[K‘[01m[Km_Listeners[m[K’ was not declared in this scope
+[5.540s]  3412 |   const_forEach(std::vector<MapperListener *>, &[01;31m[Km_Listeners[m[K)
+[5.540s]       |                                                 [01;31m[K^~~~~~~~~~~[m[K
+[5.540s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:41:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Kconst_forEach[m[K’
+[5.541s]    75 |   for (listtype::const_iterator iter = ([01;36m[Klist[m[K)->begin(); iter != (list)->end(); ++iter)
+[5.541s]       |                                         [01;36m[K^~~~[m[K
+[5.541s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:78:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[5.541s]    75 |   for [32m[K([m[Klisttype::const_iterator iter = (list)->begin(); iter != (list)->end()[01;31m[K;[m[K ++iter)
+[5.541s]       |       [32m[K~[m[K                                                                      [01;31m[K^[m[K
+[5.541s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3412:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[Kconst_forEach[m[K’
+[5.541s]  3412 |   [01;36m[Kconst_forEach[m[K(std::vector<MapperListener *>, &m_Listeners)
+[5.541s]       |   [01;36m[K^~~~~~~~~~~~~[m[K
+[5.548s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:82:[m[K [01;31m[Kerror: [m[K‘[01m[Kiter[m[K’ was not declared in this scope
+[5.549s]    75 |   for (listtype::const_iterator iter = (list)->begin(); iter != (list)->end(); ++[01;31m[Kiter[m[K)
+[5.549s]       |                                                                                  [01;31m[K^~~~[m[K
+[5.549s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:82:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Kconst_forEach[m[K’
+[5.549s]    75 |   for (listtype::const_iterator iter = (list)->begin(); iter != (list)->end(); ++[01;36m[Kiter[m[K)
+[5.549s]       |                                                                                  [01;36m[K^~~~[m[K
+[5.549s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:[m[K At global scope:
+[5.549s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3422:6:[m[K [01;31m[Kerror: [m[K‘[01m[KMapper[m[K’ has not been declared
+[5.549s]  3422 | void [01;31m[KMapper[m[K::FireEndLoopClosure(const std::string & rInfo) const
+[5.549s]       |      [01;31m[K^~~~~~[m[K
+[5.549s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3422:60:[m[K [01;31m[Kerror: [m[Knon-member function ‘[01m[Kvoid FireEndLoopClosure(const string&)[m[K’ cannot have cv-qualifier
+[5.550s]  3422 | void Mapper::FireEndLoopClosure(const std::string & rInfo) [01;31m[Kconst[m[K
+[5.550s]       |                                                            [01;31m[K^~~~~[m[K
+[5.550s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:60[m[K,
+[5.550s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+[5.550s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:39[m[K:
+[5.550s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:[m[K In function ‘[01m[Kvoid FireEndLoopClosure(const string&)[m[K’:
+[5.551s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3424:29:[m[K [01;31m[Kerror: [m[K‘[01m[KMapperListener[m[K’ was not declared in this scope; did you mean ‘[01m[Kkarto::MapperListener[m[K’?
+[5.551s]  3424 |   const_forEach(std::vector<[01;31m[KMapperListener[m[K *>, &m_Listeners)
+[5.551s]       |                             [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.551s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:8:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Kconst_forEach[m[K’
+[5.551s]    75 |   for ([01;36m[Klisttype[m[K::const_iterator iter = (list)->begin(); iter != (list)->end(); ++iter)
+[5.551s]       |        [01;36m[K^~~~~~~~[m[K
+[5.551s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:39[m[K:
+[5.551s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:48:7:[m[K [01;36m[Knote: [m[K‘[01m[Kkarto::MapperListener[m[K’ declared here
+[5.551s]    48 | class [01;36m[KMapperListener[m[K
+[5.551s]       |       [01;36m[K^~~~~~~~~~~~~~[m[K
+[5.551s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:60[m[K,
+[5.551s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+[5.551s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:39[m[K:
+[5.552s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3424:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.552s]  3424 |   const_forEach(std::vector<MapperListener *[01;31m[K>[m[K, &m_Listeners)
+[5.552s]       |                                             [01;31m[K^[m[K
+[5.552s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:8:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Kconst_forEach[m[K’
+[5.552s]    75 |   for ([01;36m[Klisttype[m[K::const_iterator iter = (list)->begin(); iter != (list)->end(); ++iter)
+[5.552s]       |        [01;36m[K^~~~~~~~[m[K
+[5.552s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3424:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[5.552s]  3424 |   const_forEach(std::vector<MapperListener *[01;31m[K>[m[K, &m_Listeners)
+[5.552s]       |                                             [01;31m[K^[m[K
+[5.552s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:8:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Kconst_forEach[m[K’
+[5.552s]    75 |   for ([01;36m[Klisttype[m[K::const_iterator iter = (list)->begin(); iter != (list)->end(); ++iter)
+[5.552s]       |        [01;36m[K^~~~~~~~[m[K
+[5.552s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:33:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[Kiter[m[K’
+[5.552s]    75 |   for (listtype::const_iterator [01;31m[Kiter[m[K = (list)->begin(); iter != (list)->end(); ++iter)
+[5.553s]       |                                 [01;31m[K^~~~[m[K
+[5.553s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:33:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Kconst_forEach[m[K’
+[5.553s]    75 |   for (listtype::const_iterator [01;36m[Kiter[m[K = (list)->begin(); iter != (list)->end(); ++iter)
+[5.553s]       |                                 [01;36m[K^~~~[m[K
+[5.553s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:33:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kiter[m[K’
+[5.553s]    75 |   for (listtype::const_iterator [01;31m[Kiter[m[K = (list)->begin(); iter != (list)->end(); ++iter)
+[5.553s]       |                                 [01;31m[K^~~~[m[K
+[5.553s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:33:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Kconst_forEach[m[K’
+[5.553s]    75 |   for (listtype::const_iterator [01;36m[Kiter[m[K = (list)->begin(); iter != (list)->end(); ++iter)
+[5.553s]       |                                 [01;36m[K^~~~[m[K
+[5.559s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kiter[m[K’ was not declared in this scope
+[5.559s]    75 |   for (listtype::const_iterator [01;31m[Kiter[m[K = (list)->begin(); iter != (list)->end(); ++iter)
+[5.559s]       |                                 [01;31m[K^~~~[m[K
+[5.559s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:33:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Kconst_forEach[m[K’
+[5.559s]    75 |   for (listtype::const_iterator [01;36m[Kiter[m[K = (list)->begin(); iter != (list)->end(); ++iter)
+[5.559s]       |                                 [01;36m[K^~~~[m[K
+[5.572s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3424:49:[m[K [01;31m[Kerror: [m[K‘[01m[Km_Listeners[m[K’ was not declared in this scope
+[5.572s]  3424 |   const_forEach(std::vector<MapperListener *>, &[01;31m[Km_Listeners[m[K)
+[5.572s]       |                                                 [01;31m[K^~~~~~~~~~~[m[K
+[5.572s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:41:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Kconst_forEach[m[K’
+[5.572s]    75 |   for (listtype::const_iterator iter = ([01;36m[Klist[m[K)->begin(); iter != (list)->end(); ++iter)
+[5.572s]       |                                         [01;36m[K^~~~[m[K
+[5.572s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:78:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[5.573s]    75 |   for [32m[K([m[Klisttype::const_iterator iter = (list)->begin(); iter != (list)->end()[01;31m[K;[m[K ++iter)
+[5.573s]       |       [32m[K~[m[K                                                                      [01;31m[K^[m[K
+[5.573s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3424:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[Kconst_forEach[m[K’
+[5.573s]  3424 |   [01;36m[Kconst_forEach[m[K(std::vector<MapperListener *>, &m_Listeners)
+[5.573s]       |   [01;36m[K^~~~~~~~~~~~~[m[K
+[5.580s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:82:[m[K [01;31m[Kerror: [m[K‘[01m[Kiter[m[K’ was not declared in this scope
+[5.580s]    75 |   for (listtype::const_iterator iter = (list)->begin(); iter != (list)->end(); ++[01;31m[Kiter[m[K)
+[5.580s]       |                                                                                  [01;31m[K^~~~[m[K
+[5.580s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Macros.h:75:82:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Kconst_forEach[m[K’
+[5.580s]    75 |   for (listtype::const_iterator iter = (list)->begin(); iter != (list)->end(); ++[01;36m[Kiter[m[K)
+[5.580s]       |                                                                                  [01;36m[K^~~~[m[K
+[5.580s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:[m[K At global scope:
+[5.581s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3434:6:[m[K [01;31m[Kerror: [m[K‘[01m[KMapper[m[K’ has not been declared
+[5.581s]  3434 | void [01;31m[KMapper[m[K::SetScanSolver(ScanSolver * pScanOptimizer)
+[5.581s]       |      [01;31m[K^~~~~~[m[K
+[5.581s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3434:6:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[KSetScanSolver[m[K’ declared void
+[5.581s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3434:28:[m[K [01;31m[Kerror: [m[K‘[01m[KScanSolver[m[K’ was not declared in this scope; did you mean ‘[01m[Kkarto::ScanSolver[m[K’?
+[5.581s]  3434 | void Mapper::SetScanSolver([01;31m[KScanSolver[m[K * pScanOptimizer)
+[5.581s]       |                            [01;31m[K^~~~~~~~~~[m[K
+[5.582s]       |                            [32m[Kkarto::ScanSolver[m[K
+[5.582s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:39[m[K:
+[5.582s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:954:7:[m[K [01;36m[Knote: [m[K‘[01m[Kkarto::ScanSolver[m[K’ declared here
+[5.582s]   954 | class [01;36m[KScanSolver[m[K
+[5.582s]       |       [01;36m[K^~~~~~~~~~[m[K
+[5.598s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3434:41:[m[K [01;31m[Kerror: [m[K‘[01m[KpScanOptimizer[m[K’ was not declared in this scope
+[5.598s]  3434 | void Mapper::SetScanSolver(ScanSolver * [01;31m[KpScanOptimizer[m[K)
+[5.598s]       |                                         [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.603s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3439:1:[m[K [01;31m[Kerror: [m[K‘[01m[KScanSolver[m[K’ does not name a type
+[5.604s]  3439 | [01;31m[KScanSolver[m[K * Mapper::getScanSolver()
+[5.604s]       | [01;31m[K^~~~~~~~~~[m[K
+[5.609s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3444:1:[m[K [01;31m[Kerror: [m[K‘[01m[KMapperGraph[m[K’ does not name a type
+[5.609s]  3444 | [01;31m[KMapperGraph[m[K * Mapper::GetGraph() const
+[5.609s]       | [01;31m[K^~~~~~~~~~~[m[K
+[5.614s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3449:1:[m[K [01;31m[Kerror: [m[K‘[01m[KScanMatcher[m[K’ does not name a type
+[5.615s]  3449 | [01;31m[KScanMatcher[m[K * Mapper::GetSequentialScanMatcher() const
+[5.615s]       | [01;31m[K^~~~~~~~~~~[m[K
+[5.621s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3454:1:[m[K [01;31m[Kerror: [m[K‘[01m[KScanMatcher[m[K’ does not name a type
+[5.621s]  3454 | [01;31m[KScanMatcher[m[K * Mapper::GetLoopScanMatcher() const
+[5.621s]       | [01;31m[K^~~~~~~~~~~[m[K
+[5.621s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:3458:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[5.621s]  3458 | [01;31m[K}[m[K  // namespace karto
+[5.621s]       | [01;31m[K^[m[K
+[8.259s] gmake[2]: *** [lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/build.make:90: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o] Error 1
+[8.259s] gmake[1]: *** [CMakeFiles/Makefile2:1045: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/all] Error 2
+[8.260s] gmake: *** [Makefile:146: all] Error 2
+[8.263s] Invoked command in '/home/hp/ROS2_WS/build/slam_toolbox' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/dynamic_tf:/opt/ros/humble /usr/bin/cmake --build /home/hp/ROS2_WS/build/slam_toolbox -- -j8 -l8

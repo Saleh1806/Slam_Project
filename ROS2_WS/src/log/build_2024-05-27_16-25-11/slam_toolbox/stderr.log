@@ -1,0 +1,9 @@
+/usr/bin/ld: CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o: in function `karto::operator<<(std::ostream&, karto::LocalizedRangeScan const&)':
+Mapper.cpp:(.text+0x1b80): multiple definition of `karto::operator<<(std::ostream&, karto::LocalizedRangeScan const&)'; CMakeFiles/kartoSlamToolbox.dir/src/Karto.cpp.o:Karto.cpp:(.text+0x520): first defined here
+/usr/bin/ld: CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o: in function `karto::operator>>(std::istream&, karto::LocalizedRangeScan&)':
+Mapper.cpp:(.text+0x6ee0): multiple definition of `karto::operator>>(std::istream&, karto::LocalizedRangeScan&)'; CMakeFiles/kartoSlamToolbox.dir/src/Karto.cpp.o:Karto.cpp:(.text+0x16c0): first defined here
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/build.make:183: lib/karto_sdk/libkartoSlamToolbox.so] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:1045: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

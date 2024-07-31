@@ -1,0 +1,38 @@
+[  0%] Built target ament_cmake_python_symlink_slam_toolbox
+[  0%] Built target slam_toolbox__cpp
+running egg_info
+writing slam_toolbox.egg-info/PKG-INFO
+writing dependency_links to slam_toolbox.egg-info/dependency_links.txt
+writing top-level names to slam_toolbox.egg-info/top_level.txt
+reading manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+writing manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+[  0%] Built target ament_cmake_python_build_slam_toolbox_egg
+[  9%] Built target slam_toolbox__rosidl_generator_c
+[ 18%] Built target slam_toolbox__rosidl_typesupport_cpp
+[ 27%] Built target slam_toolbox__rosidl_typesupport_fastrtps_cpp
+[ 36%] Built target slam_toolbox__rosidl_typesupport_c
+[ 45%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c
+[ 54%] Built target slam_toolbox__rosidl_typesupport_introspection_cpp
+[ 63%] Built target slam_toolbox__rosidl_typesupport_introspection_c
+[ 63%] Built target slam_toolbox
+[ 64%] Built target slam_toolbox__py
+[ 66%] Built target SlamToolboxPlugin
+[ 74%] Built target slam_toolbox__rosidl_generator_py
+[ 75%] Built target slam_toolbox__rosidl_typesupport_introspection_c__pyext
+[ 77%] Built target slam_toolbox__rosidl_typesupport_c__pyext
+[ 77%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c__pyext
+[ 78%] [32mBuilding CXX object lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Karto.cpp.o[0m
+[ 79%] [32mBuilding CXX object lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o[0m
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:[m[K In member function ‘[01m[Kvirtual kt_bool karto::Mapper::Process(karto::LocalizedRangeScan*, karto::Matrix3*)[m[K’:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2871:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kdataset[m[K’ is not a member of ‘[01m[Kkarto[m[K’; did you mean ‘[01m[KDataset[m[K’?
+ 2871 |         if (karto::[01;31m[Kdataset[m[K) {
+      |                    [01;31m[K^~~~~~~[m[K
+      |                    [32m[KDataset[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2872:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kdataset[m[K’ is not a member of ‘[01m[Kkarto[m[K’; did you mean ‘[01m[KDataset[m[K’?
+ 2872 |             karto::[01;31m[Kdataset[m[K.SaveToFile("dataset.bin");
+      |                    [01;31m[K^~~~~~~[m[K
+      |                    [32m[KDataset[m[K
+gmake[2]: *** [lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/build.make:90: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:1045: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

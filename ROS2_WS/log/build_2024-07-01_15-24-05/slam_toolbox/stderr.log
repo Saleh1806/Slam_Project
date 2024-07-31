@@ -1,0 +1,43 @@
+In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2710:32:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kstd::ostream& karto::operator<<(std::ostream&, const karto::Matrix3&)[m[K’
+ 2710 |   friend inline std::ostream & [01;31m[Koperator[m[K<<(std::ostream & rStream, const Matrix3 & rMatrix)
+      |                                [01;31m[K^~~~~~~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2515:33:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::ostream& karto::operator<<(std::ostream&, const karto::Matrix3&)[m[K’ previously defined here
+ 2515 |     friend inline std::ostream& [01;36m[Koperator[m[K<<(std::ostream& os, const Matrix3& matrix) {
+      |                                 [01;36m[K^~~~~~~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:[m[K In function ‘[01m[Kstd::ostream& karto::operator<<(std::ostream&, const karto::Matrix3&)[m[K’:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2518:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class karto::Matrix3[m[K’ has no member named ‘[01m[KGetValue[m[K’
+ 2518 |             os << matrix.[01;31m[KGetValue[m[K(i, j) << " ";
+      |                          [01;31m[K^~~~~~~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:[m[K In function ‘[01m[Kstd::istream& karto::operator>>(std::istream&, karto::Matrix3&)[m[K’:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2530:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass karto::Matrix3[m[K’ has no member named ‘[01m[KSetValue[m[K’
+ 2530 |             matrix.[01;31m[KSetValue[m[K(i, j, value);
+      |                    [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/build.make:76: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Karto.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+                 from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:37[m[K:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2710:32:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kstd::ostream& karto::operator<<(std::ostream&, const karto::Matrix3&)[m[K’
+ 2710 |   friend inline std::ostream & [01;31m[Koperator[m[K<<(std::ostream & rStream, const Matrix3 & rMatrix)
+      |                                [01;31m[K^~~~~~~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2515:33:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::ostream& karto::operator<<(std::ostream&, const karto::Matrix3&)[m[K’ previously defined here
+ 2515 |     friend inline std::ostream& [01;36m[Koperator[m[K<<(std::ostream& os, const Matrix3& matrix) {
+      |                                 [01;36m[K^~~~~~~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:[m[K In function ‘[01m[Kstd::ostream& karto::operator<<(std::ostream&, const karto::Matrix3&)[m[K’:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2518:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class karto::Matrix3[m[K’ has no member named ‘[01m[KGetValue[m[K’
+ 2518 |             os << matrix.[01;31m[KGetValue[m[K(i, j) << " ";
+      |                          [01;31m[K^~~~~~~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:[m[K In function ‘[01m[Kstd::istream& karto::operator>>(std::istream&, karto::Matrix3&)[m[K’:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2530:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass karto::Matrix3[m[K’ has no member named ‘[01m[KSetValue[m[K’
+ 2530 |             matrix.[01;31m[KSetValue[m[K(i, j, value);
+      |                    [01;31m[K^~~~~~~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:[m[K At global scope:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2772:9:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kkt_bool karto::Mapper::Process(karto::Object*)[m[K’
+ 2772 | kt_bool [01;31m[KMapper[m[K::Process(Object* /*pObject*/)  // NOLINT
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2767:9:[m[K [01;36m[Knote: [m[K‘[01m[Kvirtual kt_bool karto::Mapper::Process(karto::Object*)[m[K’ previously defined here
+ 2767 | kt_bool [01;36m[KMapper[m[K::Process(Object* /*pObject*/)  // NOLINT
+      |         [01;36m[K^~~~~~[m[K
+gmake[2]: *** [lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/build.make:90: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:1045: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,36 @@
+In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:[m[K In function ‘[01m[Kstd::ostream& karto::operator<<(std::ostream&, const karto::BoundingBox2&)[m[K’:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2855:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class karto::BoundingBox2[m[K’ has no member named ‘[01m[Kmin[m[K’
+ 2855 |     os << "Min: " << bbox.[01;31m[Kmin[m[K << " Max: " << bbox.max;
+      |                           [01;31m[K^~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2855:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class karto::BoundingBox2[m[K’ has no member named ‘[01m[Kmax[m[K’
+ 2855 |     os << "Min: " << bbox.min << " Max: " << bbox.[01;31m[Kmax[m[K;
+      |                                                   [01;31m[K^~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:[m[K In function ‘[01m[Kstd::istream& karto::operator>>(std::istream&, karto::BoundingBox2&)[m[K’:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2861:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass karto::BoundingBox2[m[K’ has no member named ‘[01m[Kmin[m[K’
+ 2861 |     is >> temp >> bbox.[01;31m[Kmin[m[K;
+      |                        [01;31m[K^~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2862:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass karto::BoundingBox2[m[K’ has no member named ‘[01m[Kmax[m[K’
+ 2862 |     is >> temp >> bbox.[01;31m[Kmax[m[K;
+      |                        [01;31m[K^~~[m[K
+gmake[2]: *** [lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/build.make:76: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Karto.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+                 from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:36[m[K:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:[m[K In function ‘[01m[Kstd::ostream& karto::operator<<(std::ostream&, const karto::BoundingBox2&)[m[K’:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2855:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class karto::BoundingBox2[m[K’ has no member named ‘[01m[Kmin[m[K’
+ 2855 |     os << "Min: " << bbox.[01;31m[Kmin[m[K << " Max: " << bbox.max;
+      |                           [01;31m[K^~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2855:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class karto::BoundingBox2[m[K’ has no member named ‘[01m[Kmax[m[K’
+ 2855 |     os << "Min: " << bbox.min << " Max: " << bbox.[01;31m[Kmax[m[K;
+      |                                                   [01;31m[K^~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:[m[K In function ‘[01m[Kstd::istream& karto::operator>>(std::istream&, karto::BoundingBox2&)[m[K’:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2861:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass karto::BoundingBox2[m[K’ has no member named ‘[01m[Kmin[m[K’
+ 2861 |     is >> temp >> bbox.[01;31m[Kmin[m[K;
+      |                        [01;31m[K^~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2862:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass karto::BoundingBox2[m[K’ has no member named ‘[01m[Kmax[m[K’
+ 2862 |     is >> temp >> bbox.[01;31m[Kmax[m[K;
+      |                        [01;31m[K^~~[m[K
+gmake[2]: *** [lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/build.make:90: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:1045: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

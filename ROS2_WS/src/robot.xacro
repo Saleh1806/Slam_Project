@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <!-- ODOM FRAME -->
+
+    <link name="odom"/>
+
+    <!-- MAP FRAME -->
+
+    <link name="map"/>
+
+    <!-- TF BETWEEN ODOM AND MAP -->
+
+    <joint name="odom_to_map_joint" type="fixed">
+        <parent link="odom"/>
+        <child link="map"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+    </joint>
+
+</robot>
+

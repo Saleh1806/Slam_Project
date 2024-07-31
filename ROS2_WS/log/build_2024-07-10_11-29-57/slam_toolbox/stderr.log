@@ -1,0 +1,13 @@
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:[m[K In member function ‘[01m[Kvirtual kt_bool karto::Mapper::Process(karto::LocalizedRangeScan*, karto::Matrix3*)[m[K’:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2872:19:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kkarto::LocalizedRangeScan[m[K’
+ 2872 |         loadedScan[01;31m[K->[m[KLoadFromFile("scan_data.xml");
+      |                   [01;31m[K^~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2874:20:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator==[m[K’ (operand types are ‘[01m[Kkarto::LocalizedRangeScan[m[K’ and ‘[01m[Kkarto::LocalizedRangeScan[m[K’)
+ 2874 |         if ([32m[K*pScan[m[K [01;31m[K==[m[K [34m[KloadedScan[m[K) {
+      |             [32m[K~~~~~~[m[K [01;31m[K^~[m[K [34m[K~~~~~~~~~~[m[K
+      |             [32m[K|[m[K         [34m[K|[m[K
+      |             [32m[K|[m[K         [34m[Kkarto::LocalizedRangeScan[m[K
+      |             [32m[Kkarto::LocalizedRangeScan[m[K
+gmake[2]: *** [lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/build.make:90: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:1045: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

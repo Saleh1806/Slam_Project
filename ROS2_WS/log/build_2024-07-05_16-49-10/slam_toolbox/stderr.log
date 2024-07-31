@@ -1,0 +1,13 @@
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:[m[K In member function ‘[01m[Kvirtual kt_bool karto::Mapper::Process(karto::LocalizedRangeScan*, karto::Matrix3*)[m[K’:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2850:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid karto::LocalizedRangeScan::serialize(Archive&, unsigned int) [with Archive = boost::archive::xml_oarchive][m[K’ is private within this context
+ 2850 |                 [01;31m[KpScan->serialize(scan_oa, 0)[m[K;
+      |                 [01;31m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+                 from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:39[m[K:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5812:8:[m[K [01;36m[Knote: [m[Kdeclared private here
+ 5812 |   void [01;36m[Kserialize[m[K(Archive & ar, const unsigned int version)
+      |        [01;36m[K^~~~~~~~~[m[K
+gmake[2]: *** [lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/build.make:90: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:1045: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

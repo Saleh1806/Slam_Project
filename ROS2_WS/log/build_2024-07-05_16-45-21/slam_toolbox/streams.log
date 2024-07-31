@@ -1,0 +1,49 @@
+[0.829s] Invoking command in '/home/hp/ROS2_WS/build/slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/dynamic_tf:/opt/ros/humble /usr/bin/cmake --build /home/hp/ROS2_WS/build/slam_toolbox -- -j8 -l8
+[0.931s] [35m[1mConsolidate compiler generated dependencies of target kartoSlamToolbox[0m
+[0.933s] [  0%] Built target slam_toolbox__cpp
+[0.946s] [  9%] Built target slam_toolbox__rosidl_generator_c
+[0.955s] [  9%] Built target ament_cmake_python_symlink_slam_toolbox
+[1.013s] [ 12%] [32mBuilding CXX object lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o[0m
+[1.013s] [ 19%] Built target slam_toolbox__rosidl_typesupport_cpp
+[1.016s] [ 20%] [32mBuilding CXX object lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Karto.cpp.o[0m
+[1.025s] [ 29%] Built target slam_toolbox__rosidl_typesupport_fastrtps_cpp
+[1.035s] [ 38%] Built target slam_toolbox__rosidl_typesupport_introspection_c
+[1.035s] [ 47%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c
+[1.040s] [ 65%] Built target slam_toolbox__rosidl_typesupport_c
+[1.042s] [ 57%] Built target slam_toolbox__rosidl_typesupport_introspection_cpp
+[1.082s] [ 65%] Built target slam_toolbox
+[1.095s] [ 67%] Built target SlamToolboxPlugin
+[1.137s] [ 68%] Built target slam_toolbox__py
+[1.178s] [ 76%] Built target slam_toolbox__rosidl_generator_py
+[1.255s] [ 78%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c__pyext
+[1.255s] [ 78%] Built target slam_toolbox__rosidl_typesupport_introspection_c__pyext
+[1.268s] [ 79%] Built target slam_toolbox__rosidl_typesupport_c__pyext
+[1.710s] running egg_info
+[1.711s] writing slam_toolbox.egg-info/PKG-INFO
+[1.712s] writing dependency_links to slam_toolbox.egg-info/dependency_links.txt
+[1.712s] writing top-level names to slam_toolbox.egg-info/top_level.txt
+[1.718s] reading manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+[1.720s] writing manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+[1.775s] [ 79%] Built target ament_cmake_python_build_slam_toolbox_egg
+[5.653s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:[m[K In member function ‘[01m[Kvirtual kt_bool karto::Mapper::Process(karto::LocalizedRangeScan*, karto::Matrix3*)[m[K’:
+[5.653s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2850:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid karto::LocalizedRangeScan::serialize(Archive&, unsigned int) [with Archive = boost::archive::xml_oarchive][m[K’ is private within this context
+[5.653s]  2850 |                 [01;31m[KpScan->serialize(scan_oa, 0)[m[K;
+[5.653s]       |                 [01;31m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[5.653s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+[5.653s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:39[m[K:
+[5.653s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5812:8:[m[K [01;36m[Knote: [m[Kdeclared private here
+[5.654s]  5812 |   void [01;36m[Kserialize[m[K(Archive & ar, const unsigned int version)
+[5.654s]       |        [01;36m[K^~~~~~~~~[m[K
+[5.654s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2864:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid karto::Matrix3::serialize(Archive&, unsigned int) [with Archive = boost::archive::xml_oarchive][m[K’ is private within this context
+[5.654s]  2864 |                     [01;31m[Kcovariance->serialize(covariance_oa, 0)[m[K;
+[5.654s]       |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[5.654s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+[5.654s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:39[m[K:
+[5.654s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2727:8:[m[K [01;36m[Knote: [m[Kdeclared private here
+[5.654s]  2727 |   void [01;36m[Kserialize[m[K(Archive & ar, const unsigned int version)
+[5.654s]       |        [01;36m[K^~~~~~~~~[m[K
+[8.999s] gmake[2]: *** [lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/build.make:90: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o] Error 1
+[8.999s] gmake[2]: *** Waiting for unfinished jobs....
+[15.305s] gmake[1]: *** [CMakeFiles/Makefile2:1045: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/all] Error 2
+[15.305s] gmake: *** [Makefile:146: all] Error 2
+[15.307s] Invoked command in '/home/hp/ROS2_WS/build/slam_toolbox' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/dynamic_tf:/opt/ros/humble /usr/bin/cmake --build /home/hp/ROS2_WS/build/slam_toolbox -- -j8 -l8

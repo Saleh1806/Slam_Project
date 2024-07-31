@@ -1,0 +1,96 @@
+[0.878s] Invoking command in '/home/hp/ROS2_WS/src/build/slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/dynamic_tf:/home/hp/ROS2_WS/install/Dynamic_tf:/home/hp/ROS2_WS/install/DYNAMIC_TF:/home/hp/ROS2_WS/src/install/rosidl_pycommon:/home/hp/ROS2_WS/src/install/rosidl_cli:/home/hp/ROS2_WS/src/install/my_robot_controller:/home/hp/ROS2_WS/src/install/my_exo:/home/hp/ROS2_WS/src/install/dynamic_tf:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/hp/ROS2_WS/src/build/slam_toolbox -- -j8 -l8
+[1.000s] [  0%] Built target slam_toolbox__cpp
+[1.023s] [35m[1mConsolidate compiler generated dependencies of target kartoSlamToolbox[0m
+[1.045s] [  9%] Built target slam_toolbox__rosidl_generator_c
+[1.068s] [  9%] Built target ament_cmake_python_symlink_slam_toolbox
+[1.092s] [ 18%] Built target slam_toolbox__rosidl_typesupport_cpp
+[1.108s] [ 19%] [32mBuilding CXX object lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o[0m
+[1.114s] [ 20%] [32mBuilding CXX object lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Karto.cpp.o[0m
+[1.128s] [ 33%] Built target slam_toolbox__rosidl_typesupport_introspection_cpp
+[1.129s] [ 38%] Built target slam_toolbox__rosidl_typesupport_fastrtps_cpp
+[1.137s] [ 47%] Built target slam_toolbox__rosidl_typesupport_introspection_c
+[1.149s] [ 56%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c
+[1.160s] [ 65%] Built target slam_toolbox__rosidl_typesupport_c
+[1.203s] [ 67%] Built target SlamToolboxPlugin
+[1.205s] [ 67%] Built target slam_toolbox
+[1.265s] [ 68%] Built target slam_toolbox__py
+[1.363s] [ 76%] Built target slam_toolbox__rosidl_generator_py
+[1.443s] [ 77%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c__pyext
+[1.444s] [ 78%] Built target slam_toolbox__rosidl_typesupport_introspection_c__pyext
+[1.462s] [ 79%] Built target slam_toolbox__rosidl_typesupport_c__pyext
+[1.757s] running egg_info
+[1.806s] writing slam_toolbox.egg-info/PKG-INFO
+[1.806s] writing dependency_links to slam_toolbox.egg-info/dependency_links.txt
+[1.806s] writing top-level names to slam_toolbox.egg-info/top_level.txt
+[1.951s] reading manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+[1.952s] writing manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+[2.022s] [ 79%] Built target ament_cmake_python_build_slam_toolbox_egg
+[3.427s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[3.428s] /home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h: In instantiation of ‘[01m[Kclass karto::Vector2<double>[m[K’:
+[3.428s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2265:22:[m[K   required from here
+[3.428s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:1253:32:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kstd::ostream& karto::operator<<(std::ostream&, const karto::Vector2<double>&)[m[K’
+[3.428s]  1253 |   friend inline std::ostream & [01;31m[Koperator[m[K<<(std::ostream & rStream, const Vector2 & rVector)
+[3.428s]       |                                [01;31m[K^~~~~~~~[m[K
+[3.428s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:1013:26:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::ostream& karto::operator<<(std::ostream&, const karto::Vector2<double>&)[m[K’ previously declared here
+[3.428s]  1013 |     friend std::ostream& [01;36m[Koperator[m[K<<(std::ostream& os, const Vector2<T>& vec) {
+[3.428s]       |                          [01;36m[K^~~~~~~~[m[K
+[3.434s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:[m[K In function ‘[01m[Kstd::ostream& karto::operator<<(std::ostream&, const karto::BoundingBox2&)[m[K’:
+[3.434s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2864:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class karto::BoundingBox2[m[K’ has no member named ‘[01m[Kmin[m[K’
+[3.434s]  2864 |     os << "Min: " << bbox.[01;31m[Kmin[m[K << " Max: " << bbox.max;
+[3.434s]       |                           [01;31m[K^~~[m[K
+[3.434s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2864:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class karto::BoundingBox2[m[K’ has no member named ‘[01m[Kmax[m[K’
+[3.435s]  2864 |     os << "Min: " << bbox.min << " Max: " << bbox.[01;31m[Kmax[m[K;
+[3.435s]       |                                                   [01;31m[K^~~[m[K
+[3.435s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:[m[K In function ‘[01m[Kstd::istream& karto::operator>>(std::istream&, karto::BoundingBox2&)[m[K’:
+[3.435s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2870:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass karto::BoundingBox2[m[K’ has no member named ‘[01m[Kmin[m[K’
+[3.435s]  2870 |     is >> temp >> bbox.[01;31m[Kmin[m[K;
+[3.435s]       |                        [01;31m[K^~~[m[K
+[3.435s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2871:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass karto::BoundingBox2[m[K’ has no member named ‘[01m[Kmax[m[K’
+[3.435s]  2871 |     is >> temp >> bbox.[01;31m[Kmax[m[K;
+[3.435s]       |                        [01;31m[K^~~[m[K
+[3.466s] /home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h: In instantiation of ‘[01m[Kclass karto::Vector2<int>[m[K’:
+[3.466s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:4448:3:[m[K   required from here
+[3.466s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:1253:32:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kstd::ostream& karto::operator<<(std::ostream&, const karto::Vector2<int>&)[m[K’
+[3.466s]  1253 |   friend inline std::ostream & [01;31m[Koperator[m[K<<(std::ostream & rStream, const Vector2 & rVector)
+[3.467s]       |                                [01;31m[K^~~~~~~~[m[K
+[3.467s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:1013:26:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::ostream& karto::operator<<(std::ostream&, const karto::Vector2<int>&)[m[K’ previously declared here
+[3.467s]  1013 |     friend std::ostream& [01;36m[Koperator[m[K<<(std::ostream& os, const Vector2<T>& vec) {
+[3.467s]       |                          [01;36m[K^~~~~~~~[m[K
+[4.866s] gmake[2]: *** [lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/build.make:76: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Karto.cpp.o] Error 1
+[4.866s] gmake[2]: *** Waiting for unfinished jobs....
+[5.228s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+[5.229s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:36[m[K:
+[5.229s] /home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h: In instantiation of ‘[01m[Kclass karto::Vector2<double>[m[K’:
+[5.229s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2265:22:[m[K   required from here
+[5.229s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:1253:32:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kstd::ostream& karto::operator<<(std::ostream&, const karto::Vector2<double>&)[m[K’
+[5.229s]  1253 |   friend inline std::ostream & [01;31m[Koperator[m[K<<(std::ostream & rStream, const Vector2 & rVector)
+[5.229s]       |                                [01;31m[K^~~~~~~~[m[K
+[5.229s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:1013:26:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::ostream& karto::operator<<(std::ostream&, const karto::Vector2<double>&)[m[K’ previously declared here
+[5.229s]  1013 |     friend std::ostream& [01;36m[Koperator[m[K<<(std::ostream& os, const Vector2<T>& vec) {
+[5.229s]       |                          [01;36m[K^~~~~~~~[m[K
+[5.237s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:[m[K In function ‘[01m[Kstd::ostream& karto::operator<<(std::ostream&, const karto::BoundingBox2&)[m[K’:
+[5.237s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2864:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class karto::BoundingBox2[m[K’ has no member named ‘[01m[Kmin[m[K’
+[5.237s]  2864 |     os << "Min: " << bbox.[01;31m[Kmin[m[K << " Max: " << bbox.max;
+[5.237s]       |                           [01;31m[K^~~[m[K
+[5.237s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2864:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class karto::BoundingBox2[m[K’ has no member named ‘[01m[Kmax[m[K’
+[5.237s]  2864 |     os << "Min: " << bbox.min << " Max: " << bbox.[01;31m[Kmax[m[K;
+[5.237s]       |                                                   [01;31m[K^~~[m[K
+[5.237s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:[m[K In function ‘[01m[Kstd::istream& karto::operator>>(std::istream&, karto::BoundingBox2&)[m[K’:
+[5.237s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2870:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass karto::BoundingBox2[m[K’ has no member named ‘[01m[Kmin[m[K’
+[5.237s]  2870 |     is >> temp >> bbox.[01;31m[Kmin[m[K;
+[5.237s]       |                        [01;31m[K^~~[m[K
+[5.237s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2871:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass karto::BoundingBox2[m[K’ has no member named ‘[01m[Kmax[m[K’
+[5.237s]  2871 |     is >> temp >> bbox.[01;31m[Kmax[m[K;
+[5.237s]       |                        [01;31m[K^~~[m[K
+[5.269s] /home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h: In instantiation of ‘[01m[Kclass karto::Vector2<int>[m[K’:
+[5.269s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:4448:3:[m[K   required from here
+[5.269s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:1253:32:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kstd::ostream& karto::operator<<(std::ostream&, const karto::Vector2<int>&)[m[K’
+[5.270s]  1253 |   friend inline std::ostream & [01;31m[Koperator[m[K<<(std::ostream & rStream, const Vector2 & rVector)
+[5.270s]       |                                [01;31m[K^~~~~~~~[m[K
+[5.270s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:1013:26:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::ostream& karto::operator<<(std::ostream&, const karto::Vector2<int>&)[m[K’ previously declared here
+[5.270s]  1013 |     friend std::ostream& [01;36m[Koperator[m[K<<(std::ostream& os, const Vector2<T>& vec) {
+[5.270s]       |                          [01;36m[K^~~~~~~~[m[K
+[7.707s] gmake[2]: *** [lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/build.make:90: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o] Error 1
+[7.708s] gmake[1]: *** [CMakeFiles/Makefile2:1045: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/all] Error 2
+[7.708s] gmake: *** [Makefile:146: all] Error 2
+[7.710s] Invoked command in '/home/hp/ROS2_WS/src/build/slam_toolbox' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/dynamic_tf:/home/hp/ROS2_WS/install/Dynamic_tf:/home/hp/ROS2_WS/install/DYNAMIC_TF:/home/hp/ROS2_WS/src/install/rosidl_pycommon:/home/hp/ROS2_WS/src/install/rosidl_cli:/home/hp/ROS2_WS/src/install/my_robot_controller:/home/hp/ROS2_WS/src/install/my_exo:/home/hp/ROS2_WS/src/install/dynamic_tf:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/hp/ROS2_WS/src/build/slam_toolbox -- -j8 -l8

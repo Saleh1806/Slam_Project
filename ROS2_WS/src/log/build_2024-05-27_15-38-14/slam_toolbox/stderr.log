@@ -1,0 +1,95 @@
+Traceback (most recent call last):
+  File "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 8, in <module>
+    from rosidl_generator_cpp import generate_cpp
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py", line 17, in <module>
+    from rosidl_cmake import generate_files
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 24, in <module>
+    from rosidl_parser.parser import parse_idl_file
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 20, in <module>
+    from lark import Lark
+ModuleNotFoundError: No module named 'lark'
+Traceback (most recent call last):
+  File "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 8, in <module>
+    from rosidl_generator_c import generate_c
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_c/__init__.py", line 15, in <module>
+    from rosidl_cmake import convert_camel_case_to_lower_case_underscore
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 24, in <module>
+    from rosidl_parser.parser import parse_idl_file
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 20, in <module>
+    from lark import Lark
+ModuleNotFoundError: No module named 'lark'
+gmake[2]: *** [CMakeFiles/slam_toolbox__rosidl_generator_c.dir/build.make:208: rosidl_generator_c/slam_toolbox/srv/pause.h] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:258: CMakeFiles/slam_toolbox__rosidl_generator_c.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/slam_toolbox__cpp.dir/build.make:252: rosidl_generator_cpp/slam_toolbox/srv/pause.hpp] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:311: CMakeFiles/slam_toolbox__cpp.dir/all] Error 2
+In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2710:5:[m[K [01;31m[Kerror: [m[K‘[01m[KLocalizedRangeScan[m[K’ does not name a type
+ 2710 |     [01;31m[KLocalizedRangeScan[m[K scan;
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2713:28:[m[K [01;31m[Kerror: [m[K‘[01m[KLocalizedRangeScan[m[K’ does not name a type
+ 2713 |     ProcessInputData(const [01;31m[KLocalizedRangeScan[m[K& s, const Matrix3& cov)
+      |                            [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:[m[K In constructor ‘[01m[Kkarto::ProcessInputData::ProcessInputData(const int&, const karto::Matrix3&)[m[K’:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2714:11:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Kkarto::ProcessInputData[m[K’ does not have any field named ‘[01m[Kscan[m[K’
+ 2714 |         : [01;31m[Kscan[m[K(s), covariance(cov) {}
+      |           [01;31m[K^~~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:[m[K In member function ‘[01m[Kvoid karto::ProcessInputData::Save(const string&) const[m[K’:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2719:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan[m[K’ was not declared in this scope; did you mean ‘[01m[Kscanf[m[K’?
+ 2719 |             ofs << [01;31m[Kscan[m[K << "\n"; // Assuming operator<< is defined for LocalizedRangeScan
+      |                    [01;31m[K^~~~[m[K
+      |                    [32m[Kscanf[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:[m[K At global scope:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2731:5:[m[K [01;31m[Kerror: [m[K‘[01m[KLocalizedRangeScan[m[K’ does not name a type
+ 2731 |     [01;31m[KLocalizedRangeScan[m[K scan;
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2734:39:[m[K [01;31m[Kerror: [m[K‘[01m[KLocalizedRangeScan[m[K’ does not name a type
+ 2734 |     ProcessOutputData(bool res, const [01;31m[KLocalizedRangeScan[m[K& s, const Matrix3& cov)
+      |                                       [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:[m[K In constructor ‘[01m[Kkarto::ProcessOutputData::ProcessOutputData(bool, const int&, const karto::Matrix3&)[m[K’:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2735:24:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Kkarto::ProcessOutputData[m[K’ does not have any field named ‘[01m[Kscan[m[K’
+ 2735 |         : result(res), [01;31m[Kscan[m[K(s), covariance(cov) {}
+      |                        [01;31m[K^~~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:[m[K In member function ‘[01m[Kvoid karto::ProcessOutputData::Save(const string&) const[m[K’:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2741:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan[m[K’ was not declared in this scope; did you mean ‘[01m[Kscanf[m[K’?
+ 2741 |             ofs << [01;31m[Kscan[m[K << "\n"; // Assuming operator<< is defined for LocalizedRangeScan
+      |                    [01;31m[K^~~~[m[K
+      |                    [32m[Kscanf[m[K
+gmake[2]: *** [lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/build.make:76: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Karto.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+                 from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:36[m[K:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2710:5:[m[K [01;31m[Kerror: [m[K‘[01m[KLocalizedRangeScan[m[K’ does not name a type
+ 2710 |     [01;31m[KLocalizedRangeScan[m[K scan;
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2713:28:[m[K [01;31m[Kerror: [m[K‘[01m[KLocalizedRangeScan[m[K’ does not name a type
+ 2713 |     ProcessInputData(const [01;31m[KLocalizedRangeScan[m[K& s, const Matrix3& cov)
+      |                            [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:[m[K In constructor ‘[01m[Kkarto::ProcessInputData::ProcessInputData(const int&, const karto::Matrix3&)[m[K’:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2714:11:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Kkarto::ProcessInputData[m[K’ does not have any field named ‘[01m[Kscan[m[K’
+ 2714 |         : [01;31m[Kscan[m[K(s), covariance(cov) {}
+      |           [01;31m[K^~~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:[m[K In member function ‘[01m[Kvoid karto::ProcessInputData::Save(const string&) const[m[K’:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2719:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan[m[K’ was not declared in this scope; did you mean ‘[01m[Kscanf[m[K’?
+ 2719 |             ofs << [01;31m[Kscan[m[K << "\n"; // Assuming operator<< is defined for LocalizedRangeScan
+      |                    [01;31m[K^~~~[m[K
+      |                    [32m[Kscanf[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:[m[K At global scope:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2731:5:[m[K [01;31m[Kerror: [m[K‘[01m[KLocalizedRangeScan[m[K’ does not name a type
+ 2731 |     [01;31m[KLocalizedRangeScan[m[K scan;
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2734:39:[m[K [01;31m[Kerror: [m[K‘[01m[KLocalizedRangeScan[m[K’ does not name a type
+ 2734 |     ProcessOutputData(bool res, const [01;31m[KLocalizedRangeScan[m[K& s, const Matrix3& cov)
+      |                                       [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:[m[K In constructor ‘[01m[Kkarto::ProcessOutputData::ProcessOutputData(bool, const int&, const karto::Matrix3&)[m[K’:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2735:24:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Kkarto::ProcessOutputData[m[K’ does not have any field named ‘[01m[Kscan[m[K’
+ 2735 |         : result(res), [01;31m[Kscan[m[K(s), covariance(cov) {}
+      |                        [01;31m[K^~~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:[m[K In member function ‘[01m[Kvoid karto::ProcessOutputData::Save(const string&) const[m[K’:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2741:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan[m[K’ was not declared in this scope; did you mean ‘[01m[Kscanf[m[K’?
+ 2741 |             ofs << [01;31m[Kscan[m[K << "\n"; // Assuming operator<< is defined for LocalizedRangeScan
+      |                    [01;31m[K^~~~[m[K
+      |                    [32m[Kscanf[m[K
+gmake[2]: *** [lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/build.make:90: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:1045: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,29 @@
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:[m[K In member function ‘[01m[Kvirtual kt_bool karto::Mapper::Process(karto::LocalizedRangeScan*, karto::Matrix3*)[m[K’:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2836:25:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kkarto::LocalizedRangeScan::serialize(const char [14])[m[K’
+ 2836 |         [01;31m[KpScan->serialize("scan_data.bin")[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+                 from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:37[m[K:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5805:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Archive> void karto::LocalizedRangeScan::serialize(Archive&, unsigned int)[m[K’
+ 5805 |   void [01;36m[Kserialize[m[K(Archive & ar, const unsigned int version)
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5805:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2836:25:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+ 2836 |         [01;36m[KpScan->serialize("scan_data.bin")[m[K;
+      |         [01;36m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2838:30:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kkarto::Matrix3::serialize(const char [20])[m[K’
+ 2838 |         [01;31m[Kcovariance->serialize("covariance_data.bin")[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+                 from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:37[m[K:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2723:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Archive> void karto::Matrix3::serialize(Archive&, unsigned int)[m[K’
+ 2723 |   void [01;36m[Kserialize[m[K(Archive & ar, const unsigned int version)
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2723:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2838:30:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+ 2838 |         [01;36m[Kcovariance->serialize("covariance_data.bin")[m[K;
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/build.make:90: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:1045: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

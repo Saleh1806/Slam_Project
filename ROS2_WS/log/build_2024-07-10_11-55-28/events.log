@@ -1,0 +1,866 @@
+[0.000000] (-) TimerEvent: {}
+[0.000225] (dynamic_tf) JobQueued: {'identifier': 'dynamic_tf', 'dependencies': OrderedDict()}
+[0.000273] (my_exo) JobQueued: {'identifier': 'my_exo', 'dependencies': OrderedDict()}
+[0.000291] (my_robot_controller) JobQueued: {'identifier': 'my_robot_controller', 'dependencies': OrderedDict()}
+[0.000305] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.000319] (slam_toolbox) JobQueued: {'identifier': 'slam_toolbox', 'dependencies': OrderedDict()}
+[0.000332] (dynamic_tf) JobStarted: {'identifier': 'dynamic_tf'}
+[0.007484] (my_exo) JobStarted: {'identifier': 'my_exo'}
+[0.012671] (my_robot_controller) JobStarted: {'identifier': 'my_robot_controller'}
+[0.021745] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[0.026440] (slam_toolbox) JobStarted: {'identifier': 'slam_toolbox'}
+[0.099567] (-) TimerEvent: {}
+[0.199862] (-) TimerEvent: {}
+[0.300346] (-) TimerEvent: {}
+[0.400725] (-) TimerEvent: {}
+[0.501102] (-) TimerEvent: {}
+[0.601498] (-) TimerEvent: {}
+[0.701838] (-) TimerEvent: {}
+[0.780307] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'cmake'}
+[0.781608] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'build'}
+[0.781679] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hp/ROS2_WS/build/rplidar_ros', '--', '-j8', '-l8'], 'cwd': '/home/hp/ROS2_WS/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hp'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu:/home/hp/ROS2_WS/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hp'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/hp'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2008'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hp/ROS2_WS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hp'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hp'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/hp/anaconda3/condabin:/opt/ros/humble/bin:/home/hp/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hp-HP-Laptop-15-dw2xxx:@/tmp/.ICE-unix/1976,unix/hp-HP-Laptop-15-dw2xxx:/tmp/.ICE-unix/1976'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7ede504d_0552_4d2a_8aad_dc288a1a6ad3'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ME0LQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hp/ROS2_WS/install/slam_toolbox:/home/hp/ROS2_WS/install/rplidar_ros:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/dynamic_tf:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/hp/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hp/ROS2_WS/build/rplidar_ros'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/hp/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hp/ROS2_WS/install/slam_toolbox/local/lib/python3.10/dist-packages:/home/hp/ROS2_WS/build/my_robot_controller:/home/hp/ROS2_WS/install/my_robot_controller/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/my_exo:/home/hp/ROS2_WS/install/my_exo/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/dynamic_tf:/home/hp/ROS2_WS/install/dynamic_tf/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hp/ROS2_WS/install/slam_toolbox:/home/hp/ROS2_WS/install/rplidar_ros:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/dynamic_tf:/opt/ros/humble')]), 'shell': False}
+[0.785731] (slam_toolbox) JobProgress: {'identifier': 'slam_toolbox', 'progress': 'cmake'}
+[0.786828] (slam_toolbox) JobProgress: {'identifier': 'slam_toolbox', 'progress': 'build'}
+[0.787490] (slam_toolbox) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hp/ROS2_WS/build/slam_toolbox', '--', '-j8', '-l8'], 'cwd': '/home/hp/ROS2_WS/build/slam_toolbox', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hp'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu:/home/hp/ROS2_WS/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hp'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/hp'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2008'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hp/ROS2_WS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hp'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hp'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/hp/anaconda3/condabin:/opt/ros/humble/bin:/home/hp/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hp-HP-Laptop-15-dw2xxx:@/tmp/.ICE-unix/1976,unix/hp-HP-Laptop-15-dw2xxx:/tmp/.ICE-unix/1976'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7ede504d_0552_4d2a_8aad_dc288a1a6ad3'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ME0LQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hp/ROS2_WS/install/slam_toolbox:/home/hp/ROS2_WS/install/rplidar_ros:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/dynamic_tf:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/hp/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hp/ROS2_WS/build/slam_toolbox'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/hp/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hp/ROS2_WS/install/slam_toolbox/local/lib/python3.10/dist-packages:/home/hp/ROS2_WS/build/my_robot_controller:/home/hp/ROS2_WS/install/my_robot_controller/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/my_exo:/home/hp/ROS2_WS/install/my_exo/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/dynamic_tf:/home/hp/ROS2_WS/install/dynamic_tf/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hp/ROS2_WS/install/slam_toolbox:/home/hp/ROS2_WS/install/rplidar_ros:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/dynamic_tf:/opt/ros/humble')]), 'shell': False}
+[0.801947] (-) TimerEvent: {}
+[0.876461] (rplidar_ros) StdoutLine: {'line': b'[  4%] Built target rplidar_client\n'}
+[0.881346] (rplidar_ros) StdoutLine: {'line': b'[ 47%] Built target rplidar_node\n'}
+[0.885469] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target kartoSlamToolbox\x1b[0m\n'}
+[0.889987] (rplidar_ros) StdoutLine: {'line': b'[ 52%] Built target tf_broadcaster\n'}
+[0.896194] (slam_toolbox) StdoutLine: {'line': b'[  0%] Built target slam_toolbox__cpp\n'}
+[0.897995] (rplidar_ros) StdoutLine: {'line': b'[ 95%] Built target rplidar_composition\n'}
+[0.902068] (-) TimerEvent: {}
+[0.902679] (slam_toolbox) StdoutLine: {'line': b'[  9%] Built target slam_toolbox__rosidl_generator_c\n'}
+[0.904867] (rplidar_ros) StdoutLine: {'line': b'[100%] Built target tf_listener\n'}
+[0.910827] (slam_toolbox) StdoutLine: {'line': b'[  9%] Built target ament_cmake_python_symlink_slam_toolbox\n'}
+[0.926097] (rplidar_ros) CommandEnded: {'returncode': 0}
+[0.961253] (slam_toolbox) StdoutLine: {'line': b'[ 18%] Built target slam_toolbox__rosidl_typesupport_introspection_cpp\n'}
+[0.970758] (slam_toolbox) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o\x1b[0m\n'}
+[0.978358] (slam_toolbox) StdoutLine: {'line': b'[ 28%] Built target slam_toolbox__rosidl_typesupport_fastrtps_cpp\n'}
+[0.983151] (slam_toolbox) StdoutLine: {'line': b'[ 40%] Built target slam_toolbox__rosidl_typesupport_cpp\n'}
+[0.983644] (slam_toolbox) StdoutLine: {'line': b'[ 46%] Built target slam_toolbox__rosidl_typesupport_introspection_c\n'}
+[0.985612] (slam_toolbox) StdoutLine: {'line': b'[ 55%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c\n'}
+[0.992139] (slam_toolbox) StdoutLine: {'line': b'[ 64%] Built target slam_toolbox__rosidl_typesupport_c\n'}
+[1.002171] (-) TimerEvent: {}
+[1.021632] (slam_toolbox) StdoutLine: {'line': b'[ 64%] Built target slam_toolbox\n'}
+[1.038429] (slam_toolbox) StdoutLine: {'line': b'[ 66%] Built target SlamToolboxPlugin\n'}
+[1.044799] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'install'}
+[1.056429] (slam_toolbox) StdoutLine: {'line': b'[ 67%] Built target slam_toolbox__py\n'}
+[1.061888] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hp/ROS2_WS/build/rplidar_ros'], 'cwd': '/home/hp/ROS2_WS/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hp'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu:/home/hp/ROS2_WS/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hp'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/hp'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2008'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hp/ROS2_WS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hp'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hp'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/hp/anaconda3/condabin:/opt/ros/humble/bin:/home/hp/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hp-HP-Laptop-15-dw2xxx:@/tmp/.ICE-unix/1976,unix/hp-HP-Laptop-15-dw2xxx:/tmp/.ICE-unix/1976'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7ede504d_0552_4d2a_8aad_dc288a1a6ad3'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ME0LQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hp/ROS2_WS/install/slam_toolbox:/home/hp/ROS2_WS/install/rplidar_ros:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/dynamic_tf:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/hp/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hp/ROS2_WS/build/rplidar_ros'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/hp/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hp/ROS2_WS/install/slam_toolbox/local/lib/python3.10/dist-packages:/home/hp/ROS2_WS/build/my_robot_controller:/home/hp/ROS2_WS/install/my_robot_controller/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/my_exo:/home/hp/ROS2_WS/install/my_exo/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/dynamic_tf:/home/hp/ROS2_WS/install/dynamic_tf/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hp/ROS2_WS/install/slam_toolbox:/home/hp/ROS2_WS/install/rplidar_ros:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/dynamic_tf:/opt/ros/humble')]), 'shell': False}
+[1.072477] (rplidar_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.073452] (rplidar_ros) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.074492] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py\n'}
+[1.074783] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m12_launch.py\n'}
+[1.075051] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m7_launch.py\n'}
+[1.075301] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m8_launch.py\n'}
+[1.075546] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3_launch.py\n'}
+[1.075788] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_c1_launch.py\n'}
+[1.076025] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_launch.py\n'}
+[1.076266] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp_launch.py\n'}
+[1.076498] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2_launch.py\n'}
+[1.076739] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2e_launch.py\n'}
+[1.076998] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s3_launch.py\n'}
+[1.077235] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_t1_launch.py\n'}
+[1.077482] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/launch/slam.launch.py\n'}
+[1.077723] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a1_launch.py\n'}
+[1.077963] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m12_launch.py\n'}
+[1.078220] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m7_launch.py\n'}
+[1.078728] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m8_launch.py\n'}
+[1.078987] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3_launch.py\n'}
+[1.079236] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_c1_launch.py\n'}
+[1.079498] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_launch.py\n'}
+[1.079731] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp_launch.py\n'}
+[1.079937] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2_launch.py\n'}
+[1.080145] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2e_launch.py\n'}
+[1.080369] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s3_launch.py\n'}
+[1.080593] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_t1_launch.py\n'}
+[1.081265] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/config/slam.yaml\n'}
+[1.081720] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz\n'}
+[1.082297] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/lib/rplidar_ros/tf_broadcaster\n'}
+[1.082621] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/lib/rplidar_ros/tf_listener\n'}
+[1.082937] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/lib/rplidar_ros/rplidar_node\n'}
+[1.083250] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/lib/rplidar_ros/rplidar_composition\n'}
+[1.083576] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/lib/rplidar_ros/rplidar_client\n'}
+[1.083935] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/lib/rplidar_ros/tf_map_baselink.py\n'}
+[1.084313] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros\n'}
+[1.084691] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros\n'}
+[1.085305] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh\n'}
+[1.085694] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv\n'}
+[1.086069] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/environment/path.sh\n'}
+[1.086445] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/environment/path.dsv\n'}
+[1.086809] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/local_setup.bash\n'}
+[1.087150] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/local_setup.sh\n'}
+[1.087483] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/local_setup.zsh\n'}
+[1.087817] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/local_setup.dsv\n'}
+[1.088080] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/package.dsv\n'}
+[1.098538] (slam_toolbox) StdoutLine: {'line': b'[ 75%] Built target slam_toolbox__rosidl_generator_py\n'}
+[1.101418] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros\n'}
+[1.102097] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.102259] (-) TimerEvent: {}
+[1.102882] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.103437] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake\n'}
+[1.103897] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake\n'}
+[1.104462] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/package.xml\n'}
+[1.113260] (rplidar_ros) CommandEnded: {'returncode': 0}
+[1.133499] (slam_toolbox) StdoutLine: {'line': b'[ 76%] Built target slam_toolbox__rosidl_typesupport_c__pyext\n'}
+[1.139415] (slam_toolbox) StdoutLine: {'line': b'[ 77%] Built target slam_toolbox__rosidl_typesupport_introspection_c__pyext\n'}
+[1.167005] (slam_toolbox) StdoutLine: {'line': b'[ 78%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.202376] (-) TimerEvent: {}
+[1.242526] (rplidar_ros) JobEnded: {'identifier': 'rplidar_ros', 'rc': 0}
+[1.302500] (-) TimerEvent: {}
+[1.402917] (-) TimerEvent: {}
+[1.403693] (slam_toolbox) StdoutLine: {'line': b'running egg_info\n'}
+[1.404823] (slam_toolbox) StdoutLine: {'line': b'writing slam_toolbox.egg-info/PKG-INFO\n'}
+[1.405308] (slam_toolbox) StdoutLine: {'line': b'writing dependency_links to slam_toolbox.egg-info/dependency_links.txt\n'}
+[1.405635] (slam_toolbox) StdoutLine: {'line': b'writing top-level names to slam_toolbox.egg-info/top_level.txt\n'}
+[1.409950] (slam_toolbox) StdoutLine: {'line': b"reading manifest file 'slam_toolbox.egg-info/SOURCES.txt'\n"}
+[1.411280] (slam_toolbox) StdoutLine: {'line': b"writing manifest file 'slam_toolbox.egg-info/SOURCES.txt'\n"}
+[1.464382] (slam_toolbox) StdoutLine: {'line': b'[ 78%] Built target ament_cmake_python_build_slam_toolbox_egg\n'}
+[1.467008] (my_robot_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/hp/ROS2_WS/build/my_robot_controller/build', '--no-deps', 'symlink_data'], 'cwd': '/home/hp/ROS2_WS/build/my_robot_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'hp', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu:/home/hp/ROS2_WS/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/hp', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/hp', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2008', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/hp/ROS2_WS/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'hp', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hp', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/hp/anaconda3/condabin:/opt/ros/humble/bin:/home/hp/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/hp-HP-Laptop-15-dw2xxx:@/tmp/.ICE-unix/1976,unix/hp-HP-Laptop-15-dw2xxx:/tmp/.ICE-unix/1976', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7ede504d_0552_4d2a_8aad_dc288a1a6ad3', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.ME0LQ2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.104', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/hp/ROS2_WS/install/slam_toolbox:/home/hp/ROS2_WS/install/rplidar_ros:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/dynamic_tf:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/hp/anaconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hp/ROS2_WS/build/my_robot_controller', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/hp/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/hp/ROS2_WS/build/my_robot_controller/prefix_override:/home/hp/ROS2_WS/install/my_robot_controller/lib/python3.10/site-packages:/home/hp/ROS2_WS/install/slam_toolbox/local/lib/python3.10/dist-packages:/home/hp/ROS2_WS/build/my_robot_controller:/home/hp/ROS2_WS/install/my_robot_controller/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/my_exo:/home/hp/ROS2_WS/install/my_exo/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/dynamic_tf:/home/hp/ROS2_WS/install/dynamic_tf/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/hp/ROS2_WS/install/slam_toolbox:/home/hp/ROS2_WS/install/rplidar_ros'}, 'shell': False}
+[1.478450] (my_exo) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/hp/ROS2_WS/build/my_exo/build', '--no-deps', 'symlink_data'], 'cwd': '/home/hp/ROS2_WS/build/my_exo', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'hp', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu:/home/hp/ROS2_WS/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/hp', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/hp', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2008', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/hp/ROS2_WS/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'hp', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hp', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/hp/anaconda3/condabin:/opt/ros/humble/bin:/home/hp/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/hp-HP-Laptop-15-dw2xxx:@/tmp/.ICE-unix/1976,unix/hp-HP-Laptop-15-dw2xxx:/tmp/.ICE-unix/1976', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7ede504d_0552_4d2a_8aad_dc288a1a6ad3', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.ME0LQ2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.104', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/hp/ROS2_WS/install/slam_toolbox:/home/hp/ROS2_WS/install/rplidar_ros:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/dynamic_tf:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/hp/anaconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hp/ROS2_WS/build/my_exo', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/hp/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/hp/ROS2_WS/build/my_exo/prefix_override:/home/hp/ROS2_WS/install/my_exo/lib/python3.10/site-packages:/home/hp/ROS2_WS/install/slam_toolbox/local/lib/python3.10/dist-packages:/home/hp/ROS2_WS/build/my_robot_controller:/home/hp/ROS2_WS/install/my_robot_controller/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/my_exo:/home/hp/ROS2_WS/install/my_exo/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/dynamic_tf:/home/hp/ROS2_WS/install/dynamic_tf/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/hp/ROS2_WS/install/slam_toolbox:/home/hp/ROS2_WS/install/rplidar_ros'}, 'shell': False}
+[1.503018] (-) TimerEvent: {}
+[1.576672] (dynamic_tf) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/hp/ROS2_WS/build/dynamic_tf/build', '--no-deps', 'symlink_data'], 'cwd': '/home/hp/ROS2_WS/build/dynamic_tf', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'hp', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu:/home/hp/ROS2_WS/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/hp', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/hp', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2008', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/hp/ROS2_WS/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'hp', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hp', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/hp/anaconda3/condabin:/opt/ros/humble/bin:/home/hp/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/hp-HP-Laptop-15-dw2xxx:@/tmp/.ICE-unix/1976,unix/hp-HP-Laptop-15-dw2xxx:/tmp/.ICE-unix/1976', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7ede504d_0552_4d2a_8aad_dc288a1a6ad3', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.ME0LQ2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.104', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/hp/ROS2_WS/install/slam_toolbox:/home/hp/ROS2_WS/install/rplidar_ros:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/dynamic_tf:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/hp/anaconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hp/ROS2_WS/build/dynamic_tf', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/hp/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/hp/ROS2_WS/build/dynamic_tf/prefix_override:/home/hp/ROS2_WS/install/dynamic_tf/lib/python3.10/site-packages:/home/hp/ROS2_WS/install/slam_toolbox/local/lib/python3.10/dist-packages:/home/hp/ROS2_WS/build/my_robot_controller:/home/hp/ROS2_WS/install/my_robot_controller/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/my_exo:/home/hp/ROS2_WS/install/my_exo/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/dynamic_tf:/home/hp/ROS2_WS/install/dynamic_tf/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/hp/ROS2_WS/install/slam_toolbox:/home/hp/ROS2_WS/install/rplidar_ros'}, 'shell': False}
+[1.603135] (-) TimerEvent: {}
+[1.703498] (-) TimerEvent: {}
+[1.803870] (-) TimerEvent: {}
+[1.832172] (my_robot_controller) StdoutLine: {'line': b'running develop\n'}
+[1.840267] (my_exo) StdoutLine: {'line': b'running develop\n'}
+[1.903997] (-) TimerEvent: {}
+[1.940409] (dynamic_tf) StdoutLine: {'line': b'running develop\n'}
+[2.004117] (-) TimerEvent: {}
+[2.058303] (my_robot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[2.058597] (my_robot_controller) StdoutLine: {'line': b'writing my_robot_controller.egg-info/PKG-INFO\n'}
+[2.058806] (my_robot_controller) StdoutLine: {'line': b'writing dependency_links to my_robot_controller.egg-info/dependency_links.txt\n'}
+[2.059015] (my_robot_controller) StdoutLine: {'line': b'writing entry points to my_robot_controller.egg-info/entry_points.txt\n'}
+[2.059215] (my_robot_controller) StdoutLine: {'line': b'writing requirements to my_robot_controller.egg-info/requires.txt\n'}
+[2.059361] (my_robot_controller) StdoutLine: {'line': b'writing top-level names to my_robot_controller.egg-info/top_level.txt\n'}
+[2.061394] (my_robot_controller) StdoutLine: {'line': b"reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'\n"}
+[2.062249] (my_robot_controller) StdoutLine: {'line': b"writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'\n"}
+[2.062775] (my_exo) StdoutLine: {'line': b'running egg_info\n'}
+[2.063014] (my_exo) StdoutLine: {'line': b'writing my_exo.egg-info/PKG-INFO\n'}
+[2.063240] (my_exo) StdoutLine: {'line': b'writing dependency_links to my_exo.egg-info/dependency_links.txt\n'}
+[2.063482] (my_exo) StdoutLine: {'line': b'writing entry points to my_exo.egg-info/entry_points.txt\n'}
+[2.063675] (my_exo) StdoutLine: {'line': b'writing requirements to my_exo.egg-info/requires.txt\n'}
+[2.063847] (my_exo) StdoutLine: {'line': b'writing top-level names to my_exo.egg-info/top_level.txt\n'}
+[2.064181] (my_robot_controller) StdoutLine: {'line': b'running build_ext\n'}
+[2.064456] (my_robot_controller) StdoutLine: {'line': b'Creating /home/hp/ROS2_WS/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)\n'}
+[2.065535] (my_robot_controller) StdoutLine: {'line': b'Installing draw_circle script to /home/hp/ROS2_WS/install/my_robot_controller/lib/my_robot_controller\n'}
+[2.065807] (my_robot_controller) StdoutLine: {'line': b'Installing pose_suscriber script to /home/hp/ROS2_WS/install/my_robot_controller/lib/my_robot_controller\n'}
+[2.066006] (my_robot_controller) StdoutLine: {'line': b'Installing test_node script to /home/hp/ROS2_WS/install/my_robot_controller/lib/my_robot_controller\n'}
+[2.066209] (my_exo) StdoutLine: {'line': b"reading manifest file 'my_exo.egg-info/SOURCES.txt'\n"}
+[2.066391] (my_robot_controller) StdoutLine: {'line': b'\n'}
+[2.066524] (my_robot_controller) StdoutLine: {'line': b'Installed /home/hp/ROS2_WS/build/my_robot_controller\n'}
+[2.066649] (my_robot_controller) StdoutLine: {'line': b'running symlink_data\n'}
+[2.067006] (my_exo) StdoutLine: {'line': b"writing manifest file 'my_exo.egg-info/SOURCES.txt'\n"}
+[2.069016] (my_exo) StdoutLine: {'line': b'running build_ext\n'}
+[2.069373] (my_exo) StdoutLine: {'line': b'Creating /home/hp/ROS2_WS/install/my_exo/lib/python3.10/site-packages/my-exo.egg-link (link to .)\n'}
+[2.070498] (my_exo) StdoutLine: {'line': b'Installing first_node script to /home/hp/ROS2_WS/install/my_exo/lib/my_exo\n'}
+[2.070794] (my_exo) StdoutLine: {'line': b'Installing fourth_node script to /home/hp/ROS2_WS/install/my_exo/lib/my_exo\n'}
+[2.071027] (my_exo) StdoutLine: {'line': b'Installing input_node script to /home/hp/ROS2_WS/install/my_exo/lib/my_exo\n'}
+[2.071173] (my_exo) StdoutLine: {'line': b'Installing second_node script to /home/hp/ROS2_WS/install/my_exo/lib/my_exo\n'}
+[2.071359] (my_exo) StdoutLine: {'line': b'Installing selector_node script to /home/hp/ROS2_WS/install/my_exo/lib/my_exo\n'}
+[2.071488] (my_exo) StdoutLine: {'line': b'Installing third_node script to /home/hp/ROS2_WS/install/my_exo/lib/my_exo\n'}
+[2.071685] (my_exo) StdoutLine: {'line': b'\n'}
+[2.071823] (my_exo) StdoutLine: {'line': b'Installed /home/hp/ROS2_WS/build/my_exo\n'}
+[2.071953] (my_exo) StdoutLine: {'line': b'running symlink_data\n'}
+[2.104316] (-) TimerEvent: {}
+[2.128025] (my_robot_controller) CommandEnded: {'returncode': 0}
+[2.137184] (my_robot_controller) JobEnded: {'identifier': 'my_robot_controller', 'rc': 0}
+[2.138753] (my_exo) CommandEnded: {'returncode': 0}
+[2.145989] (my_exo) JobEnded: {'identifier': 'my_exo', 'rc': 0}
+[2.171622] (dynamic_tf) StdoutLine: {'line': b'running egg_info\n'}
+[2.171878] (dynamic_tf) StdoutLine: {'line': b'writing dynamic_tf.egg-info/PKG-INFO\n'}
+[2.171989] (dynamic_tf) StdoutLine: {'line': b'writing dependency_links to dynamic_tf.egg-info/dependency_links.txt\n'}
+[2.172113] (dynamic_tf) StdoutLine: {'line': b'writing entry points to dynamic_tf.egg-info/entry_points.txt\n'}
+[2.172213] (dynamic_tf) StdoutLine: {'line': b'writing requirements to dynamic_tf.egg-info/requires.txt\n'}
+[2.172281] (dynamic_tf) StdoutLine: {'line': b'writing top-level names to dynamic_tf.egg-info/top_level.txt\n'}
+[2.174137] (dynamic_tf) StdoutLine: {'line': b"reading manifest file 'dynamic_tf.egg-info/SOURCES.txt'\n"}
+[2.174732] (dynamic_tf) StdoutLine: {'line': b"writing manifest file 'dynamic_tf.egg-info/SOURCES.txt'\n"}
+[2.176180] (dynamic_tf) StdoutLine: {'line': b'running build_ext\n'}
+[2.176390] (dynamic_tf) StdoutLine: {'line': b'Creating /home/hp/ROS2_WS/install/dynamic_tf/lib/python3.10/site-packages/dynamic-tf.egg-link (link to .)\n'}
+[2.177150] (dynamic_tf) StdoutLine: {'line': b'Installing tf_map_baselink script to /home/hp/ROS2_WS/install/dynamic_tf/lib/dynamic_tf\n'}
+[2.177421] (dynamic_tf) StdoutLine: {'line': b'\n'}
+[2.177519] (dynamic_tf) StdoutLine: {'line': b'Installed /home/hp/ROS2_WS/build/dynamic_tf\n'}
+[2.177628] (dynamic_tf) StdoutLine: {'line': b'running symlink_data\n'}
+[2.204616] (-) TimerEvent: {}
+[2.219533] (dynamic_tf) CommandEnded: {'returncode': 0}
+[2.226122] (dynamic_tf) JobEnded: {'identifier': 'dynamic_tf', 'rc': 0}
+[2.304812] (-) TimerEvent: {}
+[2.405244] (-) TimerEvent: {}
+[2.505704] (-) TimerEvent: {}
+[2.606075] (-) TimerEvent: {}
+[2.706466] (-) TimerEvent: {}
+[2.806877] (-) TimerEvent: {}
+[2.907328] (-) TimerEvent: {}
+[3.007797] (-) TimerEvent: {}
+[3.108242] (-) TimerEvent: {}
+[3.208763] (-) TimerEvent: {}
+[3.309238] (-) TimerEvent: {}
+[3.409722] (-) TimerEvent: {}
+[3.510073] (-) TimerEvent: {}
+[3.610452] (-) TimerEvent: {}
+[3.710835] (-) TimerEvent: {}
+[3.811224] (-) TimerEvent: {}
+[3.911595] (-) TimerEvent: {}
+[4.011991] (-) TimerEvent: {}
+[4.112400] (-) TimerEvent: {}
+[4.212813] (-) TimerEvent: {}
+[4.313267] (-) TimerEvent: {}
+[4.413648] (-) TimerEvent: {}
+[4.514038] (-) TimerEvent: {}
+[4.614417] (-) TimerEvent: {}
+[4.714832] (-) TimerEvent: {}
+[4.815230] (-) TimerEvent: {}
+[4.915734] (-) TimerEvent: {}
+[5.016210] (-) TimerEvent: {}
+[5.116776] (-) TimerEvent: {}
+[5.217136] (-) TimerEvent: {}
+[5.317519] (-) TimerEvent: {}
+[5.417883] (-) TimerEvent: {}
+[5.518250] (-) TimerEvent: {}
+[5.618625] (-) TimerEvent: {}
+[5.719005] (-) TimerEvent: {}
+[5.819566] (-) TimerEvent: {}
+[5.920052] (-) TimerEvent: {}
+[6.020495] (-) TimerEvent: {}
+[6.120970] (-) TimerEvent: {}
+[6.221394] (-) TimerEvent: {}
+[6.321734] (-) TimerEvent: {}
+[6.422101] (-) TimerEvent: {}
+[6.522570] (-) TimerEvent: {}
+[6.622985] (-) TimerEvent: {}
+[6.723444] (-) TimerEvent: {}
+[6.823892] (-) TimerEvent: {}
+[6.924342] (-) TimerEvent: {}
+[7.024831] (-) TimerEvent: {}
+[7.125267] (-) TimerEvent: {}
+[7.225668] (-) TimerEvent: {}
+[7.326044] (-) TimerEvent: {}
+[7.426462] (-) TimerEvent: {}
+[7.526902] (-) TimerEvent: {}
+[7.627308] (-) TimerEvent: {}
+[7.727732] (-) TimerEvent: {}
+[7.828214] (-) TimerEvent: {}
+[7.928751] (-) TimerEvent: {}
+[8.029149] (-) TimerEvent: {}
+[8.129658] (-) TimerEvent: {}
+[8.230067] (-) TimerEvent: {}
+[8.330431] (-) TimerEvent: {}
+[8.430810] (-) TimerEvent: {}
+[8.531254] (-) TimerEvent: {}
+[8.631607] (-) TimerEvent: {}
+[8.732067] (-) TimerEvent: {}
+[8.832500] (-) TimerEvent: {}
+[8.933006] (-) TimerEvent: {}
+[9.033398] (-) TimerEvent: {}
+[9.133738] (-) TimerEvent: {}
+[9.234026] (-) TimerEvent: {}
+[9.334484] (-) TimerEvent: {}
+[9.434858] (-) TimerEvent: {}
+[9.535276] (-) TimerEvent: {}
+[9.635732] (-) TimerEvent: {}
+[9.736051] (-) TimerEvent: {}
+[9.836498] (-) TimerEvent: {}
+[9.936941] (-) TimerEvent: {}
+[10.037225] (-) TimerEvent: {}
+[10.137711] (-) TimerEvent: {}
+[10.238152] (-) TimerEvent: {}
+[10.338683] (-) TimerEvent: {}
+[10.439012] (-) TimerEvent: {}
+[10.539427] (-) TimerEvent: {}
+[10.639911] (-) TimerEvent: {}
+[10.740324] (-) TimerEvent: {}
+[10.840809] (-) TimerEvent: {}
+[10.941230] (-) TimerEvent: {}
+[11.041587] (-) TimerEvent: {}
+[11.142007] (-) TimerEvent: {}
+[11.242401] (-) TimerEvent: {}
+[11.342839] (-) TimerEvent: {}
+[11.443194] (-) TimerEvent: {}
+[11.543659] (-) TimerEvent: {}
+[11.644085] (-) TimerEvent: {}
+[11.744531] (-) TimerEvent: {}
+[11.845026] (-) TimerEvent: {}
+[11.945370] (-) TimerEvent: {}
+[12.045687] (-) TimerEvent: {}
+[12.146040] (-) TimerEvent: {}
+[12.246389] (-) TimerEvent: {}
+[12.346756] (-) TimerEvent: {}
+[12.447221] (-) TimerEvent: {}
+[12.547722] (-) TimerEvent: {}
+[12.648180] (-) TimerEvent: {}
+[12.748687] (-) TimerEvent: {}
+[12.849198] (-) TimerEvent: {}
+[12.949583] (-) TimerEvent: {}
+[13.049882] (-) TimerEvent: {}
+[13.150236] (-) TimerEvent: {}
+[13.250578] (-) TimerEvent: {}
+[13.350984] (-) TimerEvent: {}
+[13.451403] (-) TimerEvent: {}
+[13.551913] (-) TimerEvent: {}
+[13.652357] (-) TimerEvent: {}
+[13.752803] (-) TimerEvent: {}
+[13.853250] (-) TimerEvent: {}
+[13.953659] (-) TimerEvent: {}
+[14.053995] (-) TimerEvent: {}
+[14.154344] (-) TimerEvent: {}
+[14.254712] (-) TimerEvent: {}
+[14.355121] (-) TimerEvent: {}
+[14.455540] (-) TimerEvent: {}
+[14.556083] (-) TimerEvent: {}
+[14.656639] (-) TimerEvent: {}
+[14.757041] (-) TimerEvent: {}
+[14.857443] (-) TimerEvent: {}
+[14.957784] (-) TimerEvent: {}
+[15.058140] (-) TimerEvent: {}
+[15.158526] (-) TimerEvent: {}
+[15.258950] (-) TimerEvent: {}
+[15.359415] (-) TimerEvent: {}
+[15.459980] (-) TimerEvent: {}
+[15.560387] (-) TimerEvent: {}
+[15.660833] (-) TimerEvent: {}
+[15.761169] (-) TimerEvent: {}
+[15.861495] (-) TimerEvent: {}
+[15.961872] (-) TimerEvent: {}
+[16.062258] (-) TimerEvent: {}
+[16.162606] (-) TimerEvent: {}
+[16.262997] (-) TimerEvent: {}
+[16.363436] (-) TimerEvent: {}
+[16.463801] (-) TimerEvent: {}
+[16.564284] (-) TimerEvent: {}
+[16.664727] (-) TimerEvent: {}
+[16.765189] (-) TimerEvent: {}
+[16.865561] (-) TimerEvent: {}
+[16.965930] (-) TimerEvent: {}
+[17.066246] (-) TimerEvent: {}
+[17.166605] (-) TimerEvent: {}
+[17.267006] (-) TimerEvent: {}
+[17.367403] (-) TimerEvent: {}
+[17.467835] (-) TimerEvent: {}
+[17.568277] (-) TimerEvent: {}
+[17.668713] (-) TimerEvent: {}
+[17.769121] (-) TimerEvent: {}
+[17.869466] (-) TimerEvent: {}
+[17.969839] (-) TimerEvent: {}
+[18.070196] (-) TimerEvent: {}
+[18.170559] (-) TimerEvent: {}
+[18.270934] (-) TimerEvent: {}
+[18.371393] (-) TimerEvent: {}
+[18.471941] (-) TimerEvent: {}
+[18.572406] (-) TimerEvent: {}
+[18.672788] (-) TimerEvent: {}
+[18.773280] (-) TimerEvent: {}
+[18.873717] (-) TimerEvent: {}
+[18.974097] (-) TimerEvent: {}
+[19.074435] (-) TimerEvent: {}
+[19.174826] (-) TimerEvent: {}
+[19.275162] (-) TimerEvent: {}
+[19.375609] (-) TimerEvent: {}
+[19.476005] (-) TimerEvent: {}
+[19.576399] (-) TimerEvent: {}
+[19.676846] (-) TimerEvent: {}
+[19.777238] (-) TimerEvent: {}
+[19.877626] (-) TimerEvent: {}
+[19.977943] (-) TimerEvent: {}
+[20.078295] (-) TimerEvent: {}
+[20.178628] (-) TimerEvent: {}
+[20.279001] (-) TimerEvent: {}
+[20.379416] (-) TimerEvent: {}
+[20.479844] (-) TimerEvent: {}
+[20.580282] (-) TimerEvent: {}
+[20.680699] (-) TimerEvent: {}
+[20.781138] (-) TimerEvent: {}
+[20.881541] (-) TimerEvent: {}
+[20.981879] (-) TimerEvent: {}
+[21.082327] (-) TimerEvent: {}
+[21.182791] (-) TimerEvent: {}
+[21.283233] (-) TimerEvent: {}
+[21.383727] (-) TimerEvent: {}
+[21.484125] (-) TimerEvent: {}
+[21.584558] (-) TimerEvent: {}
+[21.684936] (-) TimerEvent: {}
+[21.785436] (-) TimerEvent: {}
+[21.885842] (-) TimerEvent: {}
+[21.986255] (-) TimerEvent: {}
+[22.086680] (-) TimerEvent: {}
+[22.187129] (-) TimerEvent: {}
+[22.287607] (-) TimerEvent: {}
+[22.388024] (-) TimerEvent: {}
+[22.488513] (-) TimerEvent: {}
+[22.588997] (-) TimerEvent: {}
+[22.689391] (-) TimerEvent: {}
+[22.789785] (-) TimerEvent: {}
+[22.890267] (-) TimerEvent: {}
+[22.939472] (slam_toolbox) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libkartoSlamToolbox.so\x1b[0m\n'}
+[22.990519] (-) TimerEvent: {}
+[23.091045] (-) TimerEvent: {}
+[23.191494] (-) TimerEvent: {}
+[23.291898] (-) TimerEvent: {}
+[23.392385] (-) TimerEvent: {}
+[23.468616] (slam_toolbox) StdoutLine: {'line': b'[ 79%] Built target kartoSlamToolbox\n'}
+[23.492542] (-) TimerEvent: {}
+[23.503433] (slam_toolbox) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library libceres_solver_plugin.so\x1b[0m\n'}
+[23.515468] (slam_toolbox) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX shared library libtoolbox_common.so\x1b[0m\n'}
+[23.592805] (-) TimerEvent: {}
+[23.693606] (-) TimerEvent: {}
+[23.794240] (-) TimerEvent: {}
+[23.894869] (-) TimerEvent: {}
+[23.995402] (-) TimerEvent: {}
+[24.096189] (-) TimerEvent: {}
+[24.196774] (-) TimerEvent: {}
+[24.297556] (-) TimerEvent: {}
+[24.398068] (-) TimerEvent: {}
+[24.498693] (-) TimerEvent: {}
+[24.539410] (slam_toolbox) StdoutLine: {'line': b'[ 81%] Built target ceres_solver_plugin\n'}
+[24.598790] (-) TimerEvent: {}
+[24.699079] (-) TimerEvent: {}
+[24.799375] (-) TimerEvent: {}
+[24.899712] (-) TimerEvent: {}
+[24.981588] (slam_toolbox) StdoutLine: {'line': b'[ 85%] Built target toolbox_common\n'}
+[24.999866] (-) TimerEvent: {}
+[25.022940] (slam_toolbox) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking CXX shared library liblifelong_slam_toolbox.so\x1b[0m\n'}
+[25.028699] (slam_toolbox) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable merge_maps_kinematic\x1b[0m\n'}
+[25.031795] (slam_toolbox) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX shared library liblocalization_slam_toolbox.so\x1b[0m\n'}
+[25.033644] (slam_toolbox) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX shared library libasync_slam_toolbox.so\x1b[0m\n'}
+[25.034559] (slam_toolbox) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking CXX shared library libsync_slam_toolbox.so\x1b[0m\n'}
+[25.100268] (-) TimerEvent: {}
+[25.201933] (-) TimerEvent: {}
+[25.303657] (-) TimerEvent: {}
+[25.405280] (-) TimerEvent: {}
+[25.506889] (-) TimerEvent: {}
+[25.608313] (-) TimerEvent: {}
+[25.709915] (-) TimerEvent: {}
+[25.811218] (-) TimerEvent: {}
+[25.913350] (-) TimerEvent: {}
+[26.015923] (-) TimerEvent: {}
+[26.117076] (-) TimerEvent: {}
+[26.218671] (-) TimerEvent: {}
+[26.320209] (-) TimerEvent: {}
+[26.421207] (-) TimerEvent: {}
+[26.522746] (-) TimerEvent: {}
+[26.624326] (-) TimerEvent: {}
+[26.725608] (-) TimerEvent: {}
+[26.827163] (-) TimerEvent: {}
+[26.929104] (-) TimerEvent: {}
+[27.030816] (-) TimerEvent: {}
+[27.132853] (-) TimerEvent: {}
+[27.234128] (-) TimerEvent: {}
+[27.335779] (-) TimerEvent: {}
+[27.437551] (-) TimerEvent: {}
+[27.539303] (-) TimerEvent: {}
+[27.641095] (-) TimerEvent: {}
+[27.742477] (-) TimerEvent: {}
+[27.844067] (-) TimerEvent: {}
+[27.945765] (-) TimerEvent: {}
+[28.047465] (-) TimerEvent: {}
+[28.149428] (-) TimerEvent: {}
+[28.251203] (-) TimerEvent: {}
+[28.352726] (-) TimerEvent: {}
+[28.454322] (-) TimerEvent: {}
+[28.556272] (-) TimerEvent: {}
+[28.657680] (-) TimerEvent: {}
+[28.758515] (-) TimerEvent: {}
+[28.859535] (-) TimerEvent: {}
+[28.914503] (slam_toolbox) StdoutLine: {'line': b'[ 89%] Built target sync_slam_toolbox\n'}
+[28.959756] (-) TimerEvent: {}
+[28.986119] (slam_toolbox) StdoutLine: {'line': b'[ 90%] Built target merge_maps_kinematic\n'}
+[28.991956] (slam_toolbox) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable sync_slam_toolbox_node\x1b[0m\n'}
+[29.060049] (-) TimerEvent: {}
+[29.105493] (slam_toolbox) StdoutLine: {'line': b'[ 91%] Built target localization_slam_toolbox\n'}
+[29.160374] (-) TimerEvent: {}
+[29.198937] (slam_toolbox) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable localization_slam_toolbox_node\x1b[0m\n'}
+[29.206552] (slam_toolbox) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX shared library libmap_and_localization_slam_toolbox.so\x1b[0m\n'}
+[29.260742] (-) TimerEvent: {}
+[29.362035] (-) TimerEvent: {}
+[29.463579] (-) TimerEvent: {}
+[29.564883] (-) TimerEvent: {}
+[29.666329] (-) TimerEvent: {}
+[29.767978] (-) TimerEvent: {}
+[29.868950] (-) TimerEvent: {}
+[29.969823] (-) TimerEvent: {}
+[29.985433] (slam_toolbox) StdoutLine: {'line': b'[ 94%] Built target lifelong_slam_toolbox\n'}
+[30.070115] (-) TimerEvent: {}
+[30.072381] (slam_toolbox) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable lifelong_slam_toolbox_node\x1b[0m\n'}
+[30.170496] (-) TimerEvent: {}
+[30.254910] (slam_toolbox) StdoutLine: {'line': b'[ 96%] Built target async_slam_toolbox\n'}
+[30.270832] (-) TimerEvent: {}
+[30.372169] (-) TimerEvent: {}
+[30.382512] (slam_toolbox) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable async_slam_toolbox_node\x1b[0m\n'}
+[30.472388] (-) TimerEvent: {}
+[30.512883] (slam_toolbox) StdoutLine: {'line': b'[ 98%] Built target sync_slam_toolbox_node\n'}
+[30.572767] (-) TimerEvent: {}
+[30.673854] (-) TimerEvent: {}
+[30.775349] (-) TimerEvent: {}
+[30.876684] (-) TimerEvent: {}
+[30.978306] (-) TimerEvent: {}
+[31.079909] (-) TimerEvent: {}
+[31.181401] (-) TimerEvent: {}
+[31.283076] (-) TimerEvent: {}
+[31.384078] (-) TimerEvent: {}
+[31.485251] (-) TimerEvent: {}
+[31.586804] (-) TimerEvent: {}
+[31.668888] (slam_toolbox) StdoutLine: {'line': b'[ 99%] Built target localization_slam_toolbox_node\n'}
+[31.686992] (-) TimerEvent: {}
+[31.787702] (-) TimerEvent: {}
+[31.888408] (-) TimerEvent: {}
+[31.920271] (slam_toolbox) StdoutLine: {'line': b'[ 99%] Built target lifelong_slam_toolbox_node\n'}
+[31.988605] (-) TimerEvent: {}
+[32.021580] (slam_toolbox) StdoutLine: {'line': b'[ 99%] Built target async_slam_toolbox_node\n'}
+[32.061903] (slam_toolbox) StdoutLine: {'line': b'[ 99%] Built target map_and_localization_slam_toolbox\n'}
+[32.088808] (-) TimerEvent: {}
+[32.102256] (slam_toolbox) StdoutLine: {'line': b'[ 99%] \x1b[32m\x1b[1mLinking CXX executable map_and_localization_slam_toolbox_node\x1b[0m\n'}
+[32.189201] (-) TimerEvent: {}
+[32.289690] (-) TimerEvent: {}
+[32.390219] (-) TimerEvent: {}
+[32.490847] (-) TimerEvent: {}
+[32.590075] (slam_toolbox) StdoutLine: {'line': b'[100%] Built target map_and_localization_slam_toolbox_node\n'}
+[32.590981] (-) TimerEvent: {}
+[32.600064] (slam_toolbox) CommandEnded: {'returncode': 0}
+[32.691148] (-) TimerEvent: {}
+[32.791763] (-) TimerEvent: {}
+[32.892239] (-) TimerEvent: {}
+[32.992638] (-) TimerEvent: {}
+[33.016069] (slam_toolbox) JobProgress: {'identifier': 'slam_toolbox', 'progress': 'install'}
+[33.018143] (slam_toolbox) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hp/ROS2_WS/build/slam_toolbox'], 'cwd': '/home/hp/ROS2_WS/build/slam_toolbox', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hp'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu:/home/hp/ROS2_WS/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hp'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/hp'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2008'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hp/ROS2_WS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hp'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hp'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/hp/anaconda3/condabin:/opt/ros/humble/bin:/home/hp/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hp-HP-Laptop-15-dw2xxx:@/tmp/.ICE-unix/1976,unix/hp-HP-Laptop-15-dw2xxx:/tmp/.ICE-unix/1976'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7ede504d_0552_4d2a_8aad_dc288a1a6ad3'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ME0LQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hp/ROS2_WS/install/slam_toolbox:/home/hp/ROS2_WS/install/rplidar_ros:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/dynamic_tf:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/hp/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hp/ROS2_WS/build/slam_toolbox'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/hp/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hp/ROS2_WS/install/slam_toolbox/local/lib/python3.10/dist-packages:/home/hp/ROS2_WS/build/my_robot_controller:/home/hp/ROS2_WS/install/my_robot_controller/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/my_exo:/home/hp/ROS2_WS/install/my_exo/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/dynamic_tf:/home/hp/ROS2_WS/install/dynamic_tf/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hp/ROS2_WS/install/slam_toolbox:/home/hp/ROS2_WS/install/rplidar_ros:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/dynamic_tf:/opt/ros/humble')]), 'shell': False}
+[33.029624] (slam_toolbox) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[33.030547] (slam_toolbox) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[33.031183] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include//karto_sdk/Karto.h\n'}
+[33.031498] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include//karto_sdk/Macros.h\n'}
+[33.031681] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include//karto_sdk/Mapper.h\n'}
+[33.031784] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include//karto_sdk/Math.h\n'}
+[33.031897] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include//karto_sdk/ProcessData.h\n'}
+[33.032012] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include//karto_sdk/Types.h\n'}
+[33.032156] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include//karto_sdk/nanoflann.hpp\n'}
+[33.032276] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include//karto_sdk/nanoflann_adaptors.h\n'}
+[33.032469] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/ament_index/resource_index/rosidl_interfaces/slam_toolbox\n'}
+[33.033380] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg/rosidl_generator_c__visibility_control.h\n'}
+[33.033579] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/add_submap.h\n'}
+[33.033677] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/clear.h\n'}
+[33.033753] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/clear_queue.h\n'}
+[33.033880] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/deserialize_pose_graph.h\n'}
+[33.033958] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__functions.h\n'}
+[33.034028] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__struct.h\n'}
+[33.034104] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__type_support.h\n'}
+[33.034512] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__functions.h\n'}
+[33.034830] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__struct.h\n'}
+[33.034918] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__type_support.h\n'}
+[33.035028] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__functions.h\n'}
+[33.035101] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__struct.h\n'}
+[33.035208] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__type_support.h\n'}
+[33.035308] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__functions.h\n'}
+[33.035435] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__struct.h\n'}
+[33.035530] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.h\n'}
+[33.035594] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__functions.h\n'}
+[33.035658] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__struct.h\n'}
+[33.035724] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__type_support.h\n'}
+[33.035826] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__functions.h\n'}
+[33.035887] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__struct.h\n'}
+[33.035948] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__type_support.h\n'}
+[33.036034] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__functions.h\n'}
+[33.036097] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__struct.h\n'}
+[33.036184] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__type_support.h\n'}
+[33.036246] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/reset__functions.h\n'}
+[33.036321] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/reset__struct.h\n'}
+[33.036398] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/reset__type_support.h\n'}
+[33.036477] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__functions.h\n'}
+[33.036556] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__struct.h\n'}
+[33.036628] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__type_support.h\n'}
+[33.036715] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__functions.h\n'}
+[33.036804] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__struct.h\n'}
+[33.036891] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__type_support.h\n'}
+[33.036993] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__functions.h\n'}
+[33.037087] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__struct.h\n'}
+[33.037175] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__type_support.h\n'}
+[33.037261] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/loop_closure.h\n'}
+[33.037345] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/merge_maps.h\n'}
+[33.037454] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/pause.h\n'}
+[33.037540] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/reset.h\n'}
+[33.037627] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/save_map.h\n'}
+[33.037737] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/serialize_pose_graph.h\n'}
+[33.037821] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/toggle_interactive.h\n'}
+[33.037984] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/environment/library_path.sh\n'}
+[33.038114] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/environment/library_path.dsv\n'}
+[33.038807] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[33.038905] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_fastrtps_c.h\n'}
+[33.038990] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__rosidl_typesupport_fastrtps_c.h\n'}
+[33.039072] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_fastrtps_c.h\n'}
+[33.039173] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_fastrtps_c.h\n'}
+[33.039252] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_fastrtps_c.h\n'}
+[33.039357] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_fastrtps_c.h\n'}
+[33.039439] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__rosidl_typesupport_fastrtps_c.h\n'}
+[33.039517] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/reset__rosidl_typesupport_fastrtps_c.h\n'}
+[33.039593] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h\n'}
+[33.039688] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_fastrtps_c.h\n'}
+[33.039766] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_fastrtps_c.h\n'}
+[33.040428] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/add_submap.hpp\n'}
+[33.040513] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/clear.hpp\n'}
+[33.040597] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/clear_queue.hpp\n'}
+[33.040673] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/deserialize_pose_graph.hpp\n'}
+[33.040755] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__builder.hpp\n'}
+[33.040861] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__struct.hpp\n'}
+[33.040940] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__traits.hpp\n'}
+[33.041020] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__builder.hpp\n'}
+[33.041422] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__struct.hpp\n'}
+[33.041601] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__traits.hpp\n'}
+[33.041694] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__builder.hpp\n'}
+[33.041815] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__struct.hpp\n'}
+[33.041913] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__traits.hpp\n'}
+[33.042012] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__builder.hpp\n'}
+[33.042127] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__struct.hpp\n'}
+[33.042216] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__traits.hpp\n'}
+[33.042305] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__builder.hpp\n'}
+[33.042394] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__struct.hpp\n'}
+[33.042488] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__traits.hpp\n'}
+[33.042574] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__builder.hpp\n'}
+[33.042660] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__struct.hpp\n'}
+[33.042745] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__traits.hpp\n'}
+[33.042833] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__builder.hpp\n'}
+[33.042920] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__struct.hpp\n'}
+[33.043006] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__traits.hpp\n'}
+[33.043092] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/reset__builder.hpp\n'}
+[33.043178] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/reset__struct.hpp\n'}
+[33.043263] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/reset__traits.hpp\n'}
+[33.043350] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__builder.hpp\n'}
+[33.043443] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__struct.hpp\n'}
+[33.043527] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__traits.hpp\n'}
+[33.043613] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__builder.hpp\n'}
+[33.043697] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__struct.hpp\n'}
+[33.043780] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__traits.hpp\n'}
+[33.043863] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__builder.hpp\n'}
+[33.043946] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__struct.hpp\n'}
+[33.044029] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__traits.hpp\n'}
+[33.044111] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/loop_closure.hpp\n'}
+[33.044193] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/merge_maps.hpp\n'}
+[33.044274] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/pause.hpp\n'}
+[33.044356] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/reset.hpp\n'}
+[33.044437] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/save_map.hpp\n'}
+[33.044519] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/serialize_pose_graph.hpp\n'}
+[33.044601] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/toggle_interactive.hpp\n'}
+[33.045221] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[33.045312] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[33.045421] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[33.045520] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[33.045615] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[33.045716] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[33.045815] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[33.045908] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[33.046003] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/reset__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[33.046092] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[33.046181] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[33.046275] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[33.046776] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[33.046858] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_introspection_c.h\n'}
+[33.046940] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__rosidl_typesupport_introspection_c.h\n'}
+[33.047021] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_introspection_c.h\n'}
+[33.047118] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_introspection_c.h\n'}
+[33.047193] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_introspection_c.h\n'}
+[33.047266] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_introspection_c.h\n'}
+[33.047354] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__rosidl_typesupport_introspection_c.h\n'}
+[33.047440] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/reset__rosidl_typesupport_introspection_c.h\n'}
+[33.047526] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__rosidl_typesupport_introspection_c.h\n'}
+[33.047612] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_introspection_c.h\n'}
+[33.047698] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_introspection_c.h\n'}
+[33.048119] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_introspection_cpp.hpp\n'}
+[33.048200] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__rosidl_typesupport_introspection_cpp.hpp\n'}
+[33.048278] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_introspection_cpp.hpp\n'}
+[33.048346] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_introspection_cpp.hpp\n'}
+[33.048417] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_introspection_cpp.hpp\n'}
+[33.048494] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_introspection_cpp.hpp\n'}
+[33.048579] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__rosidl_typesupport_introspection_cpp.hpp\n'}
+[33.048665] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/reset__rosidl_typesupport_introspection_cpp.hpp\n'}
+[33.048750] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp\n'}
+[33.048841] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_introspection_cpp.hpp\n'}
+[33.048921] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_introspection_cpp.hpp\n'}
+[33.049097] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/environment/pythonpath.sh\n'}
+[33.049223] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/environment/pythonpath.dsv\n'}
+[33.049508] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox-2.7.0-py3.10.egg-info/PKG-INFO\n'}
+[33.049594] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox-2.7.0-py3.10.egg-info/SOURCES.txt\n'}
+[33.049688] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox-2.7.0-py3.10.egg-info/dependency_links.txt\n'}
+[33.049785] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox-2.7.0-py3.10.egg-info/top_level.txt\n'}
+[33.050562] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/__init__.py\n'}
+[33.050661] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_c.c\n'}
+[33.050724] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[33.050808] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[33.050887] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/libslam_toolbox__rosidl_generator_py.so\n'}
+[33.050968] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[33.051049] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[33.051135] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[33.051212] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/__init__.py\n'}
+[33.051291] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_add_submap.py\n'}
+[33.051378] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_add_submap_s.c\n'}
+[33.051469] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_clear.py\n'}
+[33.051573] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_clear_queue.py\n'}
+[33.051661] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_clear_queue_s.c\n'}
+[33.051748] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_clear_s.c\n'}
+[33.051843] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_deserialize_pose_graph.py\n'}
+[33.051926] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_deserialize_pose_graph_s.c\n'}
+[33.052010] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_loop_closure.py\n'}
+[33.052093] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_loop_closure_s.c\n'}
+[33.052177] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_merge_maps.py\n'}
+[33.052259] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_merge_maps_s.c\n'}
+[33.052343] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_pause.py\n'}
+[33.052428] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_pause_s.c\n'}
+[33.052510] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_reset.py\n'}
+[33.052592] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_reset_s.c\n'}
+[33.052673] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_save_map.py\n'}
+[33.052756] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_save_map_s.c\n'}
+[33.052839] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_serialize_pose_graph.py\n'}
+[33.052923] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_serialize_pose_graph_s.c\n'}
+[33.053017] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_toggle_interactive.py\n'}
+[33.053109] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_toggle_interactive_s.c\n'}
+[33.053349] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[33.053597] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[33.053818] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[33.053967] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/srv/Pause.idl\n'}
+[33.054097] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/srv/Reset.idl\n'}
+[33.054223] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/srv/ClearQueue.idl\n'}
+[33.054349] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/srv/ToggleInteractive.idl\n'}
+[33.054472] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/srv/Clear.idl\n'}
+[33.054594] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/srv/SaveMap.idl\n'}
+[33.054720] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/srv/LoopClosure.idl\n'}
+[33.054836] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/srv/MergeMaps.idl\n'}
+[33.054952] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/srv/AddSubmap.idl\n'}
+[33.055071] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/srv/DeserializePoseGraph.idl\n'}
+[33.055187] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/srv/SerializePoseGraph.idl\n'}
+[33.055305] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/srvs/Pause.srv\n'}
+[33.055421] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/srvs/Pause_Request.msg\n'}
+[33.055537] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/srvs/Pause_Response.msg\n'}
+[33.055652] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/srvs/Reset.srv\n'}
+[33.055766] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/srvs/Reset_Request.msg\n'}
+[33.055880] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/srvs/Reset_Response.msg\n'}
+[33.055992] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/srvs/ClearQueue.srv\n'}
+[33.056138] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/srvs/ClearQueue_Request.msg\n'}
+[33.056265] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/srvs/ClearQueue_Response.msg\n'}
+[33.056392] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/srvs/ToggleInteractive.srv\n'}
+[33.056542] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/srvs/ToggleInteractive_Request.msg\n'}
+[33.056666] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/srvs/ToggleInteractive_Response.msg\n'}
+[33.056793] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/srvs/Clear.srv\n'}
+[33.056913] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/srvs/Clear_Request.msg\n'}
+[33.057043] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/srvs/Clear_Response.msg\n'}
+[33.057163] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/srvs/SaveMap.srv\n'}
+[33.057283] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/srvs/SaveMap_Request.msg\n'}
+[33.057415] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/srvs/SaveMap_Response.msg\n'}
+[33.057532] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/srvs/LoopClosure.srv\n'}
+[33.057653] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/srvs/LoopClosure_Request.msg\n'}
+[33.057778] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/srvs/LoopClosure_Response.msg\n'}
+[33.057893] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/srvs/MergeMaps.srv\n'}
+[33.058013] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/srvs/MergeMaps_Request.msg\n'}
+[33.058130] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/srvs/MergeMaps_Response.msg\n'}
+[33.058244] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/srvs/AddSubmap.srv\n'}
+[33.058367] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/srvs/AddSubmap_Request.msg\n'}
+[33.058484] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/srvs/AddSubmap_Response.msg\n'}
+[33.058601] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/srvs/DeserializePoseGraph.srv\n'}
+[33.058725] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/srvs/DeserializePoseGraph_Request.msg\n'}
+[33.058840] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/srvs/DeserializePoseGraph_Response.msg\n'}
+[33.058954] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/srvs/SerializePoseGraph.srv\n'}
+[33.059069] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/srvs/SerializePoseGraph_Request.msg\n'}
+[33.059191] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/srvs/SerializePoseGraph_Response.msg\n'}
+[33.059309] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox//rviz_plugins.xml\n'}
+[33.059424] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox//solver_plugins.xml\n'}
+[33.059732] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/lib/slam_toolbox/async_slam_toolbox_node\n'}
+[33.059815] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/lib/slam_toolbox/sync_slam_toolbox_node\n'}
+[33.059928] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/lib/slam_toolbox/localization_slam_toolbox_node\n'}
+[33.060039] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/lib/slam_toolbox/map_and_localization_slam_toolbox_node\n'}
+[33.060149] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/lib/slam_toolbox/lifelong_slam_toolbox_node\n'}
+[33.060257] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/lib/slam_toolbox/merge_maps_kinematic\n'}
+[33.060378] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/lib/libtoolbox_common.so\n'}
+[33.060485] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/lib/libSlamToolboxPlugin.so\n'}
+[33.060589] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/lib/libceres_solver_plugin.so\n'}
+[33.060691] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/lib/libasync_slam_toolbox.so\n'}
+[33.060791] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/lib/libsync_slam_toolbox.so\n'}
+[33.060899] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/lib/liblocalization_slam_toolbox.so\n'}
+[33.061015] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/lib/liblifelong_slam_toolbox.so\n'}
+[33.061124] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/lib/libmap_and_localization_slam_toolbox.so\n'}
+[33.061232] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/lib/libkartoSlamToolbox.so\n'}
+[33.061752] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/experimental/slam_toolbox_lifelong.hpp\n'}
+[33.061832] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/experimental/slam_toolbox_map_and_localization.hpp\n'}
+[33.061932] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/get_pose_helper.hpp\n'}
+[33.062011] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/laser_utils.hpp\n'}
+[33.062092] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/loop_closure_assistant.hpp\n'}
+[33.062173] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/map_saver.hpp\n'}
+[33.062258] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/merge_maps_kinematic.hpp\n'}
+[33.062339] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/serialization.hpp\n'}
+[33.062425] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_mapper.hpp\n'}
+[33.062506] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox_async.hpp\n'}
+[33.062587] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox_common.hpp\n'}
+[33.062667] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox_localization.hpp\n'}
+[33.062747] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/slam_toolbox_sync.hpp\n'}
+[33.062827] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/snap_utils.hpp\n'}
+[33.062906] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/toolbox_msgs.hpp\n'}
+[33.062992] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/toolbox_types.hpp\n'}
+[33.063070] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/include/slam_toolbox/visualization_utils.hpp\n'}
+[33.063433] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/launch/localization_launch.py\n'}
+[33.063513] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/launch/merge_maps_kinematic_launch.py\n'}
+[33.063581] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/launch/offline_launch.py\n'}
+[33.063657] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/launch/online_async_launch.py\n'}
+[33.063735] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/launch/online_sync_launch.py\n'}
+[33.063943] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/config/mapper_params_lifelong.yaml\n'}
+[33.064026] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/config/mapper_params_localization.yaml\n'}
+[33.064104] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/config/mapper_params_offline.yaml\n'}
+[33.064182] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/config/mapper_params_online_async.yaml\n'}
+[33.064260] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/config/mapper_params_online_sync.yaml\n'}
+[33.064337] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/config/slam_toolbox_default.rviz\n'}
+[33.064467] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/solver_plugins.xml\n'}
+[33.064550] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/rviz_plugins.xml\n'}
+[33.064689] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/ament_index/resource_index/package_run_dependencies/slam_toolbox\n'}
+[33.064820] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/ament_index/resource_index/parent_prefix_path/slam_toolbox\n'}
+[33.064954] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/environment/ament_prefix_path.sh\n'}
+[33.065106] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/environment/ament_prefix_path.dsv\n'}
+[33.065231] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/environment/path.sh\n'}
+[33.065373] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/environment/path.dsv\n'}
+[33.065498] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/local_setup.bash\n'}
+[33.065622] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/local_setup.sh\n'}
+[33.065746] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/local_setup.zsh\n'}
+[33.065867] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/local_setup.dsv\n'}
+[33.065957] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/package.dsv\n'}
+[33.073337] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/ament_index/resource_index/packages/slam_toolbox\n'}
+[33.073514] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/ament_index/resource_index/rviz_common__pluginlib__plugin/slam_toolbox\n'}
+[33.073603] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/ament_index/resource_index/slam_toolbox__pluginlib__plugin/slam_toolbox\n'}
+[33.073679] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/ament_index/resource_index/rclcpp_components/slam_toolbox\n'}
+[33.073804] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake-extras.cmake\n'}
+[33.073937] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[33.074064] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[33.074190] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[33.074313] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[33.074438] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[33.074555] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[33.074684] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolboxConfig.cmake\n'}
+[33.074776] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolboxConfig-version.cmake\n'}
+[33.074896] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/package.xml\n'}
+[33.075116] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/hp/ROS2_WS/install/slam_toolbox/lib/libslam_toolbox__rosidl_generator_c.so\n'}
+[33.075325] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/hp/ROS2_WS/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_fastrtps_c.so\n'}
+[33.075524] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/hp/ROS2_WS/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_fastrtps_cpp.so\n'}
+[33.075711] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/hp/ROS2_WS/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_introspection_c.so\n'}
+[33.075897] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/hp/ROS2_WS/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_c.so\n'}
+[33.076070] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/hp/ROS2_WS/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_introspection_cpp.so\n'}
+[33.076253] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/hp/ROS2_WS/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_cpp.so\n'}
+[33.092843] (-) TimerEvent: {}
+[33.105666] (slam_toolbox) StdoutLine: {'line': b"Listing '/home/hp/ROS2_WS/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox'...\n"}
+[33.105872] (slam_toolbox) StdoutLine: {'line': b"Listing '/home/hp/ROS2_WS/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv'...\n"}
+[33.109854] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/hp/ROS2_WS/install/slam_toolbox/lib/libslam_toolbox__rosidl_generator_py.so\n'}
+[33.110213] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_cExport.cmake\n'}
+[33.110320] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_cExport-release.cmake\n'}
+[33.110386] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[33.110471] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_typesupport_fastrtps_cExport-release.cmake\n'}
+[33.110706] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_cppExport.cmake\n'}
+[33.110786] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[33.110852] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_typesupport_fastrtps_cppExport-release.cmake\n'}
+[33.110914] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cExport.cmake\n'}
+[33.110975] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[33.111046] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cExport.cmake\n'}
+[33.111104] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cExport-release.cmake\n'}
+[33.111163] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[33.111222] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[33.111293] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cppExport.cmake\n'}
+[33.111354] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cppExport-release.cmake\n'}
+[33.111448] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_pyExport.cmake\n'}
+[33.111516] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_pyExport-release.cmake\n'}
+[33.111574] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/cmake/SlamToolboxPluginExport.cmake\n'}
+[33.111633] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/hp/ROS2_WS/install/slam_toolbox/share/slam_toolbox/cmake/SlamToolboxPluginExport-release.cmake\n'}
+[33.113610] (slam_toolbox) CommandEnded: {'returncode': 0}
+[33.192917] (-) TimerEvent: {}
+[33.293285] (-) TimerEvent: {}
+[33.393710] (-) TimerEvent: {}
+[33.494086] (-) TimerEvent: {}
+[33.536070] (slam_toolbox) JobEnded: {'identifier': 'slam_toolbox', 'rc': 0}
+[33.537780] (-) EventReactorShutdown: {}

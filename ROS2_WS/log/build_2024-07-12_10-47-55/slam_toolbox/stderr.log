@@ -1,0 +1,70 @@
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:[m[K In member function ‘[01m[Kvirtual kt_bool karto::Mapper::Process(karto::LocalizedRangeScan*, karto::Matrix3*)[m[K’:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2844:49:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::basic_ofstream<wchar_t>::basic_ofstream(std::wstring&)[m[K’
+ 2844 |             std::wofstream scan_ofs(scanFileName[01;31m[K)[m[K;
+      |                                                 [01;31m[K^[m[K
+In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:30[m[K:
+[01m[K/usr/include/c++/11/fstream:847:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Path, class _Require> std::basic_ofstream<_CharT, _Traits>::basic_ofstream(const _Path&, std::ios_base::openmode) [with _Path = _Path; _Require = _Require; _CharT = wchar_t; _Traits = std::char_traits<wchar_t>][m[K’
+  847 |         [01;36m[Kbasic_ofstream[m[K(const _Path& __s,
+      |         [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/fstream:847:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/c++/11/fstream:846:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::__cxx11::basic_string<wchar_t>[m[K’ has no member named ‘[01m[Kmake_preferred[m[K’
+  846 |       template<typename _Path, [01;31m[Ktypename[m[K _Require = _If_fs_path<_Path>>
+      |                                [01;31m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/fstream:855:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ofstream<_CharT, _Traits>::basic_ofstream(std::basic_ofstream<_CharT, _Traits>&&) [with _CharT = wchar_t; _Traits = std::char_traits<wchar_t>][m[K’
+  855 |       [01;36m[Kbasic_ofstream[m[K(basic_ofstream&& __rhs)
+      |       [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/fstream:855:39:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::wstring[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<wchar_t>[m[K’} to ‘[01m[Kstd::basic_ofstream<wchar_t>&&[m[K’
+  855 |       basic_ofstream([01;36m[Kbasic_ofstream&& __rhs[m[K)
+      |                      [01;36m[K~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/usr/include/c++/11/fstream:830:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ofstream<_CharT, _Traits>::basic_ofstream(const string&, std::ios_base::openmode) [with _CharT = wchar_t; _Traits = std::char_traits<wchar_t>; std::string = std::__cxx11::basic_string<char>; std::ios_base::openmode = std::ios_base::openmode][m[K’
+  830 |       [01;36m[Kbasic_ofstream[m[K(const std::string& __s,
+      |       [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/fstream:830:41:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::wstring[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<wchar_t>[m[K’} to ‘[01m[Kconst string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+  830 |       basic_ofstream([01;36m[Kconst std::string& __s[m[K,
+      |                      [01;36m[K~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/usr/include/c++/11/fstream:795:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ofstream<_CharT, _Traits>::basic_ofstream(const char*, std::ios_base::openmode) [with _CharT = wchar_t; _Traits = std::char_traits<wchar_t>; std::ios_base::openmode = std::ios_base::openmode][m[K’
+  795 |       [01;36m[Kbasic_ofstream[m[K(const char* __s,
+      |       [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/fstream:795:34:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::wstring[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<wchar_t>[m[K’} to ‘[01m[Kconst char*[m[K’
+  795 |       basic_ofstream([01;36m[Kconst char* __s[m[K,
+      |                      [01;36m[K~~~~~~~~~~~~^~~[m[K
+[01m[K/usr/include/c++/11/fstream:784:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ofstream<_CharT, _Traits>::basic_ofstream() [with _CharT = wchar_t; _Traits = std::char_traits<wchar_t>][m[K’
+  784 |       [01;36m[Kbasic_ofstream[m[K(): __ostream_type(), _M_filebuf()
+      |       [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/fstream:784:7:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2860:65:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::basic_ofstream<wchar_t>::basic_ofstream(std::wstring&)[m[K’
+ 2860 |                 std::wofstream covariance_ofs(covarianceFileName[01;31m[K)[m[K;
+      |                                                                 [01;31m[K^[m[K
+In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:30[m[K:
+[01m[K/usr/include/c++/11/fstream:847:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Path, class _Require> std::basic_ofstream<_CharT, _Traits>::basic_ofstream(const _Path&, std::ios_base::openmode) [with _Path = _Path; _Require = _Require; _CharT = wchar_t; _Traits = std::char_traits<wchar_t>][m[K’
+  847 |         [01;36m[Kbasic_ofstream[m[K(const _Path& __s,
+      |         [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/fstream:847:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/c++/11/fstream:846:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::__cxx11::basic_string<wchar_t>[m[K’ has no member named ‘[01m[Kmake_preferred[m[K’
+  846 |       template<typename _Path, [01;31m[Ktypename[m[K _Require = _If_fs_path<_Path>>
+      |                                [01;31m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/fstream:855:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ofstream<_CharT, _Traits>::basic_ofstream(std::basic_ofstream<_CharT, _Traits>&&) [with _CharT = wchar_t; _Traits = std::char_traits<wchar_t>][m[K’
+  855 |       [01;36m[Kbasic_ofstream[m[K(basic_ofstream&& __rhs)
+      |       [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/fstream:855:39:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::wstring[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<wchar_t>[m[K’} to ‘[01m[Kstd::basic_ofstream<wchar_t>&&[m[K’
+  855 |       basic_ofstream([01;36m[Kbasic_ofstream&& __rhs[m[K)
+      |                      [01;36m[K~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/usr/include/c++/11/fstream:830:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ofstream<_CharT, _Traits>::basic_ofstream(const string&, std::ios_base::openmode) [with _CharT = wchar_t; _Traits = std::char_traits<wchar_t>; std::string = std::__cxx11::basic_string<char>; std::ios_base::openmode = std::ios_base::openmode][m[K’
+  830 |       [01;36m[Kbasic_ofstream[m[K(const std::string& __s,
+      |       [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/fstream:830:41:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::wstring[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<wchar_t>[m[K’} to ‘[01m[Kconst string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+  830 |       basic_ofstream([01;36m[Kconst std::string& __s[m[K,
+      |                      [01;36m[K~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/usr/include/c++/11/fstream:795:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ofstream<_CharT, _Traits>::basic_ofstream(const char*, std::ios_base::openmode) [with _CharT = wchar_t; _Traits = std::char_traits<wchar_t>; std::ios_base::openmode = std::ios_base::openmode][m[K’
+  795 |       [01;36m[Kbasic_ofstream[m[K(const char* __s,
+      |       [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/fstream:795:34:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::wstring[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<wchar_t>[m[K’} to ‘[01m[Kconst char*[m[K’
+  795 |       basic_ofstream([01;36m[Kconst char* __s[m[K,
+      |                      [01;36m[K~~~~~~~~~~~~^~~[m[K
+[01m[K/usr/include/c++/11/fstream:784:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ofstream<_CharT, _Traits>::basic_ofstream() [with _CharT = wchar_t; _Traits = std::char_traits<wchar_t>][m[K’
+  784 |       [01;36m[Kbasic_ofstream[m[K(): __ostream_type(), _M_filebuf()
+      |       [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/fstream:784:7:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+gmake[2]: *** [lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/build.make:90: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:1045: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

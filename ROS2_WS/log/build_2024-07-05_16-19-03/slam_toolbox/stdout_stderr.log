@@ -1,0 +1,45 @@
+[35m[1mConsolidate compiler generated dependencies of target kartoSlamToolbox[0m
+[  9%] Built target slam_toolbox__rosidl_generator_c
+[  9%] Built target slam_toolbox__cpp
+[  9%] Built target ament_cmake_python_symlink_slam_toolbox
+[ 18%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c
+[ 27%] Built target slam_toolbox__rosidl_typesupport_introspection_c
+[ 28%] [32mBuilding CXX object lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o[0m
+[ 37%] Built target slam_toolbox__rosidl_typesupport_c
+[ 46%] Built target slam_toolbox__rosidl_typesupport_introspection_cpp
+[ 55%] Built target slam_toolbox__rosidl_typesupport_cpp
+[ 64%] Built target slam_toolbox__rosidl_typesupport_fastrtps_cpp
+[ 64%] Built target slam_toolbox
+[ 66%] Built target SlamToolboxPlugin
+[ 67%] Built target slam_toolbox__py
+[ 75%] Built target slam_toolbox__rosidl_generator_py
+[ 76%] Built target slam_toolbox__rosidl_typesupport_introspection_c__pyext
+[ 77%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c__pyext
+[ 78%] Built target slam_toolbox__rosidl_typesupport_c__pyext
+running egg_info
+writing slam_toolbox.egg-info/PKG-INFO
+writing dependency_links to slam_toolbox.egg-info/dependency_links.txt
+writing top-level names to slam_toolbox.egg-info/top_level.txt
+reading manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+writing manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+[ 78%] Built target ament_cmake_python_build_slam_toolbox_egg
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:[m[K In member function ‘[01m[Kvirtual kt_bool karto::Mapper::Process(karto::LocalizedRangeScan*, karto::Matrix3*)[m[K’:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2837:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kxml_oarchive[m[K’ is not a member of ‘[01m[Kboost::archive[m[K’; did you mean ‘[01m[Kxml_iarchive[m[K’?
+ 2837 |         boost::archive::[01;31m[Kxml_oarchive[m[K scan_oa(scan_ofs);
+      |                         [01;31m[K^~~~~~~~~~~~[m[K
+      |                         [32m[Kxml_iarchive[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2838:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_oa[m[K’ was not declared in this scope; did you mean ‘[01m[Kscan_ofs[m[K’?
+ 2838 |         pScan->serialize([01;31m[Kscan_oa[m[K);
+      |                          [01;31m[K^~~~~~~[m[K
+      |                          [32m[Kscan_ofs[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2843:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kxml_oarchive[m[K’ is not a member of ‘[01m[Kboost::archive[m[K’; did you mean ‘[01m[Kxml_iarchive[m[K’?
+ 2843 |               boost::archive::[01;31m[Kxml_oarchive[m[K covariance_oa(covariance_ofs);
+      |                               [01;31m[K^~~~~~~~~~~~[m[K
+      |                               [32m[Kxml_iarchive[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2844:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kcovariance_oa[m[K’ was not declared in this scope; did you mean ‘[01m[Kcovariance_ofs[m[K’?
+ 2844 |               covariance->serialize([01;31m[Kcovariance_oa[m[K);
+      |                                     [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                     [32m[Kcovariance_ofs[m[K
+gmake[2]: *** [lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/build.make:90: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:1045: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

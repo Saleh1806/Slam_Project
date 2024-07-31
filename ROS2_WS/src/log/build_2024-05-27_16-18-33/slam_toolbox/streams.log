@@ -1,0 +1,48 @@
+[0.842s] Invoking command in '/home/hp/ROS2_WS/src/build/slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/dynamic_tf:/home/hp/ROS2_WS/install/Dynamic_tf:/home/hp/ROS2_WS/install/DYNAMIC_TF:/home/hp/ROS2_WS/src/install/my_robot_controller:/home/hp/ROS2_WS/src/install/my_exo:/home/hp/ROS2_WS/src/install/dynamic_tf:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/hp/ROS2_WS/src/build/slam_toolbox -- -j8 -l8
+[0.927s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.940s] [35m[1mConsolidate compiler generated dependencies of target kartoSlamToolbox[0m
+[0.945s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.971s] [  1%] Built target ament_cmake_python_symlink_slam_toolbox
+[1.028s] [  2%] [32mBuilding CXX object lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o[0m
+[1.070s] Traceback (most recent call last):
+[1.070s]   File "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 8, in <module>
+[1.070s]     from rosidl_generator_c import generate_c
+[1.071s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_c/__init__.py", line 15, in <module>
+[1.071s]     from rosidl_cmake import convert_camel_case_to_lower_case_underscore
+[1.071s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 24, in <module>
+[1.072s]     from rosidl_parser.parser import parse_idl_file
+[1.072s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 20, in <module>
+[1.072s]     from lark import Lark
+[1.072s] ModuleNotFoundError: No module named 'lark'
+[1.089s] Traceback (most recent call last):
+[1.089s]   File "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 8, in <module>
+[1.089s]     from rosidl_generator_cpp import generate_cpp
+[1.090s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py", line 17, in <module>
+[1.090s]     from rosidl_cmake import generate_files
+[1.090s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 24, in <module>
+[1.090s]     from rosidl_parser.parser import parse_idl_file
+[1.090s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 20, in <module>
+[1.090s] gmake[2]: *** [CMakeFiles/slam_toolbox__rosidl_generator_c.dir/build.make:208: rosidl_generator_c/slam_toolbox/srv/pause.h] Error 1
+[1.090s]     from lark import Lark
+[1.091s] ModuleNotFoundError: No module named 'lark'
+[1.091s] gmake[1]: *** [CMakeFiles/Makefile2:258: CMakeFiles/slam_toolbox__rosidl_generator_c.dir/all] Error 2
+[1.091s] gmake[1]: *** Waiting for unfinished jobs....
+[1.114s] gmake[2]: *** [CMakeFiles/slam_toolbox__cpp.dir/build.make:252: rosidl_generator_cpp/slam_toolbox/srv/pause.hpp] Error 1
+[1.114s] gmake[1]: *** [CMakeFiles/Makefile2:311: CMakeFiles/slam_toolbox__cpp.dir/all] Error 2
+[1.454s] running egg_info
+[1.485s] writing slam_toolbox.egg-info/PKG-INFO
+[1.486s] writing dependency_links to slam_toolbox.egg-info/dependency_links.txt
+[1.486s] writing top-level names to slam_toolbox.egg-info/top_level.txt
+[1.578s] reading manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+[1.579s] writing manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+[1.649s] [  2%] Built target ament_cmake_python_build_slam_toolbox_egg
+[21.277s] [  2%] [32m[1mLinking CXX shared library libkartoSlamToolbox.so[0m
+[22.564s] /usr/bin/ld: CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o: in function `karto::operator<<(std::ostream&, karto::LocalizedRangeScan const&)':
+[22.567s] Mapper.cpp:(.text+0x1b80): multiple definition of `karto::operator<<(std::ostream&, karto::LocalizedRangeScan const&)'; CMakeFiles/kartoSlamToolbox.dir/src/Karto.cpp.o:Karto.cpp:(.text+0x520): first defined here
+[22.568s] /usr/bin/ld: CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o: in function `karto::operator>>(std::istream&, karto::LocalizedRangeScan&)':
+[22.568s] Mapper.cpp:(.text+0x6ee0): multiple definition of `karto::operator>>(std::istream&, karto::LocalizedRangeScan&)'; CMakeFiles/kartoSlamToolbox.dir/src/Karto.cpp.o:Karto.cpp:(.text+0x16c0): first defined here
+[23.882s] collect2: error: ld returned 1 exit status
+[23.884s] gmake[2]: *** [lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/build.make:183: lib/karto_sdk/libkartoSlamToolbox.so] Error 1
+[23.885s] gmake[1]: *** [CMakeFiles/Makefile2:1045: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/all] Error 2
+[23.885s] gmake: *** [Makefile:146: all] Error 2
+[23.888s] Invoked command in '/home/hp/ROS2_WS/src/build/slam_toolbox' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/dynamic_tf:/home/hp/ROS2_WS/install/Dynamic_tf:/home/hp/ROS2_WS/install/DYNAMIC_TF:/home/hp/ROS2_WS/src/install/my_robot_controller:/home/hp/ROS2_WS/src/install/my_exo:/home/hp/ROS2_WS/src/install/dynamic_tf:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/hp/ROS2_WS/src/build/slam_toolbox -- -j8 -l8

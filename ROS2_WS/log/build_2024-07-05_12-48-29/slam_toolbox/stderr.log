@@ -1,0 +1,18 @@
+In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:[m[K In function ‘[01m[Kstd::istream& karto::operator>>(std::istream&, karto::LocalizedRangeScan&)[m[K’:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5482:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass karto::LocalizedRangeScan[m[K’ has no member named ‘[01m[Km_SansorName[m[K’; did you mean ‘[01m[Km_SensorName[m[K’?
+ 5482 |             is >> scan.[01;31m[Km_SansorName[m[K;
+      |                        [01;31m[K^~~~~~~~~~~~[m[K
+      |                        [32m[Km_SensorName[m[K
+gmake[2]: *** [lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/build.make:76: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Karto.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+                 from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:37[m[K:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:[m[K In function ‘[01m[Kstd::istream& karto::operator>>(std::istream&, karto::LocalizedRangeScan&)[m[K’:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5482:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass karto::LocalizedRangeScan[m[K’ has no member named ‘[01m[Km_SansorName[m[K’; did you mean ‘[01m[Km_SensorName[m[K’?
+ 5482 |             is >> scan.[01;31m[Km_SansorName[m[K;
+      |                        [01;31m[K^~~~~~~~~~~~[m[K
+      |                        [32m[Km_SensorName[m[K
+gmake[2]: *** [lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/build.make:90: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:1045: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,696 @@
+[0.000000] (-) TimerEvent: {}
+[0.000142] (dynamic_tf) JobQueued: {'identifier': 'dynamic_tf', 'dependencies': OrderedDict()}
+[0.000668] (my_exo) JobQueued: {'identifier': 'my_exo', 'dependencies': OrderedDict()}
+[0.000698] (my_robot_controller) JobQueued: {'identifier': 'my_robot_controller', 'dependencies': OrderedDict()}
+[0.000714] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.000728] (slam_toolbox) JobQueued: {'identifier': 'slam_toolbox', 'dependencies': OrderedDict()}
+[0.000743] (dynamic_tf) JobStarted: {'identifier': 'dynamic_tf'}
+[0.083212] (my_exo) JobStarted: {'identifier': 'my_exo'}
+[0.099713] (-) TimerEvent: {}
+[0.114015] (my_robot_controller) JobStarted: {'identifier': 'my_robot_controller'}
+[0.122870] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[0.126992] (slam_toolbox) JobStarted: {'identifier': 'slam_toolbox'}
+[0.199904] (-) TimerEvent: {}
+[0.300210] (-) TimerEvent: {}
+[0.400569] (-) TimerEvent: {}
+[0.501108] (-) TimerEvent: {}
+[0.601611] (-) TimerEvent: {}
+[0.702167] (-) TimerEvent: {}
+[0.802508] (-) TimerEvent: {}
+[0.903091] (-) TimerEvent: {}
+[1.003538] (-) TimerEvent: {}
+[1.103906] (-) TimerEvent: {}
+[1.204482] (-) TimerEvent: {}
+[1.288654] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'cmake'}
+[1.289763] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'build'}
+[1.290427] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hp/ROS2_WS/build/rplidar_ros', '--', '-j8', '-l8'], 'cwd': '/home/hp/ROS2_WS/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hp'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu:/home/hp/ROS2_WS/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hp'), ('CONDA_SHLVL', '0'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '20897'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hp/ROS2_WS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hp'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hp'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/hp/anaconda3/condabin:/opt/ros/humble/bin:/home/hp/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hp-HP-Laptop-15-dw2xxx:@/tmp/.ICE-unix/1974,unix/hp-HP-Laptop-15-dw2xxx:/tmp/.ICE-unix/1974'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/97249cf9_189e_47d1_9fb5_834a1f29a3ad'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MHJ8P2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.115'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hp/ROS2_WS/install/slam_toolbox:/home/hp/ROS2_WS/install/rplidar_ros:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/dynamic_tf:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/hp/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hp/ROS2_WS/build/rplidar_ros'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/hp/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hp/ROS2_WS/install/slam_toolbox/local/lib/python3.10/dist-packages:/home/hp/ROS2_WS/build/my_robot_controller:/home/hp/ROS2_WS/install/my_robot_controller/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/my_exo:/home/hp/ROS2_WS/install/my_exo/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/dynamic_tf:/home/hp/ROS2_WS/install/dynamic_tf/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hp/ROS2_WS/install/slam_toolbox:/home/hp/ROS2_WS/install/rplidar_ros:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/dynamic_tf:/opt/ros/humble')]), 'shell': False}
+[1.304582] (-) TimerEvent: {}
+[1.374216] (slam_toolbox) JobProgress: {'identifier': 'slam_toolbox', 'progress': 'cmake'}
+[1.404807] (-) TimerEvent: {}
+[1.450950] (slam_toolbox) JobProgress: {'identifier': 'slam_toolbox', 'progress': 'build'}
+[1.453485] (slam_toolbox) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hp/ROS2_WS/build/slam_toolbox', '--', '-j8', '-l8'], 'cwd': '/home/hp/ROS2_WS/build/slam_toolbox', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hp'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu:/home/hp/ROS2_WS/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hp'), ('CONDA_SHLVL', '0'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '20897'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hp/ROS2_WS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hp'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hp'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/hp/anaconda3/condabin:/opt/ros/humble/bin:/home/hp/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hp-HP-Laptop-15-dw2xxx:@/tmp/.ICE-unix/1974,unix/hp-HP-Laptop-15-dw2xxx:/tmp/.ICE-unix/1974'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/97249cf9_189e_47d1_9fb5_834a1f29a3ad'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MHJ8P2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.115'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hp/ROS2_WS/install/slam_toolbox:/home/hp/ROS2_WS/install/rplidar_ros:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/dynamic_tf:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/hp/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hp/ROS2_WS/build/slam_toolbox'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/hp/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hp/ROS2_WS/install/slam_toolbox/local/lib/python3.10/dist-packages:/home/hp/ROS2_WS/build/my_robot_controller:/home/hp/ROS2_WS/install/my_robot_controller/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/my_exo:/home/hp/ROS2_WS/install/my_exo/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/dynamic_tf:/home/hp/ROS2_WS/install/dynamic_tf/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hp/ROS2_WS/install/slam_toolbox:/home/hp/ROS2_WS/install/rplidar_ros:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/dynamic_tf:/opt/ros/humble')]), 'shell': False}
+[1.504947] (-) TimerEvent: {}
+[1.605354] (-) TimerEvent: {}
+[1.705841] (-) TimerEvent: {}
+[1.806176] (-) TimerEvent: {}
+[1.906602] (-) TimerEvent: {}
+[2.007042] (-) TimerEvent: {}
+[2.107499] (-) TimerEvent: {}
+[2.208116] (-) TimerEvent: {}
+[2.308622] (-) TimerEvent: {}
+[2.409132] (-) TimerEvent: {}
+[2.509783] (-) TimerEvent: {}
+[2.610294] (-) TimerEvent: {}
+[2.710923] (-) TimerEvent: {}
+[2.811615] (-) TimerEvent: {}
+[2.912123] (-) TimerEvent: {}
+[3.012662] (-) TimerEvent: {}
+[3.113215] (-) TimerEvent: {}
+[3.213759] (-) TimerEvent: {}
+[3.314307] (-) TimerEvent: {}
+[3.414953] (-) TimerEvent: {}
+[3.515515] (-) TimerEvent: {}
+[3.616133] (-) TimerEvent: {}
+[3.716838] (-) TimerEvent: {}
+[3.817375] (-) TimerEvent: {}
+[3.917868] (-) TimerEvent: {}
+[4.018460] (-) TimerEvent: {}
+[4.119195] (-) TimerEvent: {}
+[4.219726] (-) TimerEvent: {}
+[4.320243] (-) TimerEvent: {}
+[4.420908] (-) TimerEvent: {}
+[4.521418] (-) TimerEvent: {}
+[4.621917] (-) TimerEvent: {}
+[4.722362] (-) TimerEvent: {}
+[4.822815] (-) TimerEvent: {}
+[4.923297] (-) TimerEvent: {}
+[5.023936] (-) TimerEvent: {}
+[5.124499] (-) TimerEvent: {}
+[5.224961] (-) TimerEvent: {}
+[5.325347] (-) TimerEvent: {}
+[5.425683] (-) TimerEvent: {}
+[5.526153] (-) TimerEvent: {}
+[5.626595] (-) TimerEvent: {}
+[5.727035] (-) TimerEvent: {}
+[5.829900] (-) TimerEvent: {}
+[5.930441] (-) TimerEvent: {}
+[6.030949] (-) TimerEvent: {}
+[6.131590] (-) TimerEvent: {}
+[6.232082] (-) TimerEvent: {}
+[6.332479] (-) TimerEvent: {}
+[6.388221] (slam_toolbox) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_symlink_slam_toolbox\n'}
+[6.432613] (-) TimerEvent: {}
+[6.533040] (-) TimerEvent: {}
+[6.633519] (-) TimerEvent: {}
+[6.733983] (-) TimerEvent: {}
+[6.834407] (-) TimerEvent: {}
+[6.934809] (-) TimerEvent: {}
+[7.035291] (-) TimerEvent: {}
+[7.135808] (-) TimerEvent: {}
+[7.236306] (-) TimerEvent: {}
+[7.336751] (-) TimerEvent: {}
+[7.437236] (-) TimerEvent: {}
+[7.528448] (slam_toolbox) StdoutLine: {'line': b'[  0%] Built target slam_toolbox__cpp\n'}
+[7.537386] (-) TimerEvent: {}
+[7.637840] (-) TimerEvent: {}
+[7.738287] (-) TimerEvent: {}
+[7.797269] (slam_toolbox) StdoutLine: {'line': b'running egg_info\n'}
+[7.797836] (slam_toolbox) StdoutLine: {'line': b'writing slam_toolbox.egg-info/PKG-INFO\n'}
+[7.797973] (slam_toolbox) StdoutLine: {'line': b'writing dependency_links to slam_toolbox.egg-info/dependency_links.txt\n'}
+[7.798210] (slam_toolbox) StdoutLine: {'line': b'writing top-level names to slam_toolbox.egg-info/top_level.txt\n'}
+[7.828863] (slam_toolbox) StdoutLine: {'line': b"reading manifest file 'slam_toolbox.egg-info/SOURCES.txt'\n"}
+[7.838403] (-) TimerEvent: {}
+[7.890916] (slam_toolbox) StdoutLine: {'line': b"writing manifest file 'slam_toolbox.egg-info/SOURCES.txt'\n"}
+[7.920860] (slam_toolbox) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_build_slam_toolbox_egg\n'}
+[7.938510] (-) TimerEvent: {}
+[8.038930] (-) TimerEvent: {}
+[8.131787] (slam_toolbox) StdoutLine: {'line': b'[  9%] Built target slam_toolbox__rosidl_generator_c\n'}
+[8.139073] (-) TimerEvent: {}
+[8.239471] (-) TimerEvent: {}
+[8.339943] (-) TimerEvent: {}
+[8.412985] (slam_toolbox) StdoutLine: {'line': b'[ 18%] Built target slam_toolbox__rosidl_typesupport_cpp\n'}
+[8.426807] (slam_toolbox) StdoutLine: {'line': b'[ 27%] Built target slam_toolbox__rosidl_typesupport_introspection_cpp\n'}
+[8.430000] (slam_toolbox) StdoutLine: {'line': b'[ 36%] Built target slam_toolbox__rosidl_typesupport_c\n'}
+[8.440011] (-) TimerEvent: {}
+[8.480351] (slam_toolbox) StdoutLine: {'line': b'[ 45%] Built target slam_toolbox__rosidl_typesupport_introspection_c\n'}
+[8.540185] (-) TimerEvent: {}
+[8.603978] (rplidar_ros) StdoutLine: {'line': b'[  9%] Built target rplidar_client\n'}
+[8.604364] (rplidar_ros) StdoutLine: {'line': b'[  9%] Built target tf_listener\n'}
+[8.604650] (slam_toolbox) StdoutLine: {'line': b'[ 54%] Built target slam_toolbox__rosidl_typesupport_fastrtps_cpp\n'}
+[8.607083] (rplidar_ros) StdoutLine: {'line': b'[ 14%] Built target tf_broadcaster\n'}
+[8.607449] (slam_toolbox) StdoutLine: {'line': b'[ 63%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c\n'}
+[8.640340] (-) TimerEvent: {}
+[8.740864] (-) TimerEvent: {}
+[8.841343] (-) TimerEvent: {}
+[8.847993] (slam_toolbox) StdoutLine: {'line': b'[ 63%] Built target slam_toolbox\n'}
+[8.941525] (-) TimerEvent: {}
+[8.989317] (slam_toolbox) StdoutLine: {'line': b'[ 64%] Built target slam_toolbox__py\n'}
+[9.041652] (-) TimerEvent: {}
+[9.142368] (-) TimerEvent: {}
+[9.170721] (rplidar_ros) StdoutLine: {'line': b'[100%] Built target rplidar_node\n'}
+[9.171061] (rplidar_ros) StdoutLine: {'line': b'[100%] Built target rplidar_composition\n'}
+[9.184221] (rplidar_ros) CommandEnded: {'returncode': 0}
+[9.239899] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'install'}
+[9.242479] (-) TimerEvent: {}
+[9.247316] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hp/ROS2_WS/build/rplidar_ros'], 'cwd': '/home/hp/ROS2_WS/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hp'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu:/home/hp/ROS2_WS/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hp'), ('CONDA_SHLVL', '0'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '20897'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hp/ROS2_WS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hp'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hp'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/hp/anaconda3/condabin:/opt/ros/humble/bin:/home/hp/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hp-HP-Laptop-15-dw2xxx:@/tmp/.ICE-unix/1974,unix/hp-HP-Laptop-15-dw2xxx:/tmp/.ICE-unix/1974'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/97249cf9_189e_47d1_9fb5_834a1f29a3ad'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MHJ8P2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.115'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hp/ROS2_WS/install/slam_toolbox:/home/hp/ROS2_WS/install/rplidar_ros:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/dynamic_tf:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/hp/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hp/ROS2_WS/build/rplidar_ros'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/hp/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hp/ROS2_WS/install/slam_toolbox/local/lib/python3.10/dist-packages:/home/hp/ROS2_WS/build/my_robot_controller:/home/hp/ROS2_WS/install/my_robot_controller/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/my_exo:/home/hp/ROS2_WS/install/my_exo/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/dynamic_tf:/home/hp/ROS2_WS/install/dynamic_tf/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hp/ROS2_WS/install/slam_toolbox:/home/hp/ROS2_WS/install/rplidar_ros:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/dynamic_tf:/opt/ros/humble')]), 'shell': False}
+[9.342670] (-) TimerEvent: {}
+[9.359912] (rplidar_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.443046] (-) TimerEvent: {}
+[9.543628] (-) TimerEvent: {}
+[9.644117] (-) TimerEvent: {}
+[9.653532] (rplidar_ros) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[9.744358] (-) TimerEvent: {}
+[9.844907] (-) TimerEvent: {}
+[9.945659] (-) TimerEvent: {}
+[10.046144] (-) TimerEvent: {}
+[10.070825] (slam_toolbox) StdoutLine: {'line': b'[ 72%] Built target slam_toolbox__rosidl_generator_py\n'}
+[10.146311] (-) TimerEvent: {}
+[10.158086] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py\n'}
+[10.158392] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m12_launch.py\n'}
+[10.158665] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m7_launch.py\n'}
+[10.158902] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m8_launch.py\n'}
+[10.181454] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3_launch.py\n'}
+[10.196261] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_c1_launch.py\n'}
+[10.207101] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_launch.py\n'}
+[10.220116] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp_launch.py\n'}
+[10.231604] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2_launch.py\n'}
+[10.239214] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2e_launch.py\n'}
+[10.246661] (-) TimerEvent: {}
+[10.249322] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s3_launch.py\n'}
+[10.255758] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_t1_launch.py\n'}
+[10.256377] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/launch/slam.launch.py\n'}
+[10.264625] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a1_launch.py\n'}
+[10.272195] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m12_launch.py\n'}
+[10.281103] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m7_launch.py\n'}
+[10.287705] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m8_launch.py\n'}
+[10.295109] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3_launch.py\n'}
+[10.304566] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_c1_launch.py\n'}
+[10.316863] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_launch.py\n'}
+[10.318885] (slam_toolbox) StdoutLine: {'line': b'[ 74%] Built target SlamToolboxPlugin\n'}
+[10.332444] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp_launch.py\n'}
+[10.346814] (-) TimerEvent: {}
+[10.347819] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2_launch.py\n'}
+[10.348343] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2e_launch.py\n'}
+[10.348711] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s3_launch.py\n'}
+[10.349078] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_t1_launch.py\n'}
+[10.382565] (slam_toolbox) StdoutLine: {'line': b'[ 75%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c__pyext\n'}
+[10.446967] (-) TimerEvent: {}
+[10.459930] (slam_toolbox) StdoutLine: {'line': b'[ 76%] Built target slam_toolbox__rosidl_typesupport_introspection_c__pyext\n'}
+[10.493633] (slam_toolbox) StdoutLine: {'line': b'[ 77%] Built target slam_toolbox__rosidl_typesupport_c__pyext\n'}
+[10.547138] (-) TimerEvent: {}
+[10.636182] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/config/slam.yaml\n'}
+[10.647458] (-) TimerEvent: {}
+[10.692157] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz\n'}
+[10.747819] (-) TimerEvent: {}
+[10.858007] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/lib/rplidar_ros/tf_broadcaster\n'}
+[10.858470] (-) TimerEvent: {}
+[10.858967] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/lib/rplidar_ros/tf_listener\n'}
+[10.859403] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/lib/rplidar_ros/rplidar_node\n'}
+[10.859812] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/lib/rplidar_ros/rplidar_composition\n'}
+[10.860339] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/lib/rplidar_ros/rplidar_client\n'}
+[10.897607] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/lib/rplidar_ros/tf_map_baselink.py\n'}
+[10.897951] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros\n'}
+[10.958768] (-) TimerEvent: {}
+[10.971267] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros\n'}
+[10.988644] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh\n'}
+[10.989142] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv\n'}
+[11.008436] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/environment/path.sh\n'}
+[11.024256] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/environment/path.dsv\n'}
+[11.025039] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/local_setup.bash\n'}
+[11.025516] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/local_setup.sh\n'}
+[11.025968] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/local_setup.zsh\n'}
+[11.026410] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/local_setup.dsv\n'}
+[11.026800] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/package.dsv\n'}
+[11.054865] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros\n'}
+[11.058875] (-) TimerEvent: {}
+[11.080356] (slam_toolbox) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o\x1b[0m\n'}
+[11.094063] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.113795] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.128816] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake\n'}
+[11.129879] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake\n'}
+[11.130261] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/install/rplidar_ros/share/rplidar_ros/package.xml\n'}
+[11.133693] (rplidar_ros) CommandEnded: {'returncode': 0}
+[11.159066] (-) TimerEvent: {}
+[11.259663] (-) TimerEvent: {}
+[11.360166] (-) TimerEvent: {}
+[11.460727] (-) TimerEvent: {}
+[11.561461] (-) TimerEvent: {}
+[11.661981] (-) TimerEvent: {}
+[11.762574] (-) TimerEvent: {}
+[11.863162] (-) TimerEvent: {}
+[11.878306] (dynamic_tf) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/hp/ROS2_WS/build/dynamic_tf/build', '--no-deps', 'symlink_data'], 'cwd': '/home/hp/ROS2_WS/build/dynamic_tf', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'hp', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu:/home/hp/ROS2_WS/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/hp', 'CONDA_SHLVL': '0', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '20897', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/hp/ROS2_WS/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'hp', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hp', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/hp/anaconda3/condabin:/opt/ros/humble/bin:/home/hp/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/hp-HP-Laptop-15-dw2xxx:@/tmp/.ICE-unix/1974,unix/hp-HP-Laptop-15-dw2xxx:/tmp/.ICE-unix/1974', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/97249cf9_189e_47d1_9fb5_834a1f29a3ad', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.MHJ8P2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.115', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/hp/ROS2_WS/install/slam_toolbox:/home/hp/ROS2_WS/install/rplidar_ros:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/dynamic_tf:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/hp/anaconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hp/ROS2_WS/build/dynamic_tf', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/hp/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/hp/ROS2_WS/build/dynamic_tf/prefix_override:/home/hp/ROS2_WS/install/dynamic_tf/lib/python3.10/site-packages:/home/hp/ROS2_WS/install/slam_toolbox/local/lib/python3.10/dist-packages:/home/hp/ROS2_WS/build/my_robot_controller:/home/hp/ROS2_WS/install/my_robot_controller/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/my_exo:/home/hp/ROS2_WS/install/my_exo/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/dynamic_tf:/home/hp/ROS2_WS/install/dynamic_tf/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/hp/ROS2_WS/install/slam_toolbox:/home/hp/ROS2_WS/install/rplidar_ros'}, 'shell': False}
+[11.905440] (my_exo) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/hp/ROS2_WS/build/my_exo/build', '--no-deps', 'symlink_data'], 'cwd': '/home/hp/ROS2_WS/build/my_exo', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'hp', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu:/home/hp/ROS2_WS/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/hp', 'CONDA_SHLVL': '0', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '20897', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/hp/ROS2_WS/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'hp', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hp', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/hp/anaconda3/condabin:/opt/ros/humble/bin:/home/hp/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/hp-HP-Laptop-15-dw2xxx:@/tmp/.ICE-unix/1974,unix/hp-HP-Laptop-15-dw2xxx:/tmp/.ICE-unix/1974', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/97249cf9_189e_47d1_9fb5_834a1f29a3ad', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.MHJ8P2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.115', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/hp/ROS2_WS/install/slam_toolbox:/home/hp/ROS2_WS/install/rplidar_ros:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/dynamic_tf:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/hp/anaconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hp/ROS2_WS/build/my_exo', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/hp/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/hp/ROS2_WS/build/my_exo/prefix_override:/home/hp/ROS2_WS/install/my_exo/lib/python3.10/site-packages:/home/hp/ROS2_WS/install/slam_toolbox/local/lib/python3.10/dist-packages:/home/hp/ROS2_WS/build/my_robot_controller:/home/hp/ROS2_WS/install/my_robot_controller/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/my_exo:/home/hp/ROS2_WS/install/my_exo/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/dynamic_tf:/home/hp/ROS2_WS/install/dynamic_tf/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/hp/ROS2_WS/install/slam_toolbox:/home/hp/ROS2_WS/install/rplidar_ros'}, 'shell': False}
+[11.946452] (my_robot_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/hp/ROS2_WS/build/my_robot_controller/build', '--no-deps', 'symlink_data'], 'cwd': '/home/hp/ROS2_WS/build/my_robot_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'hp', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu:/home/hp/ROS2_WS/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/hp', 'CONDA_SHLVL': '0', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '20897', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/hp/ROS2_WS/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'hp', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hp', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/hp/anaconda3/condabin:/opt/ros/humble/bin:/home/hp/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/hp-HP-Laptop-15-dw2xxx:@/tmp/.ICE-unix/1974,unix/hp-HP-Laptop-15-dw2xxx:/tmp/.ICE-unix/1974', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/97249cf9_189e_47d1_9fb5_834a1f29a3ad', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.MHJ8P2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.115', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/hp/ROS2_WS/install/slam_toolbox:/home/hp/ROS2_WS/install/rplidar_ros:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/dynamic_tf:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/hp/anaconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hp/ROS2_WS/build/my_robot_controller', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/hp/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/hp/ROS2_WS/build/my_robot_controller/prefix_override:/home/hp/ROS2_WS/install/my_robot_controller/lib/python3.10/site-packages:/home/hp/ROS2_WS/install/slam_toolbox/local/lib/python3.10/dist-packages:/home/hp/ROS2_WS/build/my_robot_controller:/home/hp/ROS2_WS/install/my_robot_controller/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/my_exo:/home/hp/ROS2_WS/install/my_exo/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/dynamic_tf:/home/hp/ROS2_WS/install/dynamic_tf/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/hp/ROS2_WS/install/slam_toolbox:/home/hp/ROS2_WS/install/rplidar_ros'}, 'shell': False}
+[11.963447] (-) TimerEvent: {}
+[11.966050] (rplidar_ros) JobEnded: {'identifier': 'rplidar_ros', 'rc': 0}
+[12.063597] (-) TimerEvent: {}
+[12.163966] (-) TimerEvent: {}
+[12.221075] (dynamic_tf) StdoutLine: {'line': b'running develop\n'}
+[12.246171] (my_exo) StdoutLine: {'line': b'running develop\n'}
+[12.264130] (-) TimerEvent: {}
+[12.296711] (my_robot_controller) StdoutLine: {'line': b'running develop\n'}
+[12.364293] (-) TimerEvent: {}
+[12.464683] (-) TimerEvent: {}
+[12.530446] (dynamic_tf) StdoutLine: {'line': b'running egg_info\n'}
+[12.530756] (my_exo) StdoutLine: {'line': b'running egg_info\n'}
+[12.530855] (dynamic_tf) StdoutLine: {'line': b'writing dynamic_tf.egg-info/PKG-INFO\n'}
+[12.530989] (dynamic_tf) StdoutLine: {'line': b'writing dependency_links to dynamic_tf.egg-info/dependency_links.txt\n'}
+[12.531065] (dynamic_tf) StdoutLine: {'line': b'writing entry points to dynamic_tf.egg-info/entry_points.txt\n'}
+[12.531208] (dynamic_tf) StdoutLine: {'line': b'writing requirements to dynamic_tf.egg-info/requires.txt\n'}
+[12.531282] (my_exo) StdoutLine: {'line': b'writing my_exo.egg-info/PKG-INFO\n'}
+[12.531376] (dynamic_tf) StdoutLine: {'line': b'writing top-level names to dynamic_tf.egg-info/top_level.txt\n'}
+[12.531477] (my_exo) StdoutLine: {'line': b'writing dependency_links to my_exo.egg-info/dependency_links.txt\n'}
+[12.531563] (my_exo) StdoutLine: {'line': b'writing entry points to my_exo.egg-info/entry_points.txt\n'}
+[12.536915] (my_exo) StdoutLine: {'line': b'writing requirements to my_exo.egg-info/requires.txt\n'}
+[12.537057] (my_exo) StdoutLine: {'line': b'writing top-level names to my_exo.egg-info/top_level.txt\n'}
+[12.539157] (my_exo) StdoutLine: {'line': b"reading manifest file 'my_exo.egg-info/SOURCES.txt'\n"}
+[12.539990] (dynamic_tf) StdoutLine: {'line': b"reading manifest file 'dynamic_tf.egg-info/SOURCES.txt'\n"}
+[12.540144] (my_exo) StdoutLine: {'line': b"writing manifest file 'my_exo.egg-info/SOURCES.txt'\n"}
+[12.541354] (dynamic_tf) StdoutLine: {'line': b"writing manifest file 'dynamic_tf.egg-info/SOURCES.txt'\n"}
+[12.541599] (my_exo) StdoutLine: {'line': b'running build_ext\n'}
+[12.541854] (my_exo) StdoutLine: {'line': b'Creating /home/hp/ROS2_WS/install/my_exo/lib/python3.10/site-packages/my-exo.egg-link (link to .)\n'}
+[12.542794] (my_exo) StdoutLine: {'line': b'Installing first_node script to /home/hp/ROS2_WS/install/my_exo/lib/my_exo\n'}
+[12.542957] (my_exo) StdoutLine: {'line': b'Installing fourth_node script to /home/hp/ROS2_WS/install/my_exo/lib/my_exo\n'}
+[12.543074] (my_exo) StdoutLine: {'line': b'Installing input_node script to /home/hp/ROS2_WS/install/my_exo/lib/my_exo\n'}
+[12.543199] (my_exo) StdoutLine: {'line': b'Installing second_node script to /home/hp/ROS2_WS/install/my_exo/lib/my_exo\n'}
+[12.543321] (my_exo) StdoutLine: {'line': b'Installing selector_node script to /home/hp/ROS2_WS/install/my_exo/lib/my_exo\n'}
+[12.543443] (my_exo) StdoutLine: {'line': b'Installing third_node script to /home/hp/ROS2_WS/install/my_exo/lib/my_exo\n'}
+[12.543805] (dynamic_tf) StdoutLine: {'line': b'running build_ext\n'}
+[12.543998] (my_exo) StdoutLine: {'line': b'\n'}
+[12.544110] (my_exo) StdoutLine: {'line': b'Installed /home/hp/ROS2_WS/build/my_exo\n'}
+[12.544185] (my_exo) StdoutLine: {'line': b'running symlink_data\n'}
+[12.544258] (dynamic_tf) StdoutLine: {'line': b'Creating /home/hp/ROS2_WS/install/dynamic_tf/lib/python3.10/site-packages/dynamic-tf.egg-link (link to .)\n'}
+[12.545286] (dynamic_tf) StdoutLine: {'line': b'Installing tf_map_baselink script to /home/hp/ROS2_WS/install/dynamic_tf/lib/dynamic_tf\n'}
+[12.545514] (dynamic_tf) StdoutLine: {'line': b'\n'}
+[12.545608] (dynamic_tf) StdoutLine: {'line': b'Installed /home/hp/ROS2_WS/build/dynamic_tf\n'}
+[12.545693] (dynamic_tf) StdoutLine: {'line': b'running symlink_data\n'}
+[12.564842] (-) TimerEvent: {}
+[12.569816] (my_robot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[12.570143] (my_robot_controller) StdoutLine: {'line': b'writing my_robot_controller.egg-info/PKG-INFO\n'}
+[12.570415] (my_robot_controller) StdoutLine: {'line': b'writing dependency_links to my_robot_controller.egg-info/dependency_links.txt\n'}
+[12.570652] (my_robot_controller) StdoutLine: {'line': b'writing entry points to my_robot_controller.egg-info/entry_points.txt\n'}
+[12.570905] (my_robot_controller) StdoutLine: {'line': b'writing requirements to my_robot_controller.egg-info/requires.txt\n'}
+[12.570983] (my_robot_controller) StdoutLine: {'line': b'writing top-level names to my_robot_controller.egg-info/top_level.txt\n'}
+[12.574843] (my_robot_controller) StdoutLine: {'line': b"reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'\n"}
+[12.579382] (my_robot_controller) StdoutLine: {'line': b"writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'\n"}
+[12.582446] (my_robot_controller) StdoutLine: {'line': b'running build_ext\n'}
+[12.582771] (my_robot_controller) StdoutLine: {'line': b'Creating /home/hp/ROS2_WS/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)\n'}
+[12.584293] (my_robot_controller) StdoutLine: {'line': b'Installing draw_circle script to /home/hp/ROS2_WS/install/my_robot_controller/lib/my_robot_controller\n'}
+[12.584639] (my_robot_controller) StdoutLine: {'line': b'Installing pose_suscriber script to /home/hp/ROS2_WS/install/my_robot_controller/lib/my_robot_controller\n'}
+[12.584915] (my_robot_controller) StdoutLine: {'line': b'Installing test_node script to /home/hp/ROS2_WS/install/my_robot_controller/lib/my_robot_controller\n'}
+[12.585177] (my_robot_controller) StdoutLine: {'line': b'\n'}
+[12.585316] (my_robot_controller) StdoutLine: {'line': b'Installed /home/hp/ROS2_WS/build/my_robot_controller\n'}
+[12.585389] (my_robot_controller) StdoutLine: {'line': b'running symlink_data\n'}
+[12.607776] (dynamic_tf) CommandEnded: {'returncode': 0}
+[12.635908] (dynamic_tf) JobEnded: {'identifier': 'dynamic_tf', 'rc': 0}
+[12.638140] (my_exo) CommandEnded: {'returncode': 0}
+[12.649842] (my_exo) JobEnded: {'identifier': 'my_exo', 'rc': 0}
+[12.657818] (my_robot_controller) CommandEnded: {'returncode': 0}
+[12.664990] (-) TimerEvent: {}
+[12.677738] (my_robot_controller) JobEnded: {'identifier': 'my_robot_controller', 'rc': 0}
+[12.765210] (-) TimerEvent: {}
+[12.865768] (-) TimerEvent: {}
+[12.966304] (-) TimerEvent: {}
+[13.066910] (-) TimerEvent: {}
+[13.167375] (-) TimerEvent: {}
+[13.267886] (-) TimerEvent: {}
+[13.368368] (-) TimerEvent: {}
+[13.468836] (-) TimerEvent: {}
+[13.569334] (-) TimerEvent: {}
+[13.669902] (-) TimerEvent: {}
+[13.770377] (-) TimerEvent: {}
+[13.870833] (-) TimerEvent: {}
+[13.971288] (-) TimerEvent: {}
+[14.071702] (-) TimerEvent: {}
+[14.172171] (-) TimerEvent: {}
+[14.272633] (-) TimerEvent: {}
+[14.373099] (-) TimerEvent: {}
+[14.473556] (-) TimerEvent: {}
+[14.573971] (-) TimerEvent: {}
+[14.674447] (-) TimerEvent: {}
+[14.774874] (-) TimerEvent: {}
+[14.875278] (-) TimerEvent: {}
+[14.975751] (-) TimerEvent: {}
+[15.076219] (-) TimerEvent: {}
+[15.176652] (-) TimerEvent: {}
+[15.276988] (-) TimerEvent: {}
+[15.377362] (-) TimerEvent: {}
+[15.477914] (-) TimerEvent: {}
+[15.578425] (-) TimerEvent: {}
+[15.678889] (-) TimerEvent: {}
+[15.779370] (-) TimerEvent: {}
+[15.879895] (-) TimerEvent: {}
+[15.980313] (-) TimerEvent: {}
+[16.080774] (-) TimerEvent: {}
+[16.181181] (-) TimerEvent: {}
+[16.281657] (-) TimerEvent: {}
+[16.382122] (-) TimerEvent: {}
+[16.482599] (-) TimerEvent: {}
+[16.583103] (-) TimerEvent: {}
+[16.683625] (-) TimerEvent: {}
+[16.784080] (-) TimerEvent: {}
+[16.884512] (-) TimerEvent: {}
+[16.984888] (-) TimerEvent: {}
+[17.085403] (-) TimerEvent: {}
+[17.185873] (-) TimerEvent: {}
+[17.286317] (-) TimerEvent: {}
+[17.386697] (-) TimerEvent: {}
+[17.487058] (-) TimerEvent: {}
+[17.587465] (-) TimerEvent: {}
+[17.687996] (-) TimerEvent: {}
+[17.788466] (-) TimerEvent: {}
+[17.888914] (-) TimerEvent: {}
+[17.989340] (-) TimerEvent: {}
+[18.089861] (-) TimerEvent: {}
+[18.190317] (-) TimerEvent: {}
+[18.290781] (-) TimerEvent: {}
+[18.391234] (-) TimerEvent: {}
+[18.491668] (-) TimerEvent: {}
+[18.592098] (-) TimerEvent: {}
+[18.692623] (-) TimerEvent: {}
+[18.792981] (-) TimerEvent: {}
+[18.893442] (-) TimerEvent: {}
+[18.993915] (-) TimerEvent: {}
+[19.094342] (-) TimerEvent: {}
+[19.194766] (-) TimerEvent: {}
+[19.295125] (-) TimerEvent: {}
+[19.395452] (-) TimerEvent: {}
+[19.495755] (-) TimerEvent: {}
+[19.596085] (-) TimerEvent: {}
+[19.696663] (-) TimerEvent: {}
+[19.797230] (-) TimerEvent: {}
+[19.897922] (-) TimerEvent: {}
+[19.998650] (-) TimerEvent: {}
+[20.099063] (-) TimerEvent: {}
+[20.199388] (-) TimerEvent: {}
+[20.299734] (-) TimerEvent: {}
+[20.400061] (-) TimerEvent: {}
+[20.500389] (-) TimerEvent: {}
+[20.600970] (-) TimerEvent: {}
+[20.701593] (-) TimerEvent: {}
+[20.802007] (-) TimerEvent: {}
+[20.902613] (-) TimerEvent: {}
+[21.003118] (-) TimerEvent: {}
+[21.103797] (-) TimerEvent: {}
+[21.204295] (-) TimerEvent: {}
+[21.304656] (-) TimerEvent: {}
+[21.405217] (-) TimerEvent: {}
+[21.505635] (-) TimerEvent: {}
+[21.606097] (-) TimerEvent: {}
+[21.706621] (-) TimerEvent: {}
+[21.807124] (-) TimerEvent: {}
+[21.907614] (-) TimerEvent: {}
+[22.008078] (-) TimerEvent: {}
+[22.108485] (-) TimerEvent: {}
+[22.209081] (-) TimerEvent: {}
+[22.309494] (-) TimerEvent: {}
+[22.409975] (-) TimerEvent: {}
+[22.510394] (-) TimerEvent: {}
+[22.610737] (-) TimerEvent: {}
+[22.711233] (-) TimerEvent: {}
+[22.811744] (-) TimerEvent: {}
+[22.912182] (-) TimerEvent: {}
+[23.012643] (-) TimerEvent: {}
+[23.113091] (-) TimerEvent: {}
+[23.213457] (-) TimerEvent: {}
+[23.313928] (-) TimerEvent: {}
+[23.414486] (-) TimerEvent: {}
+[23.514981] (-) TimerEvent: {}
+[23.615423] (-) TimerEvent: {}
+[23.668665] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual kt_bool karto::Mapper::Process(karto::LocalizedRangeScan*, karto::Matrix3*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[23.668999] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2761:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kkarto::Pose2 karto::LocalizedRangeScan::m_OdometricPose\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[23.669086] (slam_toolbox) StderrLine: {'line': b' 2761 |         {"X", pScan->\x1b[01;31m\x1b[Km_OdometricPose\x1b[m\x1b[K.GetX()},\n'}
+[23.669148] (slam_toolbox) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.669208] (slam_toolbox) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36\x1b[m\x1b[K,\n'}
+[23.669267] (slam_toolbox) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:38\x1b[m\x1b[K:\n'}
+[23.669326] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5824:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[23.669387] (slam_toolbox) StderrLine: {'line': b' 5824 |   Pose2 \x1b[01;36m\x1b[Km_OdometricPose\x1b[m\x1b[K;\n'}
+[23.669444] (slam_toolbox) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.669503] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2762:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kkarto::Pose2 karto::LocalizedRangeScan::m_OdometricPose\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[23.669563] (slam_toolbox) StderrLine: {'line': b' 2762 |         {"Y", pScan->\x1b[01;31m\x1b[Km_OdometricPose\x1b[m\x1b[K.GetY()},\n'}
+[23.669617] (slam_toolbox) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.669674] (slam_toolbox) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36\x1b[m\x1b[K,\n'}
+[23.669730] (slam_toolbox) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:38\x1b[m\x1b[K:\n'}
+[23.669786] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5824:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[23.669844] (slam_toolbox) StderrLine: {'line': b' 5824 |   Pose2 \x1b[01;36m\x1b[Km_OdometricPose\x1b[m\x1b[K;\n'}
+[23.669901] (slam_toolbox) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.670044] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2763:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kkarto::Pose2 karto::LocalizedRangeScan::m_OdometricPose\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[23.670123] (slam_toolbox) StderrLine: {'line': b' 2763 |         {"Theta", pScan->\x1b[01;31m\x1b[Km_OdometricPose\x1b[m\x1b[K.GetTheta()}\n'}
+[23.670178] (slam_toolbox) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.670231] (slam_toolbox) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36\x1b[m\x1b[K,\n'}
+[23.670295] (slam_toolbox) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:38\x1b[m\x1b[K:\n'}
+[23.670347] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5824:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[23.670401] (slam_toolbox) StderrLine: {'line': b' 5824 |   Pose2 \x1b[01;36m\x1b[Km_OdometricPose\x1b[m\x1b[K;\n'}
+[23.670452] (slam_toolbox) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.670502] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2763:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass karto::Pose2\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KGetTheta\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.670562] (slam_toolbox) StderrLine: {'line': b' 2763 |         {"Theta", pScan->m_OdometricPose.\x1b[01;31m\x1b[KGetTheta\x1b[m\x1b[K()}\n'}
+[23.670632] (slam_toolbox) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[23.680873] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2764:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Knlohmann::basic_json<>::value_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Knlohmann::basic_json<>\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[K<brace-enclosed initializer list>\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[23.681083] (slam_toolbox) StderrLine: {'line': b' 2764 |     \x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[23.681157] (slam_toolbox) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[23.695353] (slam_toolbox) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:36\x1b[m\x1b[K:\n'}
+[23.695832] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/nlohmann/json.hpp:1224:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Knlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>& nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::operator=(nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>) [with ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.696108] (slam_toolbox) StderrLine: {'line': b' 1224 |     basic_json& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(basic_json other) noexcept (\n'}
+[23.696184] (slam_toolbox) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[23.696247] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/nlohmann/json.hpp:1224:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<brace-enclosed initializer list>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Knlohmann::basic_json<>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.696309] (slam_toolbox) StderrLine: {'line': b' 1224 |     basic_json& operator=(\x1b[01;36m\x1b[Kbasic_json other\x1b[m\x1b[K) noexcept (\n'}
+[23.696367] (slam_toolbox) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[23.696424] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2766:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kkarto::Pose2 karto::LocalizedRangeScan::m_CorrectedPose\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[23.696516] (slam_toolbox) StderrLine: {'line': b' 2766 |         {"X", pScan->\x1b[01;31m\x1b[Km_CorrectedPose\x1b[m\x1b[K.GetX()},\n'}
+[23.696579] (slam_toolbox) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.696642] (slam_toolbox) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36\x1b[m\x1b[K,\n'}
+[23.696947] (slam_toolbox) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:38\x1b[m\x1b[K:\n'}
+[23.697022] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5829:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[23.697085] (slam_toolbox) StderrLine: {'line': b' 5829 |   Pose2 \x1b[01;36m\x1b[Km_CorrectedPose\x1b[m\x1b[K;\n'}
+[23.697172] (slam_toolbox) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.697228] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2767:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kkarto::Pose2 karto::LocalizedRangeScan::m_CorrectedPose\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[23.697295] (slam_toolbox) StderrLine: {'line': b' 2767 |         {"Y", pScan->\x1b[01;31m\x1b[Km_CorrectedPose\x1b[m\x1b[K.GetY()},\n'}
+[23.697370] (slam_toolbox) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.697425] (slam_toolbox) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36\x1b[m\x1b[K,\n'}
+[23.697479] (slam_toolbox) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:38\x1b[m\x1b[K:\n'}
+[23.697533] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5829:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[23.697584] (slam_toolbox) StderrLine: {'line': b' 5829 |   Pose2 \x1b[01;36m\x1b[Km_CorrectedPose\x1b[m\x1b[K;\n'}
+[23.697654] (slam_toolbox) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.697705] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2768:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kkarto::Pose2 karto::LocalizedRangeScan::m_CorrectedPose\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[23.697758] (slam_toolbox) StderrLine: {'line': b' 2768 |         {"Theta", pScan->\x1b[01;31m\x1b[Km_CorrectedPose\x1b[m\x1b[K.GetTheta()}\n'}
+[23.697836] (slam_toolbox) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.697888] (slam_toolbox) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36\x1b[m\x1b[K,\n'}
+[23.697938] (slam_toolbox) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:38\x1b[m\x1b[K:\n'}
+[23.697986] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5829:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[23.698036] (slam_toolbox) StderrLine: {'line': b' 5829 |   Pose2 \x1b[01;36m\x1b[Km_CorrectedPose\x1b[m\x1b[K;\n'}
+[23.698086] (slam_toolbox) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.698154] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2768:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass karto::Pose2\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KGetTheta\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.698206] (slam_toolbox) StderrLine: {'line': b' 2768 |         {"Theta", pScan->m_CorrectedPose.\x1b[01;31m\x1b[KGetTheta\x1b[m\x1b[K()}\n'}
+[23.698254] (slam_toolbox) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[23.698308] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2769:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Knlohmann::basic_json<>::value_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Knlohmann::basic_json<>\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[K<brace-enclosed initializer list>\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[23.698361] (slam_toolbox) StderrLine: {'line': b' 2769 |     \x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[23.698410] (slam_toolbox) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[23.698460] (slam_toolbox) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:36\x1b[m\x1b[K:\n'}
+[23.698512] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/nlohmann/json.hpp:1224:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Knlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>& nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::operator=(nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>) [with ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.698569] (slam_toolbox) StderrLine: {'line': b' 1224 |     basic_json& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(basic_json other) noexcept (\n'}
+[23.698635] (slam_toolbox) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[23.698682] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/nlohmann/json.hpp:1224:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<brace-enclosed initializer list>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Knlohmann::basic_json<>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.698734] (slam_toolbox) StderrLine: {'line': b' 1224 |     basic_json& operator=(\x1b[01;36m\x1b[Kbasic_json other\x1b[m\x1b[K) noexcept (\n'}
+[23.698784] (slam_toolbox) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[23.698836] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2771:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kkarto::Pose2 karto::LocalizedRangeScan::m_BarycenterPose\x1b[m\x1b[K\xe2\x80\x99 is protected within this context\n'}
+[23.698888] (slam_toolbox) StderrLine: {'line': b' 2771 |         {"X", pScan->\x1b[01;31m\x1b[Km_BarycenterPose\x1b[m\x1b[K.GetX()},\n'}
+[23.698938] (slam_toolbox) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.698986] (slam_toolbox) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36\x1b[m\x1b[K,\n'}
+[23.699032] (slam_toolbox) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:38\x1b[m\x1b[K:\n'}
+[23.699079] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5835:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared protected here\n'}
+[23.699134] (slam_toolbox) StderrLine: {'line': b' 5835 |   Pose2 \x1b[01;36m\x1b[Km_BarycenterPose\x1b[m\x1b[K;\n'}
+[23.699184] (slam_toolbox) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.699230] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2772:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kkarto::Pose2 karto::LocalizedRangeScan::m_BarycenterPose\x1b[m\x1b[K\xe2\x80\x99 is protected within this context\n'}
+[23.699281] (slam_toolbox) StderrLine: {'line': b' 2772 |         {"Y", pScan->\x1b[01;31m\x1b[Km_BarycenterPose\x1b[m\x1b[K.GetY()},\n'}
+[23.699337] (slam_toolbox) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.699385] (slam_toolbox) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36\x1b[m\x1b[K,\n'}
+[23.699436] (slam_toolbox) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:38\x1b[m\x1b[K:\n'}
+[23.699485] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5835:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared protected here\n'}
+[23.699548] (slam_toolbox) StderrLine: {'line': b' 5835 |   Pose2 \x1b[01;36m\x1b[Km_BarycenterPose\x1b[m\x1b[K;\n'}
+[23.699605] (slam_toolbox) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.699653] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2773:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kkarto::Pose2 karto::LocalizedRangeScan::m_BarycenterPose\x1b[m\x1b[K\xe2\x80\x99 is protected within this context\n'}
+[23.699700] (slam_toolbox) StderrLine: {'line': b' 2773 |         {"Theta", pScan->\x1b[01;31m\x1b[Km_BarycenterPose\x1b[m\x1b[K.GetTheta()}\n'}
+[23.699750] (slam_toolbox) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.699817] (slam_toolbox) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36\x1b[m\x1b[K,\n'}
+[23.699869] (slam_toolbox) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:38\x1b[m\x1b[K:\n'}
+[23.699925] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5835:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared protected here\n'}
+[23.699984] (slam_toolbox) StderrLine: {'line': b' 5835 |   Pose2 \x1b[01;36m\x1b[Km_BarycenterPose\x1b[m\x1b[K;\n'}
+[23.700037] (slam_toolbox) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.700096] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2773:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass karto::Pose2\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KGetTheta\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.700226] (slam_toolbox) StderrLine: {'line': b' 2773 |         {"Theta", pScan->m_BarycenterPose.\x1b[01;31m\x1b[KGetTheta\x1b[m\x1b[K()}\n'}
+[23.700312] (slam_toolbox) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[23.700373] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2774:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Knlohmann::basic_json<>::value_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Knlohmann::basic_json<>\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[K<brace-enclosed initializer list>\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[23.700440] (slam_toolbox) StderrLine: {'line': b' 2774 |     \x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[23.700500] (slam_toolbox) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[23.700564] (slam_toolbox) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:36\x1b[m\x1b[K:\n'}
+[23.700626] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/nlohmann/json.hpp:1224:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Knlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>& nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::operator=(nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>) [with ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.700729] (slam_toolbox) StderrLine: {'line': b' 1224 |     basic_json& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(basic_json other) noexcept (\n'}
+[23.700791] (slam_toolbox) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[23.700850] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/nlohmann/json.hpp:1224:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<brace-enclosed initializer list>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Knlohmann::basic_json<>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.700915] (slam_toolbox) StderrLine: {'line': b' 1224 |     basic_json& operator=(\x1b[01;36m\x1b[Kbasic_json other\x1b[m\x1b[K) noexcept (\n'}
+[23.700969] (slam_toolbox) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[23.701022] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2775:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kkt_bool karto::LocalizedRangeScan::m_IsDirty\x1b[m\x1b[K\xe2\x80\x99 is protected within this context\n'}
+[23.701078] (slam_toolbox) StderrLine: {'line': b' 2775 |     inputJson["IsDirty"] = pScan->\x1b[01;31m\x1b[Km_IsDirty\x1b[m\x1b[K;\n'}
+[23.701133] (slam_toolbox) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[23.701188] (slam_toolbox) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36\x1b[m\x1b[K,\n'}
+[23.701259] (slam_toolbox) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:38\x1b[m\x1b[K:\n'}
+[23.701318] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5855:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared protected here\n'}
+[23.701371] (slam_toolbox) StderrLine: {'line': b' 5855 |   kt_bool \x1b[01;36m\x1b[Km_IsDirty\x1b[m\x1b[K;\n'}
+[23.701422] (slam_toolbox) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[23.701474] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2778:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kkarto::PointVectorDouble karto::LocalizedRangeScan::m_PointReadings\x1b[m\x1b[K\xe2\x80\x99 is protected within this context\n'}
+[23.701549] (slam_toolbox) StderrLine: {'line': b' 2778 |     for (const auto& point : pScan->\x1b[01;31m\x1b[Km_PointReadings\x1b[m\x1b[K) {\n'}
+[23.701609] (slam_toolbox) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.701709] (slam_toolbox) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36\x1b[m\x1b[K,\n'}
+[23.701764] (slam_toolbox) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:38\x1b[m\x1b[K:\n'}
+[23.701816] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5840:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared protected here\n'}
+[23.701867] (slam_toolbox) StderrLine: {'line': b' 5840 |   PointVectorDouble \x1b[01;36m\x1b[Km_PointReadings\x1b[m\x1b[K;\n'}
+[23.701917] (slam_toolbox) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.701969] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2779:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst class karto::Vector2<double>\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kx\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.702021] (slam_toolbox) StderrLine: {'line': b' 2779 |         pointReadings.push_back({{"X", point.\x1b[01;31m\x1b[Kx\x1b[m\x1b[K}, {"Y", point.y}});\n'}
+[23.702079] (slam_toolbox) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[23.702127] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2779:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst class karto::Vector2<double>\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Ky\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.702178] (slam_toolbox) StderrLine: {'line': b' 2779 |         pointReadings.push_back({{"X", point.x}, {"Y", point.\x1b[01;31m\x1b[Ky\x1b[m\x1b[K}});\n'}
+[23.702249] (slam_toolbox) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[23.715721] (-) TimerEvent: {}
+[23.730316] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2779:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Knlohmann::basic_json<>::push_back(<brace-enclosed initializer list>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.730486] (slam_toolbox) StderrLine: {'line': b' 2779 |         \x1b[01;31m\x1b[KpointReadings.push_back({{"X", point.x}, {"Y", point.y}})\x1b[m\x1b[K;\n'}
+[23.730557] (slam_toolbox) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.730644] (slam_toolbox) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:36\x1b[m\x1b[K:\n'}
+[23.730715] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/nlohmann/json.hpp:2824:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::push_back(nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>&&) [with ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.730975] (slam_toolbox) StderrLine: {'line': b' 2824 |     void \x1b[01;36m\x1b[Kpush_back\x1b[m\x1b[K(basic_json&& val)\n'}
+[23.731042] (slam_toolbox) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[23.731099] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/nlohmann/json.hpp:2824:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<brace-enclosed initializer list>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Knlohmann::basic_json<>&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.731166] (slam_toolbox) StderrLine: {'line': b' 2824 |     void push_back(\x1b[01;36m\x1b[Kbasic_json&& val\x1b[m\x1b[K)\n'}
+[23.731245] (slam_toolbox) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[23.731300] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/nlohmann/json.hpp:2857:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::push_back(const nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>&) [with ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.731415] (slam_toolbox) StderrLine: {'line': b' 2857 |     void \x1b[01;36m\x1b[Kpush_back\x1b[m\x1b[K(const basic_json& val)\n'}
+[23.731481] (slam_toolbox) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[23.731549] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/nlohmann/json.hpp:2857:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<brace-enclosed initializer list>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst nlohmann::basic_json<>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.731610] (slam_toolbox) StderrLine: {'line': b' 2857 |     void push_back(\x1b[01;36m\x1b[Kconst basic_json& val\x1b[m\x1b[K)\n'}
+[23.731666] (slam_toolbox) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[23.731740] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/nlohmann/json.hpp:2889:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::push_back(const typename nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::object_t::value_type&) [with ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char>; typename nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::object_t::value_type = std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> >; nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::object_t = std::map<std::__cxx11::basic_string<char>, nlohmann::basic_json<>, std::less<void>, std::allocator<std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> > > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.732183] (slam_toolbox) StderrLine: {'line': b' 2889 |     void \x1b[01;36m\x1b[Kpush_back\x1b[m\x1b[K(const typename object_t::value_type& val)\n'}
+[23.732284] (slam_toolbox) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[23.732350] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/nlohmann/json.hpp:2889:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<brace-enclosed initializer list>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst value_type&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> >&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[23.732416] (slam_toolbox) StderrLine: {'line': b' 2889 |     void push_back(\x1b[01;36m\x1b[Kconst typename object_t::value_type& val\x1b[m\x1b[K)\n'}
+[23.732477] (slam_toolbox) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[23.732536] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/nlohmann/json.hpp:2920:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::push_back(nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::initializer_list_t) [with ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char>; nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::initializer_list_t = std::initializer_list<nlohmann::detail::json_ref<nlohmann::basic_json<> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.732605] (slam_toolbox) StderrLine: {'line': b' 2920 |     void \x1b[01;36m\x1b[Kpush_back\x1b[m\x1b[K(initializer_list_t init)\n'}
+[23.732665] (slam_toolbox) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[23.732729] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/nlohmann/json.hpp:2920:39:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<brace-enclosed initializer list>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Knlohmann::basic_json<>::initializer_list_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::initializer_list<nlohmann::detail::json_ref<nlohmann::basic_json<> > >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[23.732824] (slam_toolbox) StderrLine: {'line': b' 2920 |     void push_back(\x1b[01;36m\x1b[Kinitializer_list_t init\x1b[m\x1b[K)\n'}
+[23.732885] (slam_toolbox) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[23.732944] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2784:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kkarto::PointVectorDouble karto::LocalizedRangeScan::m_UnfilteredPointReadings\x1b[m\x1b[K\xe2\x80\x99 is protected within this context\n'}
+[23.733005] (slam_toolbox) StderrLine: {'line': b' 2784 |     for (const auto& point : pScan->\x1b[01;31m\x1b[Km_UnfilteredPointReadings\x1b[m\x1b[K) {\n'}
+[23.733066] (slam_toolbox) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.733166] (slam_toolbox) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36\x1b[m\x1b[K,\n'}
+[23.733223] (slam_toolbox) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:38\x1b[m\x1b[K:\n'}
+[23.733278] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5845:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared protected here\n'}
+[23.733333] (slam_toolbox) StderrLine: {'line': b' 5845 |   PointVectorDouble \x1b[01;36m\x1b[Km_UnfilteredPointReadings\x1b[m\x1b[K;\n'}
+[23.733389] (slam_toolbox) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.733447] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2785:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst class karto::Vector2<double>\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kx\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.733521] (slam_toolbox) StderrLine: {'line': b' 2785 |         unfilteredPointReadings.push_back({{"X", point.\x1b[01;31m\x1b[Kx\x1b[m\x1b[K}, {"Y", point.y}});\n'}
+[23.733575] (slam_toolbox) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[23.733627] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2785:72:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst class karto::Vector2<double>\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Ky\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.733702] (slam_toolbox) StderrLine: {'line': b' 2785 |         unfilteredPointReadings.push_back({{"X", point.x}, {"Y", point.\x1b[01;31m\x1b[Ky\x1b[m\x1b[K}});\n'}
+[23.733753] (slam_toolbox) StderrLine: {'line': b'      |                                                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[23.733803] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2785:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Knlohmann::basic_json<>::push_back(<brace-enclosed initializer list>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.733854] (slam_toolbox) StderrLine: {'line': b' 2785 |         \x1b[01;31m\x1b[KunfilteredPointReadings.push_back({{"X", point.x}, {"Y", point.y}})\x1b[m\x1b[K;\n'}
+[23.733904] (slam_toolbox) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.733954] (slam_toolbox) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:36\x1b[m\x1b[K:\n'}
+[23.734005] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/nlohmann/json.hpp:2824:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::push_back(nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>&&) [with ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.734060] (slam_toolbox) StderrLine: {'line': b' 2824 |     void \x1b[01;36m\x1b[Kpush_back\x1b[m\x1b[K(basic_json&& val)\n'}
+[23.734115] (slam_toolbox) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[23.734165] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/nlohmann/json.hpp:2824:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<brace-enclosed initializer list>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Knlohmann::basic_json<>&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.734234] (slam_toolbox) StderrLine: {'line': b' 2824 |     void push_back(\x1b[01;36m\x1b[Kbasic_json&& val\x1b[m\x1b[K)\n'}
+[23.734283] (slam_toolbox) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[23.734331] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/nlohmann/json.hpp:2857:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::push_back(const nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>&) [with ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.734388] (slam_toolbox) StderrLine: {'line': b' 2857 |     void \x1b[01;36m\x1b[Kpush_back\x1b[m\x1b[K(const basic_json& val)\n'}
+[23.734437] (slam_toolbox) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[23.734491] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/nlohmann/json.hpp:2857:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<brace-enclosed initializer list>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst nlohmann::basic_json<>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.734542] (slam_toolbox) StderrLine: {'line': b' 2857 |     void push_back(\x1b[01;36m\x1b[Kconst basic_json& val\x1b[m\x1b[K)\n'}
+[23.734591] (slam_toolbox) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[23.734637] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/nlohmann/json.hpp:2889:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::push_back(const typename nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::object_t::value_type&) [with ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char>; typename nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::object_t::value_type = std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> >; nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::object_t = std::map<std::__cxx11::basic_string<char>, nlohmann::basic_json<>, std::less<void>, std::allocator<std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> > > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.734706] (slam_toolbox) StderrLine: {'line': b' 2889 |     void \x1b[01;36m\x1b[Kpush_back\x1b[m\x1b[K(const typename object_t::value_type& val)\n'}
+[23.734755] (slam_toolbox) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[23.734801] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/nlohmann/json.hpp:2889:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<brace-enclosed initializer list>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst value_type&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> >&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[23.734851] (slam_toolbox) StderrLine: {'line': b' 2889 |     void push_back(\x1b[01;36m\x1b[Kconst typename object_t::value_type& val\x1b[m\x1b[K)\n'}
+[23.734898] (slam_toolbox) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[23.734943] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/nlohmann/json.hpp:2920:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::push_back(nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::initializer_list_t) [with ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char>; nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::initializer_list_t = std::initializer_list<nlohmann::detail::json_ref<nlohmann::basic_json<> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.734998] (slam_toolbox) StderrLine: {'line': b' 2920 |     void \x1b[01;36m\x1b[Kpush_back\x1b[m\x1b[K(initializer_list_t init)\n'}
+[23.735044] (slam_toolbox) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[23.735094] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/nlohmann/json.hpp:2920:39:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<brace-enclosed initializer list>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Knlohmann::basic_json<>::initializer_list_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::initializer_list<nlohmann::detail::json_ref<nlohmann::basic_json<> > >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[23.735143] (slam_toolbox) StderrLine: {'line': b' 2920 |     void push_back(\x1b[01;36m\x1b[Kinitializer_list_t init\x1b[m\x1b[K)\n'}
+[23.735191] (slam_toolbox) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[23.735265] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2790:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kkarto::BoundingBox2 karto::LocalizedRangeScan::m_BoundingBox\x1b[m\x1b[K\xe2\x80\x99 is protected within this context\n'}
+[23.735423] (slam_toolbox) StderrLine: {'line': b' 2790 |         {"XMin", pScan->\x1b[01;31m\x1b[Km_BoundingBox\x1b[m\x1b[K.GetXMin()},\n'}
+[23.735484] (slam_toolbox) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.735554] (slam_toolbox) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36\x1b[m\x1b[K,\n'}
+[23.735633] (slam_toolbox) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:38\x1b[m\x1b[K:\n'}
+[23.735697] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5850:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared protected here\n'}
+[23.735758] (slam_toolbox) StderrLine: {'line': b' 5850 |   BoundingBox2 \x1b[01;36m\x1b[Km_BoundingBox\x1b[m\x1b[K;\n'}
+[23.735817] (slam_toolbox) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.735870] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2790:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass karto::BoundingBox2\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KGetXMin\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.735925] (slam_toolbox) StderrLine: {'line': b' 2790 |         {"XMin", pScan->m_BoundingBox.\x1b[01;31m\x1b[KGetXMin\x1b[m\x1b[K()},\n'}
+[23.735976] (slam_toolbox) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[23.736029] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2791:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kkarto::BoundingBox2 karto::LocalizedRangeScan::m_BoundingBox\x1b[m\x1b[K\xe2\x80\x99 is protected within this context\n'}
+[23.736101] (slam_toolbox) StderrLine: {'line': b' 2791 |         {"XMax", pScan->\x1b[01;31m\x1b[Km_BoundingBox\x1b[m\x1b[K.GetXMax()},\n'}
+[23.736158] (slam_toolbox) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.736210] (slam_toolbox) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36\x1b[m\x1b[K,\n'}
+[23.736275] (slam_toolbox) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:38\x1b[m\x1b[K:\n'}
+[23.736328] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5850:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared protected here\n'}
+[23.736381] (slam_toolbox) StderrLine: {'line': b' 5850 |   BoundingBox2 \x1b[01;36m\x1b[Km_BoundingBox\x1b[m\x1b[K;\n'}
+[23.736436] (slam_toolbox) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.736495] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2791:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass karto::BoundingBox2\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KGetXMax\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.736571] (slam_toolbox) StderrLine: {'line': b' 2791 |         {"XMax", pScan->m_BoundingBox.\x1b[01;31m\x1b[KGetXMax\x1b[m\x1b[K()},\n'}
+[23.736621] (slam_toolbox) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[23.736675] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2792:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kkarto::BoundingBox2 karto::LocalizedRangeScan::m_BoundingBox\x1b[m\x1b[K\xe2\x80\x99 is protected within this context\n'}
+[23.736735] (slam_toolbox) StderrLine: {'line': b' 2792 |         {"YMin", pScan->\x1b[01;31m\x1b[Km_BoundingBox\x1b[m\x1b[K.GetYMin()},\n'}
+[23.736791] (slam_toolbox) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.736846] (slam_toolbox) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36\x1b[m\x1b[K,\n'}
+[23.736899] (slam_toolbox) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:38\x1b[m\x1b[K:\n'}
+[23.736956] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5850:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared protected here\n'}
+[23.737006] (slam_toolbox) StderrLine: {'line': b' 5850 |   BoundingBox2 \x1b[01;36m\x1b[Km_BoundingBox\x1b[m\x1b[K;\n'}
+[23.737055] (slam_toolbox) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.737122] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2792:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass karto::BoundingBox2\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KGetYMin\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.737177] (slam_toolbox) StderrLine: {'line': b' 2792 |         {"YMin", pScan->m_BoundingBox.\x1b[01;31m\x1b[KGetYMin\x1b[m\x1b[K()},\n'}
+[23.737229] (slam_toolbox) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[23.737280] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2793:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kkarto::BoundingBox2 karto::LocalizedRangeScan::m_BoundingBox\x1b[m\x1b[K\xe2\x80\x99 is protected within this context\n'}
+[23.737329] (slam_toolbox) StderrLine: {'line': b' 2793 |         {"YMax", pScan->\x1b[01;31m\x1b[Km_BoundingBox\x1b[m\x1b[K.GetYMax()}\n'}
+[23.737380] (slam_toolbox) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.737431] (slam_toolbox) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36\x1b[m\x1b[K,\n'}
+[23.737483] (slam_toolbox) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:38\x1b[m\x1b[K:\n'}
+[23.737531] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5850:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared protected here\n'}
+[23.737584] (slam_toolbox) StderrLine: {'line': b' 5850 |   BoundingBox2 \x1b[01;36m\x1b[Km_BoundingBox\x1b[m\x1b[K;\n'}
+[23.737673] (slam_toolbox) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.737733] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2793:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass karto::BoundingBox2\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KGetYMax\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.737790] (slam_toolbox) StderrLine: {'line': b' 2793 |         {"YMax", pScan->m_BoundingBox.\x1b[01;31m\x1b[KGetYMax\x1b[m\x1b[K()}\n'}
+[23.737846] (slam_toolbox) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[23.737894] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2794:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Knlohmann::basic_json<>::value_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Knlohmann::basic_json<>\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[K<brace-enclosed initializer list>\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[23.737950] (slam_toolbox) StderrLine: {'line': b' 2794 |     \x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[23.737999] (slam_toolbox) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[23.738047] (slam_toolbox) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:36\x1b[m\x1b[K:\n'}
+[23.738116] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/nlohmann/json.hpp:1224:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Knlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>& nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::operator=(nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>) [with ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.738175] (slam_toolbox) StderrLine: {'line': b' 1224 |     basic_json& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(basic_json other) noexcept (\n'}
+[23.738225] (slam_toolbox) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[23.738272] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/nlohmann/json.hpp:1224:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<brace-enclosed initializer list>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Knlohmann::basic_json<>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.738323] (slam_toolbox) StderrLine: {'line': b' 1224 |     basic_json& operator=(\x1b[01;36m\x1b[Kbasic_json other\x1b[m\x1b[K) noexcept (\n'}
+[23.738371] (slam_toolbox) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[23.816008] (-) TimerEvent: {}
+[23.916387] (-) TimerEvent: {}
+[24.016888] (-) TimerEvent: {}
+[24.117373] (-) TimerEvent: {}
+[24.217820] (-) TimerEvent: {}
+[24.318233] (-) TimerEvent: {}
+[24.418601] (-) TimerEvent: {}
+[24.519053] (-) TimerEvent: {}
+[24.619537] (-) TimerEvent: {}
+[24.719884] (-) TimerEvent: {}
+[24.820344] (-) TimerEvent: {}
+[24.920677] (-) TimerEvent: {}
+[25.021104] (-) TimerEvent: {}
+[25.121572] (-) TimerEvent: {}
+[25.221938] (-) TimerEvent: {}
+[25.322383] (-) TimerEvent: {}
+[25.422874] (-) TimerEvent: {}
+[25.523343] (-) TimerEvent: {}
+[25.623718] (-) TimerEvent: {}
+[25.724050] (-) TimerEvent: {}
+[25.824446] (-) TimerEvent: {}
+[25.924949] (-) TimerEvent: {}
+[26.025441] (-) TimerEvent: {}
+[26.125873] (-) TimerEvent: {}
+[26.226189] (-) TimerEvent: {}
+[26.326651] (-) TimerEvent: {}
+[26.427154] (-) TimerEvent: {}
+[26.527573] (-) TimerEvent: {}
+[26.627949] (-) TimerEvent: {}
+[26.653663] (slam_toolbox) StderrLine: {'line': b'gmake[2]: *** [lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/build.make:90: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o] Error 1\n'}
+[26.653862] (slam_toolbox) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:1045: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/all] Error 2\n'}
+[26.654116] (slam_toolbox) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[26.656718] (slam_toolbox) CommandEnded: {'returncode': 2}
+[26.728062] (-) TimerEvent: {}
+[26.828425] (-) TimerEvent: {}
+[26.928755] (-) TimerEvent: {}
+[27.013324] (slam_toolbox) JobEnded: {'identifier': 'slam_toolbox', 'rc': 2}
+[27.024141] (-) EventReactorShutdown: {}

@@ -1,0 +1,55 @@
+[0.819s] Invoking command in '/home/hp/ROS2_WS/build/slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/dynamic_tf:/opt/ros/humble /usr/bin/cmake --build /home/hp/ROS2_WS/build/slam_toolbox -- -j8 -l8
+[0.929s] [  9%] Built target slam_toolbox__rosidl_generator_c
+[0.930s] [35m[1mConsolidate compiler generated dependencies of target kartoSlamToolbox[0m
+[0.936s] [  9%] Built target ament_cmake_python_symlink_slam_toolbox
+[0.938s] [  9%] Built target slam_toolbox__cpp
+[0.983s] [ 18%] Built target slam_toolbox__rosidl_typesupport_introspection_c
+[0.985s] [ 27%] Built target slam_toolbox__rosidl_typesupport_c
+[0.995s] [ 36%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c
+[1.000s] [ 37%] [32mBuilding CXX object lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o[0m
+[1.046s] [ 46%] Built target slam_toolbox__rosidl_typesupport_cpp
+[1.048s] [ 55%] Built target slam_toolbox__rosidl_typesupport_introspection_cpp
+[1.060s] [ 64%] Built target slam_toolbox__rosidl_typesupport_fastrtps_cpp
+[1.094s] [ 64%] Built target slam_toolbox
+[1.109s] [ 66%] Built target SlamToolboxPlugin
+[1.133s] [ 67%] Built target slam_toolbox__py
+[1.171s] [ 75%] Built target slam_toolbox__rosidl_generator_py
+[1.220s] [ 76%] Built target slam_toolbox__rosidl_typesupport_c__pyext
+[1.220s] [ 77%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c__pyext
+[1.237s] [ 78%] Built target slam_toolbox__rosidl_typesupport_introspection_c__pyext
+[1.449s] running egg_info
+[1.450s] writing slam_toolbox.egg-info/PKG-INFO
+[1.450s] writing dependency_links to slam_toolbox.egg-info/dependency_links.txt
+[1.450s] writing top-level names to slam_toolbox.egg-info/top_level.txt
+[1.453s] reading manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+[1.455s] writing manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+[1.513s] [ 78%] Built target ament_cmake_python_build_slam_toolbox_egg
+[4.902s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:[m[K In member function ‘[01m[Kvirtual kt_bool karto::Mapper::Process(karto::LocalizedRangeScan*, karto::Matrix3*)[m[K’:
+[4.902s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2850:33:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kkarto::LocalizedRangeScan::serialize(boost::archive::xml_oarchive&, karto::LocalizedRangeScan*&)[m[K’
+[4.902s]  2850 |                 [01;31m[KpScan->serialize(scan_oa, BOOST_SERIALIZATION_VERSION_HPP(pScan))[m[K;
+[4.903s]       |                 [01;31m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.903s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+[4.903s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:39[m[K:
+[4.903s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5805:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Archive> void karto::LocalizedRangeScan::serialize(Archive&, unsigned int)[m[K’
+[4.903s]  5805 |   void [01;36m[Kserialize[m[K(Archive & ar, const unsigned int version)
+[4.903s]       |        [01;36m[K^~~~~~~~~[m[K
+[4.903s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5805:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.903s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2850:75:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[KpScan[m[K’ (type ‘[01m[Kkarto::LocalizedRangeScan*[m[K’) to type ‘[01m[Kunsigned int[m[K’
+[4.903s]  2850 |                 pScan->serialize(scan_oa, BOOST_SERIALIZATION_VERSION_HPP[01;36m[K(pScan)[m[K);
+[4.903s]       |                                                                          [01;36m[K~^~~~~~[m[K
+[4.903s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2864:42:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kkarto::Matrix3::serialize(boost::archive::xml_oarchive&, karto::Matrix3*&)[m[K’
+[4.903s]  2864 |                     [01;31m[Kcovariance->serialize(covariance_oa, BOOST_SERIALIZATION_VERSION_HPP(covariance))[m[K;
+[4.903s]       |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.904s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+[4.904s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:39[m[K:
+[4.904s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2723:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Archive> void karto::Matrix3::serialize(Archive&, unsigned int)[m[K’
+[4.904s]  2723 |   void [01;36m[Kserialize[m[K(Archive & ar, const unsigned int version)
+[4.904s]       |        [01;36m[K^~~~~~~~~[m[K
+[4.904s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2723:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.904s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2864:90:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kcovariance[m[K’ (type ‘[01m[Kkarto::Matrix3*[m[K’) to type ‘[01m[Kunsigned int[m[K’
+[4.904s]  2864 |                     covariance->serialize(covariance_oa, BOOST_SERIALIZATION_VERSION_HPP[01;36m[K(covariance)[m[K);
+[4.904s]       |                                                                                         [01;36m[K~^~~~~~~~~~~[m[K
+[7.765s] gmake[2]: *** [lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/build.make:90: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o] Error 1
+[7.766s] gmake[1]: *** [CMakeFiles/Makefile2:1045: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/all] Error 2
+[7.766s] gmake: *** [Makefile:146: all] Error 2
+[7.769s] Invoked command in '/home/hp/ROS2_WS/build/slam_toolbox' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/dynamic_tf:/opt/ros/humble /usr/bin/cmake --build /home/hp/ROS2_WS/build/slam_toolbox -- -j8 -l8

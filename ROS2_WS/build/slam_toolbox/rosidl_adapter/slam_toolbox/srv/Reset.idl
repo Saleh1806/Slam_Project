@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from slam_toolbox/srvs/Reset.srv
+// generated code does not contain a copyright notice
+
+
+module slam_toolbox {
+  module srv {
+    @verbatim (language="comment", text=
+      "Set this to 'true' to pause new measurements immediately after reset." "\n"
+      "Note: This is a set behaviour and not a toggle behaviour, contrary to Pause.srv service.")
+    struct Reset_Request {
+      @default (value=FALSE)
+      boolean pause_new_measurements;
+    };
+    module Reset_Response_Constants {
+      const uint8 RESULT_SUCCESS = 0;
+    };
+    @verbatim (language="comment", text=
+      "Result code defintions")
+    struct Reset_Response {
+      uint8 result;
+    };
+  };
+};

@@ -1,0 +1,254 @@
+In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:1013:76:[m[K [01;35m[Kwarning: [m[Kfriend declaration ‘[01m[Kstd::ostream& karto::operator<<(std::ostream&, const karto::Vector2<T>&)[m[K’ declares a non-template function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnon-template-friend-Wnon-template-friend]8;;[m[K]
+ 1013 |     friend std::ostream& operator<<(std::ostream& os, const Vector2<T>& vec[01;35m[K)[m[K;
+      |                                                                            [01;35m[K^[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:1013:76:[m[K [01;36m[Knote: [m[K(if this is not what you intended, make sure the function template has already been declared and add ‘[01m[K<>[m[K’ after the function name here)
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:1014:70:[m[K [01;35m[Kwarning: [m[Kfriend declaration ‘[01m[Kstd::istream& karto::operator>>(std::istream&, karto::Vector2<T>&)[m[K’ declares a non-template function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnon-template-friend-Wnon-template-friend]8;;[m[K]
+ 1014 |     friend std::istream& operator>>(std::istream& is, Vector2<T>& vec[01;35m[K)[m[K;
+      |                                                                      [01;35m[K^[m[K
+In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+                 from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:36[m[K:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:1013:76:[m[K [01;35m[Kwarning: [m[Kfriend declaration ‘[01m[Kstd::ostream& karto::operator<<(std::ostream&, const karto::Vector2<T>&)[m[K’ declares a non-template function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnon-template-friend-Wnon-template-friend]8;;[m[K]
+ 1013 |     friend std::ostream& operator<<(std::ostream& os, const Vector2<T>& vec[01;35m[K)[m[K;
+      |                                                                            [01;35m[K^[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:1013:76:[m[K [01;36m[Knote: [m[K(if this is not what you intended, make sure the function template has already been declared and add ‘[01m[K<>[m[K’ after the function name here)
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:1014:70:[m[K [01;35m[Kwarning: [m[Kfriend declaration ‘[01m[Kstd::istream& karto::operator>>(std::istream&, karto::Vector2<T>&)[m[K’ declares a non-template function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnon-template-friend-Wnon-template-friend]8;;[m[K]
+ 1014 |     friend std::istream& operator>>(std::istream& is, Vector2<T>& vec[01;35m[K)[m[K;
+      |                                                                      [01;35m[K^[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:740:58:[m[K [01;31m[Kerror: [m[K‘[01m[KT[m[K’ was not declared in this scope
+  740 | std::ostream& operator<<(std::ostream& os, const Vector2<[01;31m[KT[m[K>& vec) {
+      |                                                          [01;31m[K^[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:740:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  740 | std::ostream& operator<<(std::ostream& os, const Vector2<T[01;31m[K>[m[K& vec) {
+      |                                                           [01;31m[K^[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:[m[K In function ‘[01m[Kstd::ostream& karto::operator<<(std::ostream&, const int&)[m[K’:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:741:26:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Km_Values[m[K’ in ‘[01m[Kvec[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+  741 |         os << "(" << vec.[01;31m[Km_Values[m[K[0] << ", " << vec.m_Values[1] << ")";
+      |                          [01;31m[K^~~~~~~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:741:53:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Km_Values[m[K’ in ‘[01m[Kvec[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+  741 |         os << "(" << vec.m_Values[0] << ", " << vec.[01;31m[Km_Values[m[K[1] << ")";
+      |                                                     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:[m[K At global scope:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:745:52:[m[K [01;31m[Kerror: [m[K‘[01m[KT[m[K’ was not declared in this scope
+  745 | std::istream& operator>>(std::istream& is, Vector2<[01;31m[KT[m[K>& vec) {
+      |                                                    [01;31m[K^[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:745:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  745 | std::istream& operator>>(std::istream& is, Vector2<T[01;31m[K>[m[K& vec) {
+      |                                                     [01;31m[K^[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:[m[K In function ‘[01m[Kstd::istream& karto::operator>>(std::istream&, int&)[m[K’:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:747:29:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Km_Values[m[K’ in ‘[01m[Kvec[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  747 |         is >> ignore >> vec.[01;31m[Km_Values[m[K[0] >> ignore >> vec.m_Values[1] >> ignore;
+      |                             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:747:58:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Km_Values[m[K’ in ‘[01m[Kvec[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  747 |         is >> ignore >> vec.m_Values[0] >> ignore >> vec.[01;31m[Km_Values[m[K[1] >> ignore;
+      |                                                          [01;31m[K^~~~~~~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:[m[K In function ‘[01m[Kstd::ostream& karto::operator<<(std::ostream&, const karto::BoundingBox2&)[m[K’:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:752:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class karto::BoundingBox2[m[K’ has no member named ‘[01m[Kmin[m[K’
+  752 |     os << "Min: " << bbox.[01;31m[Kmin[m[K << " Max: " << bbox.max;
+      |                           [01;31m[K^~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:752:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class karto::BoundingBox2[m[K’ has no member named ‘[01m[Kmax[m[K’
+  752 |     os << "Min: " << bbox.min << " Max: " << bbox.[01;31m[Kmax[m[K;
+      |                                                   [01;31m[K^~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:[m[K In function ‘[01m[Kstd::istream& karto::operator>>(std::istream&, karto::BoundingBox2&)[m[K’:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:758:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass karto::BoundingBox2[m[K’ has no member named ‘[01m[Kmin[m[K’
+  758 |     is >> temp >> bbox.[01;31m[Kmin[m[K;
+      |                        [01;31m[K^~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:759:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass karto::BoundingBox2[m[K’ has no member named ‘[01m[Kmax[m[K’
+  759 |     is >> temp >> bbox.[01;31m[Kmax[m[K;
+      |                        [01;31m[K^~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:[m[K At global scope:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:763:15:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kstd::ostream& karto::operator<<(std::ostream&, const karto::Pose2&)[m[K’
+  763 | std::ostream& [01;31m[Koperator[m[K<<(std::ostream& os, const Pose2& pose) {
+      |               [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+                 from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:36[m[K:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2245:32:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::ostream& karto::operator<<(std::ostream&, const karto::Pose2&)[m[K’ previously defined here
+ 2245 |   friend inline std::ostream & [01;36m[Koperator[m[K<<(std::ostream & rStream, const Pose2 & rPose)
+      |                                [01;36m[K^~~~~~~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:[m[K In function ‘[01m[Kstd::ostream& karto::operator<<(std::ostream&, const karto::Pose2&)[m[K’:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:764:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kkarto::Vector2<double> karto::Pose2::m_Position[m[K’ is private within this context
+  764 |     os << pose.[01;31m[Km_Position[m[K.GetX() << " " << pose.m_Position.GetY() << " " << pose.m_Heading;
+      |                [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+                 from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:36[m[K:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2260:22:[m[K [01;36m[Knote: [m[Kdeclared private here
+ 2260 |   Vector2<kt_double> [01;36m[Km_Position[m[K;
+      |                      [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:764:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kkarto::Vector2<double> karto::Pose2::m_Position[m[K’ is private within this context
+  764 |     os << pose.m_Position.GetX() << " " << pose.[01;31m[Km_Position[m[K.GetY() << " " << pose.m_Heading;
+      |                                                 [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+                 from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:36[m[K:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2260:22:[m[K [01;36m[Knote: [m[Kdeclared private here
+ 2260 |   Vector2<kt_double> [01;36m[Km_Position[m[K;
+      |                      [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:764:82:[m[K [01;31m[Kerror: [m[K‘[01m[Kkt_double karto::Pose2::m_Heading[m[K’ is private within this context
+  764 |     os << pose.m_Position.GetX() << " " << pose.m_Position.GetY() << " " << pose.[01;31m[Km_Heading[m[K;
+      |                                                                                  [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+                 from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:36[m[K:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2262:13:[m[K [01;36m[Knote: [m[Kdeclared private here
+ 2262 |   kt_double [01;36m[Km_Heading[m[K;
+      |             [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:764:82:[m[K [01;36m[Knote: [m[Kfield ‘[01m[Kkt_double karto::Pose2::m_Heading[m[K’ can be accessed via ‘[01m[Kkt_double karto::Pose2::GetHeading() const[m[K’
+  764 |     os << pose.m_Position.GetX() << " " << pose.m_Position.GetY() << " " << pose.[01;36m[Km_Heading[m[K;
+      |                                                                                  [01;36m[K^~~~~~~~~[m[K
+      |                                                                                  [32m[KGetHeading()[m[K
+In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+                 from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:36[m[K:
+/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h: In instantiation of ‘[01m[Kstd::ostream& karto::operator<<(std::ostream&, const karto::Vector2<int>&)[m[K’:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:4696:27:[m[K   required from ‘[01m[Kkt_int32s karto::Grid<T>::GridIndex(const karto::Vector2<int>&, kt_bool) const [with T = unsigned int; kt_int32s = int; kt_bool = bool][m[K’
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:6232:52:[m[K   required from here
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:1248:13:[m[K [01;31m[Kerror: [m[Kambiguous overload for ‘[01m[Koperator<<[m[K’ (operand types are ‘[01m[Kstd::ostream[m[K’ {aka ‘[01m[Kstd::basic_ostream<char>[m[K’} and ‘[01m[Kconst int[m[K’)
+ 1248 |     [01;31m[KrStream << rVector.GetX()[m[K << " " << rVector.GetY();
+      |     [01;31m[K~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/istream:39[m[K,
+                 from [01m[K/usr/include/c++/11/sstream:38[m[K,
+                 from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:23[m[K:
+[01m[K/usr/include/c++/11/ostream:166:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+  166 |       [01;36m[Koperator[m[K<<(long __n)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/ostream:170:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+  170 |       [01;36m[Koperator[m[K<<(unsigned long __n)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/ostream:174:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+  174 |       [01;36m[Koperator[m[K<<(bool __n)
+      |       [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/ostream:829[m[K,
+                 from [01m[K/usr/include/c++/11/istream:39[m[K,
+                 from [01m[K/usr/include/c++/11/sstream:38[m[K,
+                 from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:23[m[K:
+[01m[K/usr/include/c++/11/bits/ostream.tcc:91:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>][m[K’
+   91 |     [01;36m[Kbasic_ostream<_CharT, _Traits>[m[K::
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/istream:39[m[K,
+                 from [01m[K/usr/include/c++/11/sstream:38[m[K,
+                 from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:23[m[K:
+[01m[K/usr/include/c++/11/ostream:181:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+  181 |       [01;36m[Koperator[m[K<<(unsigned short __n)
+      |       [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/ostream:829[m[K,
+                 from [01m[K/usr/include/c++/11/istream:39[m[K,
+                 from [01m[K/usr/include/c++/11/sstream:38[m[K,
+                 from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:23[m[K:
+[01m[K/usr/include/c++/11/bits/ostream.tcc:105:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>][m[K’
+  105 |     [01;36m[Kbasic_ostream<_CharT, _Traits>[m[K::
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/istream:39[m[K,
+                 from [01m[K/usr/include/c++/11/sstream:38[m[K,
+                 from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:23[m[K:
+[01m[K/usr/include/c++/11/ostream:192:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+  192 |       [01;36m[Koperator[m[K<<(unsigned int __n)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/ostream:201:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+  201 |       [01;36m[Koperator[m[K<<(long long __n)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/ostream:205:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+  205 |       [01;36m[Koperator[m[K<<(unsigned long long __n)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/ostream:220:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+  220 |       [01;36m[Koperator[m[K<<(double __f)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/ostream:224:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+  224 |       [01;36m[Koperator[m[K<<(float __f)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/ostream:232:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+  232 |       [01;36m[Koperator[m[K<<(long double __f)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:740:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::ostream& karto::operator<<(std::ostream&, const int&)[m[K’
+  740 | std::ostream& [01;36m[Koperator[m[K<<(std::ostream& os, const Vector2<T>& vec) {
+      |               [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+                 from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:36[m[K:
+/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h: In instantiation of ‘[01m[Kconst string karto::Parameter<T>::GetValueAsString() const [with T = int; std::string = std::__cxx11::basic_string<char>][m[K’:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:3266:29:[m[K   required from here
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:3269:15:[m[K [01;31m[Kerror: [m[Kambiguous overload for ‘[01m[Koperator<<[m[K’ (operand types are ‘[01m[Kstd::stringstream[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_stringstream<char>[m[K’} and ‘[01m[Kconst int[m[K’)
+ 3269 |     [01;31m[Kconverter << m_Value[m[K;
+      |     [01;31m[K~~~~~~~~~~^~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/istream:39[m[K,
+                 from [01m[K/usr/include/c++/11/sstream:38[m[K,
+                 from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:23[m[K:
+[01m[K/usr/include/c++/11/ostream:166:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+  166 |       [01;36m[Koperator[m[K<<(long __n)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/ostream:170:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+  170 |       [01;36m[Koperator[m[K<<(unsigned long __n)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/ostream:174:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+  174 |       [01;36m[Koperator[m[K<<(bool __n)
+      |       [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/ostream:829[m[K,
+                 from [01m[K/usr/include/c++/11/istream:39[m[K,
+                 from [01m[K/usr/include/c++/11/sstream:38[m[K,
+                 from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:23[m[K:
+[01m[K/usr/include/c++/11/bits/ostream.tcc:91:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>][m[K’
+   91 |     [01;36m[Kbasic_ostream<_CharT, _Traits>[m[K::
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/istream:39[m[K,
+                 from [01m[K/usr/include/c++/11/sstream:38[m[K,
+                 from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:23[m[K:
+[01m[K/usr/include/c++/11/ostream:181:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+  181 |       [01;36m[Koperator[m[K<<(unsigned short __n)
+      |       [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/ostream:829[m[K,
+                 from [01m[K/usr/include/c++/11/istream:39[m[K,
+                 from [01m[K/usr/include/c++/11/sstream:38[m[K,
+                 from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:23[m[K:
+[01m[K/usr/include/c++/11/bits/ostream.tcc:105:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>][m[K’
+  105 |     [01;36m[Kbasic_ostream<_CharT, _Traits>[m[K::
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/istream:39[m[K,
+                 from [01m[K/usr/include/c++/11/sstream:38[m[K,
+                 from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:23[m[K:
+[01m[K/usr/include/c++/11/ostream:192:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+  192 |       [01;36m[Koperator[m[K<<(unsigned int __n)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/ostream:201:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+  201 |       [01;36m[Koperator[m[K<<(long long __n)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/ostream:205:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+  205 |       [01;36m[Koperator[m[K<<(unsigned long long __n)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/ostream:220:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+  220 |       [01;36m[Koperator[m[K<<(double __f)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/ostream:224:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+  224 |       [01;36m[Koperator[m[K<<(float __f)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/ostream:232:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+  232 |       [01;36m[Koperator[m[K<<(long double __f)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/ostream:518:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char) [with _CharT = char; _Traits = std::char_traits<char>][m[K’
+  518 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/ostream:524:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char) [with _Traits = std::char_traits<char>][m[K’
+  524 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, char __c)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/ostream:530:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char) [with _Traits = std::char_traits<char>][m[K’
+  530 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, signed char __c)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/ostream:535:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char) [with _Traits = std::char_traits<char>][m[K’
+  535 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:740:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::ostream& karto::operator<<(std::ostream&, const int&)[m[K’
+  740 | std::ostream& [01;36m[Koperator[m[K<<(std::ostream& os, const Vector2<T>& vec) {
+      |               [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+                 from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:36[m[K:
+/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h: In instantiation of ‘[01m[Kvoid karto::Parameter<T>::SetValueFromString(const string&) [with T = int; std::string = std::__cxx11::basic_string<char>][m[K’:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:3277:16:[m[K   required from here
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:3281:15:[m[K [01;31m[Kerror: [m[Kambiguous overload for ‘[01m[Koperator>>[m[K’ (operand types are ‘[01m[Kstd::stringstream[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_stringstream<char>[m[K’} and ‘[01m[Kint[m[K’)
+ 3281 |     [01;31m[Kconverter >> m_Value[m[K;
+      |     [01;31m[K~~~~~~~~~~^~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/sstream:38[m[K,
+                 from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:23[m[K:
+[01m[K/usr/include/c++/11/istream:179:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>& std::basic_istream<_CharT, _Traits>::operator>>(int&) [with _CharT = char; _Traits = std::char_traits<char>][m[K’
+  179 |       [01;36m[Koperator[m[K>>(int& __n);
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:745:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::istream& karto::operator>>(std::istream&, int&)[m[K’
+  745 | std::istream& [01;36m[Koperator[m[K>>(std::istream& is, Vector2<T>& vec) {
+      |               [01;36m[K^~~~~~~~[m[K
+gmake[2]: *** [lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/build.make:90: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:1045: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,1002 @@
+[0.000000] (-) TimerEvent: {}
+[0.000335] (dynamic_tf) JobQueued: {'identifier': 'dynamic_tf', 'dependencies': OrderedDict()}
+[0.000415] (my_exo) JobQueued: {'identifier': 'my_exo', 'dependencies': OrderedDict()}
+[0.000433] (my_robot_controller) JobQueued: {'identifier': 'my_robot_controller', 'dependencies': OrderedDict()}
+[0.000448] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.000462] (slam_toolbox) JobQueued: {'identifier': 'slam_toolbox', 'dependencies': OrderedDict()}
+[0.000476] (dynamic_tf) JobStarted: {'identifier': 'dynamic_tf'}
+[0.010280] (my_exo) JobStarted: {'identifier': 'my_exo'}
+[0.016808] (my_robot_controller) JobStarted: {'identifier': 'my_robot_controller'}
+[0.023516] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[0.029022] (slam_toolbox) JobStarted: {'identifier': 'slam_toolbox'}
+[0.099209] (-) TimerEvent: {}
+[0.199533] (-) TimerEvent: {}
+[0.299963] (-) TimerEvent: {}
+[0.400474] (-) TimerEvent: {}
+[0.500890] (-) TimerEvent: {}
+[0.601195] (-) TimerEvent: {}
+[0.701763] (-) TimerEvent: {}
+[0.802214] (-) TimerEvent: {}
+[0.902569] (-) TimerEvent: {}
+[0.915814] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'cmake'}
+[0.916689] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'build'}
+[0.917425] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hp/ROS2_WS/src/build/rplidar_ros', '--', '-j8', '-l8'], 'cwd': '/home/hp/ROS2_WS/src/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'hp'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hp/ROS2_WS/src/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hp'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/hp/ROS2_WS'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2065'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hp/ROS2_WS/install:/home/hp/ROS2_WS/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hp'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hp'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/hp/ROS2_WS/src/install/rosidl_cli/bin:/home/hp/anaconda3/bin:/home/hp/anaconda3/condabin:/opt/ros/humble/bin:/home/hp/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hp-HP-Laptop-15-dw2xxx:@/tmp/.ICE-unix/1973,unix/hp-HP-Laptop-15-dw2xxx:/tmp/.ICE-unix/1973'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4ad4a1af_e36e_4b0b_a203_b9c5b2a60525'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1JIBO2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.117'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/hp/anaconda3/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/hp/ROS2_WS/install/rplidar_ros:/home/hp/ROS2_WS/install/rf2o_laser_odometry:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/dynamic_tf:/home/hp/ROS2_WS/install/articubot_one:/home/hp/ROS2_WS/install/Dynamic_tf:/home/hp/ROS2_WS/install/DYNAMIC_TF:/home/hp/ROS2_WS/src/install/slam_toolbox:/home/hp/ROS2_WS/src/install/rplidar_ros:/home/hp/ROS2_WS/src/install/rosidl_generator_c:/home/hp/ROS2_WS/src/install/rosidl_typesupport_interface:/home/hp/ROS2_WS/src/install/rosidl_cmake:/home/hp/ROS2_WS/src/install/rosidl_pycommon:/home/hp/ROS2_WS/src/install/rosidl_generator_type_description:/home/hp/ROS2_WS/src/install/rosidl_parser:/home/hp/ROS2_WS/src/install/rosidl_adapter:/home/hp/ROS2_WS/src/install/rosidl_cli:/home/hp/ROS2_WS/src/install/rf2o_laser_odometry:/home/hp/ROS2_WS/src/install/my_robot_controller:/home/hp/ROS2_WS/src/install/my_exo:/home/hp/ROS2_WS/src/install/dynamic_tf:/home/hp/ROS2_WS/src/install/articubot_one:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/hp/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hp/ROS2_WS/src/build/rplidar_ros'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/hp/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hp/ROS2_WS/build/my_robot_controller:/home/hp/ROS2_WS/install/my_robot_controller/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/my_exo:/home/hp/ROS2_WS/install/my_exo/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/dynamic_tf:/home/hp/ROS2_WS/install/dynamic_tf/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/Dynamic_tf:/home/hp/ROS2_WS/install/Dynamic_tf/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/DYNAMIC_TF:/home/hp/ROS2_WS/install/DYNAMIC_TF/lib/python3.10/site-packages:/home/hp/ROS2_WS/src/install/slam_toolbox/lib/python3.11/site-packages:/home/hp/ROS2_WS/src/install/rosidl_generator_c/lib/python3.11/site-packages:/home/hp/ROS2_WS/src/install/rosidl_cmake/lib/python3.11/site-packages:/home/hp/ROS2_WS/src/build/rosidl_pycommon:/home/hp/ROS2_WS/src/install/rosidl_pycommon/lib/python3.10/site-packages:/home/hp/ROS2_WS/src/install/rosidl_generator_type_description/lib/python3.11/site-packages:/home/hp/ROS2_WS/src/install/rosidl_parser/lib/python3.11/site-packages:/home/hp/ROS2_WS/src/install/rosidl_adapter/lib/python3.11/site-packages:/home/hp/ROS2_WS/src/build/rosidl_cli:/home/hp/ROS2_WS/src/install/rosidl_cli/lib/python3.10/site-packages:/home/hp/ROS2_WS/src/build/my_robot_controller:/home/hp/ROS2_WS/src/install/my_robot_controller/lib/python3.10/site-packages:/home/hp/ROS2_WS/src/build/my_exo:/home/hp/ROS2_WS/src/install/my_exo/lib/python3.10/site-packages:/home/hp/ROS2_WS/src/build/dynamic_tf:/home/hp/ROS2_WS/src/install/dynamic_tf/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/hp/anaconda3'), ('GSETTINGS_SCHEMA_DIR_CONDA_BACKUP', ''), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hp/ROS2_WS/install/rplidar_ros:/home/hp/ROS2_WS/install/rf2o_laser_odometry:/home/hp/ROS2_WS/install/articubot_one:/home/hp/ROS2_WS/src/install/slam_toolbox:/home/hp/ROS2_WS/src/install/rplidar_ros:/home/hp/ROS2_WS/src/install/rosidl_generator_c:/home/hp/ROS2_WS/src/install/rosidl_typesupport_interface:/home/hp/ROS2_WS/src/install/rosidl_cmake:/home/hp/ROS2_WS/src/install/rosidl_generator_type_description:/home/hp/ROS2_WS/src/install/rosidl_parser:/home/hp/ROS2_WS/src/install/rosidl_adapter:/home/hp/ROS2_WS/src/install/rf2o_laser_odometry:/home/hp/ROS2_WS/src/install/articubot_one:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/dynamic_tf:/home/hp/ROS2_WS/install/Dynamic_tf:/home/hp/ROS2_WS/install/DYNAMIC_TF:/home/hp/ROS2_WS/src/install/rosidl_pycommon:/home/hp/ROS2_WS/src/install/rosidl_cli:/home/hp/ROS2_WS/src/install/my_robot_controller:/home/hp/ROS2_WS/src/install/my_exo:/home/hp/ROS2_WS/src/install/dynamic_tf:/opt/ros/humble')]), 'shell': False}
+[0.922758] (slam_toolbox) JobProgress: {'identifier': 'slam_toolbox', 'progress': 'cmake'}
+[0.923773] (slam_toolbox) JobProgress: {'identifier': 'slam_toolbox', 'progress': 'build'}
+[0.924367] (slam_toolbox) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hp/ROS2_WS/src/build/slam_toolbox', '--', '-j8', '-l8'], 'cwd': '/home/hp/ROS2_WS/src/build/slam_toolbox', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'hp'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hp/ROS2_WS/src/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hp'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/hp/ROS2_WS'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2065'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hp/ROS2_WS/install:/home/hp/ROS2_WS/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hp'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hp'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/hp/ROS2_WS/src/install/rosidl_cli/bin:/home/hp/anaconda3/bin:/home/hp/anaconda3/condabin:/opt/ros/humble/bin:/home/hp/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hp-HP-Laptop-15-dw2xxx:@/tmp/.ICE-unix/1973,unix/hp-HP-Laptop-15-dw2xxx:/tmp/.ICE-unix/1973'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4ad4a1af_e36e_4b0b_a203_b9c5b2a60525'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1JIBO2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.117'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/hp/anaconda3/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/hp/ROS2_WS/install/rplidar_ros:/home/hp/ROS2_WS/install/rf2o_laser_odometry:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/dynamic_tf:/home/hp/ROS2_WS/install/articubot_one:/home/hp/ROS2_WS/install/Dynamic_tf:/home/hp/ROS2_WS/install/DYNAMIC_TF:/home/hp/ROS2_WS/src/install/slam_toolbox:/home/hp/ROS2_WS/src/install/rplidar_ros:/home/hp/ROS2_WS/src/install/rosidl_generator_c:/home/hp/ROS2_WS/src/install/rosidl_typesupport_interface:/home/hp/ROS2_WS/src/install/rosidl_cmake:/home/hp/ROS2_WS/src/install/rosidl_pycommon:/home/hp/ROS2_WS/src/install/rosidl_generator_type_description:/home/hp/ROS2_WS/src/install/rosidl_parser:/home/hp/ROS2_WS/src/install/rosidl_adapter:/home/hp/ROS2_WS/src/install/rosidl_cli:/home/hp/ROS2_WS/src/install/rf2o_laser_odometry:/home/hp/ROS2_WS/src/install/my_robot_controller:/home/hp/ROS2_WS/src/install/my_exo:/home/hp/ROS2_WS/src/install/dynamic_tf:/home/hp/ROS2_WS/src/install/articubot_one:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/hp/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hp/ROS2_WS/src/build/slam_toolbox'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/hp/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hp/ROS2_WS/build/my_robot_controller:/home/hp/ROS2_WS/install/my_robot_controller/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/my_exo:/home/hp/ROS2_WS/install/my_exo/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/dynamic_tf:/home/hp/ROS2_WS/install/dynamic_tf/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/Dynamic_tf:/home/hp/ROS2_WS/install/Dynamic_tf/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/DYNAMIC_TF:/home/hp/ROS2_WS/install/DYNAMIC_TF/lib/python3.10/site-packages:/home/hp/ROS2_WS/src/install/slam_toolbox/lib/python3.11/site-packages:/home/hp/ROS2_WS/src/install/rosidl_generator_c/lib/python3.11/site-packages:/home/hp/ROS2_WS/src/install/rosidl_cmake/lib/python3.11/site-packages:/home/hp/ROS2_WS/src/build/rosidl_pycommon:/home/hp/ROS2_WS/src/install/rosidl_pycommon/lib/python3.10/site-packages:/home/hp/ROS2_WS/src/install/rosidl_generator_type_description/lib/python3.11/site-packages:/home/hp/ROS2_WS/src/install/rosidl_parser/lib/python3.11/site-packages:/home/hp/ROS2_WS/src/install/rosidl_adapter/lib/python3.11/site-packages:/home/hp/ROS2_WS/src/build/rosidl_cli:/home/hp/ROS2_WS/src/install/rosidl_cli/lib/python3.10/site-packages:/home/hp/ROS2_WS/src/build/my_robot_controller:/home/hp/ROS2_WS/src/install/my_robot_controller/lib/python3.10/site-packages:/home/hp/ROS2_WS/src/build/my_exo:/home/hp/ROS2_WS/src/install/my_exo/lib/python3.10/site-packages:/home/hp/ROS2_WS/src/build/dynamic_tf:/home/hp/ROS2_WS/src/install/dynamic_tf/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/hp/anaconda3'), ('GSETTINGS_SCHEMA_DIR_CONDA_BACKUP', ''), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hp/ROS2_WS/install/rplidar_ros:/home/hp/ROS2_WS/install/rf2o_laser_odometry:/home/hp/ROS2_WS/install/articubot_one:/home/hp/ROS2_WS/src/install/slam_toolbox:/home/hp/ROS2_WS/src/install/rplidar_ros:/home/hp/ROS2_WS/src/install/rosidl_generator_c:/home/hp/ROS2_WS/src/install/rosidl_typesupport_interface:/home/hp/ROS2_WS/src/install/rosidl_cmake:/home/hp/ROS2_WS/src/install/rosidl_generator_type_description:/home/hp/ROS2_WS/src/install/rosidl_parser:/home/hp/ROS2_WS/src/install/rosidl_adapter:/home/hp/ROS2_WS/src/install/rf2o_laser_odometry:/home/hp/ROS2_WS/src/install/articubot_one:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/dynamic_tf:/home/hp/ROS2_WS/install/Dynamic_tf:/home/hp/ROS2_WS/install/DYNAMIC_TF:/home/hp/ROS2_WS/src/install/rosidl_pycommon:/home/hp/ROS2_WS/src/install/rosidl_cli:/home/hp/ROS2_WS/src/install/my_robot_controller:/home/hp/ROS2_WS/src/install/my_exo:/home/hp/ROS2_WS/src/install/dynamic_tf:/opt/ros/humble')]), 'shell': False}
+[0.967801] (slam_toolbox) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.002694] (-) TimerEvent: {}
+[1.039370] (rplidar_ros) StdoutLine: {'line': b'[  4%] Built target tf_broadcaster\n'}
+[1.040132] (rplidar_ros) StdoutLine: {'line': b'[  9%] Built target tf_listener\n'}
+[1.046691] (rplidar_ros) StdoutLine: {'line': b'[ 76%] Built target rplidar_composition\n'}
+[1.047236] (rplidar_ros) StdoutLine: {'line': b'[ 95%] Built target rplidar_node\n'}
+[1.054906] (rplidar_ros) StdoutLine: {'line': b'[100%] Built target rplidar_client\n'}
+[1.072685] (rplidar_ros) CommandEnded: {'returncode': 0}
+[1.102800] (-) TimerEvent: {}
+[1.165312] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'install'}
+[1.177211] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hp/ROS2_WS/src/build/rplidar_ros'], 'cwd': '/home/hp/ROS2_WS/src/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'hp'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hp/ROS2_WS/src/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hp'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/hp/ROS2_WS'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2065'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hp/ROS2_WS/install:/home/hp/ROS2_WS/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hp'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hp'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/hp/ROS2_WS/src/install/rosidl_cli/bin:/home/hp/anaconda3/bin:/home/hp/anaconda3/condabin:/opt/ros/humble/bin:/home/hp/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hp-HP-Laptop-15-dw2xxx:@/tmp/.ICE-unix/1973,unix/hp-HP-Laptop-15-dw2xxx:/tmp/.ICE-unix/1973'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4ad4a1af_e36e_4b0b_a203_b9c5b2a60525'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1JIBO2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.117'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/hp/anaconda3/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/hp/ROS2_WS/install/rplidar_ros:/home/hp/ROS2_WS/install/rf2o_laser_odometry:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/dynamic_tf:/home/hp/ROS2_WS/install/articubot_one:/home/hp/ROS2_WS/install/Dynamic_tf:/home/hp/ROS2_WS/install/DYNAMIC_TF:/home/hp/ROS2_WS/src/install/slam_toolbox:/home/hp/ROS2_WS/src/install/rplidar_ros:/home/hp/ROS2_WS/src/install/rosidl_generator_c:/home/hp/ROS2_WS/src/install/rosidl_typesupport_interface:/home/hp/ROS2_WS/src/install/rosidl_cmake:/home/hp/ROS2_WS/src/install/rosidl_pycommon:/home/hp/ROS2_WS/src/install/rosidl_generator_type_description:/home/hp/ROS2_WS/src/install/rosidl_parser:/home/hp/ROS2_WS/src/install/rosidl_adapter:/home/hp/ROS2_WS/src/install/rosidl_cli:/home/hp/ROS2_WS/src/install/rf2o_laser_odometry:/home/hp/ROS2_WS/src/install/my_robot_controller:/home/hp/ROS2_WS/src/install/my_exo:/home/hp/ROS2_WS/src/install/dynamic_tf:/home/hp/ROS2_WS/src/install/articubot_one:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/hp/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hp/ROS2_WS/src/build/rplidar_ros'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/hp/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hp/ROS2_WS/build/my_robot_controller:/home/hp/ROS2_WS/install/my_robot_controller/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/my_exo:/home/hp/ROS2_WS/install/my_exo/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/dynamic_tf:/home/hp/ROS2_WS/install/dynamic_tf/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/Dynamic_tf:/home/hp/ROS2_WS/install/Dynamic_tf/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/DYNAMIC_TF:/home/hp/ROS2_WS/install/DYNAMIC_TF/lib/python3.10/site-packages:/home/hp/ROS2_WS/src/install/slam_toolbox/lib/python3.11/site-packages:/home/hp/ROS2_WS/src/install/rosidl_generator_c/lib/python3.11/site-packages:/home/hp/ROS2_WS/src/install/rosidl_cmake/lib/python3.11/site-packages:/home/hp/ROS2_WS/src/build/rosidl_pycommon:/home/hp/ROS2_WS/src/install/rosidl_pycommon/lib/python3.10/site-packages:/home/hp/ROS2_WS/src/install/rosidl_generator_type_description/lib/python3.11/site-packages:/home/hp/ROS2_WS/src/install/rosidl_parser/lib/python3.11/site-packages:/home/hp/ROS2_WS/src/install/rosidl_adapter/lib/python3.11/site-packages:/home/hp/ROS2_WS/src/build/rosidl_cli:/home/hp/ROS2_WS/src/install/rosidl_cli/lib/python3.10/site-packages:/home/hp/ROS2_WS/src/build/my_robot_controller:/home/hp/ROS2_WS/src/install/my_robot_controller/lib/python3.10/site-packages:/home/hp/ROS2_WS/src/build/my_exo:/home/hp/ROS2_WS/src/install/my_exo/lib/python3.10/site-packages:/home/hp/ROS2_WS/src/build/dynamic_tf:/home/hp/ROS2_WS/src/install/dynamic_tf/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/hp/anaconda3'), ('GSETTINGS_SCHEMA_DIR_CONDA_BACKUP', ''), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hp/ROS2_WS/install/rplidar_ros:/home/hp/ROS2_WS/install/rf2o_laser_odometry:/home/hp/ROS2_WS/install/articubot_one:/home/hp/ROS2_WS/src/install/slam_toolbox:/home/hp/ROS2_WS/src/install/rplidar_ros:/home/hp/ROS2_WS/src/install/rosidl_generator_c:/home/hp/ROS2_WS/src/install/rosidl_typesupport_interface:/home/hp/ROS2_WS/src/install/rosidl_cmake:/home/hp/ROS2_WS/src/install/rosidl_generator_type_description:/home/hp/ROS2_WS/src/install/rosidl_parser:/home/hp/ROS2_WS/src/install/rosidl_adapter:/home/hp/ROS2_WS/src/install/rf2o_laser_odometry:/home/hp/ROS2_WS/src/install/articubot_one:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/dynamic_tf:/home/hp/ROS2_WS/install/Dynamic_tf:/home/hp/ROS2_WS/install/DYNAMIC_TF:/home/hp/ROS2_WS/src/install/rosidl_pycommon:/home/hp/ROS2_WS/src/install/rosidl_cli:/home/hp/ROS2_WS/src/install/my_robot_controller:/home/hp/ROS2_WS/src/install/my_exo:/home/hp/ROS2_WS/src/install/dynamic_tf:/opt/ros/humble')]), 'shell': False}
+[1.185389] (rplidar_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.185942] (rplidar_ros) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.186523] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/src/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py\n'}
+[1.186735] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/src/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m12_launch.py\n'}
+[1.186953] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/src/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m7_launch.py\n'}
+[1.187085] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/src/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m8_launch.py\n'}
+[1.187280] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/src/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3_launch.py\n'}
+[1.187409] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/src/install/rplidar_ros/share/rplidar_ros/launch/rplidar_c1_launch.py\n'}
+[1.187550] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/src/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_launch.py\n'}
+[1.187676] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/src/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp_launch.py\n'}
+[1.187842] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/src/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2_launch.py\n'}
+[1.188062] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/src/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2e_launch.py\n'}
+[1.188192] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/src/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s3_launch.py\n'}
+[1.188319] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/src/install/rplidar_ros/share/rplidar_ros/launch/rplidar_t1_launch.py\n'}
+[1.188439] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/src/install/rplidar_ros/share/rplidar_ros/launch/slam.launch.py\n'}
+[1.188572] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/src/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a1_launch.py\n'}
+[1.188696] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/src/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m12_launch.py\n'}
+[1.188817] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/src/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m7_launch.py\n'}
+[1.189021] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/src/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m8_launch.py\n'}
+[1.189153] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/src/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3_launch.py\n'}
+[1.189278] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/src/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_c1_launch.py\n'}
+[1.189418] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/src/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_launch.py\n'}
+[1.189616] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/src/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp_launch.py\n'}
+[1.189737] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/src/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2_launch.py\n'}
+[1.190146] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/src/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2e_launch.py\n'}
+[1.190333] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/src/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s3_launch.py\n'}
+[1.190459] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/src/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_t1_launch.py\n'}
+[1.190588] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/src/install/rplidar_ros/share/rplidar_ros/config/slam.yaml\n'}
+[1.190727] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/src/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz\n'}
+[1.190855] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/src/install/rplidar_ros/lib/rplidar_ros/tf_broadcaster\n'}
+[1.191047] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/src/install/rplidar_ros/lib/rplidar_ros/tf_listener\n'}
+[1.191216] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/src/install/rplidar_ros/lib/rplidar_ros/rplidar_node\n'}
+[1.191370] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/src/install/rplidar_ros/lib/rplidar_ros/rplidar_composition\n'}
+[1.191499] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/src/install/rplidar_ros/lib/rplidar_ros/rplidar_client\n'}
+[1.191658] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/src/install/rplidar_ros/lib/rplidar_ros/tf_map_baselink.py\n'}
+[1.191781] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/src/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros\n'}
+[1.191910] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/src/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros\n'}
+[1.192105] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/src/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh\n'}
+[1.192234] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/src/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv\n'}
+[1.192399] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/src/install/rplidar_ros/share/rplidar_ros/environment/path.sh\n'}
+[1.192554] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/src/install/rplidar_ros/share/rplidar_ros/environment/path.dsv\n'}
+[1.192722] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/src/install/rplidar_ros/share/rplidar_ros/local_setup.bash\n'}
+[1.192876] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/src/install/rplidar_ros/share/rplidar_ros/local_setup.sh\n'}
+[1.193042] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/src/install/rplidar_ros/share/rplidar_ros/local_setup.zsh\n'}
+[1.193193] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/src/install/rplidar_ros/share/rplidar_ros/local_setup.dsv\n'}
+[1.193366] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/hp/ROS2_WS/src/install/rplidar_ros/share/rplidar_ros/package.dsv\n'}
+[1.202899] (-) TimerEvent: {}
+[1.203222] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/src/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros\n'}
+[1.203464] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/src/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.203641] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/src/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.203807] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/src/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake\n'}
+[1.203936] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/src/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake\n'}
+[1.204111] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hp/ROS2_WS/src/install/rplidar_ros/share/rplidar_ros/package.xml\n'}
+[1.205842] (rplidar_ros) CommandEnded: {'returncode': 0}
+[1.293903] (slam_toolbox) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.303012] (-) TimerEvent: {}
+[1.306082] (slam_toolbox) StdoutLine: {'line': b'-- Found message_filters: 4.3.4 (/opt/ros/humble/share/message_filters/cmake)\n'}
+[1.351403] (slam_toolbox) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.354378] (slam_toolbox) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.362294] (slam_toolbox) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.377207] (slam_toolbox) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.388063] (rplidar_ros) JobEnded: {'identifier': 'rplidar_ros', 'rc': 0}
+[1.401182] (slam_toolbox) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.403109] (-) TimerEvent: {}
+[1.492759] (slam_toolbox) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.497176] (slam_toolbox) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[1.503287] (-) TimerEvent: {}
+[1.544560] (slam_toolbox) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.554552] (my_robot_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/hp/ROS2_WS/src/build/my_robot_controller/build', '--no-deps', 'symlink_data'], 'cwd': '/home/hp/ROS2_WS/src/build/my_robot_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(base)', 'USER': 'hp', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/hp/ROS2_WS/src/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/hp', 'CONDA_SHLVL': '1', 'OLDPWD': '/home/hp/ROS2_WS', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2065', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/hp/ROS2_WS/install:/home/hp/ROS2_WS/src/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'hp', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hp', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/hp/ROS2_WS/src/install/rosidl_cli/bin:/home/hp/anaconda3/bin:/home/hp/anaconda3/condabin:/opt/ros/humble/bin:/home/hp/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/hp-HP-Laptop-15-dw2xxx:@/tmp/.ICE-unix/1973,unix/hp-HP-Laptop-15-dw2xxx:/tmp/.ICE-unix/1973', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4ad4a1af_e36e_4b0b_a203_b9c5b2a60525', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1JIBO2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.117', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/hp/anaconda3/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/home/hp/ROS2_WS/install/rplidar_ros:/home/hp/ROS2_WS/install/rf2o_laser_odometry:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/dynamic_tf:/home/hp/ROS2_WS/install/articubot_one:/home/hp/ROS2_WS/install/Dynamic_tf:/home/hp/ROS2_WS/install/DYNAMIC_TF:/home/hp/ROS2_WS/src/install/slam_toolbox:/home/hp/ROS2_WS/src/install/rplidar_ros:/home/hp/ROS2_WS/src/install/rosidl_generator_c:/home/hp/ROS2_WS/src/install/rosidl_typesupport_interface:/home/hp/ROS2_WS/src/install/rosidl_cmake:/home/hp/ROS2_WS/src/install/rosidl_pycommon:/home/hp/ROS2_WS/src/install/rosidl_generator_type_description:/home/hp/ROS2_WS/src/install/rosidl_parser:/home/hp/ROS2_WS/src/install/rosidl_adapter:/home/hp/ROS2_WS/src/install/rosidl_cli:/home/hp/ROS2_WS/src/install/rf2o_laser_odometry:/home/hp/ROS2_WS/src/install/my_robot_controller:/home/hp/ROS2_WS/src/install/my_exo:/home/hp/ROS2_WS/src/install/dynamic_tf:/home/hp/ROS2_WS/src/install/articubot_one:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/hp/anaconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'base', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hp/ROS2_WS/src/build/my_robot_controller', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/hp/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/hp/ROS2_WS/src/build/my_robot_controller/prefix_override:/home/hp/ROS2_WS/src/install/my_robot_controller/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/my_robot_controller:/home/hp/ROS2_WS/install/my_robot_controller/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/my_exo:/home/hp/ROS2_WS/install/my_exo/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/dynamic_tf:/home/hp/ROS2_WS/install/dynamic_tf/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/Dynamic_tf:/home/hp/ROS2_WS/install/Dynamic_tf/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/DYNAMIC_TF:/home/hp/ROS2_WS/install/DYNAMIC_TF/lib/python3.10/site-packages:/home/hp/ROS2_WS/src/install/slam_toolbox/lib/python3.11/site-packages:/home/hp/ROS2_WS/src/install/rosidl_generator_c/lib/python3.11/site-packages:/home/hp/ROS2_WS/src/install/rosidl_cmake/lib/python3.11/site-packages:/home/hp/ROS2_WS/src/build/rosidl_pycommon:/home/hp/ROS2_WS/src/install/rosidl_pycommon/lib/python3.10/site-packages:/home/hp/ROS2_WS/src/install/rosidl_generator_type_description/lib/python3.11/site-packages:/home/hp/ROS2_WS/src/install/rosidl_parser/lib/python3.11/site-packages:/home/hp/ROS2_WS/src/install/rosidl_adapter/lib/python3.11/site-packages:/home/hp/ROS2_WS/src/build/rosidl_cli:/home/hp/ROS2_WS/src/install/rosidl_cli/lib/python3.10/site-packages:/home/hp/ROS2_WS/src/build/my_robot_controller:/home/hp/ROS2_WS/src/install/my_robot_controller/lib/python3.10/site-packages:/home/hp/ROS2_WS/src/build/my_exo:/home/hp/ROS2_WS/src/install/my_exo/lib/python3.10/site-packages:/home/hp/ROS2_WS/src/build/dynamic_tf:/home/hp/ROS2_WS/src/install/dynamic_tf/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'CONDA_PREFIX': '/home/hp/anaconda3', 'GSETTINGS_SCHEMA_DIR_CONDA_BACKUP': '', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/hp/ROS2_WS/install/rplidar_ros:/home/hp/ROS2_WS/install/rf2o_laser_odometry:/home/hp/ROS2_WS/install/articubot_one:/home/hp/ROS2_WS/src/install/slam_toolbox:/home/hp/ROS2_WS/src/install/rplidar_ros:/home/hp/ROS2_WS/src/install/rosidl_generator_c:/home/hp/ROS2_WS/src/install/rosidl_typesupport_interface:/home/hp/ROS2_WS/src/install/rosidl_cmake:/home/hp/ROS2_WS/src/install/rosidl_generator_type_description:/home/hp/ROS2_WS/src/install/rosidl_parser:/home/hp/ROS2_WS/src/install/rosidl_adapter:/home/hp/ROS2_WS/src/install/rf2o_laser_odometry:/home/hp/ROS2_WS/src/install/articubot_one'}, 'shell': False}
+[1.563411] (dynamic_tf) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/hp/ROS2_WS/src/build/dynamic_tf/build', '--no-deps', 'symlink_data'], 'cwd': '/home/hp/ROS2_WS/src/build/dynamic_tf', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(base)', 'USER': 'hp', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/hp/ROS2_WS/src/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/hp', 'CONDA_SHLVL': '1', 'OLDPWD': '/home/hp/ROS2_WS', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2065', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/hp/ROS2_WS/install:/home/hp/ROS2_WS/src/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'hp', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hp', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/hp/ROS2_WS/src/install/rosidl_cli/bin:/home/hp/anaconda3/bin:/home/hp/anaconda3/condabin:/opt/ros/humble/bin:/home/hp/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/hp-HP-Laptop-15-dw2xxx:@/tmp/.ICE-unix/1973,unix/hp-HP-Laptop-15-dw2xxx:/tmp/.ICE-unix/1973', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4ad4a1af_e36e_4b0b_a203_b9c5b2a60525', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1JIBO2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.117', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/hp/anaconda3/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/home/hp/ROS2_WS/install/rplidar_ros:/home/hp/ROS2_WS/install/rf2o_laser_odometry:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/dynamic_tf:/home/hp/ROS2_WS/install/articubot_one:/home/hp/ROS2_WS/install/Dynamic_tf:/home/hp/ROS2_WS/install/DYNAMIC_TF:/home/hp/ROS2_WS/src/install/slam_toolbox:/home/hp/ROS2_WS/src/install/rplidar_ros:/home/hp/ROS2_WS/src/install/rosidl_generator_c:/home/hp/ROS2_WS/src/install/rosidl_typesupport_interface:/home/hp/ROS2_WS/src/install/rosidl_cmake:/home/hp/ROS2_WS/src/install/rosidl_pycommon:/home/hp/ROS2_WS/src/install/rosidl_generator_type_description:/home/hp/ROS2_WS/src/install/rosidl_parser:/home/hp/ROS2_WS/src/install/rosidl_adapter:/home/hp/ROS2_WS/src/install/rosidl_cli:/home/hp/ROS2_WS/src/install/rf2o_laser_odometry:/home/hp/ROS2_WS/src/install/my_robot_controller:/home/hp/ROS2_WS/src/install/my_exo:/home/hp/ROS2_WS/src/install/dynamic_tf:/home/hp/ROS2_WS/src/install/articubot_one:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/hp/anaconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'base', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hp/ROS2_WS/src/build/dynamic_tf', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/hp/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/hp/ROS2_WS/src/build/dynamic_tf/prefix_override:/home/hp/ROS2_WS/src/install/dynamic_tf/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/my_robot_controller:/home/hp/ROS2_WS/install/my_robot_controller/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/my_exo:/home/hp/ROS2_WS/install/my_exo/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/dynamic_tf:/home/hp/ROS2_WS/install/dynamic_tf/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/Dynamic_tf:/home/hp/ROS2_WS/install/Dynamic_tf/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/DYNAMIC_TF:/home/hp/ROS2_WS/install/DYNAMIC_TF/lib/python3.10/site-packages:/home/hp/ROS2_WS/src/install/slam_toolbox/lib/python3.11/site-packages:/home/hp/ROS2_WS/src/install/rosidl_generator_c/lib/python3.11/site-packages:/home/hp/ROS2_WS/src/install/rosidl_cmake/lib/python3.11/site-packages:/home/hp/ROS2_WS/src/build/rosidl_pycommon:/home/hp/ROS2_WS/src/install/rosidl_pycommon/lib/python3.10/site-packages:/home/hp/ROS2_WS/src/install/rosidl_generator_type_description/lib/python3.11/site-packages:/home/hp/ROS2_WS/src/install/rosidl_parser/lib/python3.11/site-packages:/home/hp/ROS2_WS/src/install/rosidl_adapter/lib/python3.11/site-packages:/home/hp/ROS2_WS/src/build/rosidl_cli:/home/hp/ROS2_WS/src/install/rosidl_cli/lib/python3.10/site-packages:/home/hp/ROS2_WS/src/build/my_robot_controller:/home/hp/ROS2_WS/src/install/my_robot_controller/lib/python3.10/site-packages:/home/hp/ROS2_WS/src/build/my_exo:/home/hp/ROS2_WS/src/install/my_exo/lib/python3.10/site-packages:/home/hp/ROS2_WS/src/build/dynamic_tf:/home/hp/ROS2_WS/src/install/dynamic_tf/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'CONDA_PREFIX': '/home/hp/anaconda3', 'GSETTINGS_SCHEMA_DIR_CONDA_BACKUP': '', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/hp/ROS2_WS/install/rplidar_ros:/home/hp/ROS2_WS/install/rf2o_laser_odometry:/home/hp/ROS2_WS/install/articubot_one:/home/hp/ROS2_WS/src/install/slam_toolbox:/home/hp/ROS2_WS/src/install/rplidar_ros:/home/hp/ROS2_WS/src/install/rosidl_generator_c:/home/hp/ROS2_WS/src/install/rosidl_typesupport_interface:/home/hp/ROS2_WS/src/install/rosidl_cmake:/home/hp/ROS2_WS/src/install/rosidl_generator_type_description:/home/hp/ROS2_WS/src/install/rosidl_parser:/home/hp/ROS2_WS/src/install/rosidl_adapter:/home/hp/ROS2_WS/src/install/rf2o_laser_odometry:/home/hp/ROS2_WS/src/install/articubot_one'}, 'shell': False}
+[1.603406] (-) TimerEvent: {}
+[1.638051] (my_exo) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/hp/ROS2_WS/src/build/my_exo/build', '--no-deps', 'symlink_data'], 'cwd': '/home/hp/ROS2_WS/src/build/my_exo', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(base)', 'USER': 'hp', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/hp/ROS2_WS/src/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/hp', 'CONDA_SHLVL': '1', 'OLDPWD': '/home/hp/ROS2_WS', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2065', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/hp/ROS2_WS/install:/home/hp/ROS2_WS/src/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'hp', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hp', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/hp/ROS2_WS/src/install/rosidl_cli/bin:/home/hp/anaconda3/bin:/home/hp/anaconda3/condabin:/opt/ros/humble/bin:/home/hp/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/hp-HP-Laptop-15-dw2xxx:@/tmp/.ICE-unix/1973,unix/hp-HP-Laptop-15-dw2xxx:/tmp/.ICE-unix/1973', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4ad4a1af_e36e_4b0b_a203_b9c5b2a60525', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1JIBO2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.117', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/hp/anaconda3/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/home/hp/ROS2_WS/install/rplidar_ros:/home/hp/ROS2_WS/install/rf2o_laser_odometry:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/dynamic_tf:/home/hp/ROS2_WS/install/articubot_one:/home/hp/ROS2_WS/install/Dynamic_tf:/home/hp/ROS2_WS/install/DYNAMIC_TF:/home/hp/ROS2_WS/src/install/slam_toolbox:/home/hp/ROS2_WS/src/install/rplidar_ros:/home/hp/ROS2_WS/src/install/rosidl_generator_c:/home/hp/ROS2_WS/src/install/rosidl_typesupport_interface:/home/hp/ROS2_WS/src/install/rosidl_cmake:/home/hp/ROS2_WS/src/install/rosidl_pycommon:/home/hp/ROS2_WS/src/install/rosidl_generator_type_description:/home/hp/ROS2_WS/src/install/rosidl_parser:/home/hp/ROS2_WS/src/install/rosidl_adapter:/home/hp/ROS2_WS/src/install/rosidl_cli:/home/hp/ROS2_WS/src/install/rf2o_laser_odometry:/home/hp/ROS2_WS/src/install/my_robot_controller:/home/hp/ROS2_WS/src/install/my_exo:/home/hp/ROS2_WS/src/install/dynamic_tf:/home/hp/ROS2_WS/src/install/articubot_one:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/hp/anaconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'base', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hp/ROS2_WS/src/build/my_exo', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/hp/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/hp/ROS2_WS/src/build/my_exo/prefix_override:/home/hp/ROS2_WS/src/install/my_exo/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/my_robot_controller:/home/hp/ROS2_WS/install/my_robot_controller/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/my_exo:/home/hp/ROS2_WS/install/my_exo/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/dynamic_tf:/home/hp/ROS2_WS/install/dynamic_tf/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/Dynamic_tf:/home/hp/ROS2_WS/install/Dynamic_tf/lib/python3.10/site-packages:/home/hp/ROS2_WS/build/DYNAMIC_TF:/home/hp/ROS2_WS/install/DYNAMIC_TF/lib/python3.10/site-packages:/home/hp/ROS2_WS/src/install/slam_toolbox/lib/python3.11/site-packages:/home/hp/ROS2_WS/src/install/rosidl_generator_c/lib/python3.11/site-packages:/home/hp/ROS2_WS/src/install/rosidl_cmake/lib/python3.11/site-packages:/home/hp/ROS2_WS/src/build/rosidl_pycommon:/home/hp/ROS2_WS/src/install/rosidl_pycommon/lib/python3.10/site-packages:/home/hp/ROS2_WS/src/install/rosidl_generator_type_description/lib/python3.11/site-packages:/home/hp/ROS2_WS/src/install/rosidl_parser/lib/python3.11/site-packages:/home/hp/ROS2_WS/src/install/rosidl_adapter/lib/python3.11/site-packages:/home/hp/ROS2_WS/src/build/rosidl_cli:/home/hp/ROS2_WS/src/install/rosidl_cli/lib/python3.10/site-packages:/home/hp/ROS2_WS/src/build/my_robot_controller:/home/hp/ROS2_WS/src/install/my_robot_controller/lib/python3.10/site-packages:/home/hp/ROS2_WS/src/build/my_exo:/home/hp/ROS2_WS/src/install/my_exo/lib/python3.10/site-packages:/home/hp/ROS2_WS/src/build/dynamic_tf:/home/hp/ROS2_WS/src/install/dynamic_tf/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'CONDA_PREFIX': '/home/hp/anaconda3', 'GSETTINGS_SCHEMA_DIR_CONDA_BACKUP': '', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/hp/ROS2_WS/install/rplidar_ros:/home/hp/ROS2_WS/install/rf2o_laser_odometry:/home/hp/ROS2_WS/install/articubot_one:/home/hp/ROS2_WS/src/install/slam_toolbox:/home/hp/ROS2_WS/src/install/rplidar_ros:/home/hp/ROS2_WS/src/install/rosidl_generator_c:/home/hp/ROS2_WS/src/install/rosidl_typesupport_interface:/home/hp/ROS2_WS/src/install/rosidl_cmake:/home/hp/ROS2_WS/src/install/rosidl_generator_type_description:/home/hp/ROS2_WS/src/install/rosidl_parser:/home/hp/ROS2_WS/src/install/rosidl_adapter:/home/hp/ROS2_WS/src/install/rf2o_laser_odometry:/home/hp/ROS2_WS/src/install/articubot_one'}, 'shell': False}
+[1.703521] (-) TimerEvent: {}
+[1.797455] (slam_toolbox) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.803621] (-) TimerEvent: {}
+[1.903956] (-) TimerEvent: {}
+[1.957946] (slam_toolbox) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.970590] (my_robot_controller) StdoutLine: {'line': b'running develop\n'}
+[1.978983] (dynamic_tf) StdoutLine: {'line': b'running develop\n'}
+[2.004066] (-) TimerEvent: {}
+[2.047975] (my_exo) StdoutLine: {'line': b'running develop\n'}
+[2.067677] (slam_toolbox) StdoutLine: {'line': b'-- Found tf2: 0.25.6 (/opt/ros/humble/share/tf2/cmake)\n'}
+[2.077053] (slam_toolbox) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[2.104173] (-) TimerEvent: {}
+[2.204511] (-) TimerEvent: {}
+[2.209038] (my_robot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[2.209310] (my_robot_controller) StdoutLine: {'line': b'writing my_robot_controller.egg-info/PKG-INFO\n'}
+[2.209529] (my_robot_controller) StdoutLine: {'line': b'writing dependency_links to my_robot_controller.egg-info/dependency_links.txt\n'}
+[2.209710] (my_robot_controller) StdoutLine: {'line': b'writing entry points to my_robot_controller.egg-info/entry_points.txt\n'}
+[2.209890] (my_robot_controller) StdoutLine: {'line': b'writing requirements to my_robot_controller.egg-info/requires.txt\n'}
+[2.209998] (my_robot_controller) StdoutLine: {'line': b'writing top-level names to my_robot_controller.egg-info/top_level.txt\n'}
+[2.212070] (my_robot_controller) StdoutLine: {'line': b"reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'\n"}
+[2.212819] (my_robot_controller) StdoutLine: {'line': b"writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'\n"}
+[2.214856] (my_robot_controller) StdoutLine: {'line': b'running build_ext\n'}
+[2.215093] (my_robot_controller) StdoutLine: {'line': b'Creating /home/hp/ROS2_WS/src/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)\n'}
+[2.216142] (my_robot_controller) StdoutLine: {'line': b'Installing draw_circle script to /home/hp/ROS2_WS/src/install/my_robot_controller/lib/my_robot_controller\n'}
+[2.216378] (my_robot_controller) StdoutLine: {'line': b'Installing pose_suscriber script to /home/hp/ROS2_WS/src/install/my_robot_controller/lib/my_robot_controller\n'}
+[2.216563] (my_robot_controller) StdoutLine: {'line': b'Installing test_node script to /home/hp/ROS2_WS/src/install/my_robot_controller/lib/my_robot_controller\n'}
+[2.216738] (my_robot_controller) StdoutLine: {'line': b'\n'}
+[2.216894] (my_robot_controller) StdoutLine: {'line': b'Installed /home/hp/ROS2_WS/src/build/my_robot_controller\n'}
+[2.217016] (my_robot_controller) StdoutLine: {'line': b'running symlink_data\n'}
+[2.220858] (dynamic_tf) StdoutLine: {'line': b'running egg_info\n'}
+[2.221183] (dynamic_tf) StdoutLine: {'line': b'writing dynamic_tf.egg-info/PKG-INFO\n'}
+[2.221420] (dynamic_tf) StdoutLine: {'line': b'writing dependency_links to dynamic_tf.egg-info/dependency_links.txt\n'}
+[2.221622] (dynamic_tf) StdoutLine: {'line': b'writing entry points to dynamic_tf.egg-info/entry_points.txt\n'}
+[2.233295] (dynamic_tf) StdoutLine: {'line': b'writing requirements to dynamic_tf.egg-info/requires.txt\n'}
+[2.233704] (dynamic_tf) StdoutLine: {'line': b'writing top-level names to dynamic_tf.egg-info/top_level.txt\n'}
+[2.236645] (dynamic_tf) StdoutLine: {'line': b"reading manifest file 'dynamic_tf.egg-info/SOURCES.txt'\n"}
+[2.238000] (dynamic_tf) StdoutLine: {'line': b"writing manifest file 'dynamic_tf.egg-info/SOURCES.txt'\n"}
+[2.240293] (dynamic_tf) StdoutLine: {'line': b'running build_ext\n'}
+[2.240557] (dynamic_tf) StdoutLine: {'line': b'Creating /home/hp/ROS2_WS/src/install/dynamic_tf/lib/python3.10/site-packages/dynamic-tf.egg-link (link to .)\n'}
+[2.241497] (dynamic_tf) StdoutLine: {'line': b'Installing tf_map_baselink script to /home/hp/ROS2_WS/src/install/dynamic_tf/lib/dynamic_tf\n'}
+[2.241803] (dynamic_tf) StdoutLine: {'line': b'\n'}
+[2.241969] (dynamic_tf) StdoutLine: {'line': b'Installed /home/hp/ROS2_WS/src/build/dynamic_tf\n'}
+[2.242080] (dynamic_tf) StdoutLine: {'line': b'running symlink_data\n'}
+[2.273465] (my_robot_controller) CommandEnded: {'returncode': 0}
+[2.286941] (my_robot_controller) JobEnded: {'identifier': 'my_robot_controller', 'rc': 0}
+[2.295086] (my_exo) StdoutLine: {'line': b'running egg_info\n'}
+[2.295355] (my_exo) StdoutLine: {'line': b'writing my_exo.egg-info/PKG-INFO\n'}
+[2.295566] (my_exo) StdoutLine: {'line': b'writing dependency_links to my_exo.egg-info/dependency_links.txt\n'}
+[2.295741] (my_exo) StdoutLine: {'line': b'writing entry points to my_exo.egg-info/entry_points.txt\n'}
+[2.295976] (my_exo) StdoutLine: {'line': b'writing requirements to my_exo.egg-info/requires.txt\n'}
+[2.296103] (my_exo) StdoutLine: {'line': b'writing top-level names to my_exo.egg-info/top_level.txt\n'}
+[2.296875] (dynamic_tf) CommandEnded: {'returncode': 0}
+[2.298460] (my_exo) StdoutLine: {'line': b"reading manifest file 'my_exo.egg-info/SOURCES.txt'\n"}
+[2.299797] (my_exo) StdoutLine: {'line': b"writing manifest file 'my_exo.egg-info/SOURCES.txt'\n"}
+[2.302353] (my_exo) StdoutLine: {'line': b'running build_ext\n'}
+[2.302959] (my_exo) StdoutLine: {'line': b'Creating /home/hp/ROS2_WS/src/install/my_exo/lib/python3.10/site-packages/my-exo.egg-link (link to .)\n'}
+[2.303540] (my_exo) StdoutLine: {'line': b'Installing first_node script to /home/hp/ROS2_WS/src/install/my_exo/lib/my_exo\n'}
+[2.304411] (my_exo) StdoutLine: {'line': b'Installing fourth_node script to /home/hp/ROS2_WS/src/install/my_exo/lib/my_exo\n'}
+[2.304948] (-) TimerEvent: {}
+[2.305198] (my_exo) StdoutLine: {'line': b'Installing input_node script to /home/hp/ROS2_WS/src/install/my_exo/lib/my_exo\n'}
+[2.305759] (my_exo) StdoutLine: {'line': b'Installing second_node script to /home/hp/ROS2_WS/src/install/my_exo/lib/my_exo\n'}
+[2.306549] (my_exo) StdoutLine: {'line': b'Installing selector_node script to /home/hp/ROS2_WS/src/install/my_exo/lib/my_exo\n'}
+[2.307132] (my_exo) StdoutLine: {'line': b'Installing third_node script to /home/hp/ROS2_WS/src/install/my_exo/lib/my_exo\n'}
+[2.307308] (my_exo) StdoutLine: {'line': b'\n'}
+[2.307623] (my_exo) StdoutLine: {'line': b'Installed /home/hp/ROS2_WS/src/build/my_exo\n'}
+[2.308072] (my_exo) StdoutLine: {'line': b'running symlink_data\n'}
+[2.309880] (dynamic_tf) JobEnded: {'identifier': 'dynamic_tf', 'rc': 0}
+[2.342591] (my_exo) CommandEnded: {'returncode': 0}
+[2.349493] (my_exo) JobEnded: {'identifier': 'my_exo', 'rc': 0}
+[2.405059] (-) TimerEvent: {}
+[2.454408] (slam_toolbox) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[2.505151] (-) TimerEvent: {}
+[2.558079] (slam_toolbox) StdoutLine: {'line': b'-- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)\n'}
+[2.575529] (slam_toolbox) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.6 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[2.579397] (slam_toolbox) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[2.580727] (slam_toolbox) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.589053] (slam_toolbox) StdoutLine: {'line': b'-- Found tf2_sensor_msgs: 0.25.6 (/opt/ros/humble/share/tf2_sensor_msgs/cmake)\n'}
+[2.605218] (-) TimerEvent: {}
+[2.605744] (slam_toolbox) StdoutLine: {'line': b'-- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[2.619780] (slam_toolbox) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.627345] (slam_toolbox) StdoutLine: {'line': b'-- Found lifecycle_msgs: 1.2.1 (/opt/ros/humble/share/lifecycle_msgs/cmake)\n'}
+[2.642605] (slam_toolbox) StdoutLine: {'line': b'-- Found bondcpp: 3.0.2 (/opt/ros/humble/share/bondcpp/cmake)\n'}
+[2.705316] (-) TimerEvent: {}
+[2.717554] (slam_toolbox) StdoutLine: {'line': b'-- Found rviz_common: 11.2.12 (/opt/ros/humble/share/rviz_common/cmake)\n'}
+[2.728904] (slam_toolbox) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[2.730072] (slam_toolbox) StdoutLine: {'line': b'-- Found OGRE\n'}
+[2.730235] (slam_toolbox) StdoutLine: {'line': b'--   static     : OFF\n'}
+[2.730351] (slam_toolbox) StdoutLine: {'line': b'--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[2.730502] (slam_toolbox) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[2.730629] (slam_toolbox) StdoutLine: {'line': b'--   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[2.730789] (slam_toolbox) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[2.730888] (slam_toolbox) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib\n'}
+[2.730975] (slam_toolbox) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[2.731070] (slam_toolbox) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[2.731161] (slam_toolbox) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[2.731251] (slam_toolbox) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[2.731359] (slam_toolbox) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[2.731470] (slam_toolbox) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[2.775718] (slam_toolbox) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[2.775943] (slam_toolbox) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[2.804645] (slam_toolbox) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[2.805415] (-) TimerEvent: {}
+[2.860862] (slam_toolbox) StdoutLine: {'line': b'-- Found rviz_default_plugins: 11.2.12 (/opt/ros/humble/share/rviz_default_plugins/cmake)\n'}
+[2.905508] (-) TimerEvent: {}
+[3.005799] (-) TimerEvent: {}
+[3.106199] (-) TimerEvent: {}
+[3.206605] (-) TimerEvent: {}
+[3.262377] (slam_toolbox) StdoutLine: {'line': b'-- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3\n'}
+[3.263847] (slam_toolbox) StdoutLine: {'line': b'-- Found required Ceres dependency: glog\n'}
+[3.264346] (slam_toolbox) StdoutLine: {'line': b'-- Found required Ceres dependency: gflags\n'}
+[3.264708] (slam_toolbox) StdoutLine: {'line': b'-- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]\n'}
+[3.306857] (-) TimerEvent: {}
+[3.407313] (-) TimerEvent: {}
+[3.507757] (-) TimerEvent: {}
+[3.608186] (-) TimerEvent: {}
+[3.654200] (slam_toolbox) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.708464] (-) TimerEvent: {}
+[3.808884] (-) TimerEvent: {}
+[3.909340] (-) TimerEvent: {}
+[4.009762] (-) TimerEvent: {}
+[4.110068] (-) TimerEvent: {}
+[4.157107] (slam_toolbox) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.210192] (-) TimerEvent: {}
+[4.310558] (-) TimerEvent: {}
+[4.356411] (slam_toolbox) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.384308] (slam_toolbox) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[4.409532] (slam_toolbox) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/hp/anaconda3/bin/python3\n'}
+[4.409740] (slam_toolbox) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /home/hp/anaconda3/include/python3.11\n'}
+[4.409813] (slam_toolbox) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /home/hp/anaconda3/lib/libpython3.11.so\n'}
+[4.410680] (-) TimerEvent: {}
+[4.510960] (-) TimerEvent: {}
+[4.611467] (-) TimerEvent: {}
+[4.711890] (-) TimerEvent: {}
+[4.812375] (-) TimerEvent: {}
+[4.912931] (-) TimerEvent: {}
+[5.013621] (-) TimerEvent: {}
+[5.114065] (-) TimerEvent: {}
+[5.214510] (-) TimerEvent: {}
+[5.314987] (-) TimerEvent: {}
+[5.415432] (-) TimerEvent: {}
+[5.516068] (-) TimerEvent: {}
+[5.616670] (-) TimerEvent: {}
+[5.717155] (-) TimerEvent: {}
+[5.817660] (-) TimerEvent: {}
+[5.918140] (-) TimerEvent: {}
+[6.018599] (-) TimerEvent: {}
+[6.119228] (-) TimerEvent: {}
+[6.219846] (-) TimerEvent: {}
+[6.320459] (-) TimerEvent: {}
+[6.421167] (-) TimerEvent: {}
+[6.436035] (slam_toolbox) StdoutLine: {'line': b'-- Using numpy include directory: /home/hp/anaconda3/lib/python3.11/site-packages/numpy/core/include\n'}
+[6.521385] (-) TimerEvent: {}
+[6.621671] (-) TimerEvent: {}
+[6.721971] (-) TimerEvent: {}
+[6.822373] (-) TimerEvent: {}
+[6.910605] (slam_toolbox) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.922520] (-) TimerEvent: {}
+[7.022915] (-) TimerEvent: {}
+[7.123316] (-) TimerEvent: {}
+[7.223799] (-) TimerEvent: {}
+[7.324254] (-) TimerEvent: {}
+[7.424820] (-) TimerEvent: {}
+[7.525458] (-) TimerEvent: {}
+[7.625919] (-) TimerEvent: {}
+[7.726384] (-) TimerEvent: {}
+[7.826869] (-) TimerEvent: {}
+[7.927584] (-) TimerEvent: {}
+[8.028229] (-) TimerEvent: {}
+[8.128831] (-) TimerEvent: {}
+[8.229337] (-) TimerEvent: {}
+[8.329973] (-) TimerEvent: {}
+[8.430719] (-) TimerEvent: {}
+[8.531205] (-) TimerEvent: {}
+[8.631790] (-) TimerEvent: {}
+[8.732274] (-) TimerEvent: {}
+[8.777454] (slam_toolbox) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:122 (add_library):\n'}
+[8.777784] (slam_toolbox) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target SlamToolboxPlugin\n'}
+[8.777936] (slam_toolbox) StderrLine: {'line': b'  because files in some directories may conflict with libraries in implicit\n'}
+[8.778083] (slam_toolbox) StderrLine: {'line': b'  directories:\n'}
+[8.778211] (slam_toolbox) StderrLine: {'line': b'\n'}
+[8.778338] (slam_toolbox) StderrLine: {'line': b'    runtime library [libfreetype.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[8.778466] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[8.778592] (slam_toolbox) StderrLine: {'line': b'    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[8.778736] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[8.778881] (slam_toolbox) StderrLine: {'line': b'    runtime library [libcurl.so.4] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[8.779021] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[8.779159] (slam_toolbox) StderrLine: {'line': b'\n'}
+[8.779294] (slam_toolbox) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[8.779432] (slam_toolbox) StderrLine: {'line': b'\n'}
+[8.779556] (slam_toolbox) StderrLine: {'line': b'\x1b[0m\n'}
+[8.832590] (-) TimerEvent: {}
+[8.933186] (-) TimerEvent: {}
+[8.942434] (slam_toolbox) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:140 (add_library):\n'}
+[8.942738] (slam_toolbox) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target ceres_solver_plugin\n'}
+[8.942908] (slam_toolbox) StderrLine: {'line': b'  because files in some directories may conflict with libraries in implicit\n'}
+[8.943065] (slam_toolbox) StderrLine: {'line': b'  directories:\n'}
+[8.943192] (slam_toolbox) StderrLine: {'line': b'\n'}
+[8.943315] (slam_toolbox) StderrLine: {'line': b'    runtime library [libfreetype.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[8.943439] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[8.943561] (slam_toolbox) StderrLine: {'line': b'    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[8.943680] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[8.943799] (slam_toolbox) StderrLine: {'line': b'    runtime library [libcurl.so.4] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[8.943956] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[8.944080] (slam_toolbox) StderrLine: {'line': b'    runtime library [libtbb.so.12] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[8.944201] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[8.944321] (slam_toolbox) StderrLine: {'line': b'\n'}
+[8.944442] (slam_toolbox) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[8.944562] (slam_toolbox) StderrLine: {'line': b'\n'}
+[8.944680] (slam_toolbox) StderrLine: {'line': b'\x1b[0m\n'}
+[8.967320] (slam_toolbox) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:151 (add_library):\n'}
+[8.967542] (slam_toolbox) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target toolbox_common\n'}
+[8.967608] (slam_toolbox) StderrLine: {'line': b'  because files in some directories may conflict with libraries in implicit\n'}
+[8.967665] (slam_toolbox) StderrLine: {'line': b'  directories:\n'}
+[8.967738] (slam_toolbox) StderrLine: {'line': b'\n'}
+[8.967791] (slam_toolbox) StderrLine: {'line': b'    runtime library [libfreetype.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[8.967844] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[8.967896] (slam_toolbox) StderrLine: {'line': b'    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[8.967948] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[8.968009] (slam_toolbox) StderrLine: {'line': b'    runtime library [libcurl.so.4] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[8.968064] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[8.968115] (slam_toolbox) StderrLine: {'line': b'    runtime library [libtbb.so.12] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[8.968166] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[8.968236] (slam_toolbox) StderrLine: {'line': b'\n'}
+[8.968286] (slam_toolbox) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[8.968335] (slam_toolbox) StderrLine: {'line': b'\n'}
+[8.968383] (slam_toolbox) StderrLine: {'line': b'\x1b[0m\n'}
+[8.983887] (slam_toolbox) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:160 (add_library):\n'}
+[8.984040] (slam_toolbox) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target async_slam_toolbox\n'}
+[8.984129] (slam_toolbox) StderrLine: {'line': b'  because files in some directories may conflict with libraries in implicit\n'}
+[8.984185] (slam_toolbox) StderrLine: {'line': b'  directories:\n'}
+[8.984240] (slam_toolbox) StderrLine: {'line': b'\n'}
+[8.984294] (slam_toolbox) StderrLine: {'line': b'    runtime library [libtbb.so.12] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[8.984348] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[8.984399] (slam_toolbox) StderrLine: {'line': b'    runtime library [libfreetype.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[8.984450] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[8.984501] (slam_toolbox) StderrLine: {'line': b'    runtime library [libcurl.so.4] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[8.984552] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[8.984603] (slam_toolbox) StderrLine: {'line': b'    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[8.984671] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[8.984719] (slam_toolbox) StderrLine: {'line': b'\n'}
+[8.984769] (slam_toolbox) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[8.984820] (slam_toolbox) StderrLine: {'line': b'\n'}
+[8.984870] (slam_toolbox) StderrLine: {'line': b'\x1b[0m\n'}
+[9.033649] (-) TimerEvent: {}
+[9.068123] (slam_toolbox) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:162 (add_executable):\n'}
+[9.068312] (slam_toolbox) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target\n'}
+[9.068375] (slam_toolbox) StderrLine: {'line': b'  async_slam_toolbox_node because files in some directories may conflict with\n'}
+[9.068447] (slam_toolbox) StderrLine: {'line': b'  libraries in implicit directories:\n'}
+[9.068500] (slam_toolbox) StderrLine: {'line': b'\n'}
+[9.068550] (slam_toolbox) StderrLine: {'line': b'    runtime library [libfreetype.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[9.068601] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[9.068651] (slam_toolbox) StderrLine: {'line': b'    runtime library [libcurl.so.4] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[9.068706] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[9.068753] (slam_toolbox) StderrLine: {'line': b'    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[9.068802] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[9.068852] (slam_toolbox) StderrLine: {'line': b'    runtime library [libtbb.so.12] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[9.068901] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[9.068948] (slam_toolbox) StderrLine: {'line': b'\n'}
+[9.069008] (slam_toolbox) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[9.069073] (slam_toolbox) StderrLine: {'line': b'\n'}
+[9.069117] (slam_toolbox) StderrLine: {'line': b'\x1b[0m\n'}
+[9.091538] (slam_toolbox) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:165 (add_library):\n'}
+[9.091774] (slam_toolbox) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target sync_slam_toolbox\n'}
+[9.091840] (slam_toolbox) StderrLine: {'line': b'  because files in some directories may conflict with libraries in implicit\n'}
+[9.091898] (slam_toolbox) StderrLine: {'line': b'  directories:\n'}
+[9.091955] (slam_toolbox) StderrLine: {'line': b'\n'}
+[9.092010] (slam_toolbox) StderrLine: {'line': b'    runtime library [libtbb.so.12] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[9.092066] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[9.092120] (slam_toolbox) StderrLine: {'line': b'    runtime library [libfreetype.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[9.092189] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[9.092244] (slam_toolbox) StderrLine: {'line': b'    runtime library [libcurl.so.4] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[9.092299] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[9.092352] (slam_toolbox) StderrLine: {'line': b'    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[9.092410] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[9.092461] (slam_toolbox) StderrLine: {'line': b'\n'}
+[9.092511] (slam_toolbox) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[9.092561] (slam_toolbox) StderrLine: {'line': b'\n'}
+[9.092615] (slam_toolbox) StderrLine: {'line': b'\x1b[0m\n'}
+[9.133842] (-) TimerEvent: {}
+[9.137259] (slam_toolbox) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:167 (add_executable):\n'}
+[9.137423] (slam_toolbox) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target\n'}
+[9.137509] (slam_toolbox) StderrLine: {'line': b'  sync_slam_toolbox_node because files in some directories may conflict with\n'}
+[9.137569] (slam_toolbox) StderrLine: {'line': b'  libraries in implicit directories:\n'}
+[9.137627] (slam_toolbox) StderrLine: {'line': b'\n'}
+[9.137682] (slam_toolbox) StderrLine: {'line': b'    runtime library [libfreetype.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[9.137738] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[9.137793] (slam_toolbox) StderrLine: {'line': b'    runtime library [libcurl.so.4] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[9.137858] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[9.137915] (slam_toolbox) StderrLine: {'line': b'    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[9.137989] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[9.138044] (slam_toolbox) StderrLine: {'line': b'    runtime library [libtbb.so.12] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[9.138098] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[9.138168] (slam_toolbox) StderrLine: {'line': b'\n'}
+[9.138217] (slam_toolbox) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[9.138266] (slam_toolbox) StderrLine: {'line': b'\n'}
+[9.138313] (slam_toolbox) StderrLine: {'line': b'\x1b[0m\n'}
+[9.151088] (slam_toolbox) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:170 (add_library):\n'}
+[9.151280] (slam_toolbox) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target\n'}
+[9.151358] (slam_toolbox) StderrLine: {'line': b'  localization_slam_toolbox because files in some directories may conflict\n'}
+[9.151414] (slam_toolbox) StderrLine: {'line': b'  with libraries in implicit directories:\n'}
+[9.151470] (slam_toolbox) StderrLine: {'line': b'\n'}
+[9.151523] (slam_toolbox) StderrLine: {'line': b'    runtime library [libtbb.so.12] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[9.151580] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[9.151631] (slam_toolbox) StderrLine: {'line': b'    runtime library [libfreetype.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[9.151684] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[9.151735] (slam_toolbox) StderrLine: {'line': b'    runtime library [libcurl.so.4] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[9.151787] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[9.151838] (slam_toolbox) StderrLine: {'line': b'    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[9.151890] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[9.151941] (slam_toolbox) StderrLine: {'line': b'\n'}
+[9.151992] (slam_toolbox) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[9.152047] (slam_toolbox) StderrLine: {'line': b'\n'}
+[9.152098] (slam_toolbox) StderrLine: {'line': b'\x1b[0m\n'}
+[9.165668] (slam_toolbox) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:172 (add_executable):\n'}
+[9.165853] (slam_toolbox) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target\n'}
+[9.165917] (slam_toolbox) StderrLine: {'line': b'  localization_slam_toolbox_node because files in some directories may\n'}
+[9.165975] (slam_toolbox) StderrLine: {'line': b'  conflict with libraries in implicit directories:\n'}
+[9.166031] (slam_toolbox) StderrLine: {'line': b'\n'}
+[9.166085] (slam_toolbox) StderrLine: {'line': b'    runtime library [libfreetype.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[9.166141] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[9.166195] (slam_toolbox) StderrLine: {'line': b'    runtime library [libcurl.so.4] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[9.166283] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[9.166333] (slam_toolbox) StderrLine: {'line': b'    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[9.166384] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[9.166433] (slam_toolbox) StderrLine: {'line': b'    runtime library [libtbb.so.12] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[9.166482] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[9.166551] (slam_toolbox) StderrLine: {'line': b'\n'}
+[9.166601] (slam_toolbox) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[9.166661] (slam_toolbox) StderrLine: {'line': b'\n'}
+[9.166712] (slam_toolbox) StderrLine: {'line': b'\x1b[0m\n'}
+[9.181232] (slam_toolbox) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:175 (add_library):\n'}
+[9.181447] (slam_toolbox) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target lifelong_slam_toolbox\n'}
+[9.181527] (slam_toolbox) StderrLine: {'line': b'  because files in some directories may conflict with libraries in implicit\n'}
+[9.181592] (slam_toolbox) StderrLine: {'line': b'  directories:\n'}
+[9.181654] (slam_toolbox) StderrLine: {'line': b'\n'}
+[9.181713] (slam_toolbox) StderrLine: {'line': b'    runtime library [libtbb.so.12] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[9.181790] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[9.181848] (slam_toolbox) StderrLine: {'line': b'    runtime library [libfreetype.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[9.181910] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[9.181964] (slam_toolbox) StderrLine: {'line': b'    runtime library [libcurl.so.4] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[9.182014] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[9.182065] (slam_toolbox) StderrLine: {'line': b'    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[9.182153] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[9.182204] (slam_toolbox) StderrLine: {'line': b'\n'}
+[9.182264] (slam_toolbox) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[9.182315] (slam_toolbox) StderrLine: {'line': b'\n'}
+[9.182382] (slam_toolbox) StderrLine: {'line': b'\x1b[0m\n'}
+[9.196872] (slam_toolbox) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:177 (add_executable):\n'}
+[9.197120] (slam_toolbox) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target\n'}
+[9.197184] (slam_toolbox) StderrLine: {'line': b'  lifelong_slam_toolbox_node because files in some directories may conflict\n'}
+[9.197239] (slam_toolbox) StderrLine: {'line': b'  with libraries in implicit directories:\n'}
+[9.197291] (slam_toolbox) StderrLine: {'line': b'\n'}
+[9.197341] (slam_toolbox) StderrLine: {'line': b'    runtime library [libfreetype.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[9.197416] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[9.197477] (slam_toolbox) StderrLine: {'line': b'    runtime library [libcurl.so.4] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[9.197530] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[9.197581] (slam_toolbox) StderrLine: {'line': b'    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[9.197635] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[9.197692] (slam_toolbox) StderrLine: {'line': b'    runtime library [libtbb.so.12] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[9.197755] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[9.197814] (slam_toolbox) StderrLine: {'line': b'\n'}
+[9.197865] (slam_toolbox) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[9.197914] (slam_toolbox) StderrLine: {'line': b'\n'}
+[9.197964] (slam_toolbox) StderrLine: {'line': b'\x1b[0m\n'}
+[9.212763] (slam_toolbox) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:180 (add_library):\n'}
+[9.212919] (slam_toolbox) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target\n'}
+[9.212979] (slam_toolbox) StderrLine: {'line': b'  map_and_localization_slam_toolbox because files in some directories may\n'}
+[9.213039] (slam_toolbox) StderrLine: {'line': b'  conflict with libraries in implicit directories:\n'}
+[9.213093] (slam_toolbox) StderrLine: {'line': b'\n'}
+[9.213143] (slam_toolbox) StderrLine: {'line': b'    runtime library [libfreetype.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[9.213203] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[9.213268] (slam_toolbox) StderrLine: {'line': b'    runtime library [libcurl.so.4] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[9.213324] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[9.213374] (slam_toolbox) StderrLine: {'line': b'    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[9.213443] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[9.213505] (slam_toolbox) StderrLine: {'line': b'    runtime library [libtbb.so.12] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[9.213555] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[9.213604] (slam_toolbox) StderrLine: {'line': b'\n'}
+[9.213661] (slam_toolbox) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[9.213709] (slam_toolbox) StderrLine: {'line': b'\n'}
+[9.213757] (slam_toolbox) StderrLine: {'line': b'\x1b[0m\n'}
+[9.227199] (slam_toolbox) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:182 (add_executable):\n'}
+[9.227381] (slam_toolbox) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target\n'}
+[9.227438] (slam_toolbox) StderrLine: {'line': b'  map_and_localization_slam_toolbox_node because files in some directories\n'}
+[9.227498] (slam_toolbox) StderrLine: {'line': b'  may conflict with libraries in implicit directories:\n'}
+[9.227549] (slam_toolbox) StderrLine: {'line': b'\n'}
+[9.227597] (slam_toolbox) StderrLine: {'line': b'    runtime library [libfreetype.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[9.227645] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[9.227705] (slam_toolbox) StderrLine: {'line': b'    runtime library [libcurl.so.4] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[9.227753] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[9.227800] (slam_toolbox) StderrLine: {'line': b'    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[9.227848] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[9.227902] (slam_toolbox) StderrLine: {'line': b'    runtime library [libtbb.so.12] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[9.227950] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[9.227994] (slam_toolbox) StderrLine: {'line': b'\n'}
+[9.228056] (slam_toolbox) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[9.228102] (slam_toolbox) StderrLine: {'line': b'\n'}
+[9.228151] (slam_toolbox) StderrLine: {'line': b'\x1b[0m\n'}
+[9.233959] (-) TimerEvent: {}
+[9.241053] (slam_toolbox) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:186 (add_executable):\n'}
+[9.241175] (slam_toolbox) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target merge_maps_kinematic\n'}
+[9.241230] (slam_toolbox) StderrLine: {'line': b'  because files in some directories may conflict with libraries in implicit\n'}
+[9.241279] (slam_toolbox) StderrLine: {'line': b'  directories:\n'}
+[9.241330] (slam_toolbox) StderrLine: {'line': b'\n'}
+[9.241378] (slam_toolbox) StderrLine: {'line': b'    runtime library [libtbb.so.12] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[9.241442] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[9.241497] (slam_toolbox) StderrLine: {'line': b'    runtime library [libfreetype.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[9.241544] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[9.241590] (slam_toolbox) StderrLine: {'line': b'    runtime library [libcurl.so.4] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[9.241658] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[9.241724] (slam_toolbox) StderrLine: {'line': b'    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[9.241790] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[9.241858] (slam_toolbox) StderrLine: {'line': b'\n'}
+[9.241915] (slam_toolbox) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[9.241971] (slam_toolbox) StderrLine: {'line': b'\n'}
+[9.242025] (slam_toolbox) StderrLine: {'line': b'\x1b[0m\n'}
+[9.264800] (slam_toolbox) StderrLine: {'line': b'\x1b[33mCMake Warning at lib/karto_sdk/CMakeLists.txt:31 (add_library):\n'}
+[9.264966] (slam_toolbox) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target kartoSlamToolbox\n'}
+[9.265047] (slam_toolbox) StderrLine: {'line': b'  because files in some directories may conflict with libraries in implicit\n'}
+[9.265133] (slam_toolbox) StderrLine: {'line': b'  directories:\n'}
+[9.265189] (slam_toolbox) StderrLine: {'line': b'\n'}
+[9.265239] (slam_toolbox) StderrLine: {'line': b'    runtime library [libtbb.so.12] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[9.265297] (slam_toolbox) StderrLine: {'line': b'      /home/hp/anaconda3/lib\n'}
+[9.265365] (slam_toolbox) StderrLine: {'line': b'\n'}
+[9.265428] (slam_toolbox) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[9.265485] (slam_toolbox) StderrLine: {'line': b'\n'}
+[9.265535] (slam_toolbox) StderrLine: {'line': b'\x1b[0m\n'}
+[9.269295] (slam_toolbox) StdoutLine: {'line': b'-- Generating done\n'}
+[9.275188] (slam_toolbox) StdoutLine: {'line': b'-- Build files have been written to: /home/hp/ROS2_WS/src/build/slam_toolbox\n'}
+[9.334128] (-) TimerEvent: {}
+[9.385535] (slam_toolbox) StdoutLine: {'line': b'[  0%] Built target slam_toolbox__cpp\n'}
+[9.389721] (slam_toolbox) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_symlink_slam_toolbox\n'}
+[9.434290] (-) TimerEvent: {}
+[9.505018] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target kartoSlamToolbox\x1b[0m\n'}
+[9.534456] (-) TimerEvent: {}
+[9.615873] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target slam_toolbox__rosidl_typesupport_cpp\x1b[0m\n'}
+[9.625139] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target slam_toolbox__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[9.632804] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target slam_toolbox__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[9.634559] (-) TimerEvent: {}
+[9.678417] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target slam_toolbox__rosidl_generator_c\x1b[0m\n'}
+[9.734758] (-) TimerEvent: {}
+[9.754759] (slam_toolbox) StdoutLine: {'line': b'[ 23%] Built target slam_toolbox__rosidl_typesupport_cpp\n'}
+[9.755078] (slam_toolbox) StdoutLine: {'line': b'[ 23%] Built target slam_toolbox__rosidl_typesupport_fastrtps_cpp\n'}
+[9.755252] (slam_toolbox) StdoutLine: {'line': b'[ 27%] Built target slam_toolbox__rosidl_typesupport_introspection_cpp\n'}
+[9.834924] (-) TimerEvent: {}
+[9.887355] (slam_toolbox) StdoutLine: {'line': b'[ 36%] Built target slam_toolbox__rosidl_generator_c\n'}
+[9.928278] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target SlamToolboxPlugin\x1b[0m\n'}
+[9.935076] (-) TimerEvent: {}
+[10.035477] (-) TimerEvent: {}
+[10.070378] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target slam_toolbox__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[10.102953] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target slam_toolbox__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[10.119449] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target slam_toolbox__rosidl_typesupport_c\x1b[0m\n'}
+[10.133812] (slam_toolbox) StdoutLine: {'line': b'[ 45%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c\n'}
+[10.135621] (-) TimerEvent: {}
+[10.143761] (slam_toolbox) StdoutLine: {'line': b'[ 54%] Built target slam_toolbox__rosidl_typesupport_c\n'}
+[10.194649] (slam_toolbox) StdoutLine: {'line': b'[ 63%] Built target slam_toolbox__rosidl_typesupport_introspection_c\n'}
+[10.235766] (-) TimerEvent: {}
+[10.251388] (slam_toolbox) StdoutLine: {'line': b'[ 63%] Built target slam_toolbox\n'}
+[10.290240] (slam_toolbox) StdoutLine: {'line': b'[ 64%] Built target slam_toolbox__py\n'}
+[10.335976] (-) TimerEvent: {}
+[10.436438] (-) TimerEvent: {}
+[10.537039] (-) TimerEvent: {}
+[10.554720] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target slam_toolbox__rosidl_generator_py\x1b[0m\n'}
+[10.637205] (-) TimerEvent: {}
+[10.670469] (slam_toolbox) StdoutLine: {'line': b'[ 72%] Built target slam_toolbox__rosidl_generator_py\n'}
+[10.686645] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target slam_toolbox__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[10.686918] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target slam_toolbox__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[10.687049] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target slam_toolbox__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[10.700960] (slam_toolbox) StdoutLine: {'line': b'[ 75%] Built target slam_toolbox__rosidl_typesupport_introspection_c__pyext\n'}
+[10.701217] (slam_toolbox) StdoutLine: {'line': b'[ 75%] Built target slam_toolbox__rosidl_typesupport_c__pyext\n'}
+[10.701336] (slam_toolbox) StdoutLine: {'line': b'[ 75%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c__pyext\n'}
+[10.737518] (-) TimerEvent: {}
+[10.837968] (-) TimerEvent: {}
+[10.922647] (slam_toolbox) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libSlamToolboxPlugin.so\x1b[0m\n'}
+[10.938127] (-) TimerEvent: {}
+[11.038629] (-) TimerEvent: {}
+[11.139107] (-) TimerEvent: {}
+[11.239680] (-) TimerEvent: {}
+[11.340342] (-) TimerEvent: {}
+[11.440873] (-) TimerEvent: {}
+[11.541525] (-) TimerEvent: {}
+[11.642038] (-) TimerEvent: {}
+[11.742480] (-) TimerEvent: {}
+[11.842959] (-) TimerEvent: {}
+[11.943488] (-) TimerEvent: {}
+[12.044111] (-) TimerEvent: {}
+[12.144602] (-) TimerEvent: {}
+[12.245063] (-) TimerEvent: {}
+[12.345637] (-) TimerEvent: {}
+[12.446163] (-) TimerEvent: {}
+[12.546648] (-) TimerEvent: {}
+[12.647164] (-) TimerEvent: {}
+[12.747836] (-) TimerEvent: {}
+[12.848335] (-) TimerEvent: {}
+[12.948993] (-) TimerEvent: {}
+[13.049488] (-) TimerEvent: {}
+[13.149897] (-) TimerEvent: {}
+[13.250413] (-) TimerEvent: {}
+[13.351127] (-) TimerEvent: {}
+[13.451720] (-) TimerEvent: {}
+[13.552475] (-) TimerEvent: {}
+[13.653083] (-) TimerEvent: {}
+[13.753687] (-) TimerEvent: {}
+[13.854228] (-) TimerEvent: {}
+[13.954735] (-) TimerEvent: {}
+[14.055207] (-) TimerEvent: {}
+[14.155676] (-) TimerEvent: {}
+[14.256137] (-) TimerEvent: {}
+[14.356625] (-) TimerEvent: {}
+[14.457091] (-) TimerEvent: {}
+[14.549778] (slam_toolbox) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Karto.cpp.o\x1b[0m\n'}
+[14.557219] (-) TimerEvent: {}
+[14.657636] (-) TimerEvent: {}
+[14.758141] (-) TimerEvent: {}
+[14.858633] (-) TimerEvent: {}
+[14.959249] (-) TimerEvent: {}
+[15.005170] (slam_toolbox) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o\x1b[0m\n'}
+[15.059463] (-) TimerEvent: {}
+[15.159932] (-) TimerEvent: {}
+[15.260400] (-) TimerEvent: {}
+[15.360980] (-) TimerEvent: {}
+[15.461446] (-) TimerEvent: {}
+[15.561904] (-) TimerEvent: {}
+[15.662416] (-) TimerEvent: {}
+[15.762849] (-) TimerEvent: {}
+[15.863264] (-) TimerEvent: {}
+[15.963708] (-) TimerEvent: {}
+[16.064195] (-) TimerEvent: {}
+[16.164708] (-) TimerEvent: {}
+[16.265349] (-) TimerEvent: {}
+[16.365928] (-) TimerEvent: {}
+[16.466378] (-) TimerEvent: {}
+[16.566942] (-) TimerEvent: {}
+[16.667427] (-) TimerEvent: {}
+[16.767910] (-) TimerEvent: {}
+[16.868344] (-) TimerEvent: {}
+[16.968957] (-) TimerEvent: {}
+[17.069581] (-) TimerEvent: {}
+[17.170015] (-) TimerEvent: {}
+[17.270496] (-) TimerEvent: {}
+[17.370951] (-) TimerEvent: {}
+[17.471472] (-) TimerEvent: {}
+[17.572029] (-) TimerEvent: {}
+[17.672508] (-) TimerEvent: {}
+[17.773145] (-) TimerEvent: {}
+[17.873718] (-) TimerEvent: {}
+[17.974229] (-) TimerEvent: {}
+[18.074728] (-) TimerEvent: {}
+[18.175190] (-) TimerEvent: {}
+[18.275785] (-) TimerEvent: {}
+[18.376302] (-) TimerEvent: {}
+[18.476741] (-) TimerEvent: {}
+[18.577231] (-) TimerEvent: {}
+[18.677732] (-) TimerEvent: {}
+[18.778177] (-) TimerEvent: {}
+[18.878641] (-) TimerEvent: {}
+[18.979088] (-) TimerEvent: {}
+[19.079501] (-) TimerEvent: {}
+[19.180008] (-) TimerEvent: {}
+[19.280446] (-) TimerEvent: {}
+[19.380943] (-) TimerEvent: {}
+[19.481394] (-) TimerEvent: {}
+[19.581807] (-) TimerEvent: {}
+[19.682261] (-) TimerEvent: {}
+[19.782787] (-) TimerEvent: {}
+[19.883296] (-) TimerEvent: {}
+[19.983951] (-) TimerEvent: {}
+[20.084564] (-) TimerEvent: {}
+[20.185029] (-) TimerEvent: {}
+[20.285500] (-) TimerEvent: {}
+[20.386032] (-) TimerEvent: {}
+[20.486503] (-) TimerEvent: {}
+[20.586928] (-) TimerEvent: {}
+[20.687408] (-) TimerEvent: {}
+[20.787864] (-) TimerEvent: {}
+[20.888248] (-) TimerEvent: {}
+[20.988623] (-) TimerEvent: {}
+[21.089110] (-) TimerEvent: {}
+[21.189654] (-) TimerEvent: {}
+[21.290233] (-) TimerEvent: {}
+[21.390710] (-) TimerEvent: {}
+[21.491213] (-) TimerEvent: {}
+[21.591655] (-) TimerEvent: {}
+[21.692141] (-) TimerEvent: {}
+[21.792642] (-) TimerEvent: {}
+[21.893252] (-) TimerEvent: {}
+[21.993744] (-) TimerEvent: {}
+[22.094289] (-) TimerEvent: {}
+[22.194795] (-) TimerEvent: {}
+[22.295355] (-) TimerEvent: {}
+[22.395918] (-) TimerEvent: {}
+[22.496547] (-) TimerEvent: {}
+[22.600455] (-) TimerEvent: {}
+[22.700947] (-) TimerEvent: {}
+[22.801632] (-) TimerEvent: {}
+[22.902164] (-) TimerEvent: {}
+[23.002597] (-) TimerEvent: {}
+[23.102995] (-) TimerEvent: {}
+[23.203360] (-) TimerEvent: {}
+[23.303850] (-) TimerEvent: {}
+[23.404381] (-) TimerEvent: {}
+[23.505008] (-) TimerEvent: {}
+[23.605528] (-) TimerEvent: {}
+[23.705996] (-) TimerEvent: {}
+[23.806751] (-) TimerEvent: {}
+[23.907280] (-) TimerEvent: {}
+[24.007754] (-) TimerEvent: {}
+[24.108236] (-) TimerEvent: {}
+[24.208827] (-) TimerEvent: {}
+[24.309489] (-) TimerEvent: {}
+[24.409977] (-) TimerEvent: {}
+[24.510479] (-) TimerEvent: {}
+[24.611019] (-) TimerEvent: {}
+[24.711713] (-) TimerEvent: {}
+[24.812311] (-) TimerEvent: {}
+[24.912999] (-) TimerEvent: {}
+[25.013484] (-) TimerEvent: {}
+[25.113948] (-) TimerEvent: {}
+[25.214404] (-) TimerEvent: {}
+[25.314922] (-) TimerEvent: {}
+[25.415421] (-) TimerEvent: {}
+[25.516021] (-) TimerEvent: {}
+[25.616514] (-) TimerEvent: {}
+[25.716946] (-) TimerEvent: {}
+[25.817578] (-) TimerEvent: {}
+[25.918034] (-) TimerEvent: {}
+[26.018472] (-) TimerEvent: {}
+[26.119032] (-) TimerEvent: {}
+[26.219560] (-) TimerEvent: {}
+[26.319997] (-) TimerEvent: {}
+[26.420450] (-) TimerEvent: {}
+[26.520887] (-) TimerEvent: {}
+[26.621366] (-) TimerEvent: {}
+[26.721892] (-) TimerEvent: {}
+[26.822386] (-) TimerEvent: {}
+[26.922880] (-) TimerEvent: {}
+[27.023368] (-) TimerEvent: {}
+[27.123837] (-) TimerEvent: {}
+[27.224364] (-) TimerEvent: {}
+[27.324913] (-) TimerEvent: {}
+[27.425391] (-) TimerEvent: {}
+[27.525908] (-) TimerEvent: {}
+[27.626298] (-) TimerEvent: {}
+[27.726665] (-) TimerEvent: {}
+[27.827138] (-) TimerEvent: {}
+[27.927586] (-) TimerEvent: {}
+[28.028090] (-) TimerEvent: {}
+[28.125776] (slam_toolbox) StdoutLine: {'line': b'[ 79%] Built target SlamToolboxPlugin\n'}
+[28.128204] (-) TimerEvent: {}
+[28.228477] (-) TimerEvent: {}
+[28.328883] (-) TimerEvent: {}
+[28.429395] (-) TimerEvent: {}
+[28.529915] (-) TimerEvent: {}
+[28.630554] (-) TimerEvent: {}
+[28.731104] (-) TimerEvent: {}
+[28.831678] (-) TimerEvent: {}
+[28.932269] (-) TimerEvent: {}
+[29.032863] (-) TimerEvent: {}
+[29.133367] (-) TimerEvent: {}
+[29.233895] (-) TimerEvent: {}
+[29.334335] (-) TimerEvent: {}
+[29.434838] (-) TimerEvent: {}
+[29.535358] (-) TimerEvent: {}
+[29.635993] (-) TimerEvent: {}
+[29.736684] (-) TimerEvent: {}
+[29.837275] (-) TimerEvent: {}
+[29.937788] (-) TimerEvent: {}
+[30.038298] (-) TimerEvent: {}
+[30.138774] (-) TimerEvent: {}
+[30.239215] (-) TimerEvent: {}
+[30.339675] (-) TimerEvent: {}
+[30.440098] (-) TimerEvent: {}
+[30.540699] (-) TimerEvent: {}
+[30.641275] (-) TimerEvent: {}
+[30.741878] (-) TimerEvent: {}
+[30.842309] (-) TimerEvent: {}
+[30.942762] (-) TimerEvent: {}
+[31.043251] (-) TimerEvent: {}
+[31.143947] (-) TimerEvent: {}
+[31.244559] (-) TimerEvent: {}
+[31.345129] (-) TimerEvent: {}
+[31.445717] (-) TimerEvent: {}
+[31.546195] (-) TimerEvent: {}
+[31.646704] (-) TimerEvent: {}
+[31.747204] (-) TimerEvent: {}
+[31.847646] (-) TimerEvent: {}
+[31.948065] (-) TimerEvent: {}
+[32.048560] (-) TimerEvent: {}
+[32.149179] (-) TimerEvent: {}
+[32.249598] (-) TimerEvent: {}
+[32.350007] (-) TimerEvent: {}
+[32.450445] (-) TimerEvent: {}
+[32.550919] (-) TimerEvent: {}
+[32.661339] (-) TimerEvent: {}
+[32.761801] (-) TimerEvent: {}
+[32.862301] (-) TimerEvent: {}
+[32.962801] (-) TimerEvent: {}
+[33.063389] (-) TimerEvent: {}
+[33.163960] (-) TimerEvent: {}
+[33.264502] (-) TimerEvent: {}
+[33.364885] (-) TimerEvent: {}
+[33.465276] (-) TimerEvent: {}
+[33.565742] (-) TimerEvent: {}
+[33.666464] (-) TimerEvent: {}
+[33.767004] (-) TimerEvent: {}
+[33.867558] (-) TimerEvent: {}
+[33.968145] (-) TimerEvent: {}
+[34.068615] (-) TimerEvent: {}
+[34.169041] (-) TimerEvent: {}
+[34.269693] (-) TimerEvent: {}
+[34.370133] (-) TimerEvent: {}
+[34.470597] (-) TimerEvent: {}
+[34.571091] (-) TimerEvent: {}
+[34.671643] (-) TimerEvent: {}
+[34.772140] (-) TimerEvent: {}
+[34.872801] (-) TimerEvent: {}
+[34.973382] (-) TimerEvent: {}
+[35.073866] (-) TimerEvent: {}
+[35.174393] (-) TimerEvent: {}
+[35.274916] (-) TimerEvent: {}
+[35.375451] (-) TimerEvent: {}
+[35.475875] (-) TimerEvent: {}
+[35.576296] (-) TimerEvent: {}
+[35.676760] (-) TimerEvent: {}
+[35.777160] (-) TimerEvent: {}
+[35.832932] (slam_toolbox) StdoutLine: {'line': b'running egg_info\n'}
+[35.859951] (slam_toolbox) StdoutLine: {'line': b'writing slam_toolbox.egg-info/PKG-INFO\n'}
+[35.860215] (slam_toolbox) StdoutLine: {'line': b'writing dependency_links to slam_toolbox.egg-info/dependency_links.txt\n'}
+[35.860469] (slam_toolbox) StdoutLine: {'line': b'writing top-level names to slam_toolbox.egg-info/top_level.txt\n'}
+[35.877497] (-) TimerEvent: {}
+[35.961995] (slam_toolbox) StdoutLine: {'line': b"reading manifest file 'slam_toolbox.egg-info/SOURCES.txt'\n"}
+[35.977662] (-) TimerEvent: {}
+[36.000888] (slam_toolbox) StdoutLine: {'line': b"writing manifest file 'slam_toolbox.egg-info/SOURCES.txt'\n"}
+[36.034995] (slam_toolbox) StdoutLine: {'line': b'[ 79%] Built target ament_cmake_python_build_slam_toolbox_egg\n'}
+[36.077811] (-) TimerEvent: {}
+[36.178316] (-) TimerEvent: {}
+[36.278802] (-) TimerEvent: {}
+[36.379309] (-) TimerEvent: {}
+[36.479923] (-) TimerEvent: {}
+[36.580570] (-) TimerEvent: {}
+[36.681067] (-) TimerEvent: {}
+[36.781591] (-) TimerEvent: {}
+[36.882026] (-) TimerEvent: {}
+[36.982584] (-) TimerEvent: {}
+[37.083117] (-) TimerEvent: {}
+[37.183600] (-) TimerEvent: {}
+[37.284012] (-) TimerEvent: {}
+[37.384347] (-) TimerEvent: {}
+[37.484696] (-) TimerEvent: {}
+[37.585045] (-) TimerEvent: {}
+[37.685679] (-) TimerEvent: {}
+[37.786081] (-) TimerEvent: {}
+[37.886511] (-) TimerEvent: {}
+[37.986856] (-) TimerEvent: {}
+[38.087207] (-) TimerEvent: {}
+[38.187540] (-) TimerEvent: {}
+[38.287883] (-) TimerEvent: {}
+[38.388240] (-) TimerEvent: {}
+[38.488602] (-) TimerEvent: {}
+[38.517750] (slam_toolbox) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27\x1b[m\x1b[K:\n'}
+[38.518088] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5513:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst karto::Pose2& karto::LocalizedRangeScan::GetOdometricPose() const\x1b[m\x1b[K\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98\x1b[01m\x1b[Kconst karto::Pose2& karto::LocalizedRangeScan::GetOdometricPose() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[38.518206] (slam_toolbox) StderrLine: {'line': b' 5513 |   inline const Pose2 & \x1b[01;31m\x1b[KGetOdometricPose\x1b[m\x1b[K() const\n'}
+[38.518292] (slam_toolbox) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[38.518360] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5453:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kconst karto::Pose2& karto::LocalizedRangeScan::GetOdometricPose() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[38.518431] (slam_toolbox) StderrLine: {'line': b' 5453 |   const Pose2& \x1b[01;36m\x1b[KGetOdometricPose\x1b[m\x1b[K() const { return m_OdometricPose; }\n'}
+[38.518496] (slam_toolbox) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[38.518559] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5535:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst karto::Pose2& karto::LocalizedRangeScan::GetCorrectedPose() const\x1b[m\x1b[K\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98\x1b[01m\x1b[Kconst karto::Pose2& karto::LocalizedRangeScan::GetCorrectedPose() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[38.518634] (slam_toolbox) StderrLine: {'line': b' 5535 |   inline const Pose2 & \x1b[01;31m\x1b[KGetCorrectedPose\x1b[m\x1b[K() const\n'}
+[38.518707] (slam_toolbox) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[38.518768] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5454:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kconst karto::Pose2& karto::LocalizedRangeScan::GetCorrectedPose() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[38.518836] (slam_toolbox) StderrLine: {'line': b' 5454 |   const Pose2& \x1b[01;36m\x1b[KGetCorrectedPose\x1b[m\x1b[K() const { return m_CorrectedPose; }\n'}
+[38.518904] (slam_toolbox) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[38.518968] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5565:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst karto::Pose2& karto::LocalizedRangeScan::GetBarycenterPose() const\x1b[m\x1b[K\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98\x1b[01m\x1b[Kconst karto::Pose2& karto::LocalizedRangeScan::GetBarycenterPose() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[38.519035] (slam_toolbox) StderrLine: {'line': b' 5565 |   inline const Pose2 & \x1b[01;31m\x1b[KGetBarycenterPose\x1b[m\x1b[K() const\n'}
+[38.519095] (slam_toolbox) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[38.519158] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5455:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kconst karto::Pose2& karto::LocalizedRangeScan::GetBarycenterPose() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[38.519221] (slam_toolbox) StderrLine: {'line': b' 5455 |   const Pose2& \x1b[01;36m\x1b[KGetBarycenterPose\x1b[m\x1b[K() const { return m_BarycenterPose; }\n'}
+[38.519289] (slam_toolbox) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[38.519349] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5659:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst karto::BoundingBox2& karto::LocalizedRangeScan::GetBoundingBox() const\x1b[m\x1b[K\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98\x1b[01m\x1b[Kconst karto::BoundingBox2& karto::LocalizedRangeScan::GetBoundingBox() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[38.519416] (slam_toolbox) StderrLine: {'line': b' 5659 |   inline const BoundingBox2 & \x1b[01;31m\x1b[KGetBoundingBox\x1b[m\x1b[K() const\n'}
+[38.519477] (slam_toolbox) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[38.519538] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5459:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kconst karto::BoundingBox2& karto::LocalizedRangeScan::GetBoundingBox() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[38.519600] (slam_toolbox) StderrLine: {'line': b' 5459 |   const BoundingBox2& \x1b[01;36m\x1b[KGetBoundingBox\x1b[m\x1b[K() const { return m_BoundingBox; }\n'}
+[38.519673] (slam_toolbox) StderrLine: {'line': b'      |                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[38.556719] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid karto::GridIndexLookup<T>::ComputeOffsets(karto::LocalizedRangeScan*, kt_double, kt_double, kt_double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[38.556935] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:6881:71:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcall of overloaded \xe2\x80\x98\x1b[01m\x1b[KGetPointReadings()\x1b[m\x1b[K\xe2\x80\x99 is ambiguous\n'}
+[38.557018] (slam_toolbox) StderrLine: {'line': b' 6881 |     const PointVectorDouble & rPointReadings = \x1b[01;31m\x1b[KpScan->GetPointReadings()\x1b[m\x1b[K;\n'}
+[38.557092] (slam_toolbox) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[38.557173] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5457:42:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<karto::Vector2<double> >& karto::LocalizedRangeScan::GetPointReadings() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[38.557236] (slam_toolbox) StderrLine: {'line': b' 5457 |   const std::vector<Vector2<kt_double>>& \x1b[01;36m\x1b[KGetPointReadings\x1b[m\x1b[K() const { return m_PointReadings; }\n'}
+[38.557299] (slam_toolbox) StderrLine: {'line': b'      |                                          \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[38.557377] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5680:36:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst PointVectorDouble& karto::LocalizedRangeScan::GetPointReadings(kt_bool) const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[38.557462] (slam_toolbox) StderrLine: {'line': b' 5680 |   inline const PointVectorDouble & \x1b[01;36m\x1b[KGetPointReadings\x1b[m\x1b[K(kt_bool wantFiltered = false) const\n'}
+[38.557523] (slam_toolbox) StderrLine: {'line': b'      |                                    \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[38.588811] (-) TimerEvent: {}
+[38.689286] (-) TimerEvent: {}
+[38.789657] (-) TimerEvent: {}
+[38.890008] (-) TimerEvent: {}
+[38.990349] (-) TimerEvent: {}
+[39.090771] (-) TimerEvent: {}
+[39.191168] (-) TimerEvent: {}
+[39.291674] (-) TimerEvent: {}
+[39.392166] (-) TimerEvent: {}
+[39.492625] (-) TimerEvent: {}
+[39.593063] (-) TimerEvent: {}
+[39.693562] (-) TimerEvent: {}
+[39.793955] (-) TimerEvent: {}
+[39.846682] (slam_toolbox) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36\x1b[m\x1b[K,\n'}
+[39.846878] (slam_toolbox) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:36\x1b[m\x1b[K:\n'}
+[39.846961] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5513:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst karto::Pose2& karto::LocalizedRangeScan::GetOdometricPose() const\x1b[m\x1b[K\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98\x1b[01m\x1b[Kconst karto::Pose2& karto::LocalizedRangeScan::GetOdometricPose() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.847065] (slam_toolbox) StderrLine: {'line': b' 5513 |   inline const Pose2 & \x1b[01;31m\x1b[KGetOdometricPose\x1b[m\x1b[K() const\n'}
+[39.847146] (slam_toolbox) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[39.847210] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5453:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kconst karto::Pose2& karto::LocalizedRangeScan::GetOdometricPose() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.847271] (slam_toolbox) StderrLine: {'line': b' 5453 |   const Pose2& \x1b[01;36m\x1b[KGetOdometricPose\x1b[m\x1b[K() const { return m_OdometricPose; }\n'}
+[39.847336] (slam_toolbox) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[39.847393] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5535:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst karto::Pose2& karto::LocalizedRangeScan::GetCorrectedPose() const\x1b[m\x1b[K\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98\x1b[01m\x1b[Kconst karto::Pose2& karto::LocalizedRangeScan::GetCorrectedPose() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.847454] (slam_toolbox) StderrLine: {'line': b' 5535 |   inline const Pose2 & \x1b[01;31m\x1b[KGetCorrectedPose\x1b[m\x1b[K() const\n'}
+[39.847517] (slam_toolbox) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[39.847575] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5454:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kconst karto::Pose2& karto::LocalizedRangeScan::GetCorrectedPose() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.847635] (slam_toolbox) StderrLine: {'line': b' 5454 |   const Pose2& \x1b[01;36m\x1b[KGetCorrectedPose\x1b[m\x1b[K() const { return m_CorrectedPose; }\n'}
+[39.847693] (slam_toolbox) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[39.847750] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5565:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst karto::Pose2& karto::LocalizedRangeScan::GetBarycenterPose() const\x1b[m\x1b[K\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98\x1b[01m\x1b[Kconst karto::Pose2& karto::LocalizedRangeScan::GetBarycenterPose() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.847816] (slam_toolbox) StderrLine: {'line': b' 5565 |   inline const Pose2 & \x1b[01;31m\x1b[KGetBarycenterPose\x1b[m\x1b[K() const\n'}
+[39.847873] (slam_toolbox) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[39.847929] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5455:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kconst karto::Pose2& karto::LocalizedRangeScan::GetBarycenterPose() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.847985] (slam_toolbox) StderrLine: {'line': b' 5455 |   const Pose2& \x1b[01;36m\x1b[KGetBarycenterPose\x1b[m\x1b[K() const { return m_BarycenterPose; }\n'}
+[39.848041] (slam_toolbox) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[39.848115] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5659:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst karto::BoundingBox2& karto::LocalizedRangeScan::GetBoundingBox() const\x1b[m\x1b[K\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98\x1b[01m\x1b[Kconst karto::BoundingBox2& karto::LocalizedRangeScan::GetBoundingBox() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.848180] (slam_toolbox) StderrLine: {'line': b' 5659 |   inline const BoundingBox2 & \x1b[01;31m\x1b[KGetBoundingBox\x1b[m\x1b[K() const\n'}
+[39.848237] (slam_toolbox) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[39.848292] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5459:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kconst karto::BoundingBox2& karto::LocalizedRangeScan::GetBoundingBox() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.848348] (slam_toolbox) StderrLine: {'line': b' 5459 |   const BoundingBox2& \x1b[01;36m\x1b[KGetBoundingBox\x1b[m\x1b[K() const { return m_BoundingBox; }\n'}
+[39.848403] (slam_toolbox) StderrLine: {'line': b'      |                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[39.884201] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid karto::GridIndexLookup<T>::ComputeOffsets(karto::LocalizedRangeScan*, kt_double, kt_double, kt_double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[39.884407] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:6881:71:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcall of overloaded \xe2\x80\x98\x1b[01m\x1b[KGetPointReadings()\x1b[m\x1b[K\xe2\x80\x99 is ambiguous\n'}
+[39.884486] (slam_toolbox) StderrLine: {'line': b' 6881 |     const PointVectorDouble & rPointReadings = \x1b[01;31m\x1b[KpScan->GetPointReadings()\x1b[m\x1b[K;\n'}
+[39.884558] (slam_toolbox) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[39.884619] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5457:42:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<karto::Vector2<double> >& karto::LocalizedRangeScan::GetPointReadings() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.884696] (slam_toolbox) StderrLine: {'line': b' 5457 |   const std::vector<Vector2<kt_double>>& \x1b[01;36m\x1b[KGetPointReadings\x1b[m\x1b[K() const { return m_PointReadings; }\n'}
+[39.884758] (slam_toolbox) StderrLine: {'line': b'      |                                          \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[39.884822] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5680:36:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst PointVectorDouble& karto::LocalizedRangeScan::GetPointReadings(kt_bool) const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.884884] (slam_toolbox) StderrLine: {'line': b' 5680 |   inline const PointVectorDouble & \x1b[01;36m\x1b[KGetPointReadings\x1b[m\x1b[K(kt_bool wantFiltered = false) const\n'}
+[39.884951] (slam_toolbox) StderrLine: {'line': b'      |                                    \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[39.894076] (-) TimerEvent: {}
+[39.954767] (slam_toolbox) StderrLine: {'line': b'gmake[2]: *** [lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/build.make:76: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Karto.cpp.o] Error 1\n'}
+[39.954963] (slam_toolbox) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[39.981733] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kkarto::PointVectorDouble karto::ScanMatcher::FindValidPoints(karto::LocalizedRangeScan*, const karto::Vector2<double>&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[39.981927] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:1159:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcall of overloaded \xe2\x80\x98\x1b[01m\x1b[KGetPointReadings()\x1b[m\x1b[K\xe2\x80\x99 is ambiguous\n'}
+[39.982011] (slam_toolbox) StderrLine: {'line': b' 1159 |   const PointVectorDouble & rPointReadings = \x1b[01;31m\x1b[KpScan->GetPointReadings()\x1b[m\x1b[K;\n'}
+[39.982085] (slam_toolbox) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[39.982162] (slam_toolbox) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36\x1b[m\x1b[K,\n'}
+[39.982215] (slam_toolbox) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:36\x1b[m\x1b[K:\n'}
+[39.982267] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5457:42:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<karto::Vector2<double> >& karto::LocalizedRangeScan::GetPointReadings() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.982339] (slam_toolbox) StderrLine: {'line': b' 5457 |   const std::vector<Vector2<kt_double>>& \x1b[01;36m\x1b[KGetPointReadings\x1b[m\x1b[K() const { return m_PointReadings; }\n'}
+[39.982390] (slam_toolbox) StderrLine: {'line': b'      |                                          \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[39.982440] (slam_toolbox) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5680:36:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst PointVectorDouble& karto::LocalizedRangeScan::GetPointReadings(kt_bool) const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.982490] (slam_toolbox) StderrLine: {'line': b' 5680 |   inline const PointVectorDouble & \x1b[01;36m\x1b[KGetPointReadings\x1b[m\x1b[K(kt_bool wantFiltered = false) const\n'}
+[39.982541] (slam_toolbox) StderrLine: {'line': b'      |                                    \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[39.994256] (-) TimerEvent: {}
+[40.094633] (-) TimerEvent: {}
+[40.195033] (-) TimerEvent: {}
+[40.295434] (-) TimerEvent: {}
+[40.395881] (-) TimerEvent: {}
+[40.496404] (-) TimerEvent: {}
+[40.596870] (-) TimerEvent: {}
+[40.697389] (-) TimerEvent: {}
+[40.797706] (-) TimerEvent: {}
+[40.898027] (-) TimerEvent: {}
+[40.998387] (-) TimerEvent: {}
+[41.098725] (-) TimerEvent: {}
+[41.199128] (-) TimerEvent: {}
+[41.299503] (-) TimerEvent: {}
+[41.399927] (-) TimerEvent: {}
+[41.500371] (-) TimerEvent: {}
+[41.600823] (-) TimerEvent: {}
+[41.701300] (-) TimerEvent: {}
+[41.801732] (-) TimerEvent: {}
+[41.902226] (-) TimerEvent: {}
+[42.002560] (-) TimerEvent: {}
+[42.102995] (-) TimerEvent: {}
+[42.203419] (-) TimerEvent: {}
+[42.274059] (slam_toolbox) StderrLine: {'line': b'gmake[2]: *** [lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/build.make:90: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o] Error 1\n'}
+[42.274534] (slam_toolbox) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:1045: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/all] Error 2\n'}
+[42.274617] (slam_toolbox) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[42.276678] (slam_toolbox) CommandEnded: {'returncode': 2}
+[42.303525] (-) TimerEvent: {}
+[42.403868] (-) TimerEvent: {}
+[42.504262] (-) TimerEvent: {}
+[42.604712] (-) TimerEvent: {}
+[42.705101] (-) TimerEvent: {}
+[42.805528] (-) TimerEvent: {}
+[42.877197] (slam_toolbox) JobEnded: {'identifier': 'slam_toolbox', 'rc': 2}
+[42.887905] (-) EventReactorShutdown: {}

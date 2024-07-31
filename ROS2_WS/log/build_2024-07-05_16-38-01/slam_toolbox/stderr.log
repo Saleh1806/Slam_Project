@@ -1,0 +1,28 @@
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:[m[K In member function ‘[01m[Kvirtual kt_bool karto::Mapper::Process(karto::LocalizedRangeScan*, karto::Matrix3*)[m[K’:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2850:33:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kkarto::LocalizedRangeScan::serialize(boost::archive::xml_oarchive&, karto::LocalizedRangeScan*&)[m[K’
+ 2850 |                 [01;31m[KpScan->serialize(scan_oa, BOOST_SERIALIZATION_VERSION_HPP(pScan))[m[K;
+      |                 [01;31m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+                 from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:39[m[K:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5805:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Archive> void karto::LocalizedRangeScan::serialize(Archive&, unsigned int)[m[K’
+ 5805 |   void [01;36m[Kserialize[m[K(Archive & ar, const unsigned int version)
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5805:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2850:75:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[KpScan[m[K’ (type ‘[01m[Kkarto::LocalizedRangeScan*[m[K’) to type ‘[01m[Kunsigned int[m[K’
+ 2850 |                 pScan->serialize(scan_oa, BOOST_SERIALIZATION_VERSION_HPP[01;36m[K(pScan)[m[K);
+      |                                                                          [01;36m[K~^~~~~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2864:42:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kkarto::Matrix3::serialize(boost::archive::xml_oarchive&, karto::Matrix3*&)[m[K’
+ 2864 |                     [01;31m[Kcovariance->serialize(covariance_oa, BOOST_SERIALIZATION_VERSION_HPP(covariance))[m[K;
+      |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+                 from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:39[m[K:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2723:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Archive> void karto::Matrix3::serialize(Archive&, unsigned int)[m[K’
+ 2723 |   void [01;36m[Kserialize[m[K(Archive & ar, const unsigned int version)
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2723:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2864:90:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kcovariance[m[K’ (type ‘[01m[Kkarto::Matrix3*[m[K’) to type ‘[01m[Kunsigned int[m[K’
+ 2864 |                     covariance->serialize(covariance_oa, BOOST_SERIALIZATION_VERSION_HPP[01;36m[K(covariance)[m[K);
+      |                                                                                         [01;36m[K~^~~~~~~~~~~[m[K
+gmake[2]: *** [lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/build.make:90: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:1045: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

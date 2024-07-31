@@ -1,0 +1,40 @@
+[31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+  execute_process(/home/hp/anaconda3/bin/python3 -m rosidl_adapter
+  --package-name slam_toolbox --arguments-file
+  /home/hp/ROS2_WS/src/build/slam_toolbox/rosidl_adapter__arguments__slam_toolbox.json
+  --output-dir
+  /home/hp/ROS2_WS/src/build/slam_toolbox/rosidl_adapter/slam_toolbox
+  --output-file
+  /home/hp/ROS2_WS/src/build/slam_toolbox/rosidl_adapter/slam_toolbox.idls)
+  returned error code 1:
+
+  TypeError processing template 'srv.idl.em'
+
+  Traceback (most recent call last):
+
+    File "<frozen runpy>", line 198, in _run_module_as_main
+    File "<frozen runpy>", line 88, in _run_code
+    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+      sys.exit(main())
+               ^^^^^^
+    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+      abs_idl_file = convert_to_idl(
+                     ^^^^^^^^^^^^^^^
+    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+      return convert_srv_to_idl(
+             ^^^^^^^^^^^^^^^^^^^
+    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/srv/__init__.py", line 39, in convert_srv_to_idl
+      expand_template('srv.idl.em', data, output_file, encoding='iso-8859-1')
+    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/resource/__init__.py", line 23, in expand_template
+      content = evaluate_template(template_name, data)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/resource/__init__.py", line 54, in evaluate_template
+      _interpreter.string(content, template_path, locals=data)
+
+  TypeError: Interpreter.string() got multiple values for argument 'locals'
+
+Call Stack (most recent call first):
+  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+  CMakeLists.txt:105 (rosidl_generate_interfaces)
+
+[0m

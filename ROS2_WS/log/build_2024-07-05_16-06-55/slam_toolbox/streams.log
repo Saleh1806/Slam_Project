@@ -1,0 +1,128 @@
+[0.804s] Invoking command in '/home/hp/ROS2_WS/build/slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/dynamic_tf:/opt/ros/humble /usr/bin/cmake --build /home/hp/ROS2_WS/build/slam_toolbox -- -j8 -l8
+[0.917s] [  0%] Built target slam_toolbox__cpp
+[0.929s] [  9%] Built target ament_cmake_python_symlink_slam_toolbox
+[0.929s] [  9%] Built target slam_toolbox__rosidl_generator_c
+[0.930s] [35m[1mConsolidate compiler generated dependencies of target kartoSlamToolbox[0m
+[0.988s] [ 18%] Built target slam_toolbox__rosidl_typesupport_cpp
+[0.996s] [ 19%] [32mBuilding CXX object lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Karto.cpp.o[0m
+[1.002s] [ 28%] Built target slam_toolbox__rosidl_typesupport_introspection_c
+[1.006s] [ 45%] Built target slam_toolbox__rosidl_typesupport_fastrtps_cpp
+[1.009s] [ 46%] Built target slam_toolbox__rosidl_typesupport_introspection_cpp
+[1.012s] [ 55%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c
+[1.018s] [ 64%] Built target slam_toolbox__rosidl_typesupport_c
+[1.028s] [ 65%] [32mBuilding CXX object lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o[0m
+[1.052s] [ 65%] Built target slam_toolbox
+[1.061s] [ 67%] Built target SlamToolboxPlugin
+[1.086s] [ 68%] Built target slam_toolbox__py
+[1.136s] [ 76%] Built target slam_toolbox__rosidl_generator_py
+[1.199s] [ 77%] Built target slam_toolbox__rosidl_typesupport_introspection_c__pyext
+[1.221s] [ 78%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c__pyext
+[1.223s] [ 79%] Built target slam_toolbox__rosidl_typesupport_c__pyext
+[1.503s] running egg_info
+[1.505s] writing slam_toolbox.egg-info/PKG-INFO
+[1.505s] writing dependency_links to slam_toolbox.egg-info/dependency_links.txt
+[1.507s] writing top-level names to slam_toolbox.egg-info/top_level.txt
+[1.511s] reading manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+[1.513s] writing manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+[1.576s] [ 79%] Built target ament_cmake_python_build_slam_toolbox_egg
+[3.569s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[3.569s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:[m[K In member function ‘[01m[Kvoid karto::Matrix3::load(std::istream&)[m[K’:
+[3.569s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2715:39:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kboost::archive::xml_oarchive::xml_oarchive(std::istream&)[m[K’
+[3.569s]  2715 |     boost::archive::xml_oarchive ia(is[01;31m[K)[m[K;
+[3.570s]       |                                       [01;31m[K^[m[K
+[3.570s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:27[m[K,
+[3.570s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[3.570s] [01m[K/usr/local/include/boost/archive/xml_oarchive.hpp:121:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kboost::archive::xml_oarchive::xml_oarchive(std::ostream&, unsigned int)[m[K’
+[3.570s]   121 |     [01;36m[Kxml_oarchive[m[K(std::ostream & os, unsigned int flags = 0) :
+[3.570s]       |     [01;36m[K^~~~~~~~~~~~[m[K
+[3.570s] [01m[K/usr/local/include/boost/archive/xml_oarchive.hpp:121:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::istream[m[K’ {aka ‘[01m[Kstd::basic_istream<char>[m[K’} to ‘[01m[Kstd::ostream&[m[K’ {aka ‘[01m[Kstd::basic_ostream<char>&[m[K’}
+[3.570s]   121 |     xml_oarchive([01;36m[Kstd::ostream & os[m[K, unsigned int flags = 0) :
+[3.570s]       |                  [01;36m[K~~~~~~~~~~~~~~~^~[m[K
+[3.570s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[3.570s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2716:8:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator>>[m[K’ (operand types are ‘[01m[Kboost::archive::xml_oarchive[m[K’ and ‘[01m[Kconst boost::serialization::nvp<karto::Matrix3>[m[K’)
+[3.570s]  2716 |     [32m[Kia[m[K [01;31m[K>>[m[K [34m[Kboost::serialization::make_nvp("Matrix3", *this)[m[K;
+[3.570s]       |     [32m[K~~[m[K [01;31m[K^~[m[K [34m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.570s]       |     [32m[K|[m[K                                   [34m[K|[m[K
+[3.570s]       |     [32m[Kboost::archive::xml_oarchive[m[K        [34m[Kconst boost::serialization::nvp<karto::Matrix3>[m[K
+[3.570s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2529:32:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::istream& karto::operator>>(std::istream&, karto::Matrix3&)[m[K’
+[3.570s]  2529 |   friend inline std::istream & [01;36m[Koperator[m[K>>(std::istream & rStream, Matrix3 & rMatrix)
+[3.571s]       |                                [01;36m[K^~~~~~~~[m[K
+[3.571s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2529:58:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kboost::archive::xml_oarchive[m[K’ to ‘[01m[Kstd::istream&[m[K’ {aka ‘[01m[Kstd::basic_istream<char>&[m[K’}
+[3.571s]  2529 |   friend inline std::istream & operator>>([01;36m[Kstd::istream & rStream[m[K, Matrix3 & rMatrix)
+[3.571s]       |                                           [01;36m[K~~~~~~~~~~~~~~~^~~~~~~[m[K
+[3.617s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[3.617s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:[m[K At global scope:
+[3.617s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5818:8:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KMéthode[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.617s]  5818 |      * [01;31m[KMéthode[m[K pour sérialiser un objet LocalizedRangeScan dans un fichier binaire
+[3.617s]       |        [01;31m[K^~~~~~~[m[K
+[3.618s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5818:8:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[3.618s]  5818 |      * [01;31m[KMéthode[m[K pour sérialiser un objet LocalizedRangeScan dans un fichier binaire
+[3.618s]       |        [01;31m[K^~~~~~~[m[K
+[3.618s]       |               [32m[K;[m[K
+[3.620s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5818:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kpour[m[K’ does not name a type
+[3.620s]  5818 |      * Méthode [01;31m[Kpour[m[K sérialiser un objet LocalizedRangeScan dans un fichier binaire
+[3.620s]       |                [01;31m[K^~~~[m[K
+[4.923s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+[4.923s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:37[m[K:
+[4.924s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:[m[K In member function ‘[01m[Kvoid karto::Matrix3::load(std::istream&)[m[K’:
+[4.924s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2715:39:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kboost::archive::xml_oarchive::xml_oarchive(std::istream&)[m[K’
+[4.924s]  2715 |     boost::archive::xml_oarchive ia(is[01;31m[K)[m[K;
+[4.924s]       |                                       [01;31m[K^[m[K
+[4.924s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:27[m[K,
+[4.924s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+[4.924s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:37[m[K:
+[4.924s] [01m[K/usr/local/include/boost/archive/xml_oarchive.hpp:121:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kboost::archive::xml_oarchive::xml_oarchive(std::ostream&, unsigned int)[m[K’
+[4.924s]   121 |     [01;36m[Kxml_oarchive[m[K(std::ostream & os, unsigned int flags = 0) :
+[4.924s]       |     [01;36m[K^~~~~~~~~~~~[m[K
+[4.924s] [01m[K/usr/local/include/boost/archive/xml_oarchive.hpp:121:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::istream[m[K’ {aka ‘[01m[Kstd::basic_istream<char>[m[K’} to ‘[01m[Kstd::ostream&[m[K’ {aka ‘[01m[Kstd::basic_ostream<char>&[m[K’}
+[4.924s]   121 |     xml_oarchive([01;36m[Kstd::ostream & os[m[K, unsigned int flags = 0) :
+[4.924s]       |                  [01;36m[K~~~~~~~~~~~~~~~^~[m[K
+[4.924s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+[4.925s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:37[m[K:
+[4.925s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2716:8:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator>>[m[K’ (operand types are ‘[01m[Kboost::archive::xml_oarchive[m[K’ and ‘[01m[Kconst boost::serialization::nvp<karto::Matrix3>[m[K’)
+[4.925s]  2716 |     [32m[Kia[m[K [01;31m[K>>[m[K [34m[Kboost::serialization::make_nvp("Matrix3", *this)[m[K;
+[4.925s]       |     [32m[K~~[m[K [01;31m[K^~[m[K [34m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.925s]       |     [32m[K|[m[K                                   [34m[K|[m[K
+[4.925s]       |     [32m[Kboost::archive::xml_oarchive[m[K        [34m[Kconst boost::serialization::nvp<karto::Matrix3>[m[K
+[4.925s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2529:32:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::istream& karto::operator>>(std::istream&, karto::Matrix3&)[m[K’
+[4.925s]  2529 |   friend inline std::istream & [01;36m[Koperator[m[K>>(std::istream & rStream, Matrix3 & rMatrix)
+[4.925s]       |                                [01;36m[K^~~~~~~~[m[K
+[4.925s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2529:58:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kboost::archive::xml_oarchive[m[K’ to ‘[01m[Kstd::istream&[m[K’ {aka ‘[01m[Kstd::basic_istream<char>&[m[K’}
+[4.925s]  2529 |   friend inline std::istream & operator>>([01;36m[Kstd::istream & rStream[m[K, Matrix3 & rMatrix)
+[4.925s]       |                                           [01;36m[K~~~~~~~~~~~~~~~^~~~~~~[m[K
+[4.972s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+[4.972s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:37[m[K:
+[4.972s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:[m[K At global scope:
+[4.972s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5818:8:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KMéthode[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[4.972s]  5818 |      * [01;31m[KMéthode[m[K pour sérialiser un objet LocalizedRangeScan dans un fichier binaire
+[4.972s]       |        [01;31m[K^~~~~~~[m[K
+[4.972s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5818:8:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[4.972s]  5818 |      * [01;31m[KMéthode[m[K pour sérialiser un objet LocalizedRangeScan dans un fichier binaire
+[4.972s]       |        [01;31m[K^~~~~~~[m[K
+[4.972s]       |               [32m[K;[m[K
+[4.975s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5818:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kpour[m[K’ does not name a type
+[4.975s]  5818 |      * Méthode [01;31m[Kpour[m[K sérialiser un objet LocalizedRangeScan dans un fichier binaire
+[4.975s]       |                [01;31m[K^~~~[m[K
+[5.170s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:[m[K In member function ‘[01m[Kvirtual kt_bool karto::Mapper::Process(karto::LocalizedRangeScan*, karto::Matrix3*)[m[K’:
+[5.170s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2836:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass karto::LocalizedRangeScan[m[K’ has no member named ‘[01m[KSerialize[m[K’; did you mean ‘[01m[Kserialize[m[K’?
+[5.170s]  2836 |         pScan->[01;31m[KSerialize[m[K("scan_data.bin");
+[5.170s]       |                [01;31m[K^~~~~~~~~[m[K
+[5.170s]       |                [32m[Kserialize[m[K
+[5.170s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2838:30:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kkarto::Matrix3::serialize(const char [20])[m[K’
+[5.170s]  2838 |         [01;31m[Kcovariance->serialize("covariance_data.bin")[m[K;
+[5.170s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.170s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+[5.170s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:37[m[K:
+[5.170s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2723:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Archive> void karto::Matrix3::serialize(Archive&, unsigned int)[m[K’
+[5.170s]  2723 |   void [01;36m[Kserialize[m[K(Archive & ar, const unsigned int version)
+[5.170s]       |        [01;36m[K^~~~~~~~~[m[K
+[5.170s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2723:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.170s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2838:30:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[5.171s]  2838 |         [01;36m[Kcovariance->serialize("covariance_data.bin")[m[K;
+[5.171s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.184s] gmake[2]: *** [lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/build.make:76: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Karto.cpp.o] Error 1
+[5.184s] gmake[2]: *** Waiting for unfinished jobs....
+[7.755s] gmake[2]: *** [lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/build.make:90: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o] Error 1
+[7.755s] gmake[1]: *** [CMakeFiles/Makefile2:1045: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/all] Error 2
+[7.756s] gmake: *** [Makefile:146: all] Error 2
+[7.759s] Invoked command in '/home/hp/ROS2_WS/build/slam_toolbox' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/dynamic_tf:/opt/ros/humble /usr/bin/cmake --build /home/hp/ROS2_WS/build/slam_toolbox -- -j8 -l8

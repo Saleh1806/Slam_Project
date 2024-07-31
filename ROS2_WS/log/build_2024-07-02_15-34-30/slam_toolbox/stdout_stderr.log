@@ -1,0 +1,193 @@
+[  0%] Built target slam_toolbox__cpp
+[35m[1mConsolidate compiler generated dependencies of target kartoSlamToolbox[0m
+[  9%] Built target slam_toolbox__rosidl_generator_c
+[  9%] Built target ament_cmake_python_symlink_slam_toolbox
+[ 11%] [32mBuilding CXX object lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o[0m
+[ 19%] Built target slam_toolbox__rosidl_typesupport_cpp
+[ 28%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c
+[ 37%] Built target slam_toolbox__rosidl_typesupport_c
+[ 55%] Built target slam_toolbox__rosidl_typesupport_fastrtps_cpp
+[ 55%] Built target slam_toolbox__rosidl_typesupport_introspection_c
+[ 64%] Built target slam_toolbox__rosidl_typesupport_introspection_cpp
+[ 64%] Built target slam_toolbox
+[ 66%] Built target SlamToolboxPlugin
+[ 67%] Built target slam_toolbox__py
+[ 75%] Built target slam_toolbox__rosidl_generator_py
+[ 76%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c__pyext
+[ 77%] Built target slam_toolbox__rosidl_typesupport_c__pyext
+[ 78%] Built target slam_toolbox__rosidl_typesupport_introspection_c__pyext
+running egg_info
+writing slam_toolbox.egg-info/PKG-INFO
+writing dependency_links to slam_toolbox.egg-info/dependency_links.txt
+writing top-level names to slam_toolbox.egg-info/top_level.txt
+reading manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+writing manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+[ 78%] Built target ament_cmake_python_build_slam_toolbox_egg
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:[m[K In member function ‘[01m[Kvirtual kt_bool karto::Mapper::Process(karto::LocalizedRangeScan*, karto::Matrix3*)[m[K’:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2761:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kkarto::Pose2 karto::LocalizedRangeScan::m_OdometricPose[m[K’ is private within this context
+ 2761 |         {"o_POSE", pScan->[01;31m[Km_OdometricPose[m[K}
+      |                           [01;31m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+                 from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:38[m[K:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5824:9:[m[K [01;36m[Knote: [m[Kdeclared private here
+ 5824 |   Pose2 [01;36m[Km_OdometricPose[m[K;
+      |         [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2762:5:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Knlohmann::basic_json<>::value_type[m[K’ {aka ‘[01m[Knlohmann::basic_json<>[m[K’} and ‘[01m[K<brace-enclosed initializer list>[m[K’)
+ 2762 |     [01;31m[K}[m[K;
+      |     [01;31m[K^[m[K
+In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:36[m[K:
+[01m[K/usr/include/nlohmann/json.hpp:1224:17:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Knlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>& nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::operator=(nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>) [with ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char>][m[K’
+ 1224 |     basic_json& [01;36m[Koperator[m[K=(basic_json other) noexcept (
+      |                 [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/nlohmann/json.hpp:1224:38:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Knlohmann::basic_json<>[m[K’
+ 1224 |     basic_json& operator=([01;36m[Kbasic_json other[m[K) noexcept (
+      |                           [01;36m[K~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2764:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kkarto::Pose2 karto::LocalizedRangeScan::m_CorrectedPose[m[K’ is private within this context
+ 2764 |         {pScan->[01;31m[Km_CorrectedPose[m[K}
+      |                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+                 from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:38[m[K:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5829:9:[m[K [01;36m[Knote: [m[Kdeclared private here
+ 5829 |   Pose2 [01;36m[Km_CorrectedPose[m[K;
+      |         [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2765:5:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Knlohmann::basic_json<>::value_type[m[K’ {aka ‘[01m[Knlohmann::basic_json<>[m[K’} and ‘[01m[K<brace-enclosed initializer list>[m[K’)
+ 2765 |     [01;31m[K}[m[K;
+      |     [01;31m[K^[m[K
+In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:36[m[K:
+[01m[K/usr/include/nlohmann/json.hpp:1224:17:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Knlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>& nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::operator=(nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>) [with ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char>][m[K’
+ 1224 |     basic_json& [01;36m[Koperator[m[K=(basic_json other) noexcept (
+      |                 [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/nlohmann/json.hpp:1224:38:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Knlohmann::basic_json<>[m[K’
+ 1224 |     basic_json& operator=([01;36m[Kbasic_json other[m[K) noexcept (
+      |                           [01;36m[K~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2767:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kkarto::Pose2 karto::LocalizedRangeScan::m_BarycenterPose[m[K’ is protected within this context
+ 2767 |         {"X", pScan->[01;31m[Km_BarycenterPose[m[K}
+      |                      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+                 from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:38[m[K:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5835:9:[m[K [01;36m[Knote: [m[Kdeclared protected here
+ 5835 |   Pose2 [01;36m[Km_BarycenterPose[m[K;
+      |         [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2768:5:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Knlohmann::basic_json<>::value_type[m[K’ {aka ‘[01m[Knlohmann::basic_json<>[m[K’} and ‘[01m[K<brace-enclosed initializer list>[m[K’)
+ 2768 |     [01;31m[K}[m[K;
+      |     [01;31m[K^[m[K
+In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:36[m[K:
+[01m[K/usr/include/nlohmann/json.hpp:1224:17:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Knlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>& nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::operator=(nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>) [with ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char>][m[K’
+ 1224 |     basic_json& [01;36m[Koperator[m[K=(basic_json other) noexcept (
+      |                 [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/nlohmann/json.hpp:1224:38:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Knlohmann::basic_json<>[m[K’
+ 1224 |     basic_json& operator=([01;36m[Kbasic_json other[m[K) noexcept (
+      |                           [01;36m[K~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2769:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kkt_bool karto::LocalizedRangeScan::m_IsDirty[m[K’ is protected within this context
+ 2769 |     inputJson["IsDirty"] = pScan->[01;31m[Km_IsDirty[m[K;
+      |                                   [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+                 from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:38[m[K:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5855:11:[m[K [01;36m[Knote: [m[Kdeclared protected here
+ 5855 |   kt_bool [01;36m[Km_IsDirty[m[K;
+      |           [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2772:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kkarto::PointVectorDouble karto::LocalizedRangeScan::m_PointReadings[m[K’ is protected within this context
+ 2772 |     for (const auto& point : pScan->[01;31m[Km_PointReadings[m[K) {
+      |                                     [01;31m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+                 from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:38[m[K:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5840:21:[m[K [01;36m[Knote: [m[Kdeclared protected here
+ 5840 |   PointVectorDouble [01;36m[Km_PointReadings[m[K;
+      |                     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2773:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class karto::Vector2<double>[m[K’ has no member named ‘[01m[Kx[m[K’
+ 2773 |         pointReadings.push_back({{"X", point.[01;31m[Kx[m[K}, {"Y", point.y}});
+      |                                              [01;31m[K^[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2773:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class karto::Vector2<double>[m[K’ has no member named ‘[01m[Ky[m[K’
+ 2773 |         pointReadings.push_back({{"X", point.x}, {"Y", point.[01;31m[Ky[m[K}});
+      |                                                              [01;31m[K^[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2773:32:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Knlohmann::basic_json<>::push_back(<brace-enclosed initializer list>)[m[K’
+ 2773 |         [01;31m[KpointReadings.push_back({{"X", point.x}, {"Y", point.y}})[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:36[m[K:
+[01m[K/usr/include/nlohmann/json.hpp:2824:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::push_back(nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>&&) [with ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char>][m[K’
+ 2824 |     void [01;36m[Kpush_back[m[K(basic_json&& val)
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/nlohmann/json.hpp:2824:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Knlohmann::basic_json<>&&[m[K’
+ 2824 |     void push_back([01;36m[Kbasic_json&& val[m[K)
+      |                    [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[01m[K/usr/include/nlohmann/json.hpp:2857:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::push_back(const nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>&) [with ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char>][m[K’
+ 2857 |     void [01;36m[Kpush_back[m[K(const basic_json& val)
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/nlohmann/json.hpp:2857:38:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kconst nlohmann::basic_json<>&[m[K’
+ 2857 |     void push_back([01;36m[Kconst basic_json& val[m[K)
+      |                    [01;36m[K~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/usr/include/nlohmann/json.hpp:2889:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::push_back(const typename nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::object_t::value_type&) [with ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char>; typename nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::object_t::value_type = std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> >; nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::object_t = std::map<std::__cxx11::basic_string<char>, nlohmann::basic_json<>, std::less<void>, std::allocator<std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> > > >][m[K’
+ 2889 |     void [01;36m[Kpush_back[m[K(const typename object_t::value_type& val)
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/nlohmann/json.hpp:2889:57:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kconst value_type&[m[K’ {aka ‘[01m[Kconst std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> >&[m[K’}
+ 2889 |     void push_back([01;36m[Kconst typename object_t::value_type& val[m[K)
+      |                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/usr/include/nlohmann/json.hpp:2920:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::push_back(nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::initializer_list_t) [with ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char>; nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::initializer_list_t = std::initializer_list<nlohmann::detail::json_ref<nlohmann::basic_json<> > >][m[K’
+ 2920 |     void [01;36m[Kpush_back[m[K(initializer_list_t init)
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/nlohmann/json.hpp:2920:39:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Knlohmann::basic_json<>::initializer_list_t[m[K’ {aka ‘[01m[Kstd::initializer_list<nlohmann::detail::json_ref<nlohmann::basic_json<> > >[m[K’}
+ 2920 |     void push_back([01;36m[Kinitializer_list_t init[m[K)
+      |                    [01;36m[K~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2778:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kkarto::PointVectorDouble karto::LocalizedRangeScan::m_UnfilteredPointReadings[m[K’ is protected within this context
+ 2778 |     for (const auto& point : pScan->[01;31m[Km_UnfilteredPointReadings[m[K) {
+      |                                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+                 from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:38[m[K:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5845:21:[m[K [01;36m[Knote: [m[Kdeclared protected here
+ 5845 |   PointVectorDouble [01;36m[Km_UnfilteredPointReadings[m[K;
+      |                     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2779:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class karto::Vector2<double>[m[K’ has no member named ‘[01m[Kx[m[K’
+ 2779 |         unfilteredPointReadings.push_back({{"X", point.[01;31m[Kx[m[K}, {"Y", point.y}});
+      |                                                        [01;31m[K^[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2779:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class karto::Vector2<double>[m[K’ has no member named ‘[01m[Ky[m[K’
+ 2779 |         unfilteredPointReadings.push_back({{"X", point.x}, {"Y", point.[01;31m[Ky[m[K}});
+      |                                                                        [01;31m[K^[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2779:42:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Knlohmann::basic_json<>::push_back(<brace-enclosed initializer list>)[m[K’
+ 2779 |         [01;31m[KunfilteredPointReadings.push_back({{"X", point.x}, {"Y", point.y}})[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:36[m[K:
+[01m[K/usr/include/nlohmann/json.hpp:2824:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::push_back(nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>&&) [with ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char>][m[K’
+ 2824 |     void [01;36m[Kpush_back[m[K(basic_json&& val)
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/nlohmann/json.hpp:2824:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Knlohmann::basic_json<>&&[m[K’
+ 2824 |     void push_back([01;36m[Kbasic_json&& val[m[K)
+      |                    [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[01m[K/usr/include/nlohmann/json.hpp:2857:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::push_back(const nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>&) [with ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char>][m[K’
+ 2857 |     void [01;36m[Kpush_back[m[K(const basic_json& val)
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/nlohmann/json.hpp:2857:38:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kconst nlohmann::basic_json<>&[m[K’
+ 2857 |     void push_back([01;36m[Kconst basic_json& val[m[K)
+      |                    [01;36m[K~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/usr/include/nlohmann/json.hpp:2889:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::push_back(const typename nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::object_t::value_type&) [with ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char>; typename nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::object_t::value_type = std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> >; nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::object_t = std::map<std::__cxx11::basic_string<char>, nlohmann::basic_json<>, std::less<void>, std::allocator<std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> > > >][m[K’
+ 2889 |     void [01;36m[Kpush_back[m[K(const typename object_t::value_type& val)
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/nlohmann/json.hpp:2889:57:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kconst value_type&[m[K’ {aka ‘[01m[Kconst std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> >&[m[K’}
+ 2889 |     void push_back([01;36m[Kconst typename object_t::value_type& val[m[K)
+      |                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/usr/include/nlohmann/json.hpp:2920:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::push_back(nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::initializer_list_t) [with ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char>; nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::initializer_list_t = std::initializer_list<nlohmann::detail::json_ref<nlohmann::basic_json<> > >][m[K’
+ 2920 |     void [01;36m[Kpush_back[m[K(initializer_list_t init)
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/nlohmann/json.hpp:2920:39:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Knlohmann::basic_json<>::initializer_list_t[m[K’ {aka ‘[01m[Kstd::initializer_list<nlohmann::detail::json_ref<nlohmann::basic_json<> > >[m[K’}
+ 2920 |     void push_back([01;36m[Kinitializer_list_t init[m[K)
+      |                    [01;36m[K~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2784:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kkarto::BoundingBox2 karto::LocalizedRangeScan::m_BoundingBox[m[K’ is protected within this context
+ 2784 |         {pScan->[01;31m[Km_BoundingBox[m[K}
+      |                 [01;31m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+                 from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:38[m[K:
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5850:16:[m[K [01;36m[Knote: [m[Kdeclared protected here
+ 5850 |   BoundingBox2 [01;36m[Km_BoundingBox[m[K;
+      |                [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2785:5:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Knlohmann::basic_json<>::value_type[m[K’ {aka ‘[01m[Knlohmann::basic_json<>[m[K’} and ‘[01m[K<brace-enclosed initializer list>[m[K’)
+ 2785 |     [01;31m[K}[m[K;
+      |     [01;31m[K^[m[K
+In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:36[m[K:
+[01m[K/usr/include/nlohmann/json.hpp:1224:17:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Knlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>& nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::operator=(nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>) [with ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char>][m[K’
+ 1224 |     basic_json& [01;36m[Koperator[m[K=(basic_json other) noexcept (
+      |                 [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/nlohmann/json.hpp:1224:38:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Knlohmann::basic_json<>[m[K’
+ 1224 |     basic_json& operator=([01;36m[Kbasic_json other[m[K) noexcept (
+      |                           [01;36m[K~~~~~~~~~~~^~~~~[m[K
+gmake[2]: *** [lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/build.make:90: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:1045: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

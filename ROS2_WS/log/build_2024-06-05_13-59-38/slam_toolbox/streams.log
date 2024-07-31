@@ -1,0 +1,36 @@
+[2.373s] Invoking command in '/home/hp/ROS2_WS/build/slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/dynamic_tf:/opt/ros/humble /usr/bin/cmake --build /home/hp/ROS2_WS/build/slam_toolbox -- -j8 -l8
+[6.655s] [  0%] Built target ament_cmake_python_symlink_slam_toolbox
+[6.767s] [  0%] Built target slam_toolbox__cpp
+[7.005s] running egg_info
+[7.005s] writing slam_toolbox.egg-info/PKG-INFO
+[7.006s] writing dependency_links to slam_toolbox.egg-info/dependency_links.txt
+[7.006s] writing top-level names to slam_toolbox.egg-info/top_level.txt
+[7.091s] reading manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+[7.136s] [35m[1mConsolidate compiler generated dependencies of target kartoSlamToolbox[0m
+[7.257s] writing manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+[7.288s] [  0%] Built target ament_cmake_python_build_slam_toolbox_egg
+[7.758s] [ 25%] Built target slam_toolbox__rosidl_generator_c
+[7.758s] [ 25%] Built target slam_toolbox__rosidl_typesupport_fastrtps_cpp
+[7.759s] [ 27%] Built target slam_toolbox__rosidl_typesupport_introspection_cpp
+[7.759s] [ 36%] Built target slam_toolbox__rosidl_typesupport_cpp
+[7.958s] [ 45%] Built target slam_toolbox__rosidl_typesupport_c
+[8.004s] [ 54%] Built target slam_toolbox__rosidl_typesupport_introspection_c
+[8.655s] [ 63%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c
+[8.875s] [ 63%] Built target slam_toolbox
+[9.033s] [ 64%] Built target slam_toolbox__py
+[9.313s] [ 66%] Built target SlamToolboxPlugin
+[9.875s] [ 74%] Built target slam_toolbox__rosidl_generator_py
+[10.099s] [ 75%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c__pyext
+[10.108s] [ 76%] Built target slam_toolbox__rosidl_typesupport_introspection_c__pyext
+[10.118s] [ 77%] Built target slam_toolbox__rosidl_typesupport_c__pyext
+[10.586s] [ 78%] [32mBuilding CXX object lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o[0m
+[22.110s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:[m[K In member function ‘[01m[Kvirtual kt_bool karto::Mapper::Process(karto::LocalizedRangeScan*, karto::Matrix3*)[m[K’:
+[22.110s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2733:55:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kconst char [13][m[K’ and ‘[01m[Kkarto::Matrix3*[m[K’ to binary ‘[01m[Koperator*[m[K’
+[22.110s]  2733 |         inputFile << *pScan << "\n" << [32m[K"Covariance :"[m[K [01;31m[K*[m[K[34m[Kcovariance[m[K << "\n";
+[22.110s]       |                                        [32m[K~~~~~~~~~~~~~~[m[K [01;31m[K^[m[K[34m[K~~~~~~~~~~[m[K
+[22.111s]       |                                        [32m[K|[m[K               [34m[K|[m[K
+[22.111s]       |                                        [32m[Kconst char [13][m[K [34m[Kkarto::Matrix3*[m[K
+[24.774s] gmake[2]: *** [lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/build.make:90: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o] Error 1
+[24.775s] gmake[1]: *** [CMakeFiles/Makefile2:1045: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/all] Error 2
+[24.775s] gmake: *** [Makefile:146: all] Error 2
+[24.813s] Invoked command in '/home/hp/ROS2_WS/build/slam_toolbox' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/dynamic_tf:/opt/ros/humble /usr/bin/cmake --build /home/hp/ROS2_WS/build/slam_toolbox -- -j8 -l8

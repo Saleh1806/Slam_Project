@@ -1,0 +1,1167 @@
+[1.082s] Invoking command in '/home/hp/ROS2_WS/src/build/slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/dynamic_tf:/home/hp/ROS2_WS/install/Dynamic_tf:/home/hp/ROS2_WS/install/DYNAMIC_TF:/home/hp/ROS2_WS/src/install/my_robot_controller:/home/hp/ROS2_WS/src/install/my_exo:/home/hp/ROS2_WS/src/install/dynamic_tf:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/hp/ROS2_WS/src/build/slam_toolbox -- -j8 -l8
+[1.204s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.227s] [  1%] Built target ament_cmake_python_symlink_slam_toolbox
+[1.229s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.238s] [  2%] [32mBuilding CXX object lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o[0m
+[1.246s] [  3%] [32mBuilding CXX object lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Karto.cpp.o[0m
+[1.408s] Traceback (most recent call last):
+[1.408s]   File "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 8, in <module>
+[1.417s]     from rosidl_generator_cpp import generate_cpp
+[1.417s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py", line 17, in <module>
+[1.417s]     from rosidl_cmake import generate_files
+[1.417s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 24, in <module>
+[1.418s]     from rosidl_parser.parser import parse_idl_file
+[1.418s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 20, in <module>
+[1.418s]     from lark import Lark
+[1.418s] ModuleNotFoundError: No module named 'lark'
+[1.431s] Traceback (most recent call last):
+[1.432s]   File "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 8, in <module>
+[1.432s]     from rosidl_generator_c import generate_c
+[1.434s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_c/__init__.py", line 15, in <module>
+[1.434s]     from rosidl_cmake import convert_camel_case_to_lower_case_underscore
+[1.434s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 24, in <module>
+[1.435s]     from rosidl_parser.parser import parse_idl_file
+[1.435s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 20, in <module>
+[1.435s]     from lark import Lark
+[1.435s] ModuleNotFoundError: No module named 'lark'
+[1.453s] gmake[2]: *** [CMakeFiles/slam_toolbox__cpp.dir/build.make:252: rosidl_generator_cpp/slam_toolbox/srv/pause.hpp] Error 1
+[1.453s] gmake[1]: *** [CMakeFiles/Makefile2:311: CMakeFiles/slam_toolbox__cpp.dir/all] Error 2
+[1.453s] gmake[1]: *** Waiting for unfinished jobs....
+[1.457s] gmake[2]: *** [CMakeFiles/slam_toolbox__rosidl_generator_c.dir/build.make:208: rosidl_generator_c/slam_toolbox/srv/pause.h] Error 1
+[1.457s] gmake[1]: *** [CMakeFiles/Makefile2:258: CMakeFiles/slam_toolbox__rosidl_generator_c.dir/all] Error 2
+[1.758s] running egg_info
+[1.758s] creating slam_toolbox.egg-info
+[1.791s] writing slam_toolbox.egg-info/PKG-INFO
+[1.792s] writing dependency_links to slam_toolbox.egg-info/dependency_links.txt
+[1.792s] writing top-level names to slam_toolbox.egg-info/top_level.txt
+[1.792s] writing manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+[1.897s] reading manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+[1.897s] writing manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+[1.964s] [  3%] Built target ament_cmake_python_build_slam_toolbox_egg
+[6.315s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:36:10:[m[K [01;31m[Kfatal error: [m[KProcessData.h: No such file or directory
+[6.315s]    36 | #include [01;31m[K"ProcessData.h"[m[K
+[6.315s]       |          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[6.315s] compilation terminated.
+[6.318s] gmake[2]: *** [lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/build.make:90: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o] Error 1
+[6.318s] gmake[2]: *** Waiting for unfinished jobs....
+[12.171s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.171s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2704:5:[m[K [01;31m[Kerror: [m[K‘[01m[KLocalizedRangeScan[m[K’ does not name a type
+[12.171s]  2704 |     [01;31m[KLocalizedRangeScan[m[K scan;
+[12.171s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[12.180s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2707:28:[m[K [01;31m[Kerror: [m[K‘[01m[KLocalizedRangeScan[m[K’ does not name a type
+[12.180s]  2707 |     ProcessInputData(const [01;31m[KLocalizedRangeScan[m[K& s, const Matrix3& cov)
+[12.180s]       |                            [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[12.180s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:[m[K In constructor ‘[01m[Kkarto::ProcessInputData::ProcessInputData(const int&, const karto::Matrix3&)[m[K’:
+[12.180s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2708:11:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Kkarto::ProcessInputData[m[K’ does not have any field named ‘[01m[Kscan[m[K’
+[12.180s]  2708 |         : [01;31m[Kscan[m[K(s), covariance(cov) {}
+[12.180s]       |           [01;31m[K^~~~[m[K
+[12.184s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:[m[K In member function ‘[01m[Kvoid karto::ProcessInputData::Save(const string&) const[m[K’:
+[12.184s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2713:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan[m[K’ was not declared in this scope; did you mean ‘[01m[Kscanf[m[K’?
+[12.184s]  2713 |             ofs << [01;31m[Kscan[m[K << "\n"; // Assuming operator<< is defined for LocalizedRangeScan
+[12.185s]       |                    [01;31m[K^~~~[m[K
+[12.185s]       |                    [32m[Kscanf[m[K
+[12.194s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:[m[K At global scope:
+[12.194s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2725:5:[m[K [01;31m[Kerror: [m[K‘[01m[KLocalizedRangeScan[m[K’ does not name a type
+[12.194s]  2725 |     [01;31m[KLocalizedRangeScan[m[K scan;
+[12.194s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[12.204s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2728:39:[m[K [01;31m[Kerror: [m[K‘[01m[KLocalizedRangeScan[m[K’ does not name a type
+[12.204s]  2728 |     ProcessOutputData(bool res, const [01;31m[KLocalizedRangeScan[m[K& s, const Matrix3& cov)
+[12.204s]       |                                       [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[12.204s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:[m[K In constructor ‘[01m[Kkarto::ProcessOutputData::ProcessOutputData(bool, const int&, const karto::Matrix3&)[m[K’:
+[12.204s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2729:24:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Kkarto::ProcessOutputData[m[K’ does not have any field named ‘[01m[Kscan[m[K’
+[12.204s]  2729 |         : result(res), [01;31m[Kscan[m[K(s), covariance(cov) {}
+[12.204s]       |                        [01;31m[K^~~~[m[K
+[12.209s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:[m[K In member function ‘[01m[Kvoid karto::ProcessOutputData::Save(const string&) const[m[K’:
+[12.209s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:2735:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan[m[K’ was not declared in this scope; did you mean ‘[01m[Kscanf[m[K’?
+[12.209s]  2735 |             ofs << [01;31m[Kscan[m[K << "\n"; // Assuming operator<< is defined for LocalizedRangeScan
+[12.209s]       |                    [01;31m[K^~~~[m[K
+[12.209s]       |                    [32m[Kscanf[m[K
+[12.261s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.261s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:[m[K In function ‘[01m[Kstd::ostream& karto::operator<<(std::ostream&, const karto::LocalizedRangeScan&)[m[K’:
+[12.261s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5821:30:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator<<[m[K’ (operand types are ‘[01m[Kstd::basic_ostream<char>[m[K’ and ‘[01m[Kconst karto::BoundingBox2[m[K’)
+[12.261s]  5821 |     [32m[Kos << "\nBounding Box: "[m[K [01;31m[K<<[m[K [34m[Kscan.m_BoundingBox[m[K << "\n";
+[12.261s]       |     [32m[K~~~~~~~~~~~~~~~~~~~~~~~~[m[K [01;31m[K^~[m[K [34m[K~~~~~~~~~~~~~~~~~~[m[K
+[12.261s]       |        [32m[K|[m[K                             [34m[K|[m[K
+[12.261s]       |        [32m[Kstd::basic_ostream<char>[m[K      [34m[Kconst karto::BoundingBox2[m[K
+[12.261s] In file included from [01m[K/home/hp/anaconda3/include/boost/system/detail/error_code.hpp:33[m[K,
+[12.262s]                  from [01m[K/home/hp/anaconda3/include/boost/system/errc.hpp:14[m[K,
+[12.262s]                  from [01m[K/home/hp/anaconda3/include/boost/system/system_error.hpp:9[m[K,
+[12.262s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/exceptions.hpp:22[m[K,
+[12.262s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/pthread/thread_data.hpp:10[m[K,
+[12.262s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread_only.hpp:17[m[K,
+[12.262s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread.hpp:12[m[K,
+[12.262s]                  from [01m[K/home/hp/anaconda3/include/boost/thread.hpp:13[m[K,
+[12.262s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:26[m[K,
+[12.262s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.263s] [01m[K/usr/include/c++/11/ostream:108:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ostream_type& (*)(std::basic_ostream<_CharT, _Traits>::__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[12.263s]   108 |       [01;36m[Koperator[m[K<<(__ostream_type& (*__pf)(__ostream_type&))
+[12.263s]       |       [01;36m[K^~~~~~~~[m[K
+[12.263s] [01m[K/usr/include/c++/11/ostream:108:36:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst karto::BoundingBox2[m[K’ to ‘[01m[Kstd::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&)[m[K’ {aka ‘[01m[Kstd::basic_ostream<char>& (*)(std::basic_ostream<char>&)[m[K’}
+[12.263s]   108 |       operator<<([01;36m[K__ostream_type& (*__pf)(__ostream_type&)[m[K)
+[12.263s]       |                  [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.263s] [01m[K/usr/include/c++/11/ostream:117:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ios_type& (*)(std::basic_ostream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::basic_ostream<_CharT, _Traits>::__ios_type = std::basic_ios<char>][m[K’
+[12.263s]   117 |       [01;36m[Koperator[m[K<<(__ios_type& (*__pf)(__ios_type&))
+[12.264s]       |       [01;36m[K^~~~~~~~[m[K
+[12.264s] [01m[K/usr/include/c++/11/ostream:117:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst karto::BoundingBox2[m[K’ to ‘[01m[Kstd::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&)[m[K’ {aka ‘[01m[Kstd::basic_ios<char>& (*)(std::basic_ios<char>&)[m[K’}
+[12.264s]   117 |       operator<<([01;36m[K__ios_type& (*__pf)(__ios_type&)[m[K)
+[12.264s]       |                  [01;36m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[12.264s] [01m[K/usr/include/c++/11/ostream:127:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[12.264s]   127 |       [01;36m[Koperator[m[K<<(ios_base& (*__pf) (ios_base&))
+[12.265s]       |       [01;36m[K^~~~~~~~[m[K
+[12.265s] [01m[K/usr/include/c++/11/ostream:127:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst karto::BoundingBox2[m[K’ to ‘[01m[Kstd::ios_base& (*)(std::ios_base&)[m[K’
+[12.265s]   127 |       operator<<([01;36m[Kios_base& (*__pf) (ios_base&)[m[K)
+[12.265s]       |                  [01;36m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[12.265s] [01m[K/usr/include/c++/11/ostream:166:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[12.265s]   166 |       [01;36m[Koperator[m[K<<(long __n)
+[12.265s]       |       [01;36m[K^~~~~~~~[m[K
+[12.265s] [01m[K/usr/include/c++/11/ostream:166:23:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst karto::BoundingBox2[m[K’ to ‘[01m[Klong int[m[K’
+[12.265s]   166 |       operator<<([01;36m[Klong __n[m[K)
+[12.265s]       |                  [01;36m[K~~~~~^~~[m[K
+[12.265s] [01m[K/usr/include/c++/11/ostream:170:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[12.265s]   170 |       [01;36m[Koperator[m[K<<(unsigned long __n)
+[12.266s]       |       [01;36m[K^~~~~~~~[m[K
+[12.266s] [01m[K/usr/include/c++/11/ostream:170:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst karto::BoundingBox2[m[K’ to ‘[01m[Klong unsigned int[m[K’
+[12.266s]   170 |       operator<<([01;36m[Kunsigned long __n[m[K)
+[12.266s]       |                  [01;36m[K~~~~~~~~~~~~~~^~~[m[K
+[12.266s] [01m[K/usr/include/c++/11/ostream:174:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[12.266s]   174 |       [01;36m[Koperator[m[K<<(bool __n)
+[12.267s]       |       [01;36m[K^~~~~~~~[m[K
+[12.267s] [01m[K/usr/include/c++/11/ostream:174:23:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst karto::BoundingBox2[m[K’ to ‘[01m[Kbool[m[K’
+[12.267s]   174 |       operator<<([01;36m[Kbool __n[m[K)
+[12.267s]       |                  [01;36m[K~~~~~^~~[m[K
+[12.268s] In file included from [01m[K/usr/include/c++/11/ostream:829[m[K,
+[12.268s]                  from [01m[K/home/hp/anaconda3/include/boost/system/detail/error_code.hpp:33[m[K,
+[12.268s]                  from [01m[K/home/hp/anaconda3/include/boost/system/errc.hpp:14[m[K,
+[12.268s]                  from [01m[K/home/hp/anaconda3/include/boost/system/system_error.hpp:9[m[K,
+[12.268s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/exceptions.hpp:22[m[K,
+[12.268s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/pthread/thread_data.hpp:10[m[K,
+[12.268s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread_only.hpp:17[m[K,
+[12.268s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread.hpp:12[m[K,
+[12.268s]                  from [01m[K/home/hp/anaconda3/include/boost/thread.hpp:13[m[K,
+[12.268s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:26[m[K,
+[12.268s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.268s] [01m[K/usr/include/c++/11/bits/ostream.tcc:91:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>][m[K’
+[12.268s]    91 |     [01;36m[Kbasic_ostream<_CharT, _Traits>[m[K::
+[12.269s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.269s] [01m[K/usr/include/c++/11/bits/ostream.tcc:92:22:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst karto::BoundingBox2[m[K’ to ‘[01m[Kshort int[m[K’
+[12.269s]    92 |     operator<<([01;36m[Kshort __n[m[K)
+[12.269s]       |                [01;36m[K~~~~~~^~~[m[K
+[12.269s] In file included from [01m[K/home/hp/anaconda3/include/boost/system/detail/error_code.hpp:33[m[K,
+[12.269s]                  from [01m[K/home/hp/anaconda3/include/boost/system/errc.hpp:14[m[K,
+[12.269s]                  from [01m[K/home/hp/anaconda3/include/boost/system/system_error.hpp:9[m[K,
+[12.269s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/exceptions.hpp:22[m[K,
+[12.269s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/pthread/thread_data.hpp:10[m[K,
+[12.269s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread_only.hpp:17[m[K,
+[12.269s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread.hpp:12[m[K,
+[12.269s]                  from [01m[K/home/hp/anaconda3/include/boost/thread.hpp:13[m[K,
+[12.269s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:26[m[K,
+[12.269s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.270s] [01m[K/usr/include/c++/11/ostream:181:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[12.270s]   181 |       [01;36m[Koperator[m[K<<(unsigned short __n)
+[12.270s]       |       [01;36m[K^~~~~~~~[m[K
+[12.270s] [01m[K/usr/include/c++/11/ostream:181:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst karto::BoundingBox2[m[K’ to ‘[01m[Kshort unsigned int[m[K’
+[12.270s]   181 |       operator<<([01;36m[Kunsigned short __n[m[K)
+[12.270s]       |                  [01;36m[K~~~~~~~~~~~~~~~^~~[m[K
+[12.270s] In file included from [01m[K/usr/include/c++/11/ostream:829[m[K,
+[12.270s]                  from [01m[K/home/hp/anaconda3/include/boost/system/detail/error_code.hpp:33[m[K,
+[12.270s]                  from [01m[K/home/hp/anaconda3/include/boost/system/errc.hpp:14[m[K,
+[12.270s]                  from [01m[K/home/hp/anaconda3/include/boost/system/system_error.hpp:9[m[K,
+[12.270s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/exceptions.hpp:22[m[K,
+[12.270s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/pthread/thread_data.hpp:10[m[K,
+[12.270s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread_only.hpp:17[m[K,
+[12.270s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread.hpp:12[m[K,
+[12.270s]                  from [01m[K/home/hp/anaconda3/include/boost/thread.hpp:13[m[K,
+[12.270s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:26[m[K,
+[12.270s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.270s] [01m[K/usr/include/c++/11/bits/ostream.tcc:105:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>][m[K’
+[12.270s]   105 |     [01;36m[Kbasic_ostream<_CharT, _Traits>[m[K::
+[12.270s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.271s] [01m[K/usr/include/c++/11/bits/ostream.tcc:106:20:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst karto::BoundingBox2[m[K’ to ‘[01m[Kint[m[K’
+[12.271s]   106 |     operator<<([01;36m[Kint __n[m[K)
+[12.271s]       |                [01;36m[K~~~~^~~[m[K
+[12.271s] In file included from [01m[K/home/hp/anaconda3/include/boost/system/detail/error_code.hpp:33[m[K,
+[12.271s]                  from [01m[K/home/hp/anaconda3/include/boost/system/errc.hpp:14[m[K,
+[12.271s]                  from [01m[K/home/hp/anaconda3/include/boost/system/system_error.hpp:9[m[K,
+[12.271s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/exceptions.hpp:22[m[K,
+[12.271s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/pthread/thread_data.hpp:10[m[K,
+[12.271s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread_only.hpp:17[m[K,
+[12.271s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread.hpp:12[m[K,
+[12.271s]                  from [01m[K/home/hp/anaconda3/include/boost/thread.hpp:13[m[K,
+[12.271s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:26[m[K,
+[12.271s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.271s] [01m[K/usr/include/c++/11/ostream:192:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[12.271s]   192 |       [01;36m[Koperator[m[K<<(unsigned int __n)
+[12.271s]       |       [01;36m[K^~~~~~~~[m[K
+[12.271s] [01m[K/usr/include/c++/11/ostream:192:31:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst karto::BoundingBox2[m[K’ to ‘[01m[Kunsigned int[m[K’
+[12.272s]   192 |       operator<<([01;36m[Kunsigned int __n[m[K)
+[12.272s]       |                  [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[12.272s] [01m[K/usr/include/c++/11/ostream:201:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[12.272s]   201 |       [01;36m[Koperator[m[K<<(long long __n)
+[12.272s]       |       [01;36m[K^~~~~~~~[m[K
+[12.272s] [01m[K/usr/include/c++/11/ostream:201:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst karto::BoundingBox2[m[K’ to ‘[01m[Klong long int[m[K’
+[12.272s]   201 |       operator<<([01;36m[Klong long __n[m[K)
+[12.272s]       |                  [01;36m[K~~~~~~~~~~^~~[m[K
+[12.272s] [01m[K/usr/include/c++/11/ostream:205:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[12.272s]   205 |       [01;36m[Koperator[m[K<<(unsigned long long __n)
+[12.272s]       |       [01;36m[K^~~~~~~~[m[K
+[12.272s] [01m[K/usr/include/c++/11/ostream:205:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst karto::BoundingBox2[m[K’ to ‘[01m[Klong long unsigned int[m[K’
+[12.272s]   205 |       operator<<([01;36m[Kunsigned long long __n[m[K)
+[12.272s]       |                  [01;36m[K~~~~~~~~~~~~~~~~~~~^~~[m[K
+[12.272s] [01m[K/usr/include/c++/11/ostream:220:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[12.272s]   220 |       [01;36m[Koperator[m[K<<(double __f)
+[12.272s]       |       [01;36m[K^~~~~~~~[m[K
+[12.272s] [01m[K/usr/include/c++/11/ostream:220:25:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst karto::BoundingBox2[m[K’ to ‘[01m[Kdouble[m[K’
+[12.272s]   220 |       operator<<([01;36m[Kdouble __f[m[K)
+[12.273s]       |                  [01;36m[K~~~~~~~^~~[m[K
+[12.273s] [01m[K/usr/include/c++/11/ostream:224:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[12.273s]   224 |       [01;36m[Koperator[m[K<<(float __f)
+[12.273s]       |       [01;36m[K^~~~~~~~[m[K
+[12.273s] [01m[K/usr/include/c++/11/ostream:224:24:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst karto::BoundingBox2[m[K’ to ‘[01m[Kfloat[m[K’
+[12.273s]   224 |       operator<<([01;36m[Kfloat __f[m[K)
+[12.273s]       |                  [01;36m[K~~~~~~^~~[m[K
+[12.273s] [01m[K/usr/include/c++/11/ostream:232:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[12.273s]   232 |       [01;36m[Koperator[m[K<<(long double __f)
+[12.273s]       |       [01;36m[K^~~~~~~~[m[K
+[12.273s] [01m[K/usr/include/c++/11/ostream:232:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst karto::BoundingBox2[m[K’ to ‘[01m[Klong double[m[K’
+[12.273s]   232 |       operator<<([01;36m[Klong double __f[m[K)
+[12.273s]       |                  [01;36m[K~~~~~~~~~~~~^~~[m[K
+[12.273s] [01m[K/usr/include/c++/11/ostream:245:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[12.273s]   245 |       [01;36m[Koperator[m[K<<(const void* __p)
+[12.273s]       |       [01;36m[K^~~~~~~~[m[K
+[12.273s] [01m[K/usr/include/c++/11/ostream:245:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst karto::BoundingBox2[m[K’ to ‘[01m[Kconst void*[m[K’
+[12.273s]   245 |       operator<<([01;36m[Kconst void* __p[m[K)
+[12.273s]       |                  [01;36m[K~~~~~~~~~~~~^~~[m[K
+[12.273s] [01m[K/usr/include/c++/11/ostream:250:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::nullptr_t) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::nullptr_t = std::nullptr_t][m[K’
+[12.274s]   250 |       [01;36m[Koperator[m[K<<(nullptr_t)
+[12.274s]       |       [01;36m[K^~~~~~~~[m[K
+[12.274s] [01m[K/usr/include/c++/11/ostream:250:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst karto::BoundingBox2[m[K’ to ‘[01m[Kstd::nullptr_t[m[K’
+[12.274s]   250 |       operator<<([01;36m[Knullptr_t[m[K)
+[12.274s]       |                  [01;36m[K^~~~~~~~~[m[K
+[12.274s] In file included from [01m[K/usr/include/c++/11/ostream:829[m[K,
+[12.274s]                  from [01m[K/home/hp/anaconda3/include/boost/system/detail/error_code.hpp:33[m[K,
+[12.274s]                  from [01m[K/home/hp/anaconda3/include/boost/system/errc.hpp:14[m[K,
+[12.274s]                  from [01m[K/home/hp/anaconda3/include/boost/system/system_error.hpp:9[m[K,
+[12.274s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/exceptions.hpp:22[m[K,
+[12.274s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/pthread/thread_data.hpp:10[m[K,
+[12.274s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread_only.hpp:17[m[K,
+[12.274s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread.hpp:12[m[K,
+[12.274s]                  from [01m[K/home/hp/anaconda3/include/boost/thread.hpp:13[m[K,
+[12.274s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:26[m[K,
+[12.274s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.274s] [01m[K/usr/include/c++/11/bits/ostream.tcc:119:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>][m[K’
+[12.274s]   119 |     [01;36m[Kbasic_ostream<_CharT, _Traits>[m[K::
+[12.274s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.274s] [01m[K/usr/include/c++/11/bits/ostream.tcc:120:34:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst karto::BoundingBox2[m[K’ to ‘[01m[Kstd::basic_ostream<char>::__streambuf_type*[m[K’ {aka ‘[01m[Kstd::basic_streambuf<char>*[m[K’}
+[12.274s]   120 |     operator<<([01;36m[K__streambuf_type* __sbin[m[K)
+[12.274s]       |                [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[12.275s] In file included from [01m[K/home/hp/anaconda3/include/boost/serialization/export.hpp:25[m[K,
+[12.275s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:18[m[K:
+[12.275s] [01m[K/usr/include/c++/11/cstddef:126:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IntegerType> constexpr std::__byte_op_t<_IntegerType> std::operator<<(std::byte, _IntegerType)[m[K’
+[12.275s]   126 |     [01;36m[Koperator[m[K<<(byte __b, _IntegerType __shift) noexcept
+[12.275s]       |     [01;36m[K^~~~~~~~[m[K
+[12.275s] [01m[K/usr/include/c++/11/cstddef:126:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.275s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.275s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5821:8:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kstd::operator<< <std::char_traits<char> >((* & os), ((const char*)"\012Bounding Box: "))[m[K’ (type ‘[01m[Kstd::basic_ostream<char>[m[K’) to type ‘[01m[Kstd::byte[m[K’
+[12.275s]  5821 |     [01;36m[Kos << "\nBounding Box: "[m[K << scan.m_BoundingBox << "\n";
+[12.275s]       |     [01;36m[K~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[12.275s] In file included from [01m[K/usr/include/c++/11/bits/basic_string.h:48[m[K,
+[12.275s]                  from [01m[K/usr/include/c++/11/string:55[m[K,
+[12.275s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:26[m[K:
+[12.275s] [01m[K/usr/include/c++/11/string_view:667:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::basic_string_view<_CharT, _Traits>)[m[K’
+[12.275s]   667 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os,
+[12.275s]       |     [01;36m[K^~~~~~~~[m[K
+[12.275s] [01m[K/usr/include/c++/11/string_view:667:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.275s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.275s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5821:38:[m[K [01;36m[Knote: [m[K  ‘[01m[Kkarto::BoundingBox2[m[K’ is not derived from ‘[01m[Kstd::basic_string_view<_CharT, _Traits>[m[K’
+[12.276s]  5821 |     os << "\nBounding Box: " << scan.[01;36m[Km_BoundingBox[m[K << "\n";
+[12.276s]       |                                      [01;36m[K^~~~~~~~~~~~~[m[K
+[12.276s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[12.276s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:26[m[K:
+[12.276s] [01m[K/usr/include/c++/11/bits/basic_string.h:6531:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+[12.276s]  6531 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os,
+[12.276s]       |     [01;36m[K^~~~~~~~[m[K
+[12.276s] [01m[K/usr/include/c++/11/bits/basic_string.h:6531:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.276s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.276s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5821:38:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst karto::BoundingBox2[m[K’ is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+[12.276s]  5821 |     os << "\nBounding Box: " << scan.[01;36m[Km_BoundingBox[m[K << "\n";
+[12.276s]       |                                      [01;36m[K^~~~~~~~~~~~~[m[K
+[12.276s] In file included from [01m[K/home/hp/anaconda3/include/boost/system/detail/error_category.hpp:22[m[K,
+[12.276s]                  from [01m[K/home/hp/anaconda3/include/boost/system/detail/error_code.hpp:14[m[K,
+[12.276s]                  from [01m[K/home/hp/anaconda3/include/boost/system/errc.hpp:14[m[K,
+[12.276s]                  from [01m[K/home/hp/anaconda3/include/boost/system/system_error.hpp:9[m[K,
+[12.276s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/exceptions.hpp:22[m[K,
+[12.276s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/pthread/thread_data.hpp:10[m[K,
+[12.276s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread_only.hpp:17[m[K,
+[12.277s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread.hpp:12[m[K,
+[12.277s]                  from [01m[K/home/hp/anaconda3/include/boost/thread.hpp:13[m[K,
+[12.277s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:26[m[K,
+[12.277s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.277s] [01m[K/usr/include/c++/11/system_error:279:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::error_code&)[m[K’
+[12.277s]   279 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
+[12.277s]       |     [01;36m[K^~~~~~~~[m[K
+[12.277s] [01m[K/usr/include/c++/11/system_error:279:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.277s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.277s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5821:38:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kscan.karto::LocalizedRangeScan::m_BoundingBox[m[K’ (type ‘[01m[Kconst karto::BoundingBox2[m[K’) to type ‘[01m[Kconst std::error_code&[m[K’
+[12.277s]  5821 |     os << "\nBounding Box: " << [01;36m[Kscan.m_BoundingBox[m[K << "\n";
+[12.277s]       |                                 [01;36m[K~~~~~^~~~~~~~~~~~~[m[K
+[12.277s] In file included from [01m[K/home/hp/anaconda3/include/boost/system/detail/error_code.hpp:33[m[K,
+[12.277s]                  from [01m[K/home/hp/anaconda3/include/boost/system/errc.hpp:14[m[K,
+[12.277s]                  from [01m[K/home/hp/anaconda3/include/boost/system/system_error.hpp:9[m[K,
+[12.277s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/exceptions.hpp:22[m[K,
+[12.277s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/pthread/thread_data.hpp:10[m[K,
+[12.277s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread_only.hpp:17[m[K,
+[12.277s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread.hpp:12[m[K,
+[12.277s]                  from [01m[K/home/hp/anaconda3/include/boost/thread.hpp:13[m[K,
+[12.277s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:26[m[K,
+[12.278s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.278s] [01m[K/usr/include/c++/11/ostream:513:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)[m[K’
+[12.278s]   513 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+[12.278s]       |     [01;36m[K^~~~~~~~[m[K
+[12.278s] [01m[K/usr/include/c++/11/ostream:513:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.278s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.278s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5821:38:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[K_CharT[m[K’ (‘[01m[Kchar[m[K’ and ‘[01m[Kkarto::BoundingBox2[m[K’)
+[12.278s]  5821 |     os << "\nBounding Box: " << scan.[01;36m[Km_BoundingBox[m[K << "\n";
+[12.278s]       |                                      [01;36m[K^~~~~~~~~~~~~[m[K
+[12.278s] In file included from [01m[K/home/hp/anaconda3/include/boost/system/detail/error_code.hpp:33[m[K,
+[12.278s]                  from [01m[K/home/hp/anaconda3/include/boost/system/errc.hpp:14[m[K,
+[12.278s]                  from [01m[K/home/hp/anaconda3/include/boost/system/system_error.hpp:9[m[K,
+[12.278s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/exceptions.hpp:22[m[K,
+[12.278s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/pthread/thread_data.hpp:10[m[K,
+[12.278s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread_only.hpp:17[m[K,
+[12.278s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread.hpp:12[m[K,
+[12.278s]                  from [01m[K/home/hp/anaconda3/include/boost/thread.hpp:13[m[K,
+[12.278s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:26[m[K,
+[12.278s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.278s] [01m[K/usr/include/c++/11/ostream:518:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)[m[K’
+[12.278s]   518 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+[12.278s]       |     [01;36m[K^~~~~~~~[m[K
+[12.279s] [01m[K/usr/include/c++/11/ostream:518:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.279s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.279s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5821:38:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kscan.karto::LocalizedRangeScan::m_BoundingBox[m[K’ (type ‘[01m[Kconst karto::BoundingBox2[m[K’) to type ‘[01m[Kchar[m[K’
+[12.279s]  5821 |     os << "\nBounding Box: " << [01;36m[Kscan.m_BoundingBox[m[K << "\n";
+[12.279s]       |                                 [01;36m[K~~~~~^~~~~~~~~~~~~[m[K
+[12.279s] In file included from [01m[K/home/hp/anaconda3/include/boost/system/detail/error_code.hpp:33[m[K,
+[12.279s]                  from [01m[K/home/hp/anaconda3/include/boost/system/errc.hpp:14[m[K,
+[12.279s]                  from [01m[K/home/hp/anaconda3/include/boost/system/system_error.hpp:9[m[K,
+[12.279s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/exceptions.hpp:22[m[K,
+[12.279s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/pthread/thread_data.hpp:10[m[K,
+[12.279s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread_only.hpp:17[m[K,
+[12.279s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread.hpp:12[m[K,
+[12.279s]                  from [01m[K/home/hp/anaconda3/include/boost/thread.hpp:13[m[K,
+[12.279s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:26[m[K,
+[12.279s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.279s] [01m[K/usr/include/c++/11/ostream:524:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)[m[K’
+[12.279s]   524 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, char __c)
+[12.279s]       |     [01;36m[K^~~~~~~~[m[K
+[12.279s] [01m[K/usr/include/c++/11/ostream:524:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.280s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.280s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5821:38:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kscan.karto::LocalizedRangeScan::m_BoundingBox[m[K’ (type ‘[01m[Kconst karto::BoundingBox2[m[K’) to type ‘[01m[Kchar[m[K’
+[12.280s]  5821 |     os << "\nBounding Box: " << [01;36m[Kscan.m_BoundingBox[m[K << "\n";
+[12.280s]       |                                 [01;36m[K~~~~~^~~~~~~~~~~~~[m[K
+[12.280s] In file included from [01m[K/home/hp/anaconda3/include/boost/system/detail/error_code.hpp:33[m[K,
+[12.280s]                  from [01m[K/home/hp/anaconda3/include/boost/system/errc.hpp:14[m[K,
+[12.280s]                  from [01m[K/home/hp/anaconda3/include/boost/system/system_error.hpp:9[m[K,
+[12.280s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/exceptions.hpp:22[m[K,
+[12.280s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/pthread/thread_data.hpp:10[m[K,
+[12.280s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread_only.hpp:17[m[K,
+[12.280s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread.hpp:12[m[K,
+[12.280s]                  from [01m[K/home/hp/anaconda3/include/boost/thread.hpp:13[m[K,
+[12.280s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:26[m[K,
+[12.280s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.280s] [01m[K/usr/include/c++/11/ostream:530:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)[m[K’
+[12.280s]   530 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, signed char __c)
+[12.280s]       |     [01;36m[K^~~~~~~~[m[K
+[12.280s] [01m[K/usr/include/c++/11/ostream:530:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.280s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.281s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5821:38:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kscan.karto::LocalizedRangeScan::m_BoundingBox[m[K’ (type ‘[01m[Kconst karto::BoundingBox2[m[K’) to type ‘[01m[Ksigned char[m[K’
+[12.281s]  5821 |     os << "\nBounding Box: " << [01;36m[Kscan.m_BoundingBox[m[K << "\n";
+[12.281s]       |                                 [01;36m[K~~~~~^~~~~~~~~~~~~[m[K
+[12.281s] In file included from [01m[K/home/hp/anaconda3/include/boost/system/detail/error_code.hpp:33[m[K,
+[12.281s]                  from [01m[K/home/hp/anaconda3/include/boost/system/errc.hpp:14[m[K,
+[12.281s]                  from [01m[K/home/hp/anaconda3/include/boost/system/system_error.hpp:9[m[K,
+[12.281s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/exceptions.hpp:22[m[K,
+[12.281s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/pthread/thread_data.hpp:10[m[K,
+[12.281s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread_only.hpp:17[m[K,
+[12.281s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread.hpp:12[m[K,
+[12.281s]                  from [01m[K/home/hp/anaconda3/include/boost/thread.hpp:13[m[K,
+[12.281s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:26[m[K,
+[12.281s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.281s] [01m[K/usr/include/c++/11/ostream:535:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)[m[K’
+[12.281s]   535 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+[12.281s]       |     [01;36m[K^~~~~~~~[m[K
+[12.281s] [01m[K/usr/include/c++/11/ostream:535:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.281s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.281s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5821:38:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kscan.karto::LocalizedRangeScan::m_BoundingBox[m[K’ (type ‘[01m[Kconst karto::BoundingBox2[m[K’) to type ‘[01m[Kunsigned char[m[K’
+[12.281s]  5821 |     os << "\nBounding Box: " << [01;36m[Kscan.m_BoundingBox[m[K << "\n";
+[12.281s]       |                                 [01;36m[K~~~~~^~~~~~~~~~~~~[m[K
+[12.281s] In file included from [01m[K/home/hp/anaconda3/include/boost/system/detail/error_code.hpp:33[m[K,
+[12.282s]                  from [01m[K/home/hp/anaconda3/include/boost/system/errc.hpp:14[m[K,
+[12.282s]                  from [01m[K/home/hp/anaconda3/include/boost/system/system_error.hpp:9[m[K,
+[12.282s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/exceptions.hpp:22[m[K,
+[12.282s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/pthread/thread_data.hpp:10[m[K,
+[12.282s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread_only.hpp:17[m[K,
+[12.282s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread.hpp:12[m[K,
+[12.282s]                  from [01m[K/home/hp/anaconda3/include/boost/thread.hpp:13[m[K,
+[12.282s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:26[m[K,
+[12.282s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.282s] [01m[K/usr/include/c++/11/ostream:594:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)[m[K’
+[12.282s]   594 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+[12.282s]       |     [01;36m[K^~~~~~~~[m[K
+[12.282s] [01m[K/usr/include/c++/11/ostream:594:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.282s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.282s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5821:38:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[Kkarto::BoundingBox2[m[K’
+[12.282s]  5821 |     os << "\nBounding Box: " << scan.[01;36m[Km_BoundingBox[m[K << "\n";
+[12.282s]       |                                      [01;36m[K^~~~~~~~~~~~~[m[K
+[12.282s] In file included from [01m[K/usr/include/c++/11/ostream:829[m[K,
+[12.282s]                  from [01m[K/home/hp/anaconda3/include/boost/system/detail/error_code.hpp:33[m[K,
+[12.282s]                  from [01m[K/home/hp/anaconda3/include/boost/system/errc.hpp:14[m[K,
+[12.282s]                  from [01m[K/home/hp/anaconda3/include/boost/system/system_error.hpp:9[m[K,
+[12.282s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/exceptions.hpp:22[m[K,
+[12.282s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/pthread/thread_data.hpp:10[m[K,
+[12.283s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread_only.hpp:17[m[K,
+[12.283s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread.hpp:12[m[K,
+[12.283s]                  from [01m[K/home/hp/anaconda3/include/boost/thread.hpp:13[m[K,
+[12.283s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:26[m[K,
+[12.283s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.283s] [01m[K/usr/include/c++/11/bits/ostream.tcc:321:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)[m[K’
+[12.283s]   321 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+[12.283s]       |     [01;36m[K^~~~~~~~[m[K
+[12.283s] [01m[K/usr/include/c++/11/bits/ostream.tcc:321:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.283s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.283s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5821:38:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kscan.karto::LocalizedRangeScan::m_BoundingBox[m[K’ (type ‘[01m[Kconst karto::BoundingBox2[m[K’) to type ‘[01m[Kconst char*[m[K’
+[12.283s]  5821 |     os << "\nBounding Box: " << [01;36m[Kscan.m_BoundingBox[m[K << "\n";
+[12.283s]       |                                 [01;36m[K~~~~~^~~~~~~~~~~~~[m[K
+[12.283s] In file included from [01m[K/home/hp/anaconda3/include/boost/system/detail/error_code.hpp:33[m[K,
+[12.283s]                  from [01m[K/home/hp/anaconda3/include/boost/system/errc.hpp:14[m[K,
+[12.283s]                  from [01m[K/home/hp/anaconda3/include/boost/system/system_error.hpp:9[m[K,
+[12.283s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/exceptions.hpp:22[m[K,
+[12.283s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/pthread/thread_data.hpp:10[m[K,
+[12.284s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread_only.hpp:17[m[K,
+[12.284s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread.hpp:12[m[K,
+[12.284s]                  from [01m[K/home/hp/anaconda3/include/boost/thread.hpp:13[m[K,
+[12.284s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:26[m[K,
+[12.284s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.284s] [01m[K/usr/include/c++/11/ostream:611:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)[m[K’
+[12.284s]   611 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, const char* __s)
+[12.284s]       |     [01;36m[K^~~~~~~~[m[K
+[12.284s] [01m[K/usr/include/c++/11/ostream:611:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.284s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.284s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5821:38:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kscan.karto::LocalizedRangeScan::m_BoundingBox[m[K’ (type ‘[01m[Kconst karto::BoundingBox2[m[K’) to type ‘[01m[Kconst char*[m[K’
+[12.284s]  5821 |     os << "\nBounding Box: " << [01;36m[Kscan.m_BoundingBox[m[K << "\n";
+[12.284s]       |                                 [01;36m[K~~~~~^~~~~~~~~~~~~[m[K
+[12.284s] In file included from [01m[K/home/hp/anaconda3/include/boost/system/detail/error_code.hpp:33[m[K,
+[12.284s]                  from [01m[K/home/hp/anaconda3/include/boost/system/errc.hpp:14[m[K,
+[12.284s]                  from [01m[K/home/hp/anaconda3/include/boost/system/system_error.hpp:9[m[K,
+[12.284s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/exceptions.hpp:22[m[K,
+[12.284s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/pthread/thread_data.hpp:10[m[K,
+[12.284s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread_only.hpp:17[m[K,
+[12.284s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread.hpp:12[m[K,
+[12.285s]                  from [01m[K/home/hp/anaconda3/include/boost/thread.hpp:13[m[K,
+[12.285s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:26[m[K,
+[12.285s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.285s] [01m[K/usr/include/c++/11/ostream:624:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)[m[K’
+[12.285s]   624 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+[12.285s]       |     [01;36m[K^~~~~~~~[m[K
+[12.285s] [01m[K/usr/include/c++/11/ostream:624:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.285s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.285s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5821:38:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kscan.karto::LocalizedRangeScan::m_BoundingBox[m[K’ (type ‘[01m[Kconst karto::BoundingBox2[m[K’) to type ‘[01m[Kconst signed char*[m[K’
+[12.285s]  5821 |     os << "\nBounding Box: " << [01;36m[Kscan.m_BoundingBox[m[K << "\n";
+[12.285s]       |                                 [01;36m[K~~~~~^~~~~~~~~~~~~[m[K
+[12.285s] In file included from [01m[K/home/hp/anaconda3/include/boost/system/detail/error_code.hpp:33[m[K,
+[12.285s]                  from [01m[K/home/hp/anaconda3/include/boost/system/errc.hpp:14[m[K,
+[12.285s]                  from [01m[K/home/hp/anaconda3/include/boost/system/system_error.hpp:9[m[K,
+[12.285s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/exceptions.hpp:22[m[K,
+[12.285s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/pthread/thread_data.hpp:10[m[K,
+[12.285s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread_only.hpp:17[m[K,
+[12.285s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread.hpp:12[m[K,
+[12.285s]                  from [01m[K/home/hp/anaconda3/include/boost/thread.hpp:13[m[K,
+[12.285s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:26[m[K,
+[12.285s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.286s] [01m[K/usr/include/c++/11/ostream:629:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)[m[K’
+[12.286s]   629 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+[12.286s]       |     [01;36m[K^~~~~~~~[m[K
+[12.286s] [01m[K/usr/include/c++/11/ostream:629:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.286s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.286s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5821:38:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kscan.karto::LocalizedRangeScan::m_BoundingBox[m[K’ (type ‘[01m[Kconst karto::BoundingBox2[m[K’) to type ‘[01m[Kconst unsigned char*[m[K’
+[12.286s]  5821 |     os << "\nBounding Box: " << [01;36m[Kscan.m_BoundingBox[m[K << "\n";
+[12.286s]       |                                 [01;36m[K~~~~~^~~~~~~~~~~~~[m[K
+[12.286s] In file included from [01m[K/home/hp/anaconda3/include/boost/system/detail/error_code.hpp:33[m[K,
+[12.286s]                  from [01m[K/home/hp/anaconda3/include/boost/system/errc.hpp:14[m[K,
+[12.286s]                  from [01m[K/home/hp/anaconda3/include/boost/system/system_error.hpp:9[m[K,
+[12.286s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/exceptions.hpp:22[m[K,
+[12.286s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/pthread/thread_data.hpp:10[m[K,
+[12.286s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread_only.hpp:17[m[K,
+[12.286s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread.hpp:12[m[K,
+[12.286s]                  from [01m[K/home/hp/anaconda3/include/boost/thread.hpp:13[m[K,
+[12.286s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:26[m[K,
+[12.286s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.286s] [01m[K/usr/include/c++/11/ostream:750:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Ostream, class _Tp> _Ostream&& std::operator<<(_Ostream&&, const _Tp&)[m[K’
+[12.286s]   750 |     [01;36m[Koperator[m[K<<(_Ostream&& __os, const _Tp& __x)
+[12.286s]       |     [01;36m[K^~~~~~~~[m[K
+[12.286s] [01m[K/usr/include/c++/11/ostream:750:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.287s] /usr/include/c++/11/ostream: In substitution of ‘[01m[Ktemplate<class _Ostream, class _Tp> _Ostream&& std::operator<<(_Ostream&&, const _Tp&) [with _Ostream = std::basic_ostream<char>&; _Tp = karto::BoundingBox2][m[K’:
+[12.287s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5821:38:[m[K   required from here
+[12.287s] [01m[K/usr/include/c++/11/ostream:750:5:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, void>[m[K’
+[12.287s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[12.287s]                  from [01m[K/home/hp/anaconda3/include/boost/smart_ptr/detail/sp_counted_impl.hpp:35[m[K,
+[12.287s]                  from [01m[K/home/hp/anaconda3/include/boost/smart_ptr/detail/shared_count.hpp:27[m[K,
+[12.287s]                  from [01m[K/home/hp/anaconda3/include/boost/smart_ptr/shared_ptr.hpp:18[m[K,
+[12.287s]                  from [01m[K/home/hp/anaconda3/include/boost/shared_ptr.hpp:17[m[K,
+[12.287s]                  from [01m[K/home/hp/anaconda3/include/boost/date_time/time_clock.hpp:17[m[K,
+[12.287s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread_time.hpp:9[m[K,
+[12.287s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/lock_types.hpp:18[m[K,
+[12.287s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/pthread/thread_data.hpp:12[m[K,
+[12.287s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread_only.hpp:17[m[K,
+[12.287s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread.hpp:12[m[K,
+[12.287s]                  from [01m[K/home/hp/anaconda3/include/boost/thread.hpp:13[m[K,
+[12.287s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:26[m[K,
+[12.287s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.287s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:70:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Ch, class _Tr, class _Tp, __gnu_cxx::_Lock_policy _Lp> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__shared_ptr<_Tp, _Lp>&)[m[K’
+[12.287s]    70 |     [01;36m[Koperator[m[K<<(std::basic_ostream<_Ch, _Tr>& __os,
+[12.287s]       |     [01;36m[K^~~~~~~~[m[K
+[12.287s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:70:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.288s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.288s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5821:38:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst karto::BoundingBox2[m[K’ is not derived from ‘[01m[Kconst std::__shared_ptr<_Tp, _Lp>[m[K’
+[12.288s]  5821 |     os << "\nBounding Box: " << scan.[01;36m[Km_BoundingBox[m[K << "\n";
+[12.288s]       |                                      [01;36m[K^~~~~~~~~~~~~[m[K
+[12.288s] In file included from [01m[K/home/hp/anaconda3/include/boost/container_hash/hash.hpp:42[m[K,
+[12.288s]                  from [01m[K/home/hp/anaconda3/include/boost/functional/hash.hpp:6[m[K,
+[12.288s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/detail/thread.hpp:41[m[K,
+[12.288s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread_only.hpp:22[m[K,
+[12.288s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread.hpp:12[m[K,
+[12.288s]                  from [01m[K/home/hp/anaconda3/include/boost/thread.hpp:13[m[K,
+[12.288s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:26[m[K,
+[12.288s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.288s] [01m[K/usr/include/c++/11/complex:555:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::complex<_Tp>&)[m[K’
+[12.288s]   555 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, const complex<_Tp>& __x)
+[12.288s]       |     [01;36m[K^~~~~~~~[m[K
+[12.288s] [01m[K/usr/include/c++/11/complex:555:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.288s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.288s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5821:38:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst karto::BoundingBox2[m[K’ is not derived from ‘[01m[Kconst std::complex<_Tp>[m[K’
+[12.288s]  5821 |     os << "\nBounding Box: " << scan.[01;36m[Km_BoundingBox[m[K << "\n";
+[12.288s]       |                                      [01;36m[K^~~~~~~~~~~~~[m[K
+[12.288s] In file included from [01m[K/home/hp/anaconda3/include/boost/exception/detail/object_hex_dump.hpp:10[m[K,
+[12.289s]                  from [01m[K/home/hp/anaconda3/include/boost/exception/to_string_stub.hpp:10[m[K,
+[12.289s]                  from [01m[K/home/hp/anaconda3/include/boost/exception/info.hpp:11[m[K,
+[12.289s]                  from [01m[K/home/hp/anaconda3/include/boost/exception/detail/exception_ptr.hpp:12[m[K,
+[12.289s]                  from [01m[K/home/hp/anaconda3/include/boost/exception_ptr.hpp:9[m[K,
+[12.289s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/exceptional_ptr.hpp:10[m[K,
+[12.289s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/future.hpp:34[m[K,
+[12.289s]                  from [01m[K/home/hp/anaconda3/include/boost/thread.hpp:24[m[K,
+[12.289s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:26[m[K,
+[12.289s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.289s] [01m[K/usr/include/c++/11/iomanip:79:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Resetiosflags)[m[K’
+[12.289s]    79 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Resetiosflags __f)
+[12.289s]       |     [01;36m[K^~~~~~~~[m[K
+[12.289s] [01m[K/usr/include/c++/11/iomanip:79:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.289s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.289s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5821:38:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kscan.karto::LocalizedRangeScan::m_BoundingBox[m[K’ (type ‘[01m[Kconst karto::BoundingBox2[m[K’) to type ‘[01m[Kstd::_Resetiosflags[m[K’
+[12.289s]  5821 |     os << "\nBounding Box: " << [01;36m[Kscan.m_BoundingBox[m[K << "\n";
+[12.289s]       |                                 [01;36m[K~~~~~^~~~~~~~~~~~~[m[K
+[12.289s] In file included from [01m[K/home/hp/anaconda3/include/boost/exception/detail/object_hex_dump.hpp:10[m[K,
+[12.289s]                  from [01m[K/home/hp/anaconda3/include/boost/exception/to_string_stub.hpp:10[m[K,
+[12.289s]                  from [01m[K/home/hp/anaconda3/include/boost/exception/info.hpp:11[m[K,
+[12.289s]                  from [01m[K/home/hp/anaconda3/include/boost/exception/detail/exception_ptr.hpp:12[m[K,
+[12.289s]                  from [01m[K/home/hp/anaconda3/include/boost/exception_ptr.hpp:9[m[K,
+[12.290s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/exceptional_ptr.hpp:10[m[K,
+[12.290s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/future.hpp:34[m[K,
+[12.290s]                  from [01m[K/home/hp/anaconda3/include/boost/thread.hpp:24[m[K,
+[12.290s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:26[m[K,
+[12.290s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.290s] [01m[K/usr/include/c++/11/iomanip:109:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setiosflags)[m[K’
+[12.290s]   109 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Setiosflags __f)
+[12.290s]       |     [01;36m[K^~~~~~~~[m[K
+[12.290s] [01m[K/usr/include/c++/11/iomanip:109:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.290s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.290s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5821:38:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kscan.karto::LocalizedRangeScan::m_BoundingBox[m[K’ (type ‘[01m[Kconst karto::BoundingBox2[m[K’) to type ‘[01m[Kstd::_Setiosflags[m[K’
+[12.290s]  5821 |     os << "\nBounding Box: " << [01;36m[Kscan.m_BoundingBox[m[K << "\n";
+[12.290s]       |                                 [01;36m[K~~~~~^~~~~~~~~~~~~[m[K
+[12.290s] In file included from [01m[K/home/hp/anaconda3/include/boost/exception/detail/object_hex_dump.hpp:10[m[K,
+[12.290s]                  from [01m[K/home/hp/anaconda3/include/boost/exception/to_string_stub.hpp:10[m[K,
+[12.290s]                  from [01m[K/home/hp/anaconda3/include/boost/exception/info.hpp:11[m[K,
+[12.290s]                  from [01m[K/home/hp/anaconda3/include/boost/exception/detail/exception_ptr.hpp:12[m[K,
+[12.290s]                  from [01m[K/home/hp/anaconda3/include/boost/exception_ptr.hpp:9[m[K,
+[12.290s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/exceptional_ptr.hpp:10[m[K,
+[12.290s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/future.hpp:34[m[K,
+[12.290s]                  from [01m[K/home/hp/anaconda3/include/boost/thread.hpp:24[m[K,
+[12.290s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:26[m[K,
+[12.290s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.291s] [01m[K/usr/include/c++/11/iomanip:143:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setbase)[m[K’
+[12.291s]   143 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Setbase __f)
+[12.291s]       |     [01;36m[K^~~~~~~~[m[K
+[12.291s] [01m[K/usr/include/c++/11/iomanip:143:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.291s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.291s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5821:38:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kscan.karto::LocalizedRangeScan::m_BoundingBox[m[K’ (type ‘[01m[Kconst karto::BoundingBox2[m[K’) to type ‘[01m[Kstd::_Setbase[m[K’
+[12.291s]  5821 |     os << "\nBounding Box: " << [01;36m[Kscan.m_BoundingBox[m[K << "\n";
+[12.291s]       |                                 [01;36m[K~~~~~^~~~~~~~~~~~~[m[K
+[12.291s] In file included from [01m[K/home/hp/anaconda3/include/boost/exception/detail/object_hex_dump.hpp:10[m[K,
+[12.291s]                  from [01m[K/home/hp/anaconda3/include/boost/exception/to_string_stub.hpp:10[m[K,
+[12.291s]                  from [01m[K/home/hp/anaconda3/include/boost/exception/info.hpp:11[m[K,
+[12.291s]                  from [01m[K/home/hp/anaconda3/include/boost/exception/detail/exception_ptr.hpp:12[m[K,
+[12.291s]                  from [01m[K/home/hp/anaconda3/include/boost/exception_ptr.hpp:9[m[K,
+[12.291s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/exceptional_ptr.hpp:10[m[K,
+[12.291s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/future.hpp:34[m[K,
+[12.291s]                  from [01m[K/home/hp/anaconda3/include/boost/thread.hpp:24[m[K,
+[12.291s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:26[m[K,
+[12.291s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.291s] [01m[K/usr/include/c++/11/iomanip:178:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setfill<_CharT>)[m[K’
+[12.291s]   178 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Setfill<_CharT> __f)
+[12.292s]       |     [01;36m[K^~~~~~~~[m[K
+[12.292s] [01m[K/usr/include/c++/11/iomanip:178:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.292s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.292s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5821:38:[m[K [01;36m[Knote: [m[K  ‘[01m[Kkarto::BoundingBox2[m[K’ is not derived from ‘[01m[Kstd::_Setfill<_CharT>[m[K’
+[12.292s]  5821 |     os << "\nBounding Box: " << scan.[01;36m[Km_BoundingBox[m[K << "\n";
+[12.292s]       |                                      [01;36m[K^~~~~~~~~~~~~[m[K
+[12.292s] In file included from [01m[K/home/hp/anaconda3/include/boost/exception/detail/object_hex_dump.hpp:10[m[K,
+[12.292s]                  from [01m[K/home/hp/anaconda3/include/boost/exception/to_string_stub.hpp:10[m[K,
+[12.292s]                  from [01m[K/home/hp/anaconda3/include/boost/exception/info.hpp:11[m[K,
+[12.292s]                  from [01m[K/home/hp/anaconda3/include/boost/exception/detail/exception_ptr.hpp:12[m[K,
+[12.292s]                  from [01m[K/home/hp/anaconda3/include/boost/exception_ptr.hpp:9[m[K,
+[12.292s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/exceptional_ptr.hpp:10[m[K,
+[12.292s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/future.hpp:34[m[K,
+[12.292s]                  from [01m[K/home/hp/anaconda3/include/boost/thread.hpp:24[m[K,
+[12.292s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:26[m[K,
+[12.292s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.292s] [01m[K/usr/include/c++/11/iomanip:208:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setprecision)[m[K’
+[12.292s]   208 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Setprecision __f)
+[12.292s]       |     [01;36m[K^~~~~~~~[m[K
+[12.292s] [01m[K/usr/include/c++/11/iomanip:208:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.292s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.293s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5821:38:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kscan.karto::LocalizedRangeScan::m_BoundingBox[m[K’ (type ‘[01m[Kconst karto::BoundingBox2[m[K’) to type ‘[01m[Kstd::_Setprecision[m[K’
+[12.293s]  5821 |     os << "\nBounding Box: " << [01;36m[Kscan.m_BoundingBox[m[K << "\n";
+[12.293s]       |                                 [01;36m[K~~~~~^~~~~~~~~~~~~[m[K
+[12.293s] In file included from [01m[K/home/hp/anaconda3/include/boost/exception/detail/object_hex_dump.hpp:10[m[K,
+[12.293s]                  from [01m[K/home/hp/anaconda3/include/boost/exception/to_string_stub.hpp:10[m[K,
+[12.293s]                  from [01m[K/home/hp/anaconda3/include/boost/exception/info.hpp:11[m[K,
+[12.293s]                  from [01m[K/home/hp/anaconda3/include/boost/exception/detail/exception_ptr.hpp:12[m[K,
+[12.293s]                  from [01m[K/home/hp/anaconda3/include/boost/exception_ptr.hpp:9[m[K,
+[12.293s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/exceptional_ptr.hpp:10[m[K,
+[12.293s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/future.hpp:34[m[K,
+[12.293s]                  from [01m[K/home/hp/anaconda3/include/boost/thread.hpp:24[m[K,
+[12.293s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:26[m[K,
+[12.293s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.293s] [01m[K/usr/include/c++/11/iomanip:238:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setw)[m[K’
+[12.293s]   238 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Setw __f)
+[12.294s]       |     [01;36m[K^~~~~~~~[m[K
+[12.294s] [01m[K/usr/include/c++/11/iomanip:238:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.294s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.294s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5821:38:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kscan.karto::LocalizedRangeScan::m_BoundingBox[m[K’ (type ‘[01m[Kconst karto::BoundingBox2[m[K’) to type ‘[01m[Kstd::_Setw[m[K’
+[12.294s]  5821 |     os << "\nBounding Box: " << [01;36m[Kscan.m_BoundingBox[m[K << "\n";
+[12.294s]       |                                 [01;36m[K~~~~~^~~~~~~~~~~~~[m[K
+[12.294s] In file included from [01m[K/home/hp/anaconda3/include/boost/exception/detail/object_hex_dump.hpp:10[m[K,
+[12.294s]                  from [01m[K/home/hp/anaconda3/include/boost/exception/to_string_stub.hpp:10[m[K,
+[12.294s]                  from [01m[K/home/hp/anaconda3/include/boost/exception/info.hpp:11[m[K,
+[12.294s]                  from [01m[K/home/hp/anaconda3/include/boost/exception/detail/exception_ptr.hpp:12[m[K,
+[12.294s]                  from [01m[K/home/hp/anaconda3/include/boost/exception_ptr.hpp:9[m[K,
+[12.294s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/exceptional_ptr.hpp:10[m[K,
+[12.294s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/future.hpp:34[m[K,
+[12.294s]                  from [01m[K/home/hp/anaconda3/include/boost/thread.hpp:24[m[K,
+[12.294s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:26[m[K,
+[12.294s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.294s] [01m[K/usr/include/c++/11/iomanip:311:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _MoneyT> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Put_money<_MoneyT>)[m[K’
+[12.294s]   311 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Put_money<_MoneyT> __f)
+[12.294s]       |     [01;36m[K^~~~~~~~[m[K
+[12.294s] [01m[K/usr/include/c++/11/iomanip:311:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.294s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.295s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5821:38:[m[K [01;36m[Knote: [m[K  ‘[01m[Kkarto::BoundingBox2[m[K’ is not derived from ‘[01m[Kstd::_Put_money<_MoneyT>[m[K’
+[12.295s]  5821 |     os << "\nBounding Box: " << scan.[01;36m[Km_BoundingBox[m[K << "\n";
+[12.295s]       |                                      [01;36m[K^~~~~~~~~~~~~[m[K
+[12.295s] In file included from [01m[K/home/hp/anaconda3/include/boost/exception/detail/object_hex_dump.hpp:10[m[K,
+[12.295s]                  from [01m[K/home/hp/anaconda3/include/boost/exception/to_string_stub.hpp:10[m[K,
+[12.295s]                  from [01m[K/home/hp/anaconda3/include/boost/exception/info.hpp:11[m[K,
+[12.295s]                  from [01m[K/home/hp/anaconda3/include/boost/exception/detail/exception_ptr.hpp:12[m[K,
+[12.295s]                  from [01m[K/home/hp/anaconda3/include/boost/exception_ptr.hpp:9[m[K,
+[12.295s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/exceptional_ptr.hpp:10[m[K,
+[12.295s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/future.hpp:34[m[K,
+[12.295s]                  from [01m[K/home/hp/anaconda3/include/boost/thread.hpp:24[m[K,
+[12.295s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:26[m[K,
+[12.295s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.295s] [01m[K/usr/include/c++/11/iomanip:363:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Put_time<_CharT>)[m[K’
+[12.296s]   363 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Put_time<_CharT> __f)
+[12.296s]       |     [01;36m[K^~~~~~~~[m[K
+[12.296s] [01m[K/usr/include/c++/11/iomanip:363:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.296s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.296s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5821:38:[m[K [01;36m[Knote: [m[K  ‘[01m[Kkarto::BoundingBox2[m[K’ is not derived from ‘[01m[Kstd::_Put_time<_CharT>[m[K’
+[12.296s]  5821 |     os << "\nBounding Box: " << scan.[01;36m[Km_BoundingBox[m[K << "\n";
+[12.296s]       |                                      [01;36m[K^~~~~~~~~~~~~[m[K
+[12.296s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5808:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::ostream& karto::operator<<(std::ostream&, const karto::LocalizedRangeScan&)[m[K’
+[12.296s]  5808 | std::ostream& [01;36m[Koperator[m[K<<(std::ostream& os, const LocalizedRangeScan& scan) {
+[12.296s]       |               [01;36m[K^~~~~~~~[m[K
+[12.296s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5808:70:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kconst karto::BoundingBox2[m[K’ to ‘[01m[Kconst karto::LocalizedRangeScan&[m[K’
+[12.296s]  5808 | std::ostream& operator<<(std::ostream& os, [01;36m[Kconst LocalizedRangeScan& scan[m[K) {
+[12.296s]       |                                            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[12.296s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:[m[K In function ‘[01m[Kstd::istream& karto::operator>>(std::istream&, karto::LocalizedRangeScan&)[m[K’:
+[12.296s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5847:16:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator>>[m[K’ (operand types are ‘[01m[Kstd::basic_istream<char>[m[K’ and ‘[01m[Kkarto::BoundingBox2[m[K’)
+[12.296s]  5847 |     [32m[Kis >> temp[m[K [01;31m[K>>[m[K [34m[Kscan.m_BoundingBox[m[K;
+[12.296s]       |     [32m[K~~~~~~~~~~[m[K [01;31m[K^~[m[K [34m[K~~~~~~~~~~~~~~~~~~[m[K
+[12.296s]       |        [32m[K|[m[K               [34m[K|[m[K
+[12.296s]       |        [32m[K|[m[K               [34m[Kkarto::BoundingBox2[m[K
+[12.296s]       |        [32m[Kstd::basic_istream<char>[m[K
+[12.296s] In file included from [01m[K/usr/include/c++/11/sstream:38[m[K,
+[12.297s]                  from [01m[K/home/hp/anaconda3/include/boost/date_time/date_generators.hpp:16[m[K,
+[12.297s]                  from [01m[K/home/hp/anaconda3/include/boost/date_time/gregorian/gregorian_types.hpp:25[m[K,
+[12.297s]                  from [01m[K/home/hp/anaconda3/include/boost/date_time/posix_time/posix_time_config.hpp:18[m[K,
+[12.297s]                  from [01m[K/home/hp/anaconda3/include/boost/date_time/posix_time/posix_time_system.hpp:13[m[K,
+[12.297s]                  from [01m[K/home/hp/anaconda3/include/boost/date_time/posix_time/ptime.hpp:12[m[K,
+[12.297s]                  from [01m[K/home/hp/anaconda3/include/boost/date_time/posix_time/posix_time_types.hpp:12[m[K,
+[12.297s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread_time.hpp:11[m[K,
+[12.297s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/lock_types.hpp:18[m[K,
+[12.297s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/pthread/thread_data.hpp:12[m[K,
+[12.297s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread_only.hpp:17[m[K,
+[12.297s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread.hpp:12[m[K,
+[12.297s]                  from [01m[K/home/hp/anaconda3/include/boost/thread.hpp:13[m[K,
+[12.297s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:26[m[K,
+[12.297s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.297s] [01m[K/usr/include/c++/11/istream:120:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(std::basic_istream<_CharT, _Traits>::__istream_type& (*)(std::basic_istream<_CharT, _Traits>::__istream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>][m[K’
+[12.297s]   120 |       [01;36m[Koperator[m[K>>(__istream_type& (*__pf)(__istream_type&))
+[12.297s]       |       [01;36m[K^~~~~~~~[m[K
+[12.297s] [01m[K/usr/include/c++/11/istream:120:36:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kkarto::BoundingBox2[m[K’ to ‘[01m[Kstd::basic_istream<char>::__istream_type& (*)(std::basic_istream<char>::__istream_type&)[m[K’ {aka ‘[01m[Kstd::basic_istream<char>& (*)(std::basic_istream<char>&)[m[K’}
+[12.297s]   120 |       operator>>([01;36m[K__istream_type& (*__pf)(__istream_type&)[m[K)
+[12.297s]       |                  [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.297s] [01m[K/usr/include/c++/11/istream:124:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(std::basic_istream<_CharT, _Traits>::__ios_type& (*)(std::basic_istream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>; std::basic_istream<_CharT, _Traits>::__ios_type = std::basic_ios<char>][m[K’
+[12.297s]   124 |       [01;36m[Koperator[m[K>>(__ios_type& (*__pf)(__ios_type&))
+[12.298s]       |       [01;36m[K^~~~~~~~[m[K
+[12.298s] [01m[K/usr/include/c++/11/istream:124:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kkarto::BoundingBox2[m[K’ to ‘[01m[Kstd::basic_istream<char>::__ios_type& (*)(std::basic_istream<char>::__ios_type&)[m[K’ {aka ‘[01m[Kstd::basic_ios<char>& (*)(std::basic_ios<char>&)[m[K’}
+[12.298s]   124 |       operator>>([01;36m[K__ios_type& (*__pf)(__ios_type&)[m[K)
+[12.298s]       |                  [01;36m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[12.298s] [01m[K/usr/include/c++/11/istream:131:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>][m[K’
+[12.298s]   131 |       [01;36m[Koperator[m[K>>(ios_base& (*__pf)(ios_base&))
+[12.298s]       |       [01;36m[K^~~~~~~~[m[K
+[12.298s] [01m[K/usr/include/c++/11/istream:131:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kkarto::BoundingBox2[m[K’ to ‘[01m[Kstd::ios_base& (*)(std::ios_base&)[m[K’
+[12.298s]   131 |       operator>>([01;36m[Kios_base& (*__pf)(ios_base&)[m[K)
+[12.298s]       |                  [01;36m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[12.298s] [01m[K/usr/include/c++/11/istream:168:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(bool&) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>][m[K’
+[12.298s]   168 |       [01;36m[Koperator[m[K>>(bool& __n)
+[12.298s]       |       [01;36m[K^~~~~~~~[m[K
+[12.298s] [01m[K/usr/include/c++/11/istream:168:24:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kkarto::BoundingBox2[m[K’ to ‘[01m[Kbool&[m[K’
+[12.298s]   168 |       operator>>([01;36m[Kbool& __n[m[K)
+[12.298s]       |                  [01;36m[K~~~~~~^~~[m[K
+[12.298s] [01m[K/usr/include/c++/11/istream:172:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>& std::basic_istream<_CharT, _Traits>::operator>>(short int&) [with _CharT = char; _Traits = std::char_traits<char>][m[K’
+[12.298s]   172 |       [01;36m[Koperator[m[K>>(short& __n);
+[12.298s]       |       [01;36m[K^~~~~~~~[m[K
+[12.298s] [01m[K/usr/include/c++/11/istream:172:25:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kkarto::BoundingBox2[m[K’ to ‘[01m[Kshort int&[m[K’
+[12.298s]   172 |       operator>>([01;36m[Kshort& __n[m[K);
+[12.298s]       |                  [01;36m[K~~~~~~~^~~[m[K
+[12.299s] [01m[K/usr/include/c++/11/istream:175:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(short unsigned int&) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>][m[K’
+[12.299s]   175 |       [01;36m[Koperator[m[K>>(unsigned short& __n)
+[12.299s]       |       [01;36m[K^~~~~~~~[m[K
+[12.299s] [01m[K/usr/include/c++/11/istream:175:34:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kkarto::BoundingBox2[m[K’ to ‘[01m[Kshort unsigned int&[m[K’
+[12.299s]   175 |       operator>>([01;36m[Kunsigned short& __n[m[K)
+[12.299s]       |                  [01;36m[K~~~~~~~~~~~~~~~~^~~[m[K
+[12.299s] [01m[K/usr/include/c++/11/istream:179:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>& std::basic_istream<_CharT, _Traits>::operator>>(int&) [with _CharT = char; _Traits = std::char_traits<char>][m[K’
+[12.299s]   179 |       [01;36m[Koperator[m[K>>(int& __n);
+[12.299s]       |       [01;36m[K^~~~~~~~[m[K
+[12.299s] [01m[K/usr/include/c++/11/istream:179:23:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kkarto::BoundingBox2[m[K’ to ‘[01m[Kint&[m[K’
+[12.299s]   179 |       operator>>([01;36m[Kint& __n[m[K);
+[12.299s]       |                  [01;36m[K~~~~~^~~[m[K
+[12.299s] [01m[K/usr/include/c++/11/istream:182:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(unsigned int&) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>][m[K’
+[12.299s]   182 |       [01;36m[Koperator[m[K>>(unsigned int& __n)
+[12.299s]       |       [01;36m[K^~~~~~~~[m[K
+[12.299s] [01m[K/usr/include/c++/11/istream:182:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kkarto::BoundingBox2[m[K’ to ‘[01m[Kunsigned int&[m[K’
+[12.299s]   182 |       operator>>([01;36m[Kunsigned int& __n[m[K)
+[12.299s]       |                  [01;36m[K~~~~~~~~~~~~~~^~~[m[K
+[12.299s] [01m[K/usr/include/c++/11/istream:186:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(long int&) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>][m[K’
+[12.299s]   186 |       [01;36m[Koperator[m[K>>(long& __n)
+[12.300s]       |       [01;36m[K^~~~~~~~[m[K
+[12.300s] [01m[K/usr/include/c++/11/istream:186:24:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kkarto::BoundingBox2[m[K’ to ‘[01m[Klong int&[m[K’
+[12.300s]   186 |       operator>>([01;36m[Klong& __n[m[K)
+[12.300s]       |                  [01;36m[K~~~~~~^~~[m[K
+[12.300s] [01m[K/usr/include/c++/11/istream:190:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(long unsigned int&) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>][m[K’
+[12.300s]   190 |       [01;36m[Koperator[m[K>>(unsigned long& __n)
+[12.300s]       |       [01;36m[K^~~~~~~~[m[K
+[12.300s] [01m[K/usr/include/c++/11/istream:190:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kkarto::BoundingBox2[m[K’ to ‘[01m[Klong unsigned int&[m[K’
+[12.300s]   190 |       operator>>([01;36m[Kunsigned long& __n[m[K)
+[12.300s]       |                  [01;36m[K~~~~~~~~~~~~~~~^~~[m[K
+[12.300s] [01m[K/usr/include/c++/11/istream:195:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(long long int&) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>][m[K’
+[12.300s]   195 |       [01;36m[Koperator[m[K>>(long long& __n)
+[12.300s]       |       [01;36m[K^~~~~~~~[m[K
+[12.300s] [01m[K/usr/include/c++/11/istream:195:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kkarto::BoundingBox2[m[K’ to ‘[01m[Klong long int&[m[K’
+[12.300s]   195 |       operator>>([01;36m[Klong long& __n[m[K)
+[12.300s]       |                  [01;36m[K~~~~~~~~~~~^~~[m[K
+[12.300s] [01m[K/usr/include/c++/11/istream:199:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(long long unsigned int&) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>][m[K’
+[12.300s]   199 |       [01;36m[Koperator[m[K>>(unsigned long long& __n)
+[12.300s]       |       [01;36m[K^~~~~~~~[m[K
+[12.301s] [01m[K/usr/include/c++/11/istream:199:38:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kkarto::BoundingBox2[m[K’ to ‘[01m[Klong long unsigned int&[m[K’
+[12.301s]   199 |       operator>>([01;36m[Kunsigned long long& __n[m[K)
+[12.301s]       |                  [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[12.301s] [01m[K/usr/include/c++/11/istream:214:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(float&) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>][m[K’
+[12.301s]   214 |       [01;36m[Koperator[m[K>>(float& __f)
+[12.301s]       |       [01;36m[K^~~~~~~~[m[K
+[12.301s] [01m[K/usr/include/c++/11/istream:214:25:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kkarto::BoundingBox2[m[K’ to ‘[01m[Kfloat&[m[K’
+[12.301s]   214 |       operator>>([01;36m[Kfloat& __f[m[K)
+[12.301s]       |                  [01;36m[K~~~~~~~^~~[m[K
+[12.301s] [01m[K/usr/include/c++/11/istream:218:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(double&) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>][m[K’
+[12.301s]   218 |       [01;36m[Koperator[m[K>>(double& __f)
+[12.301s]       |       [01;36m[K^~~~~~~~[m[K
+[12.301s] [01m[K/usr/include/c++/11/istream:218:26:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kkarto::BoundingBox2[m[K’ to ‘[01m[Kdouble&[m[K’
+[12.301s]   218 |       operator>>([01;36m[Kdouble& __f[m[K)
+[12.301s]       |                  [01;36m[K~~~~~~~~^~~[m[K
+[12.301s] [01m[K/usr/include/c++/11/istream:222:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(long double&) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>][m[K’
+[12.301s]   222 |       [01;36m[Koperator[m[K>>(long double& __f)
+[12.301s]       |       [01;36m[K^~~~~~~~[m[K
+[12.301s] [01m[K/usr/include/c++/11/istream:222:31:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kkarto::BoundingBox2[m[K’ to ‘[01m[Klong double&[m[K’
+[12.301s]   222 |       operator>>([01;36m[Klong double& __f[m[K)
+[12.301s]       |                  [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[12.302s] [01m[K/usr/include/c++/11/istream:235:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(void*&) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>][m[K’
+[12.302s]   235 |       [01;36m[Koperator[m[K>>(void*& __p)
+[12.302s]       |       [01;36m[K^~~~~~~~[m[K
+[12.302s] [01m[K/usr/include/c++/11/istream:235:25:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kkarto::BoundingBox2[m[K’ to ‘[01m[Kvoid*&[m[K’
+[12.302s]   235 |       operator>>([01;36m[Kvoid*& __p[m[K)
+[12.302s]       |                  [01;36m[K~~~~~~~^~~[m[K
+[12.302s] [01m[K/usr/include/c++/11/istream:259:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>& std::basic_istream<_CharT, _Traits>::operator>>(std::basic_istream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>][m[K’
+[12.302s]   259 |       [01;36m[Koperator[m[K>>(__streambuf_type* __sb);
+[12.302s]       |       [01;36m[K^~~~~~~~[m[K
+[12.302s] [01m[K/usr/include/c++/11/istream:259:36:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kkarto::BoundingBox2[m[K’ to ‘[01m[Kstd::basic_istream<char>::__streambuf_type*[m[K’ {aka ‘[01m[Kstd::basic_streambuf<char>*[m[K’}
+[12.302s]   259 |       operator>>([01;36m[K__streambuf_type* __sb[m[K);
+[12.302s]       |                  [01;36m[K~~~~~~~~~~~~~~~~~~^~~~[m[K
+[12.302s] In file included from [01m[K/home/hp/anaconda3/include/boost/serialization/export.hpp:25[m[K,
+[12.302s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:18[m[K:
+[12.302s] [01m[K/usr/include/c++/11/cstddef:132:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IntegerType> constexpr std::__byte_op_t<_IntegerType> std::operator>>(std::byte, _IntegerType)[m[K’
+[12.302s]   132 |     [01;36m[Koperator[m[K>>(byte __b, _IntegerType __shift) noexcept
+[12.302s]       |     [01;36m[K^~~~~~~~[m[K
+[12.302s] [01m[K/usr/include/c++/11/cstddef:132:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.302s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.302s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5847:8:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kstd::operator>><char, std::char_traits<char>, std::allocator<char> >((* & is), temp)[m[K’ (type ‘[01m[Kstd::basic_istream<char>[m[K’) to type ‘[01m[Kstd::byte[m[K’
+[12.302s]  5847 |     [01;36m[Kis >> temp[m[K >> scan.m_BoundingBox;
+[12.302s]       |     [01;36m[K~~~^~~~~~~[m[K
+[12.303s] In file included from [01m[K/usr/include/c++/11/string:56[m[K,
+[12.303s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:26[m[K:
+[12.303s] [01m[K/usr/include/c++/11/bits/basic_string.tcc:1485:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+[12.303s]  1485 |     [01;36m[Koperator[m[K>>(basic_istream<_CharT, _Traits>& __in,
+[12.303s]       |     [01;36m[K^~~~~~~~[m[K
+[12.303s] [01m[K/usr/include/c++/11/bits/basic_string.tcc:1485:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.303s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.303s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5847:24:[m[K [01;36m[Knote: [m[K  ‘[01m[Kkarto::BoundingBox2[m[K’ is not derived from ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+[12.303s]  5847 |     is >> temp >> scan.[01;36m[Km_BoundingBox[m[K;
+[12.303s]       |                        [01;36m[K^~~~~~~~~~~~~[m[K
+[12.303s] In file included from [01m[K/usr/include/c++/11/istream:1016[m[K,
+[12.303s]                  from [01m[K/usr/include/c++/11/sstream:38[m[K,
+[12.303s]                  from [01m[K/home/hp/anaconda3/include/boost/date_time/date_generators.hpp:16[m[K,
+[12.303s]                  from [01m[K/home/hp/anaconda3/include/boost/date_time/gregorian/gregorian_types.hpp:25[m[K,
+[12.303s]                  from [01m[K/home/hp/anaconda3/include/boost/date_time/posix_time/posix_time_config.hpp:18[m[K,
+[12.303s]                  from [01m[K/home/hp/anaconda3/include/boost/date_time/posix_time/posix_time_system.hpp:13[m[K,
+[12.303s]                  from [01m[K/home/hp/anaconda3/include/boost/date_time/posix_time/ptime.hpp:12[m[K,
+[12.303s]                  from [01m[K/home/hp/anaconda3/include/boost/date_time/posix_time/posix_time_types.hpp:12[m[K,
+[12.303s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread_time.hpp:11[m[K,
+[12.303s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/lock_types.hpp:18[m[K,
+[12.304s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/pthread/thread_data.hpp:12[m[K,
+[12.304s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread_only.hpp:17[m[K,
+[12.304s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread.hpp:12[m[K,
+[12.304s]                  from [01m[K/home/hp/anaconda3/include/boost/thread.hpp:13[m[K,
+[12.304s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:26[m[K,
+[12.304s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.304s] [01m[K/usr/include/c++/11/bits/istream.tcc:958:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, _CharT&)[m[K’
+[12.304s]   958 |     [01;36m[Koperator[m[K>>(basic_istream<_CharT, _Traits>& __in, _CharT& __c)
+[12.304s]       |     [01;36m[K^~~~~~~~[m[K
+[12.304s] [01m[K/usr/include/c++/11/bits/istream.tcc:958:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.304s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.304s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5847:24:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[K_CharT[m[K’ (‘[01m[Kchar[m[K’ and ‘[01m[Kkarto::BoundingBox2[m[K’)
+[12.304s]  5847 |     is >> temp >> scan.[01;36m[Km_BoundingBox[m[K;
+[12.304s]       |                        [01;36m[K^~~~~~~~~~~~~[m[K
+[12.304s] In file included from [01m[K/usr/include/c++/11/sstream:38[m[K,
+[12.304s]                  from [01m[K/home/hp/anaconda3/include/boost/date_time/date_generators.hpp:16[m[K,
+[12.304s]                  from [01m[K/home/hp/anaconda3/include/boost/date_time/gregorian/gregorian_types.hpp:25[m[K,
+[12.304s]                  from [01m[K/home/hp/anaconda3/include/boost/date_time/posix_time/posix_time_config.hpp:18[m[K,
+[12.304s]                  from [01m[K/home/hp/anaconda3/include/boost/date_time/posix_time/posix_time_system.hpp:13[m[K,
+[12.305s]                  from [01m[K/home/hp/anaconda3/include/boost/date_time/posix_time/ptime.hpp:12[m[K,
+[12.305s]                  from [01m[K/home/hp/anaconda3/include/boost/date_time/posix_time/posix_time_types.hpp:12[m[K,
+[12.305s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread_time.hpp:11[m[K,
+[12.305s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/lock_types.hpp:18[m[K,
+[12.305s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/pthread/thread_data.hpp:12[m[K,
+[12.305s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread_only.hpp:17[m[K,
+[12.305s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread.hpp:12[m[K,
+[12.305s]                  from [01m[K/home/hp/anaconda3/include/boost/thread.hpp:13[m[K,
+[12.305s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:26[m[K,
+[12.305s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.305s] [01m[K/usr/include/c++/11/istream:756:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, unsigned char&)[m[K’
+[12.305s]   756 |     [01;36m[Koperator[m[K>>(basic_istream<char, _Traits>& __in, unsigned char& __c)
+[12.305s]       |     [01;36m[K^~~~~~~~[m[K
+[12.305s] [01m[K/usr/include/c++/11/istream:756:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.305s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.305s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5847:24:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kscan.karto::LocalizedRangeScan::m_BoundingBox[m[K’ (type ‘[01m[Kkarto::BoundingBox2[m[K’) to type ‘[01m[Kunsigned char&[m[K’
+[12.305s]  5847 |     is >> temp >> [01;36m[Kscan.m_BoundingBox[m[K;
+[12.305s]       |                   [01;36m[K~~~~~^~~~~~~~~~~~~[m[K
+[12.305s] In file included from [01m[K/usr/include/c++/11/sstream:38[m[K,
+[12.305s]                  from [01m[K/home/hp/anaconda3/include/boost/date_time/date_generators.hpp:16[m[K,
+[12.305s]                  from [01m[K/home/hp/anaconda3/include/boost/date_time/gregorian/gregorian_types.hpp:25[m[K,
+[12.306s]                  from [01m[K/home/hp/anaconda3/include/boost/date_time/posix_time/posix_time_config.hpp:18[m[K,
+[12.306s]                  from [01m[K/home/hp/anaconda3/include/boost/date_time/posix_time/posix_time_system.hpp:13[m[K,
+[12.306s]                  from [01m[K/home/hp/anaconda3/include/boost/date_time/posix_time/ptime.hpp:12[m[K,
+[12.306s]                  from [01m[K/home/hp/anaconda3/include/boost/date_time/posix_time/posix_time_types.hpp:12[m[K,
+[12.306s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread_time.hpp:11[m[K,
+[12.306s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/lock_types.hpp:18[m[K,
+[12.306s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/pthread/thread_data.hpp:12[m[K,
+[12.306s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread_only.hpp:17[m[K,
+[12.306s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread.hpp:12[m[K,
+[12.306s]                  from [01m[K/home/hp/anaconda3/include/boost/thread.hpp:13[m[K,
+[12.306s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:26[m[K,
+[12.306s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.306s] [01m[K/usr/include/c++/11/istream:761:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, signed char&)[m[K’
+[12.306s]   761 |     [01;36m[Koperator[m[K>>(basic_istream<char, _Traits>& __in, signed char& __c)
+[12.306s]       |     [01;36m[K^~~~~~~~[m[K
+[12.306s] [01m[K/usr/include/c++/11/istream:761:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.306s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.306s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5847:24:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kscan.karto::LocalizedRangeScan::m_BoundingBox[m[K’ (type ‘[01m[Kkarto::BoundingBox2[m[K’) to type ‘[01m[Ksigned char&[m[K’
+[12.306s]  5847 |     is >> temp >> [01;36m[Kscan.m_BoundingBox[m[K;
+[12.306s]       |                   [01;36m[K~~~~~^~~~~~~~~~~~~[m[K
+[12.306s] In file included from [01m[K/usr/include/c++/11/sstream:38[m[K,
+[12.306s]                  from [01m[K/home/hp/anaconda3/include/boost/date_time/date_generators.hpp:16[m[K,
+[12.307s]                  from [01m[K/home/hp/anaconda3/include/boost/date_time/gregorian/gregorian_types.hpp:25[m[K,
+[12.307s]                  from [01m[K/home/hp/anaconda3/include/boost/date_time/posix_time/posix_time_config.hpp:18[m[K,
+[12.307s]                  from [01m[K/home/hp/anaconda3/include/boost/date_time/posix_time/posix_time_system.hpp:13[m[K,
+[12.307s]                  from [01m[K/home/hp/anaconda3/include/boost/date_time/posix_time/ptime.hpp:12[m[K,
+[12.307s]                  from [01m[K/home/hp/anaconda3/include/boost/date_time/posix_time/posix_time_types.hpp:12[m[K,
+[12.307s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread_time.hpp:11[m[K,
+[12.307s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/lock_types.hpp:18[m[K,
+[12.307s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/pthread/thread_data.hpp:12[m[K,
+[12.307s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread_only.hpp:17[m[K,
+[12.307s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread.hpp:12[m[K,
+[12.307s]                  from [01m[K/home/hp/anaconda3/include/boost/thread.hpp:13[m[K,
+[12.307s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:26[m[K,
+[12.307s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.307s] [01m[K/usr/include/c++/11/istream:803:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, _CharT*)[m[K’
+[12.307s]   803 |     [01;36m[Koperator[m[K>>(basic_istream<_CharT, _Traits>& __in, _CharT* __s)
+[12.307s]       |     [01;36m[K^~~~~~~~[m[K
+[12.307s] [01m[K/usr/include/c++/11/istream:803:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.307s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.307s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5847:24:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[K_CharT*[m[K’ and ‘[01m[Kkarto::BoundingBox2[m[K’
+[12.307s]  5847 |     is >> temp >> scan.[01;36m[Km_BoundingBox[m[K;
+[12.307s]       |                        [01;36m[K^~~~~~~~~~~~~[m[K
+[12.308s] In file included from [01m[K/usr/include/c++/11/sstream:38[m[K,
+[12.308s]                  from [01m[K/home/hp/anaconda3/include/boost/date_time/date_generators.hpp:16[m[K,
+[12.308s]                  from [01m[K/home/hp/anaconda3/include/boost/date_time/gregorian/gregorian_types.hpp:25[m[K,
+[12.308s]                  from [01m[K/home/hp/anaconda3/include/boost/date_time/posix_time/posix_time_config.hpp:18[m[K,
+[12.308s]                  from [01m[K/home/hp/anaconda3/include/boost/date_time/posix_time/posix_time_system.hpp:13[m[K,
+[12.308s]                  from [01m[K/home/hp/anaconda3/include/boost/date_time/posix_time/ptime.hpp:12[m[K,
+[12.308s]                  from [01m[K/home/hp/anaconda3/include/boost/date_time/posix_time/posix_time_types.hpp:12[m[K,
+[12.308s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread_time.hpp:11[m[K,
+[12.308s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/lock_types.hpp:18[m[K,
+[12.308s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/pthread/thread_data.hpp:12[m[K,
+[12.308s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread_only.hpp:17[m[K,
+[12.308s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread.hpp:12[m[K,
+[12.308s]                  from [01m[K/home/hp/anaconda3/include/boost/thread.hpp:13[m[K,
+[12.308s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:26[m[K,
+[12.308s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.308s] [01m[K/usr/include/c++/11/istream:846:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, unsigned char*)[m[K’
+[12.308s]   846 |     [01;36m[Koperator[m[K>>(basic_istream<char, _Traits>& __in, unsigned char* __s)
+[12.308s]       |     [01;36m[K^~~~~~~~[m[K
+[12.308s] [01m[K/usr/include/c++/11/istream:846:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.308s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.308s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5847:24:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kscan.karto::LocalizedRangeScan::m_BoundingBox[m[K’ (type ‘[01m[Kkarto::BoundingBox2[m[K’) to type ‘[01m[Kunsigned char*[m[K’
+[12.309s]  5847 |     is >> temp >> [01;36m[Kscan.m_BoundingBox[m[K;
+[12.309s]       |                   [01;36m[K~~~~~^~~~~~~~~~~~~[m[K
+[12.309s] In file included from [01m[K/usr/include/c++/11/sstream:38[m[K,
+[12.309s]                  from [01m[K/home/hp/anaconda3/include/boost/date_time/date_generators.hpp:16[m[K,
+[12.309s]                  from [01m[K/home/hp/anaconda3/include/boost/date_time/gregorian/gregorian_types.hpp:25[m[K,
+[12.309s]                  from [01m[K/home/hp/anaconda3/include/boost/date_time/posix_time/posix_time_config.hpp:18[m[K,
+[12.309s]                  from [01m[K/home/hp/anaconda3/include/boost/date_time/posix_time/posix_time_system.hpp:13[m[K,
+[12.309s]                  from [01m[K/home/hp/anaconda3/include/boost/date_time/posix_time/ptime.hpp:12[m[K,
+[12.309s]                  from [01m[K/home/hp/anaconda3/include/boost/date_time/posix_time/posix_time_types.hpp:12[m[K,
+[12.309s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread_time.hpp:11[m[K,
+[12.309s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/lock_types.hpp:18[m[K,
+[12.309s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/pthread/thread_data.hpp:12[m[K,
+[12.309s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread_only.hpp:17[m[K,
+[12.309s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread.hpp:12[m[K,
+[12.309s]                  from [01m[K/home/hp/anaconda3/include/boost/thread.hpp:13[m[K,
+[12.309s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:26[m[K,
+[12.309s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.309s] [01m[K/usr/include/c++/11/istream:852:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, signed char*)[m[K’
+[12.309s]   852 |     [01;36m[Koperator[m[K>>(basic_istream<char, _Traits>& __in, signed char* __s)
+[12.309s]       |     [01;36m[K^~~~~~~~[m[K
+[12.309s] [01m[K/usr/include/c++/11/istream:852:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.309s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.309s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5847:24:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kscan.karto::LocalizedRangeScan::m_BoundingBox[m[K’ (type ‘[01m[Kkarto::BoundingBox2[m[K’) to type ‘[01m[Ksigned char*[m[K’
+[12.310s]  5847 |     is >> temp >> [01;36m[Kscan.m_BoundingBox[m[K;
+[12.310s]       |                   [01;36m[K~~~~~^~~~~~~~~~~~~[m[K
+[12.310s] In file included from [01m[K/usr/include/c++/11/sstream:38[m[K,
+[12.310s]                  from [01m[K/home/hp/anaconda3/include/boost/date_time/date_generators.hpp:16[m[K,
+[12.310s]                  from [01m[K/home/hp/anaconda3/include/boost/date_time/gregorian/gregorian_types.hpp:25[m[K,
+[12.310s]                  from [01m[K/home/hp/anaconda3/include/boost/date_time/posix_time/posix_time_config.hpp:18[m[K,
+[12.310s]                  from [01m[K/home/hp/anaconda3/include/boost/date_time/posix_time/posix_time_system.hpp:13[m[K,
+[12.310s]                  from [01m[K/home/hp/anaconda3/include/boost/date_time/posix_time/ptime.hpp:12[m[K,
+[12.310s]                  from [01m[K/home/hp/anaconda3/include/boost/date_time/posix_time/posix_time_types.hpp:12[m[K,
+[12.310s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread_time.hpp:11[m[K,
+[12.310s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/lock_types.hpp:18[m[K,
+[12.310s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/pthread/thread_data.hpp:12[m[K,
+[12.310s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread_only.hpp:17[m[K,
+[12.310s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread.hpp:12[m[K,
+[12.310s]                  from [01m[K/home/hp/anaconda3/include/boost/thread.hpp:13[m[K,
+[12.310s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:26[m[K,
+[12.310s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.310s] [01m[K/usr/include/c++/11/istream:1006:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Istream, class _Tp> _Istream&& std::operator>>(_Istream&&, _Tp&&)[m[K’
+[12.310s]  1006 |     [01;36m[Koperator[m[K>>(_Istream&& __is, _Tp&& __x)
+[12.310s]       |     [01;36m[K^~~~~~~~[m[K
+[12.310s] [01m[K/usr/include/c++/11/istream:1006:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.310s] /usr/include/c++/11/istream: In substitution of ‘[01m[Ktemplate<class _Istream, class _Tp> _Istream&& std::operator>>(_Istream&&, _Tp&&) [with _Istream = std::basic_istream<char>&; _Tp = karto::BoundingBox2&][m[K’:
+[12.310s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5847:24:[m[K   required from here
+[12.311s] [01m[K/usr/include/c++/11/istream:1006:5:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, void>[m[K’
+[12.311s] In file included from [01m[K/home/hp/anaconda3/include/boost/container_hash/hash.hpp:42[m[K,
+[12.311s]                  from [01m[K/home/hp/anaconda3/include/boost/functional/hash.hpp:6[m[K,
+[12.311s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/detail/thread.hpp:41[m[K,
+[12.311s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread_only.hpp:22[m[K,
+[12.311s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/thread.hpp:12[m[K,
+[12.311s]                  from [01m[K/home/hp/anaconda3/include/boost/thread.hpp:13[m[K,
+[12.311s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:26[m[K,
+[12.311s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.311s] [01m[K/usr/include/c++/11/complex:501:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::complex<_Tp>&)[m[K’
+[12.311s]   501 |     [01;36m[Koperator[m[K>>(basic_istream<_CharT, _Traits>& __is, complex<_Tp>& __x)
+[12.311s]       |     [01;36m[K^~~~~~~~[m[K
+[12.311s] [01m[K/usr/include/c++/11/complex:501:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.311s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.311s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5847:24:[m[K [01;36m[Knote: [m[K  ‘[01m[Kkarto::BoundingBox2[m[K’ is not derived from ‘[01m[Kstd::complex<_Tp>[m[K’
+[12.311s]  5847 |     is >> temp >> scan.[01;36m[Km_BoundingBox[m[K;
+[12.311s]       |                        [01;36m[K^~~~~~~~~~~~~[m[K
+[12.311s] In file included from [01m[K/home/hp/anaconda3/include/boost/exception/detail/object_hex_dump.hpp:10[m[K,
+[12.311s]                  from [01m[K/home/hp/anaconda3/include/boost/exception/to_string_stub.hpp:10[m[K,
+[12.311s]                  from [01m[K/home/hp/anaconda3/include/boost/exception/info.hpp:11[m[K,
+[12.311s]                  from [01m[K/home/hp/anaconda3/include/boost/exception/detail/exception_ptr.hpp:12[m[K,
+[12.311s]                  from [01m[K/home/hp/anaconda3/include/boost/exception_ptr.hpp:9[m[K,
+[12.312s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/exceptional_ptr.hpp:10[m[K,
+[12.312s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/future.hpp:34[m[K,
+[12.312s]                  from [01m[K/home/hp/anaconda3/include/boost/thread.hpp:24[m[K,
+[12.312s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:26[m[K,
+[12.312s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.312s] [01m[K/usr/include/c++/11/iomanip:71:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Resetiosflags)[m[K’
+[12.312s]    71 |     [01;36m[Koperator[m[K>>(basic_istream<_CharT, _Traits>& __is, _Resetiosflags __f)
+[12.312s]       |     [01;36m[K^~~~~~~~[m[K
+[12.312s] [01m[K/usr/include/c++/11/iomanip:71:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.312s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.312s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5847:24:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kscan.karto::LocalizedRangeScan::m_BoundingBox[m[K’ (type ‘[01m[Kkarto::BoundingBox2[m[K’) to type ‘[01m[Kstd::_Resetiosflags[m[K’
+[12.312s]  5847 |     is >> temp >> [01;36m[Kscan.m_BoundingBox[m[K;
+[12.312s]       |                   [01;36m[K~~~~~^~~~~~~~~~~~~[m[K
+[12.312s] In file included from [01m[K/home/hp/anaconda3/include/boost/exception/detail/object_hex_dump.hpp:10[m[K,
+[12.312s]                  from [01m[K/home/hp/anaconda3/include/boost/exception/to_string_stub.hpp:10[m[K,
+[12.312s]                  from [01m[K/home/hp/anaconda3/include/boost/exception/info.hpp:11[m[K,
+[12.312s]                  from [01m[K/home/hp/anaconda3/include/boost/exception/detail/exception_ptr.hpp:12[m[K,
+[12.312s]                  from [01m[K/home/hp/anaconda3/include/boost/exception_ptr.hpp:9[m[K,
+[12.312s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/exceptional_ptr.hpp:10[m[K,
+[12.312s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/future.hpp:34[m[K,
+[12.312s]                  from [01m[K/home/hp/anaconda3/include/boost/thread.hpp:24[m[K,
+[12.312s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:26[m[K,
+[12.312s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.313s] [01m[K/usr/include/c++/11/iomanip:101:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Setiosflags)[m[K’
+[12.313s]   101 |     [01;36m[Koperator[m[K>>(basic_istream<_CharT, _Traits>& __is, _Setiosflags __f)
+[12.313s]       |     [01;36m[K^~~~~~~~[m[K
+[12.313s] [01m[K/usr/include/c++/11/iomanip:101:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.313s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.313s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5847:24:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kscan.karto::LocalizedRangeScan::m_BoundingBox[m[K’ (type ‘[01m[Kkarto::BoundingBox2[m[K’) to type ‘[01m[Kstd::_Setiosflags[m[K’
+[12.313s]  5847 |     is >> temp >> [01;36m[Kscan.m_BoundingBox[m[K;
+[12.313s]       |                   [01;36m[K~~~~~^~~~~~~~~~~~~[m[K
+[12.313s] In file included from [01m[K/home/hp/anaconda3/include/boost/exception/detail/object_hex_dump.hpp:10[m[K,
+[12.313s]                  from [01m[K/home/hp/anaconda3/include/boost/exception/to_string_stub.hpp:10[m[K,
+[12.313s]                  from [01m[K/home/hp/anaconda3/include/boost/exception/info.hpp:11[m[K,
+[12.313s]                  from [01m[K/home/hp/anaconda3/include/boost/exception/detail/exception_ptr.hpp:12[m[K,
+[12.313s]                  from [01m[K/home/hp/anaconda3/include/boost/exception_ptr.hpp:9[m[K,
+[12.313s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/exceptional_ptr.hpp:10[m[K,
+[12.313s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/future.hpp:34[m[K,
+[12.313s]                  from [01m[K/home/hp/anaconda3/include/boost/thread.hpp:24[m[K,
+[12.313s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:26[m[K,
+[12.313s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.313s] [01m[K/usr/include/c++/11/iomanip:132:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Setbase)[m[K’
+[12.313s]   132 |     [01;36m[Koperator[m[K>>(basic_istream<_CharT, _Traits>& __is, _Setbase __f)
+[12.313s]       |     [01;36m[K^~~~~~~~[m[K
+[12.313s] [01m[K/usr/include/c++/11/iomanip:132:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.313s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.314s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5847:24:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kscan.karto::LocalizedRangeScan::m_BoundingBox[m[K’ (type ‘[01m[Kkarto::BoundingBox2[m[K’) to type ‘[01m[Kstd::_Setbase[m[K’
+[12.314s]  5847 |     is >> temp >> [01;36m[Kscan.m_BoundingBox[m[K;
+[12.314s]       |                   [01;36m[K~~~~~^~~~~~~~~~~~~[m[K
+[12.314s] In file included from [01m[K/home/hp/anaconda3/include/boost/exception/detail/object_hex_dump.hpp:10[m[K,
+[12.314s]                  from [01m[K/home/hp/anaconda3/include/boost/exception/to_string_stub.hpp:10[m[K,
+[12.314s]                  from [01m[K/home/hp/anaconda3/include/boost/exception/info.hpp:11[m[K,
+[12.314s]                  from [01m[K/home/hp/anaconda3/include/boost/exception/detail/exception_ptr.hpp:12[m[K,
+[12.314s]                  from [01m[K/home/hp/anaconda3/include/boost/exception_ptr.hpp:9[m[K,
+[12.314s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/exceptional_ptr.hpp:10[m[K,
+[12.314s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/future.hpp:34[m[K,
+[12.314s]                  from [01m[K/home/hp/anaconda3/include/boost/thread.hpp:24[m[K,
+[12.314s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:26[m[K,
+[12.314s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.314s] [01m[K/usr/include/c++/11/iomanip:170:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Setfill<_CharT>)[m[K’
+[12.314s]   170 |     [01;36m[Koperator[m[K>>(basic_istream<_CharT, _Traits>& __is, _Setfill<_CharT> __f)
+[12.314s]       |     [01;36m[K^~~~~~~~[m[K
+[12.314s] [01m[K/usr/include/c++/11/iomanip:170:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.314s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.314s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5847:24:[m[K [01;36m[Knote: [m[K  ‘[01m[Kkarto::BoundingBox2[m[K’ is not derived from ‘[01m[Kstd::_Setfill<_CharT>[m[K’
+[12.314s]  5847 |     is >> temp >> scan.[01;36m[Km_BoundingBox[m[K;
+[12.314s]       |                        [01;36m[K^~~~~~~~~~~~~[m[K
+[12.314s] In file included from [01m[K/home/hp/anaconda3/include/boost/exception/detail/object_hex_dump.hpp:10[m[K,
+[12.314s]                  from [01m[K/home/hp/anaconda3/include/boost/exception/to_string_stub.hpp:10[m[K,
+[12.315s]                  from [01m[K/home/hp/anaconda3/include/boost/exception/info.hpp:11[m[K,
+[12.315s]                  from [01m[K/home/hp/anaconda3/include/boost/exception/detail/exception_ptr.hpp:12[m[K,
+[12.315s]                  from [01m[K/home/hp/anaconda3/include/boost/exception_ptr.hpp:9[m[K,
+[12.315s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/exceptional_ptr.hpp:10[m[K,
+[12.315s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/future.hpp:34[m[K,
+[12.315s]                  from [01m[K/home/hp/anaconda3/include/boost/thread.hpp:24[m[K,
+[12.315s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:26[m[K,
+[12.315s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.315s] [01m[K/usr/include/c++/11/iomanip:200:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Setprecision)[m[K’
+[12.315s]   200 |     [01;36m[Koperator[m[K>>(basic_istream<_CharT, _Traits>& __is, _Setprecision __f)
+[12.315s]       |     [01;36m[K^~~~~~~~[m[K
+[12.315s] [01m[K/usr/include/c++/11/iomanip:200:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.315s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.315s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5847:24:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kscan.karto::LocalizedRangeScan::m_BoundingBox[m[K’ (type ‘[01m[Kkarto::BoundingBox2[m[K’) to type ‘[01m[Kstd::_Setprecision[m[K’
+[12.315s]  5847 |     is >> temp >> [01;36m[Kscan.m_BoundingBox[m[K;
+[12.315s]       |                   [01;36m[K~~~~~^~~~~~~~~~~~~[m[K
+[12.315s] In file included from [01m[K/home/hp/anaconda3/include/boost/exception/detail/object_hex_dump.hpp:10[m[K,
+[12.315s]                  from [01m[K/home/hp/anaconda3/include/boost/exception/to_string_stub.hpp:10[m[K,
+[12.315s]                  from [01m[K/home/hp/anaconda3/include/boost/exception/info.hpp:11[m[K,
+[12.315s]                  from [01m[K/home/hp/anaconda3/include/boost/exception/detail/exception_ptr.hpp:12[m[K,
+[12.315s]                  from [01m[K/home/hp/anaconda3/include/boost/exception_ptr.hpp:9[m[K,
+[12.315s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/exceptional_ptr.hpp:10[m[K,
+[12.315s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/future.hpp:34[m[K,
+[12.316s]                  from [01m[K/home/hp/anaconda3/include/boost/thread.hpp:24[m[K,
+[12.316s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:26[m[K,
+[12.316s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.316s] [01m[K/usr/include/c++/11/iomanip:230:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Setw)[m[K’
+[12.316s]   230 |     [01;36m[Koperator[m[K>>(basic_istream<_CharT, _Traits>& __is, _Setw __f)
+[12.316s]       |     [01;36m[K^~~~~~~~[m[K
+[12.316s] [01m[K/usr/include/c++/11/iomanip:230:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.316s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.316s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5847:24:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kscan.karto::LocalizedRangeScan::m_BoundingBox[m[K’ (type ‘[01m[Kkarto::BoundingBox2[m[K’) to type ‘[01m[Kstd::_Setw[m[K’
+[12.316s]  5847 |     is >> temp >> [01;36m[Kscan.m_BoundingBox[m[K;
+[12.316s]       |                   [01;36m[K~~~~~^~~~~~~~~~~~~[m[K
+[12.316s] In file included from [01m[K/home/hp/anaconda3/include/boost/exception/detail/object_hex_dump.hpp:10[m[K,
+[12.316s]                  from [01m[K/home/hp/anaconda3/include/boost/exception/to_string_stub.hpp:10[m[K,
+[12.316s]                  from [01m[K/home/hp/anaconda3/include/boost/exception/info.hpp:11[m[K,
+[12.316s]                  from [01m[K/home/hp/anaconda3/include/boost/exception/detail/exception_ptr.hpp:12[m[K,
+[12.316s]                  from [01m[K/home/hp/anaconda3/include/boost/exception_ptr.hpp:9[m[K,
+[12.316s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/exceptional_ptr.hpp:10[m[K,
+[12.316s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/future.hpp:34[m[K,
+[12.316s]                  from [01m[K/home/hp/anaconda3/include/boost/thread.hpp:24[m[K,
+[12.316s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:26[m[K,
+[12.317s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.317s] [01m[K/usr/include/c++/11/iomanip:264:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _MoneyT> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Get_money<_MoneyT>)[m[K’
+[12.317s]   264 |     [01;36m[Koperator[m[K>>(basic_istream<_CharT, _Traits>& __is, _Get_money<_MoneyT> __f)
+[12.317s]       |     [01;36m[K^~~~~~~~[m[K
+[12.317s] [01m[K/usr/include/c++/11/iomanip:264:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.317s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.317s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5847:24:[m[K [01;36m[Knote: [m[K  ‘[01m[Kkarto::BoundingBox2[m[K’ is not derived from ‘[01m[Kstd::_Get_money<_MoneyT>[m[K’
+[12.317s]  5847 |     is >> temp >> scan.[01;36m[Km_BoundingBox[m[K;
+[12.317s]       |                        [01;36m[K^~~~~~~~~~~~~[m[K
+[12.317s] In file included from [01m[K/home/hp/anaconda3/include/boost/exception/detail/object_hex_dump.hpp:10[m[K,
+[12.317s]                  from [01m[K/home/hp/anaconda3/include/boost/exception/to_string_stub.hpp:10[m[K,
+[12.317s]                  from [01m[K/home/hp/anaconda3/include/boost/exception/info.hpp:11[m[K,
+[12.317s]                  from [01m[K/home/hp/anaconda3/include/boost/exception/detail/exception_ptr.hpp:12[m[K,
+[12.317s]                  from [01m[K/home/hp/anaconda3/include/boost/exception_ptr.hpp:9[m[K,
+[12.317s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/exceptional_ptr.hpp:10[m[K,
+[12.317s]                  from [01m[K/home/hp/anaconda3/include/boost/thread/future.hpp:34[m[K,
+[12.317s]                  from [01m[K/home/hp/anaconda3/include/boost/thread.hpp:24[m[K,
+[12.317s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:26[m[K,
+[12.317s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.318s] [01m[K/usr/include/c++/11/iomanip:418:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Get_time<_CharT>)[m[K’
+[12.318s]   418 |     [01;36m[Koperator[m[K>>(basic_istream<_CharT, _Traits>& __is, _Get_time<_CharT> __f)
+[12.318s]       |     [01;36m[K^~~~~~~~[m[K
+[12.318s] [01m[K/usr/include/c++/11/iomanip:418:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.318s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Karto.cpp:27[m[K:
+[12.318s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5847:24:[m[K [01;36m[Knote: [m[K  ‘[01m[Kkarto::BoundingBox2[m[K’ is not derived from ‘[01m[Kstd::_Get_time<_CharT>[m[K’
+[12.318s]  5847 |     is >> temp >> scan.[01;36m[Km_BoundingBox[m[K;
+[12.318s]       |                        [01;36m[K^~~~~~~~~~~~~[m[K
+[12.318s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5825:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::istream& karto::operator>>(std::istream&, karto::LocalizedRangeScan&)[m[K’
+[12.318s]  5825 | std::istream& [01;36m[Koperator[m[K>>(std::istream& is, LocalizedRangeScan& scan) {
+[12.318s]       |               [01;36m[K^~~~~~~~[m[K
+[12.318s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5825:64:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kkarto::BoundingBox2[m[K’ to ‘[01m[Kkarto::LocalizedRangeScan&[m[K’
+[12.318s]  5825 | std::istream& operator>>(std::istream& is, [01;36m[KLocalizedRangeScan& scan[m[K) {
+[12.318s]       |                                            [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[13.442s] gmake[2]: *** [lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/build.make:76: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Karto.cpp.o] Error 1
+[13.442s] gmake[1]: *** [CMakeFiles/Makefile2:1045: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/all] Error 2
+[13.443s] gmake: *** [Makefile:146: all] Error 2
+[13.446s] Invoked command in '/home/hp/ROS2_WS/src/build/slam_toolbox' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/dynamic_tf:/home/hp/ROS2_WS/install/Dynamic_tf:/home/hp/ROS2_WS/install/DYNAMIC_TF:/home/hp/ROS2_WS/src/install/my_robot_controller:/home/hp/ROS2_WS/src/install/my_exo:/home/hp/ROS2_WS/src/install/dynamic_tf:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/hp/ROS2_WS/src/build/slam_toolbox -- -j8 -l8

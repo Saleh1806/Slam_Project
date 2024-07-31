@@ -1,0 +1,287 @@
+[1.330s] Invoking command in '/home/hp/ROS2_WS/build/slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/dynamic_tf:/opt/ros/humble /usr/bin/cmake --build /home/hp/ROS2_WS/build/slam_toolbox -- -j8 -l8
+[6.261s] [  0%] Built target ament_cmake_python_symlink_slam_toolbox
+[7.401s] [  0%] Built target slam_toolbox__cpp
+[7.670s] running egg_info
+[7.671s] writing slam_toolbox.egg-info/PKG-INFO
+[7.671s] writing dependency_links to slam_toolbox.egg-info/dependency_links.txt
+[7.671s] writing top-level names to slam_toolbox.egg-info/top_level.txt
+[7.702s] reading manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+[7.764s] writing manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+[7.794s] [  0%] Built target ament_cmake_python_build_slam_toolbox_egg
+[8.005s] [  9%] Built target slam_toolbox__rosidl_generator_c
+[8.286s] [ 18%] Built target slam_toolbox__rosidl_typesupport_cpp
+[8.300s] [ 27%] Built target slam_toolbox__rosidl_typesupport_introspection_cpp
+[8.303s] [ 36%] Built target slam_toolbox__rosidl_typesupport_c
+[8.353s] [ 45%] Built target slam_toolbox__rosidl_typesupport_introspection_c
+[8.478s] [ 54%] Built target slam_toolbox__rosidl_typesupport_fastrtps_cpp
+[8.480s] [ 63%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c
+[8.721s] [ 63%] Built target slam_toolbox
+[8.862s] [ 64%] Built target slam_toolbox__py
+[9.944s] [ 72%] Built target slam_toolbox__rosidl_generator_py
+[10.192s] [ 74%] Built target SlamToolboxPlugin
+[10.256s] [ 75%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c__pyext
+[10.333s] [ 76%] Built target slam_toolbox__rosidl_typesupport_introspection_c__pyext
+[10.367s] [ 77%] Built target slam_toolbox__rosidl_typesupport_c__pyext
+[10.953s] [ 78%] [32mBuilding CXX object lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o[0m
+[23.542s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:[m[K In member function ‘[01m[Kvirtual kt_bool karto::Mapper::Process(karto::LocalizedRangeScan*, karto::Matrix3*)[m[K’:
+[23.542s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2761:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kkarto::Pose2 karto::LocalizedRangeScan::m_OdometricPose[m[K’ is private within this context
+[23.542s]  2761 |         {"X", pScan->[01;31m[Km_OdometricPose[m[K.GetX()},
+[23.542s]       |                      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[23.542s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+[23.542s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:38[m[K:
+[23.542s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5824:9:[m[K [01;36m[Knote: [m[Kdeclared private here
+[23.542s]  5824 |   Pose2 [01;36m[Km_OdometricPose[m[K;
+[23.542s]       |         [01;36m[K^~~~~~~~~~~~~~~[m[K
+[23.542s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2762:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kkarto::Pose2 karto::LocalizedRangeScan::m_OdometricPose[m[K’ is private within this context
+[23.542s]  2762 |         {"Y", pScan->[01;31m[Km_OdometricPose[m[K.GetY()},
+[23.543s]       |                      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[23.543s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+[23.543s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:38[m[K:
+[23.543s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5824:9:[m[K [01;36m[Knote: [m[Kdeclared private here
+[23.543s]  5824 |   Pose2 [01;36m[Km_OdometricPose[m[K;
+[23.543s]       |         [01;36m[K^~~~~~~~~~~~~~~[m[K
+[23.543s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2763:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kkarto::Pose2 karto::LocalizedRangeScan::m_OdometricPose[m[K’ is private within this context
+[23.543s]  2763 |         {"Theta", pScan->[01;31m[Km_OdometricPose[m[K.GetTheta()}
+[23.543s]       |                          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[23.543s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+[23.543s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:38[m[K:
+[23.543s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5824:9:[m[K [01;36m[Knote: [m[Kdeclared private here
+[23.543s]  5824 |   Pose2 [01;36m[Km_OdometricPose[m[K;
+[23.543s]       |         [01;36m[K^~~~~~~~~~~~~~~[m[K
+[23.543s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2763:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass karto::Pose2[m[K’ has no member named ‘[01m[KGetTheta[m[K’
+[23.543s]  2763 |         {"Theta", pScan->m_OdometricPose.[01;31m[KGetTheta[m[K()}
+[23.544s]       |                                          [01;31m[K^~~~~~~~[m[K
+[23.554s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2764:5:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Knlohmann::basic_json<>::value_type[m[K’ {aka ‘[01m[Knlohmann::basic_json<>[m[K’} and ‘[01m[K<brace-enclosed initializer list>[m[K’)
+[23.554s]  2764 |     [01;31m[K}[m[K;
+[23.554s]       |     [01;31m[K^[m[K
+[23.569s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:36[m[K:
+[23.569s] [01m[K/usr/include/nlohmann/json.hpp:1224:17:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Knlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>& nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::operator=(nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>) [with ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char>][m[K’
+[23.569s]  1224 |     basic_json& [01;36m[Koperator[m[K=(basic_json other) noexcept (
+[23.569s]       |                 [01;36m[K^~~~~~~~[m[K
+[23.569s] [01m[K/usr/include/nlohmann/json.hpp:1224:38:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Knlohmann::basic_json<>[m[K’
+[23.569s]  1224 |     basic_json& operator=([01;36m[Kbasic_json other[m[K) noexcept (
+[23.569s]       |                           [01;36m[K~~~~~~~~~~~^~~~~[m[K
+[23.569s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2766:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kkarto::Pose2 karto::LocalizedRangeScan::m_CorrectedPose[m[K’ is private within this context
+[23.569s]  2766 |         {"X", pScan->[01;31m[Km_CorrectedPose[m[K.GetX()},
+[23.569s]       |                      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[23.570s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+[23.570s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:38[m[K:
+[23.570s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5829:9:[m[K [01;36m[Knote: [m[Kdeclared private here
+[23.570s]  5829 |   Pose2 [01;36m[Km_CorrectedPose[m[K;
+[23.570s]       |         [01;36m[K^~~~~~~~~~~~~~~[m[K
+[23.570s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2767:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kkarto::Pose2 karto::LocalizedRangeScan::m_CorrectedPose[m[K’ is private within this context
+[23.570s]  2767 |         {"Y", pScan->[01;31m[Km_CorrectedPose[m[K.GetY()},
+[23.570s]       |                      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[23.570s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+[23.570s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:38[m[K:
+[23.570s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5829:9:[m[K [01;36m[Knote: [m[Kdeclared private here
+[23.570s]  5829 |   Pose2 [01;36m[Km_CorrectedPose[m[K;
+[23.571s]       |         [01;36m[K^~~~~~~~~~~~~~~[m[K
+[23.571s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2768:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kkarto::Pose2 karto::LocalizedRangeScan::m_CorrectedPose[m[K’ is private within this context
+[23.571s]  2768 |         {"Theta", pScan->[01;31m[Km_CorrectedPose[m[K.GetTheta()}
+[23.571s]       |                          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[23.571s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+[23.571s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:38[m[K:
+[23.571s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5829:9:[m[K [01;36m[Knote: [m[Kdeclared private here
+[23.571s]  5829 |   Pose2 [01;36m[Km_CorrectedPose[m[K;
+[23.571s]       |         [01;36m[K^~~~~~~~~~~~~~~[m[K
+[23.571s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2768:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass karto::Pose2[m[K’ has no member named ‘[01m[KGetTheta[m[K’
+[23.571s]  2768 |         {"Theta", pScan->m_CorrectedPose.[01;31m[KGetTheta[m[K()}
+[23.571s]       |                                          [01;31m[K^~~~~~~~[m[K
+[23.571s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2769:5:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Knlohmann::basic_json<>::value_type[m[K’ {aka ‘[01m[Knlohmann::basic_json<>[m[K’} and ‘[01m[K<brace-enclosed initializer list>[m[K’)
+[23.571s]  2769 |     [01;31m[K}[m[K;
+[23.571s]       |     [01;31m[K^[m[K
+[23.571s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:36[m[K:
+[23.571s] [01m[K/usr/include/nlohmann/json.hpp:1224:17:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Knlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>& nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::operator=(nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>) [with ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char>][m[K’
+[23.571s]  1224 |     basic_json& [01;36m[Koperator[m[K=(basic_json other) noexcept (
+[23.572s]       |                 [01;36m[K^~~~~~~~[m[K
+[23.572s] [01m[K/usr/include/nlohmann/json.hpp:1224:38:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Knlohmann::basic_json<>[m[K’
+[23.572s]  1224 |     basic_json& operator=([01;36m[Kbasic_json other[m[K) noexcept (
+[23.572s]       |                           [01;36m[K~~~~~~~~~~~^~~~~[m[K
+[23.572s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2771:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kkarto::Pose2 karto::LocalizedRangeScan::m_BarycenterPose[m[K’ is protected within this context
+[23.572s]  2771 |         {"X", pScan->[01;31m[Km_BarycenterPose[m[K.GetX()},
+[23.572s]       |                      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[23.572s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+[23.572s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:38[m[K:
+[23.572s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5835:9:[m[K [01;36m[Knote: [m[Kdeclared protected here
+[23.572s]  5835 |   Pose2 [01;36m[Km_BarycenterPose[m[K;
+[23.572s]       |         [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[23.572s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2772:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kkarto::Pose2 karto::LocalizedRangeScan::m_BarycenterPose[m[K’ is protected within this context
+[23.572s]  2772 |         {"Y", pScan->[01;31m[Km_BarycenterPose[m[K.GetY()},
+[23.572s]       |                      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[23.572s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+[23.572s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:38[m[K:
+[23.572s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5835:9:[m[K [01;36m[Knote: [m[Kdeclared protected here
+[23.572s]  5835 |   Pose2 [01;36m[Km_BarycenterPose[m[K;
+[23.572s]       |         [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[23.573s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2773:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kkarto::Pose2 karto::LocalizedRangeScan::m_BarycenterPose[m[K’ is protected within this context
+[23.573s]  2773 |         {"Theta", pScan->[01;31m[Km_BarycenterPose[m[K.GetTheta()}
+[23.573s]       |                          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[23.573s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+[23.573s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:38[m[K:
+[23.573s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5835:9:[m[K [01;36m[Knote: [m[Kdeclared protected here
+[23.573s]  5835 |   Pose2 [01;36m[Km_BarycenterPose[m[K;
+[23.573s]       |         [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[23.573s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2773:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass karto::Pose2[m[K’ has no member named ‘[01m[KGetTheta[m[K’
+[23.573s]  2773 |         {"Theta", pScan->m_BarycenterPose.[01;31m[KGetTheta[m[K()}
+[23.573s]       |                                           [01;31m[K^~~~~~~~[m[K
+[23.573s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2774:5:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Knlohmann::basic_json<>::value_type[m[K’ {aka ‘[01m[Knlohmann::basic_json<>[m[K’} and ‘[01m[K<brace-enclosed initializer list>[m[K’)
+[23.573s]  2774 |     [01;31m[K}[m[K;
+[23.573s]       |     [01;31m[K^[m[K
+[23.573s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:36[m[K:
+[23.574s] [01m[K/usr/include/nlohmann/json.hpp:1224:17:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Knlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>& nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::operator=(nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>) [with ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char>][m[K’
+[23.574s]  1224 |     basic_json& [01;36m[Koperator[m[K=(basic_json other) noexcept (
+[23.574s]       |                 [01;36m[K^~~~~~~~[m[K
+[23.574s] [01m[K/usr/include/nlohmann/json.hpp:1224:38:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Knlohmann::basic_json<>[m[K’
+[23.574s]  1224 |     basic_json& operator=([01;36m[Kbasic_json other[m[K) noexcept (
+[23.574s]       |                           [01;36m[K~~~~~~~~~~~^~~~~[m[K
+[23.574s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2775:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kkt_bool karto::LocalizedRangeScan::m_IsDirty[m[K’ is protected within this context
+[23.574s]  2775 |     inputJson["IsDirty"] = pScan->[01;31m[Km_IsDirty[m[K;
+[23.574s]       |                                   [01;31m[K^~~~~~~~~[m[K
+[23.574s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+[23.574s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:38[m[K:
+[23.574s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5855:11:[m[K [01;36m[Knote: [m[Kdeclared protected here
+[23.574s]  5855 |   kt_bool [01;36m[Km_IsDirty[m[K;
+[23.574s]       |           [01;36m[K^~~~~~~~~[m[K
+[23.574s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2778:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kkarto::PointVectorDouble karto::LocalizedRangeScan::m_PointReadings[m[K’ is protected within this context
+[23.574s]  2778 |     for (const auto& point : pScan->[01;31m[Km_PointReadings[m[K) {
+[23.575s]       |                                     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[23.575s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+[23.575s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:38[m[K:
+[23.575s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5840:21:[m[K [01;36m[Knote: [m[Kdeclared protected here
+[23.575s]  5840 |   PointVectorDouble [01;36m[Km_PointReadings[m[K;
+[23.575s]       |                     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[23.575s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2779:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class karto::Vector2<double>[m[K’ has no member named ‘[01m[Kx[m[K’
+[23.575s]  2779 |         pointReadings.push_back({{"X", point.[01;31m[Kx[m[K}, {"Y", point.y}});
+[23.575s]       |                                              [01;31m[K^[m[K
+[23.575s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2779:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class karto::Vector2<double>[m[K’ has no member named ‘[01m[Ky[m[K’
+[23.575s]  2779 |         pointReadings.push_back({{"X", point.x}, {"Y", point.[01;31m[Ky[m[K}});
+[23.575s]       |                                                              [01;31m[K^[m[K
+[23.603s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2779:32:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Knlohmann::basic_json<>::push_back(<brace-enclosed initializer list>)[m[K’
+[23.603s]  2779 |         [01;31m[KpointReadings.push_back({{"X", point.x}, {"Y", point.y}})[m[K;
+[23.603s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[23.604s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:36[m[K:
+[23.604s] [01m[K/usr/include/nlohmann/json.hpp:2824:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::push_back(nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>&&) [with ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char>][m[K’
+[23.604s]  2824 |     void [01;36m[Kpush_back[m[K(basic_json&& val)
+[23.604s]       |          [01;36m[K^~~~~~~~~[m[K
+[23.604s] [01m[K/usr/include/nlohmann/json.hpp:2824:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Knlohmann::basic_json<>&&[m[K’
+[23.604s]  2824 |     void push_back([01;36m[Kbasic_json&& val[m[K)
+[23.604s]       |                    [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[23.604s] [01m[K/usr/include/nlohmann/json.hpp:2857:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::push_back(const nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>&) [with ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char>][m[K’
+[23.604s]  2857 |     void [01;36m[Kpush_back[m[K(const basic_json& val)
+[23.604s]       |          [01;36m[K^~~~~~~~~[m[K
+[23.604s] [01m[K/usr/include/nlohmann/json.hpp:2857:38:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kconst nlohmann::basic_json<>&[m[K’
+[23.604s]  2857 |     void push_back([01;36m[Kconst basic_json& val[m[K)
+[23.605s]       |                    [01;36m[K~~~~~~~~~~~~~~~~~~^~~[m[K
+[23.605s] [01m[K/usr/include/nlohmann/json.hpp:2889:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::push_back(const typename nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::object_t::value_type&) [with ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char>; typename nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::object_t::value_type = std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> >; nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::object_t = std::map<std::__cxx11::basic_string<char>, nlohmann::basic_json<>, std::less<void>, std::allocator<std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> > > >][m[K’
+[23.605s]  2889 |     void [01;36m[Kpush_back[m[K(const typename object_t::value_type& val)
+[23.605s]       |          [01;36m[K^~~~~~~~~[m[K
+[23.605s] [01m[K/usr/include/nlohmann/json.hpp:2889:57:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kconst value_type&[m[K’ {aka ‘[01m[Kconst std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> >&[m[K’}
+[23.605s]  2889 |     void push_back([01;36m[Kconst typename object_t::value_type& val[m[K)
+[23.605s]       |                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[23.605s] [01m[K/usr/include/nlohmann/json.hpp:2920:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::push_back(nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::initializer_list_t) [with ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char>; nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::initializer_list_t = std::initializer_list<nlohmann::detail::json_ref<nlohmann::basic_json<> > >][m[K’
+[23.605s]  2920 |     void [01;36m[Kpush_back[m[K(initializer_list_t init)
+[23.606s]       |          [01;36m[K^~~~~~~~~[m[K
+[23.606s] [01m[K/usr/include/nlohmann/json.hpp:2920:39:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Knlohmann::basic_json<>::initializer_list_t[m[K’ {aka ‘[01m[Kstd::initializer_list<nlohmann::detail::json_ref<nlohmann::basic_json<> > >[m[K’}
+[23.606s]  2920 |     void push_back([01;36m[Kinitializer_list_t init[m[K)
+[23.606s]       |                    [01;36m[K~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[23.606s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2784:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kkarto::PointVectorDouble karto::LocalizedRangeScan::m_UnfilteredPointReadings[m[K’ is protected within this context
+[23.606s]  2784 |     for (const auto& point : pScan->[01;31m[Km_UnfilteredPointReadings[m[K) {
+[23.606s]       |                                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[23.606s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+[23.606s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:38[m[K:
+[23.606s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5845:21:[m[K [01;36m[Knote: [m[Kdeclared protected here
+[23.606s]  5845 |   PointVectorDouble [01;36m[Km_UnfilteredPointReadings[m[K;
+[23.606s]       |                     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[23.606s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2785:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class karto::Vector2<double>[m[K’ has no member named ‘[01m[Kx[m[K’
+[23.606s]  2785 |         unfilteredPointReadings.push_back({{"X", point.[01;31m[Kx[m[K}, {"Y", point.y}});
+[23.606s]       |                                                        [01;31m[K^[m[K
+[23.607s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2785:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class karto::Vector2<double>[m[K’ has no member named ‘[01m[Ky[m[K’
+[23.607s]  2785 |         unfilteredPointReadings.push_back({{"X", point.x}, {"Y", point.[01;31m[Ky[m[K}});
+[23.607s]       |                                                                        [01;31m[K^[m[K
+[23.607s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2785:42:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Knlohmann::basic_json<>::push_back(<brace-enclosed initializer list>)[m[K’
+[23.607s]  2785 |         [01;31m[KunfilteredPointReadings.push_back({{"X", point.x}, {"Y", point.y}})[m[K;
+[23.607s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[23.607s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:36[m[K:
+[23.607s] [01m[K/usr/include/nlohmann/json.hpp:2824:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::push_back(nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>&&) [with ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char>][m[K’
+[23.607s]  2824 |     void [01;36m[Kpush_back[m[K(basic_json&& val)
+[23.607s]       |          [01;36m[K^~~~~~~~~[m[K
+[23.607s] [01m[K/usr/include/nlohmann/json.hpp:2824:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Knlohmann::basic_json<>&&[m[K’
+[23.607s]  2824 |     void push_back([01;36m[Kbasic_json&& val[m[K)
+[23.607s]       |                    [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[23.607s] [01m[K/usr/include/nlohmann/json.hpp:2857:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::push_back(const nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>&) [with ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char>][m[K’
+[23.607s]  2857 |     void [01;36m[Kpush_back[m[K(const basic_json& val)
+[23.607s]       |          [01;36m[K^~~~~~~~~[m[K
+[23.607s] [01m[K/usr/include/nlohmann/json.hpp:2857:38:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kconst nlohmann::basic_json<>&[m[K’
+[23.607s]  2857 |     void push_back([01;36m[Kconst basic_json& val[m[K)
+[23.607s]       |                    [01;36m[K~~~~~~~~~~~~~~~~~~^~~[m[K
+[23.608s] [01m[K/usr/include/nlohmann/json.hpp:2889:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::push_back(const typename nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::object_t::value_type&) [with ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char>; typename nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::object_t::value_type = std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> >; nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::object_t = std::map<std::__cxx11::basic_string<char>, nlohmann::basic_json<>, std::less<void>, std::allocator<std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> > > >][m[K’
+[23.608s]  2889 |     void [01;36m[Kpush_back[m[K(const typename object_t::value_type& val)
+[23.608s]       |          [01;36m[K^~~~~~~~~[m[K
+[23.608s] [01m[K/usr/include/nlohmann/json.hpp:2889:57:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kconst value_type&[m[K’ {aka ‘[01m[Kconst std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> >&[m[K’}
+[23.608s]  2889 |     void push_back([01;36m[Kconst typename object_t::value_type& val[m[K)
+[23.608s]       |                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[23.608s] [01m[K/usr/include/nlohmann/json.hpp:2920:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::push_back(nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::initializer_list_t) [with ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char>; nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::initializer_list_t = std::initializer_list<nlohmann::detail::json_ref<nlohmann::basic_json<> > >][m[K’
+[23.608s]  2920 |     void [01;36m[Kpush_back[m[K(initializer_list_t init)
+[23.608s]       |          [01;36m[K^~~~~~~~~[m[K
+[23.608s] [01m[K/usr/include/nlohmann/json.hpp:2920:39:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Knlohmann::basic_json<>::initializer_list_t[m[K’ {aka ‘[01m[Kstd::initializer_list<nlohmann::detail::json_ref<nlohmann::basic_json<> > >[m[K’}
+[23.608s]  2920 |     void push_back([01;36m[Kinitializer_list_t init[m[K)
+[23.608s]       |                    [01;36m[K~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[23.608s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2790:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kkarto::BoundingBox2 karto::LocalizedRangeScan::m_BoundingBox[m[K’ is protected within this context
+[23.608s]  2790 |         {"XMin", pScan->[01;31m[Km_BoundingBox[m[K.GetXMin()},
+[23.608s]       |                         [01;31m[K^~~~~~~~~~~~~[m[K
+[23.608s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+[23.609s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:38[m[K:
+[23.609s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5850:16:[m[K [01;36m[Knote: [m[Kdeclared protected here
+[23.609s]  5850 |   BoundingBox2 [01;36m[Km_BoundingBox[m[K;
+[23.609s]       |                [01;36m[K^~~~~~~~~~~~~[m[K
+[23.609s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2790:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass karto::BoundingBox2[m[K’ has no member named ‘[01m[KGetXMin[m[K’
+[23.609s]  2790 |         {"XMin", pScan->m_BoundingBox.[01;31m[KGetXMin[m[K()},
+[23.609s]       |                                       [01;31m[K^~~~~~~[m[K
+[23.609s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2791:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kkarto::BoundingBox2 karto::LocalizedRangeScan::m_BoundingBox[m[K’ is protected within this context
+[23.609s]  2791 |         {"XMax", pScan->[01;31m[Km_BoundingBox[m[K.GetXMax()},
+[23.609s]       |                         [01;31m[K^~~~~~~~~~~~~[m[K
+[23.609s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+[23.609s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:38[m[K:
+[23.609s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5850:16:[m[K [01;36m[Knote: [m[Kdeclared protected here
+[23.609s]  5850 |   BoundingBox2 [01;36m[Km_BoundingBox[m[K;
+[23.609s]       |                [01;36m[K^~~~~~~~~~~~~[m[K
+[23.609s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2791:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass karto::BoundingBox2[m[K’ has no member named ‘[01m[KGetXMax[m[K’
+[23.609s]  2791 |         {"XMax", pScan->m_BoundingBox.[01;31m[KGetXMax[m[K()},
+[23.610s]       |                                       [01;31m[K^~~~~~~[m[K
+[23.610s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2792:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kkarto::BoundingBox2 karto::LocalizedRangeScan::m_BoundingBox[m[K’ is protected within this context
+[23.610s]  2792 |         {"YMin", pScan->[01;31m[Km_BoundingBox[m[K.GetYMin()},
+[23.610s]       |                         [01;31m[K^~~~~~~~~~~~~[m[K
+[23.610s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+[23.610s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:38[m[K:
+[23.610s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5850:16:[m[K [01;36m[Knote: [m[Kdeclared protected here
+[23.610s]  5850 |   BoundingBox2 [01;36m[Km_BoundingBox[m[K;
+[23.610s]       |                [01;36m[K^~~~~~~~~~~~~[m[K
+[23.610s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2792:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass karto::BoundingBox2[m[K’ has no member named ‘[01m[KGetYMin[m[K’
+[23.610s]  2792 |         {"YMin", pScan->m_BoundingBox.[01;31m[KGetYMin[m[K()},
+[23.610s]       |                                       [01;31m[K^~~~~~~[m[K
+[23.610s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2793:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kkarto::BoundingBox2 karto::LocalizedRangeScan::m_BoundingBox[m[K’ is protected within this context
+[23.610s]  2793 |         {"YMax", pScan->[01;31m[Km_BoundingBox[m[K.GetYMax()}
+[23.610s]       |                         [01;31m[K^~~~~~~~~~~~~[m[K
+[23.610s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Mapper.h:36[m[K,
+[23.610s]                  from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:38[m[K:
+[23.610s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/include/karto_sdk/Karto.h:5850:16:[m[K [01;36m[Knote: [m[Kdeclared protected here
+[23.610s]  5850 |   BoundingBox2 [01;36m[Km_BoundingBox[m[K;
+[23.611s]       |                [01;36m[K^~~~~~~~~~~~~[m[K
+[23.611s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2793:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass karto::BoundingBox2[m[K’ has no member named ‘[01m[KGetYMax[m[K’
+[23.611s]  2793 |         {"YMax", pScan->m_BoundingBox.[01;31m[KGetYMax[m[K()}
+[23.611s]       |                                       [01;31m[K^~~~~~~[m[K
+[23.611s] [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:2794:5:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Knlohmann::basic_json<>::value_type[m[K’ {aka ‘[01m[Knlohmann::basic_json<>[m[K’} and ‘[01m[K<brace-enclosed initializer list>[m[K’)
+[23.611s]  2794 |     [01;31m[K}[m[K;
+[23.611s]       |     [01;31m[K^[m[K
+[23.611s] In file included from [01m[K/home/hp/ROS2_WS/src/slam_toolbox/lib/karto_sdk/src/Mapper.cpp:36[m[K:
+[23.611s] [01m[K/usr/include/nlohmann/json.hpp:1224:17:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Knlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>& nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::operator=(nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>) [with ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char>][m[K’
+[23.611s]  1224 |     basic_json& [01;36m[Koperator[m[K=(basic_json other) noexcept (
+[23.611s]       |                 [01;36m[K^~~~~~~~[m[K
+[23.611s] [01m[K/usr/include/nlohmann/json.hpp:1224:38:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Knlohmann::basic_json<>[m[K’
+[23.611s]  1224 |     basic_json& operator=([01;36m[Kbasic_json other[m[K) noexcept (
+[23.611s]       |                           [01;36m[K~~~~~~~~~~~^~~~~[m[K
+[26.527s] gmake[2]: *** [lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/build.make:90: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o] Error 1
+[26.527s] gmake[1]: *** [CMakeFiles/Makefile2:1045: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/all] Error 2
+[26.527s] gmake: *** [Makefile:146: all] Error 2
+[26.530s] Invoked command in '/home/hp/ROS2_WS/build/slam_toolbox' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hp/ROS2_WS/install/my_robot_controller:/home/hp/ROS2_WS/install/my_exo:/home/hp/ROS2_WS/install/dynamic_tf:/opt/ros/humble /usr/bin/cmake --build /home/hp/ROS2_WS/build/slam_toolbox -- -j8 -l8
