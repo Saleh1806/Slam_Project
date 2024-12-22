@@ -44,18 +44,20 @@ sudo docker run −−privileged −v /dev/ sensors / lidar :/ dev/ttyUSB0 \
  −v /home/ saliou / catkin_ws /:/ home/ catkin_ws −it ros bash
 ```
  • sudo: Indique que la commande est exécutée avec des privilèges administratifs.
+ 
  • docker run: Commande pour exécuter un nouveau conteneur Docker.
+ 
  •--privileged: Donne au conteneur un accès complet aux périphériques de l’hôte.
+ 
  •-v /dev/sensors/lidar:/dev/ttyUSB0: Montrelepériphériquematériel/dev/sensors/lidar
+ 
  de l’hôte dans le conteneur Docker sous /dev/ttyUSB0. Cela permet d’accéder au cap
 teur LiDAR connecté à cet emplacement sur l’hôte.
- •-v /home/saliou/catkin_ws/:/home/catkin_ws: Montrelerépertoire/home/saliou/catkin_ws/
- de l’hôte dans le conteneur Docker sous /home/catkin_ws. Cela permet d’accéder aux
- fichiers et dossiers de ce répertoire à l’intérieur du conteneur.
- •-it: Cette option combine deux options :–-i, qui permet de garder le STDIN ouvert même si non connecté.–-t, qui alloue un pseudo-tty (Terminal) pour le conteneur. Cela permet d’interagir
- avec le terminal du conteneur une fois qu’il est lancé.
- • ros: C’est le nom de l’image Docker à partir de laquelle le conteneur est créé. Dans ce
- cas, c’est une image ROS (Robot Operating System).
- • bash: C’est la commande que nous voulons exécuter à l’intérieur du conteneur une fois
- qu’il est démarré. En spécifiant bash, nous disons à Docker de lancer un shell interactif
- (bash) dans le conteneur après son démarrage
+
+ •-v /home/saliou/catkin_ws/:/home/catkin_ws: Montre le répertoire/home/saliou/catkin_ws/ de l’hôte dans le conteneur Docker sous /home/catkin_ws. Cela permet d’accéder aux fichiers et dossiers de ce répertoire à l’intérieur du conteneur.
+ 
+ •-it: Cette option combine deux options :–-i, qui permet de garder le STDIN ouvert même si non connecté.–-t, qui alloue un pseudo-tty (Terminal) pour le conteneur. Cela permet d’interagir avec le terminal du conteneur une fois qu’il est lancé.
+ 
+ • ros: C’est le nom de l’image Docker à partir de laquelle le conteneur est créé. Dans ce cas, c’est une image ROS (Robot Operating System).
+ 
+ • bash: C’est la commande que nous voulons exécuter à l’intérieur du conteneur une fois qu’il est démarré. En spécifiant bash, nous disons à Docker de lancer un shell interactif (bash) dans le conteneur après son démarrage
