@@ -5,13 +5,22 @@ Ce projet est dans le cadre de notre projet de fin d'études de **Développement
 ---
 
 ## Étapes
+### 1. Installation
+Installer ros2 humble
+``` bash
+
+cd ROS2_WS
+
+colcon build --symlink-install
+
+source ./install/setup.bash
+```
 
 ### 1. Visualisation des données captées par le RPLidar  
 Pour visualiser les données en temps réel, exécutez la commande suivante :  
 ```bash
 ros2 launch rplidar_ros view_rplidar_a2m12_launch.py
 ```
-
 ### 2. Cartographie en temps réel  
 Pour générer une carte en explorant l'environnement, utilisez la bibliothèque **slam_toolbox** :  
 ```bash
@@ -31,7 +40,7 @@ Les fichiers `input_data.txt` et `output_data.txt` sont utilisés pour :
 ## Extraction du SLAM hors ROS
 
 On extrait les parties du SLAM qui assure la cartographie et la localisation en enlèvant leur dépendance à ROS. Ce travail est disponible dans le dossier **extraction**.  
-- Les fichiers sérialisés (`input_data.txt` et `output_data.txt`) seront utilisées pour initialiser la classe `LocalizedRangeScan`.  
+- Les fichiers sérialisés (`input_data.txt` et `output_data.txt`) seront utilisées pour initialiser la classe `LocalizedRangeScan` dans la fonction  main.cpp du dossier extraction.  
 - Notre objectif est de comparer les données de sortie avec celles générées par ROS. Si les résultats sont cohérents, on va optimiser la méthode **Process** de la classe Mapper qui s'occupe de la cartographie et de la localisation.
 
 ---
