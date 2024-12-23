@@ -16,18 +16,18 @@ colcon build --symlink-install
 source ./install/setup.bash
 ```
 
-### 1. Visualisation des données captées par le RPLidar  
+### 2. Visualisation des données captées par le RPLidar  
 Pour visualiser les données en temps réel, exécutez la commande suivante :  
 ```bash
 ros2 launch rplidar_ros view_rplidar_a2m12_launch.py
 ```
-### 2. Cartographie en temps réel  
+### 3. Cartographie en temps réel  
 Pour générer une carte en explorant l'environnement, utilisez la bibliothèque **slam_toolbox** :  
 ```bash
 ros2 launch slam_toolbox online_async_launch.py
 ```
 
-### 3. Analyse des données et optimisation  
+### 4. Analyse des données et optimisation  
 Les fichiers `input_data.txt` et `output_data.txt` sont utilisés pour :  
 - **Sérialiser les données** :
   - `input_data.txt` contient les données d'entrée nécessaires pour alimenter la méthode `Process` de la classe `Mapper`.  
@@ -37,7 +37,7 @@ Les fichiers `input_data.txt` et `output_data.txt` sont utilisés pour :
 
 ---
 
-## Extraction du SLAM hors ROS
+### 5. Extraction du SLAM hors ROS
 
 On extrait les parties du SLAM qui assure la cartographie et la localisation en enlèvant leur dépendance à ROS. Ce travail est disponible dans le dossier **extraction**.  
 - Les fichiers sérialisés (`input_data.txt` et `output_data.txt`) seront utilisées pour initialiser la classe `LocalizedRangeScan` dans la fonction  main.cpp du dossier extraction.  
