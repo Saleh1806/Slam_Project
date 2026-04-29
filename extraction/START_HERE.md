@@ -125,21 +125,6 @@ CMakeLists.txt
 
 ---
 
-##  Gain de Performance
-
-**Avant:**
-```
-5000 scans → 5-10 ms (CPU séquentiel)
-```
-
-**Après:**
-```
-5000 scans → 1-2 ms (GPU parallèle)
-```
-
-**Speedup:** 5-10× 
-
----
 
 ##  Vérification Simple
 
@@ -156,22 +141,13 @@ Pas d'erreur CUDA? ✓
 Pas de crash GPU? ✓
 
 ### C'est plus rapide?
-Mesurer `GetClosestScanToPose(5000 scans)`:
-- Avant: ~5 ms
-- Après: ~1 ms
-- Speedup: 5× ✓
+Mesurer `GetClosestScanToPose(5000 scans)`
 
 ---
 
-## Explications par Niveau
+## Explications 
+>"On parallelise le calcul des distances entre scans laser avec CUDA. Au lieu d'une boucle CPU séquentielle de N itérations, on lance N threads GPU en parallèle. Distance² = (x-ref)² + (y-ref)² calculée par 256 threads."
 
-### Enfant (7 ans)
-> "La GPU permet à l'ordinateur de compter 256 choses en même temps au lieu d'une. C'est comme avoir 256 copains qui comptent!"
-
-### Étudiant (17 ans)
-> "On parallelise le calcul des distances entre scans laser avec CUDA. Au lieu d'une boucle CPU séquentielle de N itérations, on lance N threads GPU en parallèle. Distance² = (x-ref)² + (y-ref)² calculée par 256 threads."
-
-### Ingénieur (27 ans)
 > "Le bottleneck dans GetClosestScanToPose() était la boucle O(N) de calcul de distances. On optimise avec un kernel CUDA simple qui distribue le travail sur 256 cores en parallèle. Chaque thread: `distances[idx] = dx*dx + dy*dy`. Résultat: O(N/256) effectif. Overhead H2D+D2H ~1ms, kernel ~0.1ms, seuil rentabilité N>500."
 
 ---
