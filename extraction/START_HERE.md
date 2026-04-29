@@ -1,4 +1,4 @@
-# 🚀 COMMENCEZ ICI
+#  COMMENCEZ ICI
 
 Bienvenue! Vous venez de recevoir une **optimisation CUDA complète** pour le Mapper SLAM.
 
