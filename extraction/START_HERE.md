@@ -6,57 +6,52 @@ Ce fichier vous guide vers **exactement** ce que vous avez besoin.
 
 ---
 
-## 🎯 En Fonction de Votre Besoin
+##  En Fonction de Votre Besoin
 
 ### "Je veux juste comprendre rapidement"
-⏱️ **5 minutes**
 
 ```
 1. Lire: INTEGRATION_SUMMARY.md (section "En 3 Phrases")
 2. Regarder: CUDA_VISUAL_DIAGRAMS.md (Diagrams 1-3)
-3. ✅ Vous comprenez le concept
+3. Vous comprenez le concept
 ```
 
 ### "Je veux compiler et tester"
-⏱️ **30 minutes**
 
 ```
 1. Lire: README_CUDA.md (Quick Start)
 2. Lire: CUDA_SETUP_GUIDE.md (Étapes 1-6)
 3. Compiler: cmakebuilder
 4. Tester: ./YourExecutable
-5. ✅ Ça marche!
+5. Ça marche!
 ```
 
 ### "Je veux apprendre en détail"
-⏱️ **2 heures**
 
 ```
 1. Jour 1: README_CUDA.md
 2. Jour 1: INTEGRATION_SUMMARY.md
 3. Jour 2: CUDA_OPTIMIZATION_EXPLANATION.md
 4. Jour 2: CUDA_VISUAL_DIAGRAMS.md
-5. ✅ Vous êtes expert
+5. Vous êtes expert
 ```
 
 ### "Je veux vérifier que c'est bien intégré"
-⏱️ **20 minutes**
 
 ```
 1. Lire: INTEGRATION_CHECKLIST.md
 2. Cocher les cases
 3. Compiler et tester
-4. ✅ Tout fonctionne
+4. Tout fonctionne
 ```
 
 ### "Je dois l'expliquer à quelqu'un"
-⏱️ **15 minutes**
 
 ```
 1. Lire: INTEGRATION_SUMMARY.md (section "How to explain")
 2. Montrer: CUDA_VISUAL_DIAGRAMS.md (Diagrams clés)
 3. Parler: Points clés de RECAP_FINAL.md
-4. ✅ Vous pouvez expliquer
+4. Vous pouvez expliquer
 ```
 
 ---
@@ -65,33 +60,33 @@ Ce fichier vous guide vers **exactement** ce que vous avez besoin.
 
 | Fichier | Durée | Pour Qui | Contenu |
 |---------|-------|---------|---------|
-| **[RECAP_FINAL.md](RECAP_FINAL.md)** | 5 min | Tous | ✅ Résumé de tout |
-| **[README_CUDA.md](README_CUDA.md)** | 5 min | Tous | 📌 Vue d'ensemble |
-| **[INTEGRATION_SUMMARY.md](INTEGRATION_SUMMARY.md)** | 10 min | Concept | 📝 Simple et clair |
-| **[CUDA_VISUAL_DIAGRAMS.md](CUDA_VISUAL_DIAGRAMS.md)** | 15 min | Visuel | 📊 Diagrammes |
-| **[CUDA_OPTIMIZATION_EXPLANATION.md](CUDA_OPTIMIZATION_EXPLANATION.md)** | 30 min | Expert | 💻 Détails tech |
-| **[CUDA_SETUP_GUIDE.md](CUDA_SETUP_GUIDE.md)** | 20 min | Praticien | 🔧 Configuration |
-| **[INTEGRATION_CHECKLIST.md](INTEGRATION_CHECKLIST.md)** | 15 min | Vérif | ✅ Checklist |
-| **[INDEX_CUDA.md](INDEX_CUDA.md)** | 5 min | Cherche | 📚 Index complet |
+| **[RECAP_FINAL.md](RECAP_FINAL.md)** | 5 min | Tous | Résumé de tout |
+| **[README_CUDA.md](README_CUDA.md)** | 5 min | Tous |  Vue d'ensemble |
+| **[INTEGRATION_SUMMARY.md](INTEGRATION_SUMMARY.md)** | 10 min | Concept | Simple et clair |
+| **[CUDA_VISUAL_DIAGRAMS.md](CUDA_VISUAL_DIAGRAMS.md)** | 15 min | Visuel |  Diagrammes |
+| **[CUDA_OPTIMIZATION_EXPLANATION.md](CUDA_OPTIMIZATION_EXPLANATION.md)** | 30 min | Expert |  Détails tech |
+| **[CUDA_SETUP_GUIDE.md](CUDA_SETUP_GUIDE.md)** | 20 min | Praticien |  Configuration |
+| **[INTEGRATION_CHECKLIST.md](INTEGRATION_CHECKLIST.md)** | 15 min | Vérif |  Checklist |
+| **[INDEX_CUDA.md](INDEX_CUDA.md)** | 5 min | Cherche | Index complet |
 
 ---
 
-## ⚡ Démarrage Ultra-Rapide (10 min)
+##  Démarrage Ultra-Rapide 
 
-### Étape 1: Comprendre (2 min)
+### Étape 1: Comprendre 
 ```
 GPU lance 256 threads en parallèle
 Au lieu de 1 thread séquentiel
-Résultat: 5× plus rapide ⚡
+Résultat: 5× plus rapide 
 ```
 
-### Étape 2: Vérifier (3 min)
+### Étape 2: Vérifier 
 ```powershell
 nvidia-smi
 ```
 Voir votre GPU?
 
-### Étape 3: Compiler (5 min)
+### Étape 3: Compiler
 ```powershell
 cd extraction
 mkdir build && cd build
@@ -99,11 +94,11 @@ cmake .. -DCMAKE_BUILD_TYPE=Release
 cmake --build . --config Release -j 4
 ```
 
-### ✅ Fait!
+### Fait!
 
 ---
 
-## 🔧 Trois Changements Clés
+##  Trois Changements Clés
 
 ### Change #1: Fichier CUDA créé
 ```
@@ -130,7 +125,7 @@ CMakeLists.txt
 
 ---
 
-## 📊 Gain de Performance
+##  Gain de Performance
 
 **Avant:**
 ```
@@ -142,11 +137,11 @@ CMakeLists.txt
 5000 scans → 1-2 ms (GPU parallèle)
 ```
 
-**Speedup:** 5-10× ⚡
+**Speedup:** 5-10× 
 
 ---
 
-## ✅ Vérification Simple
+##  Vérification Simple
 
 ### Ça compile?
 ```bash
@@ -168,7 +163,7 @@ Mesurer `GetClosestScanToPose(5000 scans)`:
 
 ---
 
-## 🎓 Explications par Niveau
+## Explications par Niveau
 
 ### Enfant (7 ans)
 > "La GPU permet à l'ordinateur de compter 256 choses en même temps au lieu d'une. C'est comme avoir 256 copains qui comptent!"
@@ -181,7 +176,7 @@ Mesurer `GetClosestScanToPose(5000 scans)`:
 
 ---
 
-## 🚨 Problème?
+##  Problème?
 
 ### "Ça ne compile pas"
 → **[CUDA_SETUP_GUIDE.md](CUDA_SETUP_GUIDE.md)** section "Résoudre les problèmes"
@@ -197,9 +192,9 @@ Mesurer `GetClosestScanToPose(5000 scans)`:
 
 ---
 
-## 📋 Ordre de Lecture Recommandé
+##  Ordre de Lecture Recommandé
 
-### Pour Comprendre (30 min)
+### Pour Comprendre 
 ```
 START_HERE.md (ce fichier)
     ↓
@@ -210,7 +205,7 @@ INTEGRATION_SUMMARY.md (concept)
 CUDA_VISUAL_DIAGRAMS.md (visu)
 ```
 
-### Pour Compiler (30 min)
+### Pour Compiler 
 ```
 README_CUDA.md (quick start)
     ↓
@@ -219,7 +214,7 @@ CUDA_SETUP_GUIDE.md (détails)
 Compiler et tester
 ```
 
-### Pour Détails (1h)
+### Pour Détails 
 ```
 CUDA_OPTIMIZATION_EXPLANATION.md (complete)
     ↓
@@ -230,23 +225,22 @@ Lire les modifications Mapper.cpp
 
 ---
 
-## 🎯 Prochaines Actions
+##  Prochaines Actions
 
 ```
-□ Lire ce fichier (2 min) ← Vous êtes ici!
-□ Lire RECAP_FINAL.md (5 min)
-□ Lire README_CUDA.md (5 min)
-□ Compiler (10 min)
-□ Tester (5 min)
-□ Lire INTEGRATION_SUMMARY.md (10 min)
-□ Expliquer à quelqu'un (15 min)
+□ Lire ce fichier  ← Vous êtes ici!
+□ Lire RECAP_FINAL.md 
+□ Lire README_CUDA.md 
+□ Compiler 
+□ Tester 
+□ Lire INTEGRATION_SUMMARY.md 
+□ Expliquer à quelqu'un
 
-Total: ~50 minutes pour maîtrise complète
 ```
 
 ---
 
-## 💡 Un Conseil
+##  Un Conseil
 
 **Ne pas** être submergé par la documentation!
 
@@ -259,41 +253,30 @@ Vous n'avez **pas besoin** de lire tout au départ. Lisez au fur et à mesure.
 
 ---
 
-## 🏁 Objectif Final
-
-Après avoir lu cette documentaion et compilé le code, vous devez pouvoir:
-
-✓ Expliquer CUDA en 2 minutes
-✓ Montrer le code GPU au quelqu'un
-✓ Expliquer les 3 changements
-✓ Montrer les benchmarks de performance
-✓ Compiler sans erreur
-✓ Tester que c'est plus rapide
 
 ---
 
-## 🔗 Références Rapides
+##  Références Rapides
 
 **Je veux:**
-- 📖 Résumé → [RECAP_FINAL.md](RECAP_FINAL.md)
-- 🚀 Démarrer → [README_CUDA.md](README_CUDA.md)
-- 🔧 Configurer → [CUDA_SETUP_GUIDE.md](CUDA_SETUP_GUIDE.md)
-- 💡 Comprendre → [INTEGRATION_SUMMARY.md](INTEGRATION_SUMMARY.md)
-- 📊 Visualiser → [CUDA_VISUAL_DIAGRAMS.md](CUDA_VISUAL_DIAGRAMS.md)
-- 📚 Détails → [CUDA_OPTIMIZATION_EXPLANATION.md](CUDA_OPTIMIZATION_EXPLANATION.md)
-- ✅ Vérifier → [INTEGRATION_CHECKLIST.md](INTEGRATION_CHECKLIST.md)
-- 🗂️ Chercher → [INDEX_CUDA.md](INDEX_CUDA.md)
+-  Résumé → [RECAP_FINAL.md](RECAP_FINAL.md)
+-  Démarrer → [README_CUDA.md](README_CUDA.md)
+-  Configurer → [CUDA_SETUP_GUIDE.md](CUDA_SETUP_GUIDE.md)
+-  Comprendre → [INTEGRATION_SUMMARY.md](INTEGRATION_SUMMARY.md)
+-  Visualiser → [CUDA_VISUAL_DIAGRAMS.md](CUDA_VISUAL_DIAGRAMS.md)
+-  Détails → [CUDA_OPTIMIZATION_EXPLANATION.md](CUDA_OPTIMIZATION_EXPLANATION.md)
+-  Vérifier → [INTEGRATION_CHECKLIST.md](INTEGRATION_CHECKLIST.md)
+-  Chercher → [INDEX_CUDA.md](INDEX_CUDA.md)
 
 ---
 
-## ✨ Statut
+##  Statut
 
 - ✅ Code: Complet et fonctionnel
 - ✅ Docs: Extrêmement détaillé
 - ✅ Tests: Checklist fournie
 - ✅ Support: Troubleshooting complet
 
-**→ Vous êtes prêt! Allez-y! 🚀**
 
 ---
 
